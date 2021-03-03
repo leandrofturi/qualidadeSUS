@@ -1,0 +1,836 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12,
+  table]{proadi}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\base{horus}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{longtable,booktabs}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{lscape}
+\usepackage{xcolor}
+\hypersetup{draft}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\hypertarget{qualidade-de-dados}{%
+\section{Qualidade de dados}\label{qualidade-de-dados}}
+
+O processo de análise de qualidade de dados está focado na avaliação de
+conjuntos de dados e na aplicação de ações corretivas, para garantir que
+estes estejam adequados aos propósitos para os quais foram originalmente
+destinados (Merino et al. 2016). Dessa forma, a qualidade de dados está
+diretamente relacionada a confiabilidade dos dados de entrada.
+Considerando que os dados têm níveis inadequados de qualidade, é
+provável que ocorram erros, que podem se propagar acidentalmente e
+inconscientemente por todo o fluxo da informação, prejudicando a
+eficiência do sistema. Formas regulares de avaliar a qualidade de dados
+com modelos clássicos geralmente se destinam a detectar e corrigir erros
+em fontes conhecidas com base em um conjunto limitado de regras. No
+ambiente de \emph{Big Data}, a quantidade de regras pode ser enorme e o
+custo da aplicação para correção de erros pode não ser viável e nem
+apropriado. Isso ocorre principalmente porque o \emph{Big Data} não é
+apenas sobre dados, mas também sobre uma pilha conceitual e tecnológica
+completa, incluindo dados brutos e processados, armazenamento, formas de
+gerenciar dados, processamento e análise (Merino et al. 2016).
+
+Uma dimensão de qualidade de dados é um termo descritor de um recurso de
+dados, o qual pode ser medido ou avaliado de acordo com padrões
+definidos, a fim de determinar a qualidade de um conjunto de dados.
+Geralmente, dados só têm valor quando dão suporte a um processo ou a uma
+tomada de decisão. Em consequência, as regras de qualidade de dados
+definidas devem levar em consideração o valor que os dados podem
+fornecer para o sistema. Nesse contexto, as seguintes dimensões de
+qualidade de dados são analisadas: Completude, Conformidade, Acurácia,
+Consistência, Unicidade, Temporalidade
+
+\textbf{Completude} caracteriza a taxa de preenchimento das variáveis.
+Para cada variável é calculado o percentual de entradas com informação
+não nulas, respeitando, quando houver, sua dependência com outras
+variáveis.
+
+\textbf{Conformidade} detecta concordância nos valores digitados nos
+campos das variáveis, avaliando se os valores de entrada não nulos estão
+em conformidade com os padrões descritos pelo dicionário de dados. Para
+cada variável estudada é calculado o percentual de entradas em
+conformidade com o padrão adotado.
+
+\textbf{Acurácia} visa detectar se informação registrada reflete o
+evento ou objeto descrito, isto é, verificar se o dado cadastrado está
+em concordância com o evento observado. Devido ao processo de
+anonimização dos dados, a análise de acurácia se restringe a verificar a
+possibilidade das informações registradas. Note que acurácia e
+conformidade são dimensões distintas, pois enquanto conformidade avalia
+o padrão do dado, acurácia avalia a razoabilidade dos dados. Para cada
+variável estudada é calculado o percentual de entradas com informações
+acuradas.
+
+\textbf{Consistência} constitui de testes envolvendo duas ou mais
+variáveis visando detectar inconsistências entre dados de um mesmo
+registro. Para cada teste considerado é calculado os percentuais de
+aprovação e falha.
+
+\textbf{Unicidade} objetiva mensurar o grau de duplicidade nos dados,
+realizando a busca por meio de identificadores dos pacientes.
+
+\textbf{Temporalidade} objetiva efetuar medidas estatísticas nos
+intervalos de tempos entre eventos, por exemplo, o nascimento de um
+recém-nascido e inclusão desse registro no sistema. O principal
+interesse é verificar se o dado é disponibilizado prontamente.
+
+\hypertarget{base-de-dados}{%
+\section{Base de dados}\label{base-de-dados}}
+
+O HÓRUS é um sistema nacional de gestão da assistência farmacêutica de
+acesso on-line implementado pelo Ministério da Saúde do Brasil, que
+permite o controle e distribuição dos medicamentos disponíveis no
+Sistema Único de Saúde (SUS). Foi lançado em 3 de novembro de 2009 com o
+objetivo de possibilitar o registro dos medicamentos que o paciente
+utiliza, facilitando o gerenciamento eletrônico de estoque, datas de
+validade, rastreio e controle farmacoepidemiológico dos medicamentos
+dispensados.
+
+\renewcommand{\arraystretch}{1.25}
+
+\renewcommand{\arraystretch}{1}
+
+\hypertarget{muxe9todos}{%
+\section{Métodos}\label{muxe9todos}}
+
+A análise apresentada constitui-se de um esquema cíclico, iniciando no
+mapeamento da documentação e do comportamento dos dados, através da
+observação de trechos das bases. Em seguida, são definidas as variáveis
+de teste. Após, ocorre a obtenção e avaliação dos resultados obtidos,
+recorrendo, e se necessário retificando, conclusões obtidas nos passos
+anteriores. Nesse contexto, são definidos parâmetros a serem passados
+para as funções relativas às metricas citadas e implementação de
+\emph{queries} para os testes de consistência, sintetizados em um único
+\emph{script} relativo à base analisada.
+
+O maneio dos dados ocorreu através dos serviços \textbf{Amazon Athena} e
+\textbf{Amazon S3}, assim como testes e análises se deu utilizando
+\textbf{linguagem R}. Os \emph{scripts} utilizados estão disponíveis em
+um repositório de qualidade de dados no \emph{GitHub}. Enfatiza-se que
+esses dados podem sofrer alterações, caso ocorram atualizações.
+
+O dicionário de dado utilizado, não oficial, é inferido das descrições
+das variáveis contidas nos relatórios de integração e é apresentado
+neste relatório. No que tange os testes de unicidade, procurou-se
+analisar apenas as informações individuais dos pacientes.
+
+Mudanças no domínio e tamanho de caracteres das variáveis são
+detectadas, relatadas e consideradas no cálculo de medidas de qualidade
+dos dados.
+
+O Cômputo dos resultados numéricos ocorre de modo cascata, isto é, os
+registros submetidos ao teste de conformidade devem ser não nulos, os
+registros submetidos ao teste de acurácia devem estar conformes, os
+registros submetidos aos testes de consistência devem estar acurados, e
+quando não for possível, conformes, sendo que o mesmo se aplica aos
+registros submetidos aos testes de unicidade. Em prosseguimento, os
+resultados numéricos são avaliados nas dimensões analisadas
+calculando-se a média ponderada dos testes realizados, utilizando como
+peso o total de registros por variável. Para a consistência, é realizado
+um ajuste em que todas as variáveis testadas devem existir
+simultaneamente.
+
+Objetivando avaliar a base de dados, o conjunto de resultados
+representando cada dimensão foi classificada como excelente
+(\textgreater{} 90\%), ótimo (75\% - 89,9\%), regular (50\% - 74,9\%) ou
+ruim (\textless{} 49,9\%), baseado nos relatórios do livro \emph{Saúde
+Brasil}, organizado pela Secretaria de Vigilância em Saúde (Brasil.
+Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de
+Análise de Situação em Saúde 2019). Em decorrência do método cascata
+utilizado, é realizado o produto dos resultados obtidos, caracterizando
+a qualidade da base de dados como um todo, que também pode ser
+classificada considerando as classes definidas em \emph{Saúde Brasil}
+(Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde.
+Departamento de Análise de Situação em Saúde 2019).
+
+\hypertarget{disponibilidade-dos-dados}{%
+\section{Disponibilidade dos dados}\label{disponibilidade-dos-dados}}
+
+Esta análise têm o objetivo de dissertar acerca da disponibilidade dos
+dados em todo o período representado pela base de dados e em todas as
+Unidades Federativas.
+
+Após realização de testes, averiguou-se que para os seguintes anos,
+meses ou Unidades Federativas, representados na tabela a seguir, os
+respectivos registros não encontram-se na base de dados.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{rr}
+\caption{\label{tab:unnamed-chunk-9}período e/ou Unidade Federativa contendo registros faltantes.}\\
+\toprule
+Ano & Mês\\
+\midrule
+\endfirsthead
+\caption[]{período e/ou Unidade Federativa contendo registros faltantes. \textit{(continued)}}\\
+\toprule
+Ano & Mês\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2019 & 11\\
+2019 & 12\\*
+\end{longtable}
+\endgroup{}
+
+\hypertarget{variuxe1veis-existentes-e-mudanuxe7as-ocorridas}{%
+\section{Variáveis existentes e mudanças
+ocorridas}\label{variuxe1veis-existentes-e-mudanuxe7as-ocorridas}}
+
+Esta análise tem o objetivo identificar as variáveis existentes na base
+de dado se relatar as mudanças ocorridas ao longo do tempo.
+
+Após realização de testes não identificou-se qualquer alteração
+significante nas variáveis.
+
+\hypertarget{resultados}{%
+\section{Resultados}\label{resultados}}
+
+Descrições das variáveis são apresentadas no
+\protect\hyperlink{dicionuxe1rio-adotado}{Dicionário adotado}.
+Resultados dos testes de completude, conformidade e acurácia são
+exibidos nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}, onde estão organizados em duas tabelas: resultado geral e
+resultado agregado por ano. Uma descrição mais detalhada dos testes de
+inconsistência realizados, bem como seus respectivos resultados
+numéricos estão descritos em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}.
+
+\hypertarget{completude}{%
+\subsection{Completude}\label{completude}}
+
+Nesta dimensão são detectados valores faltantes através da busca pelas
+constantes representando valores ausentes. Nesse sentido, considerou-se
+como incompletos os registros contendo os valores \texttt{NA} constante
+lógica que indica valor ausente, e \texttt{NULL}, que representa objetos
+nulos.
+
+No geral, os resultados de completude das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{89.23\%}, ou seja, a \textbf{completude é ótimo}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/comp.png}
+\caption{distribuição dos resultados de completude.}
+\end{figure}
+
+\hypertarget{conformidade}{%
+\subsection{Conformidade}\label{conformidade}}
+
+Verificou-se se os dados apresentam os padrões descritos no
+\protect\hyperlink{dicionuxe1rio-adotado}{dicionário de dados adotado}
+como referência a respeito da quantidade de caracteres e valores
+válidos.
+
+Ressalta-se que durante a construção do dicionário de dados não foi
+possível obter os microdados ou informação equivalente contendo, quando
+existente, os valores válidos de domínio para algumas variáveis. Nesse
+sentido, a tabela a seguir apresenta ao máximo dez registros mais
+frequentes para essas variáveis, separados por vírgulas.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-12}registros mais frequentes por variável em que não foi possível obter a descrição.}\\
+\toprule
+Variável & Domínio\\
+\midrule
+\em{co\_concentracao\_medic} & 1.0, 12.0, 14.0, 15.0, 3.0, 6.0, 7.0, 9.0, 61.0, 81.0\\
+\em{co\_tipo\_produto} & 1.0, 101.0\\
+\em{co\_unidade\_consumo} & 1.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 19.0, 2.0, 20.0\\
+\em{co\_unidade\_medida\_item} & 1.0, 12.0, 13.0, 14.0, 21.0, 23.0, 24.0, 25.0, 29.0, 31.0\\
+\em{co\_unidade\_medida\_produto} & 1.0, 102.0, 12.0, 21.0, 23.0, 25.0, 31.0, 32.0, 39.0, 55.0\\
+\addlinespace
+\em{co\_volume\_medicamento} & 1.0, 181.0, 241.0, 5.0, 6.0, 121.0, 261.0, 4.0, 281.0, 7.0\\
+\em{ds\_concentracao\_medicamento} & \%, MCG, MCG/DOSE, MG, MG/G, MG/ML, UI, UI/ML, G, MCG/ML\\
+\em{ds\_tipo\_produto} & MEDICAMENTO, PRODUTO PARA SAÚDE\\
+\em{qt\_posologia} & 1.0, 1.5, 10.0, 11.0, 12.0, 13.0, 15.0, 2.0, 2.5, 20.0\\
+\em{sg\_tipo\_produto} & I, M\\
+\addlinespace
+\em{st\_rename} & N, S\\
+\em{tp\_produto} & B, O, S, E\\
+\em{tp\_sexo} & F, M, I\\
+\bottomrule
+\end{longtable}
+\endgroup{}
+
+No geral, os resultados de conformidade das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{100.00\%}, ou seja, a \textbf{conformidade é excelente}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/conf.png}
+\caption{distribuição dos resultados de conformidade.}
+\end{figure}
+
+\hypertarget{acuruxe1cia}{%
+\subsection{Acurácia}\label{acuruxe1cia}}
+
+Inicialmente a métrica de acurácia foi aplicada a dois tipos de
+registros: datas, ao verificar se o dado configura-se uma data válida e
+condizente ao período representado pela base de dados; nomes e códigos
+de municípios, ao verificar se estão contidos na tabela de códigos de
+municípios e estados do IBGE\footnote{\url{https://www.ibge.gov.br/explica/codigos-dos-municipios.php}}.
+Após esta análise de datas e municípios é realizada investigação acerca
+do preenchimento das variáveis com o objetivo de detectar a presença de
+preenchimentos sem informações relevantes. Em seguida, são verificados
+os registros representando informações numéricas, a respeito do sinal
+(\emph{e.g.} número de filhos deve ser positivo) e do conjunto ao qual
+pertence (\emph{e.g.} número de filhos deve ser um número inteiro).
+
+No que tange propriamente o preenchimento dos registros, buscou-se
+identificar valores representando a ausência de informações ou que foram
+ignorados, além de sequências finitas do caractere espaço
+(\emph{whitespace}) ou sequências finitas do numeral zero para variáveis
+não numéricas. Este fato pode representar um problema, visto que estará
+de acordo ao tamanho estabelecido pelo dicionário de dados, porém não
+estará acurado, não representando informação alguma. Para realizar a
+identificação no primeiro caso, utilizou-se o método TF-IDF.
+
+O método TF-IDF\footnote{\url{https://bergvca.github.io/2017/10/14/super-fast-string-matching.html}},
+em conjunto aos métodos \emph{N-Grams} e multiplicação de matriz
+esparsa, é uma medida estatística que tem o intuito de indicar a
+similaridade de uma palavra em relação a outra. TF-IDF é um método para
+gerar recursos do texto multiplicando a frequência de um termo em um
+documento (\emph{Term Frequency}, ou TF) pela importância (\emph{Inverse
+Document Frequency}, ou IDF) do mesmo termo em um corpus inteiro. Este
+método é muito útil na classificação e no agrupamento de textos e é
+usado para transformar documentos em vetores numéricos, que podem ser
+facilmente comparados. Embora os termos no TF-IDF sejam geralmente
+palavras, essa condição não é necessária. Como a maioria dos registros
+possuem de uma a três palavras, utilizou-se \emph{N-Grams}: sequências
+de \emph{N} caracteres contíguos. Para avaliação, calculou-se a
+proximidade dos vetores resultantes do método TF-IDF, através da
+semelhança cosseno, que pode ser vista como um produto escalar
+normalizado.
+
+Após aplicação do método, não identificou-se qualquer registro nessa
+situação.
+
+Em relação as várias quantitativas, a tabela a seguir expõe os valores
+atípicos detectados\footnote{\url{https://www.rdocumentation.org/packages/grDevices/versions/3.6.2/topics/boxplot.stats}},
+isto é, registros numéricos que apresentam grande afastamento em relação
+aos demais, dentro do universo de uma única variável, os quais implicam,
+tipicamente, em prejuízos a interpretação dos resultados dos testes
+estatísticos aplicados.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-15}valores atípicos para variáveis numéricas.}\\
+\toprule
+Variável & Valores atípicos\\
+\midrule
+\endfirsthead
+\caption[]{valores atípicos para variáveis numéricas. \textit{(continued)}}\\
+\toprule
+Variável & Valores atípicos\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{nu\_dias\_dispensar} & 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, ..., 754, 770, 800, 820, 830, 840, 870, 900, 990, 999\\
+\em{nu\_fator\_correcao} & 2, 5, 8, 10, 14, 15, 20, 21, 22, 25, ..., 473, 480, 500, 560, 600, 750, 800, 900, 1000, 1200\\
+\em{qt\_dose} & 0.1, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19, ..., 807, 840, 850, 864, 900, 901, 930, 960, 990, 999\\
+\em{qt\_duracao\_tratam\_dia} & 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, ..., 840, 870, 890, 900, 901, 902, 910, 920, 990, 999\\
+\em{qt\_posologia} & 4, 4.3, 4.5, 5, 6, 7, 7.5, 8, 9, 10, ..., 300, 310, 330, 350, 355, 360, 401, 430, 464, 500\\
+\addlinespace
+\em{qt\_solicitado} & 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, ..., 300000, 324000, 330750, 345000, 359640, 390000, 432000, 518400, 546750, 864000\\
+\em{vl\_item\_dispensacao} & -881888.657, -440933.419, -249754.04, -124866.111, -33757.925, -202.428, -53.532, -51.031, -41.827, -36.303, ..., 15833333.377, 27069934.764, 31666666.515, 49241492.189, 92840721.21, 185681432.419, 371362804.837, 742725579.674, 1022245955.358, 2044491895.715\\*
+\end{longtable}
+\endgroup{}
+
+No geral, os resultados de acurácia das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{100.00\%}, ou seja, a \textbf{acurácia é excelente}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/ac.png}
+\caption{distribuição dos resultados de acurácia.}
+\end{figure}
+
+\hypertarget{consistuxeancia}{%
+\subsection{Consistência}\label{consistuxeancia}}
+
+Os resultados apresentados são de testes aplicados a um mesmo registro,
+ou seja, mesma linha do conjunto de dados. Estes testes detectam
+principalmente problemas na entrada de dados envolvendo condições
+específicas de inconsistências. Uma descrição mais detalhada de cada
+teste está presente em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-17}resultados de consistência.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{\centering\arraybackslash}p{1cm}>{\raggedright\arraybackslash}p{9cm}>{\centering\arraybackslash}p{3cm}}
+\toprule
+Teste & Descrição & Falhas [partes por mil]\\
+\midrule
+\em{T1} & dt\_receita > dt\_atendimento & 1.406\\
+\em{T2} & dt\_nascimento > dt\_receita & 0.118\\
+\em{T3} & dt\_nascimento > dt\_atendimento & 0.034\\
+\em{T4} & ds\_tipo\_produto == medicamento \& sg\_tipo\_produto != m & 0.000\\
+\em{T5} & ds\_tipo\_produto == produto para saúde \& sg\_tipo\_produto != i & 0.000\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal dos resultados dos testes de consistência é
+apresentada no gráfico a seguir
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/cons-anual.png}
+\caption{distribuição temporal da consistência.}
+\end{figure}
+
+O resultado de cada teste por ano está descrito em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}. O cômputo da média ponderada dos resultados obtidos é
+de \textbf{99.97\%}, ou seja, a \textbf{consistência é excelente}.
+
+\hypertarget{unicidade}{%
+\subsection{Unicidade}\label{unicidade}}
+
+\label{sub:unicidade}
+
+Nesta dimensão é calculado o grau de duplicidade dos dados, buscando
+diferenças por meio dos identificadores dos pacientes.
+
+São excluídos deste teste os identificadores de pacientes presentes
+apenas uma vez na base de dados. Nesse sentido, é apresentado a seguir a
+distribuição de frequência desta variável. A saber, a quantidade
+associada a categoria \emph{ID = 1} representa o percentual de pacientes
+com apenas 1 registro no sistema, enquanto a quantidade associada a a
+categoria \emph{ID = 2} representa o percentual de pacientes com 2
+registros. Mesma interpretação pode ser realizada para as demais
+categorias.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-18}frequência de identificadores. A quantidade associada a categoria \textit{ID = 1} representa o percentual de pacientes com apenas 1 registro no sistema, enquanto a quantidade associada a a categoria \textit{ID = 2} representa o percentual de pacientes com 2 registros. Mesma interpretação pode ser realizada para as demais categorias.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}lc}
+\toprule
+Categoria & Frequência [\%]\\
+\midrule
+\em{ID = 1} & 20.98\\
+\em{ID = 2} & 16.33\\
+\em{ID = 3} & 10.33\\
+\em{ID = 4} & 7.96\\
+\em{5 <= ID < 10} & 19.32\\
+\addlinespace
+\em{10 <= ID < 50} & 21.40\\
+\em{50 <= ID < 100} & 2.67\\
+\em{ID >= 100} & 1.01\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-19}resultados de unicidade por variável relacionada à identificação do paciente.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}c>{}lc}
+\toprule
+Teste & Variável & Unicidade [\%]\\
+\midrule
+\em{T1} & \em{dt\_nascimento} & 99.30\\
+\em{T2} & \em{tp\_sexo} & 99.84\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal dos resultados dos testes de unicidade é
+apresentada no gráfico a seguir.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/unic-anual.png}
+\caption{distribuição temporal da unicidade.}
+\end{figure}
+
+O cômputo da média ponderada dos resultados obtidos é de
+\textbf{99.16\%}, ou seja, a \textbf{unicidade é excelente}.
+
+\hypertarget{temporalidade}{%
+\subsection{Temporalidade}\label{temporalidade}}
+
+Para mensurar esta dimensão é calculada a quantidade de dias entre duas
+variáveis representando datas que estejam conformes, acuradas e
+consistentes.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-20}resultados de temporalidade.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}c>{}l>{}lccc}
+\toprule
+Teste & Variável Inicial & Variável final & Mediana & Min. & Max.\\
+\midrule
+\em{T1} & \em{dt\_receita} & \em{dt\_atendimento} & 0 & 0 & 37000\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal das medianas obtidas pelos testes de
+temporalidade é apresentada no gráfico a seguir.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/temp-anual.png}
+\caption{distribuição temporal da temporalidade.}
+\end{figure}
+
+\hypertarget{considerauxe7uxf5es-finais}{%
+\section{Considerações finais}\label{considerauxe7uxf5es-finais}}
+
+A avaliação realizada é especialmente oportuna, tendo em vista o cenário
+nacional e o atual empenho em fomentar o debate em torno da qualidade
+das informações acerca de estabelecimentos de saúde do país.
+
+Assim, a média ponderada dos resultados de Completude é 89.23\%, de
+Conformidade é 100.00\%, de Acurácia é 100.00\%, de Consistência é
+99.97\%, de Unicidade é 99.16\%. Realizando o produto destes resultados,
+obtêm-se \textbf{88.45\%}, caracterizando a \textbf{base de dados como
+ótima}.
+
+\newpage
+
+\hypertarget{referuxeancias}{%
+\section{Referências}\label{referuxeancias}}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-brasil2019}{}%
+Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde.
+Departamento de Análise de Situação em Saúde. 2019. \emph{Saúde Brasil
+2019: Uma Análise Da Situação de Saúde Com Enfoque Nas Doenças
+Imunopreveníveis E Na Imunização}. Ministério da Saúde.
+
+\leavevmode\hypertarget{ref-merino}{}%
+Merino, Jorge, Ismael Caballero, Bibiano Rivas, Manuel Serrano, and
+Mario Piattini. 2016. ``A Data Quality in Use Model for Big Data.''
+\emph{Future Generation Computer Systems} 63: 123--30.
+\url{https://doi.org/https://doi.org/10.1016/j.future.2015.11.024}.
+
+\captionsetup[table]{labelformat=empty}
+
+\newpage
+
+\hypertarget{dicionuxe1rio-adotado}{%
+\section*{Dicionário adotado}\label{dicionuxe1rio-adotado}}
+\addcontentsline{toc}{section}{Dicionário adotado}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{>{}l>{\raggedright\arraybackslash}p{9cm}>{\centering\arraybackslash}p{2cm}}
+\toprule
+Variável & Descrição & Tamanho\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\textit{(continued)}}\\
+\toprule
+Variável & Descrição & Tamanho\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{co\_concentracao\_medic} &  & [1, 6]\\
+\em{co\_formula\_farmaceutica} &  & [1, 6]\\
+\em{co\_municipio\_ibge} & Município do paciente e da unidade de saúde. & [6, 6]\\
+\em{co\_principio\_ativo\_medicam} &  & [1, 6]\\
+\em{co\_produto} &  & [1, 6]\\
+\addlinespace
+\em{co\_seq\_paciente} & Sequencial de identificação do paciente. & [1, 12]\\
+\em{co\_tipo\_produto} &  & [1, 6]\\
+\em{co\_unidade\_consumo} &  & [1, 9]\\
+\em{co\_unidade\_medida\_item} & Código da unidade de medida do medicamento. & [1, 3]\\
+\em{co\_unidade\_medida\_produto} &  & [1, 3]\\
+\addlinespace
+\em{co\_volume\_medicamento} &  & [1, 6]\\
+\em{ds\_concentracao\_medicamento} & Descrição da concentração do medicamento. & [1, 200]\\
+\em{ds\_forma\_farmaceutica} & Descrição da forma farmacêutica (suspensão oral, comprimido, cápsula, pó para suspensão, xarope etc). & [1, 200]\\
+\em{ds\_principio\_ativo\_medicamento} & Descrição do princípio ativo. & [1, 200]\\
+\em{ds\_produto} & Descrição do produto (exemplo: omeprazol 20 mg cápsula). & [1, 250]\\
+\addlinespace
+\em{ds\_tipo\_produto} & Descrição do tipo de medicamento. & [1, 50]\\
+\em{dt\_atendimento} & Data do atendimento ao paciente. & [10, 10]\\
+\em{dt\_nascimento} & Data de nascimento do paciente. & [10, 10]\\
+\em{dt\_receita} & Data de emissão da receita (para pegar medicamento na farmácia). & [10, 10]\\
+\em{id\_paciente} & Identificador do paciente. & [4, 12]\\
+\addlinespace
+\em{nu\_concentracao\_medic} &  & [1, 50]\\
+\em{nu\_dias\_dispensar} & Dias de uso. & [1, 3]\\
+\em{nu\_fator\_correcao} &  & [1, 6]\\
+\em{nu\_produto} &  & [1, 20]\\
+\em{nu\_volume\_medicamento} &  & [1, 50]\\
+\addlinespace
+\em{qt\_dose} & Quantidade de doses. & [1, 6]\\
+\em{qt\_duracao\_tratam\_dia} & Quantidade de dias do tratamento com o medicamento. & [1, 3]\\
+\em{qt\_posologia} & Posologia. & [1, 4]\\
+\em{qt\_solicitado} & Quantidade solicitada. & [1, 6]\\
+\em{sg\_tipo\_produto} &  & [1, 1]\\
+\addlinespace
+\em{st\_rename} &  & [1, 1]\\
+\em{tp\_produto} &  & [1, 1]\\
+\em{tp\_sexo} & Sexo do paciente. & [1, 1]\\
+\em{vl\_item\_dispensacao} &  & [1, 30]\\*
+\end{longtable}
+\endgroup{}
+
+\newpage
+
+\hypertarget{resultados-numuxe9ricos}{%
+\section*{Resultados numéricos}\label{resultados-numuxe9ricos}}
+\addcontentsline{toc}{section}{Resultados numéricos}
+
+\hypertarget{resultados-gerais}{%
+\subsection*{Resultados gerais}\label{resultados-gerais}}
+\addcontentsline{toc}{subsection}{Resultados gerais}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{lccc}
+\toprule
+Variável & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\textit{(continued)}}\\
+\toprule
+Variável & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+co\_concentracao\_medic & 15.37 & 100.00 & 100.00\\
+co\_formula\_farmaceutica & 94.94 & 100.00 & 100.00\\
+co\_municipio\_ibge & 100.00 & 100.00 & 100.00\\
+co\_principio\_ativo\_medicam & 94.94 & 100.00 & 100.00\\
+co\_produto & 99.93 & 100.00 & 100.00\\
+\addlinespace
+co\_seq\_paciente & 100.00 & 100.00 & 100.00\\
+co\_tipo\_produto & 99.93 & 100.00 & 100.00\\
+co\_unidade\_consumo & 98.85 & 100.00 & 100.00\\
+co\_unidade\_medida\_item & 99.78 & 100.00 & 100.00\\
+co\_unidade\_medida\_produto & 99.93 & 100.00 & 100.00\\
+\addlinespace
+co\_volume\_medicamento & 19.24 & 100.00 & 100.00\\
+ds\_concentracao\_medicamento & 15.37 & 100.00 & 100.00\\
+ds\_forma\_farmaceutica & 94.94 & 100.00 & 100.00\\
+ds\_principio\_ativo\_medicamento & 94.94 & 100.00 & 100.00\\
+ds\_produto & 99.93 & 100.00 & 100.00\\
+\addlinespace
+ds\_tipo\_produto & 99.93 & 100.00 & 100.00\\
+dt\_atendimento & 100.00 & 100.00 & 100.00\\
+dt\_nascimento & 100.00 & 100.00 & 100.00\\
+dt\_receita & 99.78 & 100.00 & 100.00\\
+id\_paciente & 98.20 & 100.00 & 100.00\\
+\addlinespace
+nu\_concentracao\_medic & 93.14 & 100.00 & 100.00\\
+nu\_dias\_dispensar & 99.93 & 100.00 & 100.00\\
+nu\_fator\_correcao & 99.36 & 100.00 & 100.00\\
+nu\_produto & 99.93 & 100.00 & 100.00\\
+nu\_volume\_medicamento & 19.40 & 100.00 & 99.93\\
+\addlinespace
+qt\_dose & 99.93 & 100.00 & 100.00\\
+qt\_duracao\_tratam\_dia & 99.93 & 100.00 & 100.00\\
+qt\_posologia & 99.93 & 100.00 & 100.00\\
+qt\_solicitado & 99.93 & 100.00 & 100.00\\
+sg\_tipo\_produto & 99.93 & 100.00 & 100.00\\
+\addlinespace
+st\_rename & 99.93 & 100.00 & 100.00\\
+tp\_produto & 99.93 & 100.00 & 100.00\\
+tp\_sexo & 100.00 & 100.00 & 100.00\\
+vl\_item\_dispensacao & 96.45 & 100.00 & 100.00\\*
+\end{longtable}
+\endgroup{}
+
+\hypertarget{resultados-por-ano}{%
+\subsection*{Resultados por ano}\label{resultados-por-ano}}
+\addcontentsline{toc}{subsection}{Resultados por ano}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{lccc}
+\toprule
+Ano & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\textit{(continued)}}\\
+\toprule
+Ano & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2011 & 100.00 & 100.00 & 100.00\\
+2012 & 100.00 & 100.00 & 100.00\\
+2013 & 100.00 & 100.00 & 100.00\\
+2014 & 100.00 & 100.00 & 100.00\\
+2015 & 100.00 & 100.00 & 100.00\\
+\addlinespace
+2016 & 100.00 & 100.00 & 100.00\\
+2017 & 100.00 & 100.00 & 100.00\\
+2018 & 100.00 & 100.00 & 100.00\\
+2019 & 100.00 & 100.00 & 100.00\\*
+\end{longtable}
+\endgroup{}
+
+\newpage
+
+\hypertarget{testes-de-inconsistuxeancia}{%
+\section*{Testes de inconsistência}\label{testes-de-inconsistuxeancia}}
+\addcontentsline{toc}{section}{Testes de inconsistência}
+
+\hypertarget{testes-realizados}{%
+\subsection*{Testes realizados}\label{testes-realizados}}
+\addcontentsline{toc}{subsection}{Testes realizados}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{T1}: A data de emissão do paciente não pode ser maior que a
+  data de atendimento do paciente
+\item
+  \textbf{T2}: A data de nascimento do paciente não pode ser maior que a
+  data de emissão do paciente
+\item
+  \textbf{T3}: A data de nascimento do paciente não pode ser maior que a
+  data de atendimento do paciente
+\item
+  \textbf{T4}: Se a descrição do tipo de produto for
+  \textit{MEDICAMENTO}, a sigla do tipo de produto precisa ser
+  \textit{M}
+\item
+  \textbf{T5}: Se a descrição do tipo de produto for
+  \textit{PRODUTO PARA SAÚDE}, a sigla do tipo de produto precisa ser
+  \textit{I}
+\end{itemize}
+
+\hypertarget{resultados-obtidos}{%
+\subsection*{Resultados obtidos}\label{resultados-obtidos}}
+\addcontentsline{toc}{subsection}{Resultados obtidos}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{>{}cccccc}
+\toprule
+Ano & T1 & T2 & T3 & T4 & T5\\
+\midrule
+\endfirsthead
+\multicolumn{6}{@{}l}{\textit{(continued)}}\\
+\toprule
+Ano & T1 & T2 & T3 & T4 & T5\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{2011} & 2402 & 140 & 104 & 0 & 0\\
+\em{2012} & 5106 & 202 & 74 & 0 & 0\\
+\em{2013} & 1587 & 201 & 6 & 0 & 0\\
+\em{2014} & 90 & 47 & 26 & 0 & 0\\
+\em{2015} & 93 & 13 & 6 & 0 & 0\\
+\addlinespace
+\em{2016} & 41 & 62 & 4 & 0 & 0\\
+\em{2017} & 84 & 28 & 0 & 0 & 0\\
+\em{2018} & 106 & 41 & 5 & 0 & 0\\
+\em{2019} & 68 & 70 & 4 & 0 & 0\\*
+\end{longtable}
+\endgroup{}
+
+\end{document}

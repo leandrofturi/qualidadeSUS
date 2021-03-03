@@ -1,0 +1,115 @@
+VARIAVEL;DESCRIÇÃO;MIN;MAX;VALORES.VALIDOS
+ANO_CMPT;Ano de processamento da AIH;4;4;aaaa
+AUD_JUST;Justificativa do auditor para aceitação da AIH sem o número do Cartão Nacional de Saúde;1;50;
+CAR_INT;Caráter da internação;2;2;01: eletivo, 02: urgência, 03: acidente no local trabalho ou a serv. da empresa, 04: acidente no trajeto para o trabalho, 05: outros tipo de acidente de trânsito, 06: out tp lesões e envenen por agent quím físicos
+CBOR;Ocupação do paciente, segundo a Classificação Brasileira de Ocupações – CBO;1;3;
+CEP;CEP do paciente;8;8;
+CGC_HOSP;CNPJ do Estabelecimento;14;14;
+CID_ASSO;CID causa;1;4;
+CID_MORTE;CID da morte;1;4;
+CID_NOTIF;CID de Notificação;1;4;
+CNAER;Código de acidente de trabalho;3;3;
+CNES;Código CNES do hospital;7;7;
+CNPJ_MANT;CNPJ da mantenedora;14;14;
+COBRANCA;Motivo de Saída/Permanência;1;2;
+COD_IDADE;Unidade de medida da idade;1;1;
+COMPLEX;Complexidade;2;2;00-99: não se aplica, 01: atenção básica, 02: média complexidade, 03: alta complexidade
+CONTRACEP1;Tipo de contraceptivo utilizado;2;2;00-99: ignorado/não se aplica, 01: lam, 02: ogino knaus, 03: temperatura basal, 04: billings, 05: cinto térmico, 06: diu, 07: diafragma, 08: preservativo, 09: espermicida, 10: hormônio oral, 11: hormônio injetável, 12: coito interrompido
+CONTRACEP2;Segundo tipo de contraceptivo utilizado;2;2;00-99: ignorado/não se aplica, 01: lam, 02: ogino knaus, 03: temperatura basal, 04: billings, 05: cinto térmico, 06: diu, 07: diafragma, 08: preservativo, 09: espermicida, 10: hormônio oral, 11: hormônio injetável, 12: coito interrompido
+CPF_AUT;Zerado;11;11;
+DIAG_PRINC;Código do diagnóstico principal (CID10);1;4;
+DIAG_SECUN;Código do diagnostico secundário (CID10). Preenchido com zeros a partir de 201501;1;4;
+DIAGSEC1;Diagnóstico secundário1;1;4;
+DIAGSEC2;Diagnóstico secundário 2;1;4;
+DIAGSEC3;Diagnóstico secundário 3;1;4;
+DIAGSEC4;Diagnóstico secundário 4;1;4;
+DIAGSEC5;Diagnóstico secundário 5;1;4;
+DIAGSEC6;Diagnóstico secundário 6;1;4;
+DIAGSEC7;Diagnóstico secundário 7;1;4;
+DIAGSEC8;Diagnóstico secundário 8;1;4;
+DIAGSEC9;Diagnóstico secundário 9;1;4;
+DIAR_ACOM;Quantidade de diárias de acompanhante;1;3;
+DIAS_PERM;Dias de permanência;1;5;
+DT_INTER;;8;8;
+DT_SAIDA;Data de saída;8;8;aaaammdd
+ESPEC;Especialidade do Leito;1;2;
+ETNIA;Etnia do paciente, se raça cor for indígena;1;4;
+FAEC_TP;Subtipo de financiamento FAEC;1;6;
+FILENAME;;1;255;
+FINANC;Tipo de financiamento;2;2;00-99: não discriminado, 01: atenção básica (PAB), 02: assistência farmacêutica, 04: fundo de ações estratégicas e compensações FAEC, 05: incentivo (MAC), 06: média e alta complexidade (MAC), 07: vigilância em saúde
+GESTAO;;1;1;0: estadual, 2: estadual plena, 1: municipal plena assist, 3-9: não definida
+GESTOR_COD;Motivo de autorização da AIH pelo Gestor;1;3;
+GESTOR_CPF;Número do CPF do Gestor;11;11;
+GESTOR_DT;Data da autorização dada pelo Gestor;8;8;aaaammdd
+GESTOR_TP;Tipo de gestor;1;1;0: estadual, 2: estadual plena, 1: municipal plena assist, 3-9: não definida
+GESTRISCO;Indicador se é gestante de risco;1;1;1: sim, 0: não
+HOMONIMO;Indicador se o paciente da AIH é homônimo do paciente de outra AIH;1;1;
+IDADE;Idade;1;2;
+IDENT;Identificação do tipo da AIH;1;1;0-9: outras/ignorado, 1: normal, 5: longa permanência
+IND_VDRL;Indica exame VDRL;1;1;0: sim, 1: não
+INFEHOSP;Status de infecção hospitalar;2;1;
+INSC_PN;Número da gestante no pré-natal;1;12;
+INSTRU;Grau de instrução do paciente;1;1;0-9: ignorado/não se aplica, 1: analfabeto, 2: 1 grau, 3: 2 grau, 4: 3 grau
+MARCA_UCI;Tipo de UCI utilizada pelo paciente;2;2;00: não utilizou UCI, 01: unidade de cuidados intermed neonatal convencional, 02: unidade de cuidados intermed neonatal canguru, 03: unidade intermediária neonatal
+MARCA_UTI;Indica qual o tipo de UTI utilizada pelo paciente;2;2;00: não utilizou UTI, 51: UTI adulto - tipo II covid 19, 52: UTI pediátrica - tipo II covid 19, 74: UTI adulto - tipo i, 75: UTI adulto - tipo II, 76: UTI adulto - tipo IIi, 77: UTI infantil - tipo i, 78: UTI infantil - tipo II, 79: UTI infantil - tipo IIi, 80: UTI neonatal - tipo i, 81: UTI neonatal - tipo II, 82: UTI neonatal - tipo IIi, 83: UTI de queimados, 85: UTI coronariana tipo II - uco tipo II, 86: UTI coronariana tipo IIi - uco tipo IIi, 99: UTI doador, 01: utilizou mais de um tipo de UTI
+MES_CMPT;Mês de processamento da AIH;2;2;01: jan, 02: fev, 03: mar, 04: abr, 05: mai, 06: jun, 07: jul, 08: ago, 09: set, 10: out, 11: nov, 12: dez, 00-13-99: ign
+MORTE;Indica óbito;1;1;1: com óbito, 0: sem óbito
+MUNIC_MOV;Município do estabelecimento;6;6;
+MUNIC_RES;Município de residência do paciente;6;6;
+N_AIH;Número da AIH;13;13;
+NACIONAL;Código da nacionalidade do paciente;1;3;
+NASC;Data de nascimento do paciente;8;8;aaaammdd
+NAT_JUR;Natureza jurídica do Estabelecimento, conforme a Comissão Nacional de Classificação - CONCLA;1;4;
+NATUREZA;Natureza jurídica do hospital (com conteúdo até maio/12). Era utilizada a classificação de Regime e Natureza;2;2;00-99: ignorado, 10: próprio, 20: contratado, 22: contratado optante simples, 30: federal, 31: federal verba própria, 40: estadual, 41: estadual verba própria, 50: municipal, 60: filantrópico, 61: filantrópico isento tributos e contr.sociais, 63: filantrópico isento ir e contr.s/lucro líquido, 70: universitário ensino, 80: sindicato, 90: universitário pesquisas, 91: univ. pesquisas isento tributos e contr.sociais, 93: univ. pesquisas isento ir e contr.s/lucro líquido, 94,92: universitário de ensino e pesquisa privado
+NUM_FILHOS;Número de filhos do paciente;1;2;
+NUM_PROC;Zerado;1;2;
+PROC_REA;Procedimento realizado;1;10;
+PROC_SOLIC;Procedimento solicitado;1;10;
+QT_DIARIAS;Quantidade de diárias;1;3;
+RACA_COR;Raça/Cor do paciente;2;4;00-99: sem informação, 01: branca, 02: preta, 03: parda, 04: amarela, 05: indígena
+REGCT;Regra contratual;4;4;7101: s/crédito na média complex ambulatorial (exc faec), 7102: s/crédito na média complex hospitalar (exc faec), 7103: s/crédito na alta complex ambulatorial (exc faec), 7104: s/crédito na alta complex hospitalar (exc faec), 7105: s/crédito nos procedimentos financ faec, 7106: s/crédito total incluindo faec, 7107: s/crédito nas ações esp odonto (ceo i II IIi), 7108: s/crédito incentivo saúde do trabalhador exc faec, 7109: s/crédito total hu/mec, 7110: s/crédito total minist saúde, 7111: s/crédito nasf exc faec, 0000: sem regra contratual
+REMESSA;Número da remessa;21;21;
+RUBRICA;Zerado;1;5;
+SEQ_AIH5;Sequencial de longa permanência (AIH tipo 5);1;3;
+SEQUENCIA;Sequencial da AIH na remessa;1;9;
+SEXO;Sexo do paciente;1;1;0-9: ignorado, 1: masculino, 2,3: feminino
+SIS_JUST;Justificativa do estabelecimento para aceitação da AIH sem o número do Cartão Nacional de Saúde;1;50;
+TOT_PT_SP;Zerado;1;6;
+TPDISEC1;Tipo de diagnóstico secundário 1;1;1;
+TPDISEC2;Tipo de diagnóstico secundário 2;1;1;
+TPDISEC3;Tipo de diagnóstico secundário 3;1;1;
+TPDISEC4;Tipo de diagnóstico secundário 4;1;1;
+TPDISEC5;Tipo de diagnóstico secundário 5;1;1;
+TPDISEC6;Tipo de diagnóstico secundário 6;1;1;
+TPDISEC7;Tipo de diagnóstico secundário 7;1;1;
+TPDISEC8;Tipo de diagnóstico secundário 8;1;1;
+TPDISEC9;Tipo de diagnóstico secundário 9;1;1;
+UF_ZI;Município gestor;6;6;
+US_TOT;Valor total, em dólar;1;10;
+UTI_INT_AL;Zerado;1;2;
+UTI_INT_AN;Zerado;1;2;
+UTI_INT_IN;Zerado;1;2;
+UTI_INT_TO;Quantidade de diárias em unidade intermediaria;1;3;
+UTI_MES_AL;Zerado;1;2;
+UTI_MES_AN;Zerado;1;2;
+UTI_MES_IN;Zerado;1;2;
+UTI_MES_TO;Quantidade de dias de UTI no mês;1;3;
+VAL_ACOMP;Zerado;1;13;
+VAL_OBSANG;Zerado;1;11;
+VAL_ORTP;Zerado;1;13;
+VAL_PED1AC;Zerado;1;11;
+VAL_RN;Zerado;1;13;
+VAL_SADT;Zerado;1;13;
+VAL_SADTSR;Zerado;1;11;
+VAL_SANGUE;Zerado;1;13;
+VAL_SH;Valor de serviços hospitalares;1;13;
+VAL_SH_FED;Valor do complemento federal de serviços hospitalares. Está incluído no valor total da AIH;1;10;
+VAL_SH_GES;Valor do complemento do gestor (estadual ou municipal) de serviços hospitalares. Está incluído no valor total da AIH;1;10;
+VAL_SP;Valor de serviços profissionais;1;13;
+VAL_SP_FED;Valor do complemento federal de serviços profissionais. Está incluído no valor total da AIH;1;10;
+VAL_SP_GES;Valor do complemento do gestor (estadual ou municipal) de serviços profissionais. Está incluído no valor total da AIH;1;10;
+VAL_TOT;Valor total da AIH;1;14;
+VAL_TRANSP;Zerado;1;13;
+VAL_UCI;Valor de UCI;1;10;
+VAL_UTI;Valor de UTI;1;8;
+VINCPREV;Vínculo com a previdência;1;1;0-9: não classificado, 1: autônomo, 2: desempregado, 3: aposentado, 4: não segurado, 5: empregado, 6: empregador

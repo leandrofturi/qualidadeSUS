@@ -1,0 +1,1481 @@
+variavel;dirty;clean;similaridade
+CO_CNS_MEDICO;5bffaa1ed2a753cf64824def7ec1178b;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;677e84157e2a4860950fd89defdcbfc2;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;ee807bd9e68c64c7234a576f3fdef6a4;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;dd0e2d4e29f4defd6e5ad9d53b13886d;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;f134a505cc4693be3efc1defae471626;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;6bcbb370e263a9cdbd45defccf76e9a4;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;1d653b3adbcfadedefae848e87511f53;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;d6c0794b689c20aeea723cad46def162;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;8dc5b0cc3090298ad20b4043d13c8def;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;7678c30e9043c2cd5d27edac021faca3;SEM INFORMACAO;0,325810957293508
+CO_CNS_MEDICO;514b63272cce82bdc0aaca73a3ecf660;SEM INFORMACAO;0,325810957293508
+CO_CNS_MEDICO;70acab01eba86e99298daf00e1241313;SEM INFORMACAO;0,325810957293508
+CO_CNS_MEDICO;ab1f46d8ec25909fa2e774b5aacaa0d2;SEM INFORMACAO;0,325810957293508
+CO_CNS_MEDICO;812cc788bd88ad77c5113eaca42d2b8a;SEM INFORMACAO;0,325810957293508
+DS_DESTINO;Alta Administrativa;FALTANTE;0,495677695040149
+DS_DESTINO;Alta Clinica;SEM DEFINICAO;0,416750737206727
+DS_DESTINO;Internacao em Urgencia;SEM INFORMACAO;0,375792838811412
+DS_DESTINO;Permanencia;NAO INFORMADO;0,286330728541384
+DS_PRONTUARIO;A INFAN;NAO INFORMADO;0,404932799627394
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia de comportamento incerto ou desconhecido dos orgaos urinarios;DESCONHECIDO;0,774539101100174
+NO_CID_CAUSAS_ASSOCIADAS;Causas desconhecidas e nao especificadas de morbidade;DESCONHECIDO;0,71588310741167
+NO_CID_CAUSAS_ASSOCIADAS;Epilepsia e sindromes epilepticas idiopaticas definidas por sua localizacao (focal) (parcial) com cr;SEM DEFINICAO;0,617700273508778
+NO_CID_CAUSAS_ASSOCIADAS;Epilepsia e sindromes epilepticas sintomaticas definidas por sua localizacao (focal) (parcial) com c;SEM DEFINICAO;0,617700273508778
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental moderado;DESCONSIDERADO;0,560195355398637
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental moderado - outros comprometimentos do comportamento;DESCONSIDERADO;0,560195355398637
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno somatoforme nao especificado;NAO INFORMADO;0,539414089104307
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos especificos do desenvolvimento das habilidades escolares;DESCONHECIDO;0,525358550428912
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno afetivo bipolar, episodio atual depressivo grave sem sintomas psicoticos;SEM DEFINICAO;0,519451664262583
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno psicotico agudo polimorfo, sem sintomas esquizofrenicos;SEM DEFINICAO;0,519451664262583
+NO_CID_CAUSAS_ASSOCIADAS;Episodio depressivo grave sem sintomas psicoticos;SEM DEFINICAO;0,519451664262583
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno depressivo recorrente sem especificacao;SEM DEFINICAO;0,516646172082605
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental leve - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,514603712901809
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno de panico [ansiedade paroxistica episodica];SEM DEFINICAO;0,504131002166989
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno obsessivo-compulsivo, forma mista, com ideias obsessivas e comportamentos compulsivos;SEM INFORMACAO;0,50281261699606
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos delirantes persistentes;FALTANTE;0,5
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos delirantes persistentes;FALTANTE;0,5
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos psicoticos agudos, essencialmente delirantes;FALTANTE;0,5
+NO_CID_CAUSAS_ASSOCIADAS;Delirium nao induzido pelo alcool ou por outras substancias psicoativas;NAO INFORMADO;0,496571571850753
+NO_CID_CAUSAS_ASSOCIADAS;Traumatismo intracraniano com coma prolongado;NAO INFORMADO;0,495273949551171
+NO_CID_CAUSAS_ASSOCIADAS;Demencia vascular de inicio agudo;SEM DEFINICAO;0,488766101922228
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de alzheimer de inicio tardio;SEM DEFINICAO;0,48843366809377
+NO_CID_CAUSAS_ASSOCIADAS;Episodio depressivo moderado;DESCONSIDERADO;0,487764606270392
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno afetivo bipolar, episodio atual depressivo leve ou moderado;DESCONSIDERADO;0,487764606270392
+NO_CID_CAUSAS_ASSOCIADAS;Disturbio desafiador e de oposicao;SEM DEFINICAO;0,473180610295103
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno psicotico agudo de tipo esquizofrenico (schizophrenia-like);SEM DEFINICAO;0,471571372039966
+NO_CID_CAUSAS_ASSOCIADAS;Alucinose organica;SEM DEFINICAO;0,471571372039966
+NO_CID_CAUSAS_ASSOCIADAS;Rastreamento de anomalias cromossomicas;SEM DEFINICAO;0,471571372039966
+NO_CID_CAUSAS_ASSOCIADAS;Esquizofrenia catatonica;SEM DEFINICAO;0,471571372039966
+NO_CID_CAUSAS_ASSOCIADAS;Esquizofrenia hebefrenica;SEM DEFINICAO;0,471571372039966
+NO_CID_CAUSAS_ASSOCIADAS;Personalidade histrionica;SEM DEFINICAO;0,471571372039966
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno delirante;FALTANTE;0,471404520791032
+NO_CID_CAUSAS_ASSOCIADAS;Sintomas fisicos aumentados por fatores psicologicos;REJEITADO;0,470432425577825
+NO_CID_CAUSAS_ASSOCIADAS;Anormalidade dos leucocitos nao classificada em outra parte;NAO INFORMADO;0,468816259327934
+NO_CID_CAUSAS_ASSOCIADAS;Menisco discoide (congenito);DESCONSIDERADO;0,464943964893801
+NO_CID_CAUSAS_ASSOCIADAS;Outras malformacoes congenitas dos ossos do cranio e da face;SEM INFORMACAO;0,464392667581764
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno somatoforme indiferenciado;NAO INFORMADO;0,460095106449523
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais associados ao puerperio, nao classificados em outra parte;NAO INFORMADO;0,449464966615458
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais graves associados ao puerperio nao classificados em outra part;NAO INFORMADO;0,449464966615458
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais leves associados ao puerperio nao classificados em outra parte;NAO INFORMADO;0,449464966615458
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos mentais e comportamentais associados ao puerperio nao classificados em outra part;NAO INFORMADO;0,449464966615458
+NO_CID_CAUSAS_ASSOCIADAS;Ansiedade generalizada;DESCONSIDERADO;0,447484556772418
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno de labilidade emocional [astenico] organico;SEM DEFINICAO;0,447371884493081
+NO_CID_CAUSAS_ASSOCIADAS;Autismo infantil;NAO INFORMADO;0,444419151623944
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia maligna da mandibula;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Anorexia nervosa;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Agorafobia;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia benigna do corpo ciliar;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno depressivo recorrente, episodio atual moderado;DESCONSIDERADO;0,437694981671005
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental moderado - comprometimento significativo do comportamento, requerendo vigilancia ou t;DESCONSIDERADO;0,437694981671005
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno depressivo recorrente, episodio atual grave sem sintomas psicoticos;SEM DEFINICAO;0,437135931059793
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental grave - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,436672893704965
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental leve - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,436672893704965
+NO_CID_CAUSAS_ASSOCIADAS;Modificacoes duradouras da personalidade nao atribuiveis a lesao ou doenca cerebral;NAO INFORMADO;0,434195205378335
+NO_CID_CAUSAS_ASSOCIADAS;Producao deliberada ou simulacao de sintomas ou de incapacidades, fisicas ou psicologicas [transtorn;SEM DEFINICAO;0,428656382144193
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental nao especificado - mencao de ausencia de ou de comprometimento minimo do comportament;SEM DEFINICAO;0,428331976601396
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental nao especificado - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,424806150680132
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos do desenvolvimento das habilidades escolares;DESCONHECIDO;0,424267404325745
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno nao especificado do desenvolvimento das habilidades escolares;DESCONHECIDO;0,422698015904069
+NO_CID_CAUSAS_ASSOCIADAS;Crise de grande mal, nao especificada (com ou sem pequeno mal);SEM DEFINICAO;0,419291114229033
+NO_CID_CAUSAS_ASSOCIADAS;Perda de audicao por transtorno de conducao e/ou neuro-sensorial;SEM DEFINICAO;0,416393458718578
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno misto de habilidades escolares;DESCONHECIDO;0,412624248275446
+NO_CID_CAUSAS_ASSOCIADAS;Demencia em outras doencas classificadas em outra parte;SEM DEFINICAO;0,412220827352091
+NO_CID_CAUSAS_ASSOCIADAS;Outras formas de coreia;NAO INFORMADO;0,40942540718208
+NO_CID_CAUSAS_ASSOCIADAS;Travestismo bivalente;FALTANTE;0,408248290463863
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos do encefalo;FALTANTE;0,408248290463863
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos do humor [afetivos] persistentes;FALTANTE;0,408248290463863
+NO_CID_CAUSAS_ASSOCIADAS;Pequeno mal nao especificado, sem crises de grande mal;SEM DEFINICAO;0,407889124113222
+NO_CID_CAUSAS_ASSOCIADAS;Disturbios do inicio e da manutencao do sono [insonias];NAO INFORMADO;0,405724944061022
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos emocionais da infancia;NAO INFORMADO;0,404932799627394
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos somatoformes;NAO INFORMADO;0,404932799627394
+NO_CID_CAUSAS_ASSOCIADAS;Mania sem sintomas psicoticos;SEM DEFINICAO;0,398296688463938
+NO_CID_CAUSAS_ASSOCIADAS;Enxaqueca sem aura [enxaqueca comum];SEM DEFINICAO;0,398296688463938
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno afetivo bipolar, episodio atual maniaco sem sintomas psicoticos;SEM DEFINICAO;0,398296688463938
+NO_CID_CAUSAS_ASSOCIADAS;Outras anormalidades e as nao especificadas da respiracao;NAO INFORMADO;0,390421552610709
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental nao especificado - outros comprometimentos do comportamento;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno neurotico nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno esquizoafetivo nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno afetivo bipolar nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno obsessivo-compulsivo nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno do humor [afetivo] nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno da personalidade e do comportamento do adulto, nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno nao especificado do sistema nervoso autonomo;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno nao especificado da personalidade;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno mioneural nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome do tunel do carpo;INDEFINIDO;0,390229817742851
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome lacunar sensorial pura;INDEFINIDO;0,390229817742851
+NO_CID_CAUSAS_ASSOCIADAS;Sindromes vasculares do tronco cerebral;INDEFINIDO;0,390229817742851
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental moderado - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,386829807168763
+NO_CID_CAUSAS_ASSOCIADAS;Depressao pos-esquizofrenica;SEM DEFINICAO;0,385036412934029
+NO_CID_CAUSAS_ASSOCIADAS;Insonia nao-organica;SEM DEFINICAO;0,385036412934029
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao especificado - sem complicacoes;SEM DEFINICAO;0,384147782974317
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno delirante persistente nao especificado;FALTANTE;0,379394177070965
+NO_CID_CAUSAS_ASSOCIADAS;Outras doencas degenerativas do sistema nervoso nao classificadas em outra parte;SEM DEFINICAO;0,378526262957414
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno delirante organico [tipo esquizofrenico];SEM DEFINICAO;0,378098251625242
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome de abstinencia com deliriu;SEM DEFINICAO;0,375510370502024
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno organico nao especificado da personalidade e do comportamento devido a doenca cerebral, l;SEM DEFINICAO;0,374520242029917
+NO_CID_CAUSAS_ASSOCIADAS;Disfuncao sexual, nao causada por transtorno ou doenca organica;NAO INFORMADO;0,366191025948531
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno dissociativo [de conversao] nao especificado;NAO INFORMADO;0,362210826323
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno mental nao especificado em outra parte;NAO INFORMADO;0,362210826323
+NO_CID_CAUSAS_ASSOCIADAS;Abscesso extradural e subdural nao especificados;NAO INFORMADO;0,362210826323
+NO_CID_CAUSAS_ASSOCIADAS;Estado de mal epileptico parcial complexo;REJEITADO;0,360410730262079
+NO_CID_CAUSAS_ASSOCIADAS;Estado de pequeno mal epileptico;REJEITADO;0,360410730262079
+NO_CID_CAUSAS_ASSOCIADAS;Estado de mal epileptico;REJEITADO;0,360410730262079
+NO_CID_CAUSAS_ASSOCIADAS;Estado de stress pos-traumatico;REJEITADO;0,360410730262079
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome amnesica;SEM DEFINICAO;0,360189821903093
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos comportamentais e emocionais com inicio habitualmente durante a infancia ou a ado;FALTANTE;0,358038016267883
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - intoxicacao aguda;SEM DEFINICAO;0,355377338973288
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos especificos misto do desenvolvimento;DESCONHECIDO;0,355374572517373
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno mental nao especificado devido a uma lesao e disfuncao cerebral e a uma doenca fisica;NAO INFORMADO;0,354763200769823
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia benigna do olho, nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno nao especificado da identidade sexual;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Episodio depressivo nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno do humor [afetivo] persistente nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno fobico-ansioso nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Outros traumatismos do torax e os nao especificados;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno mental organico ou sintomatico nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno ansioso nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno psicotico agudo e transitorio nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Esplenomegalia nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_CAUSAS_ASSOCIADAS;Surdo-mudez nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno delirante induzido;FALTANTE;0,350497059445807
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno de somatizacao;SEM DEFINICAO;0,346840763234805
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos de adaptacao;SEM DEFINICAO;0,346840763234805
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos organicos da personalidade e do comportamento devidos a doenca cerebral, lesao e ;SEM DEFINICAO;0,346081164871581
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos nao-organicos do sono devidos a fatores emocionais;SEM DEFINICAO;0,346081164871581
+NO_CID_CAUSAS_ASSOCIADAS;Reacao nao especificada a um stress grave;NAO INFORMADO;0,344537676651803
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos especificos da personalidade;DESCONHECIDO;0,341655684909167
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos especificos da personalidade;DESCONHECIDO;0,341655684909167
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno depressivo recorrente, atualmente em remissao;FALTANTE;0,341592215766932
+NO_CID_CAUSAS_ASSOCIADAS;Reabilitacao cardiaca;SEM INFORMACAO;0,341196986039784
+NO_CID_CAUSAS_ASSOCIADAS;Desemprego nao especificado;NAO INFORMADO;0,339399231101388
+NO_CID_CAUSAS_ASSOCIADAS;Aneurisma cerebral nao-roto;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Demencia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Sintomas e sinais relativos a aparencia e ao comportamento;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Gastrite nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Hanseniase [lepra] nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Esquizofrenia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Outras reacoes ao stress grave;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Demencia vascular nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Hipertensao essencial (primaria);NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Epilepsia, nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Paraplegia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno de personalidade com instabilidade emocional;SEM INFORMACAO;0,338893613611139
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno especifico da soletracao;SEM INFORMACAO;0,338893613611139
+NO_CID_CAUSAS_ASSOCIADAS;Paralisia cerebral quadriplagica espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno esquizoafetivo do tipo depressivo;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos do humor [afetivos] organicos;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Outro delirium;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Episodio depressivo grave com sintomas psicoticos;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de Huntington;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Episodios depressivos;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Outros episodios depressivos;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno afetivo bipolar, episodio atual depressivo grave com sintomas psicoticos;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno obsessivo-compulsivo com predominancia de comportamentos compulsivos [rituais obsessivos];SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Personalidade paranoica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno organico da personalidade;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Neuropatia progressiva idiopatica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de Alzheimer;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno psicotico agudo polimorfo, com sintomas esquizofrenicos;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Enxaqueca com aura [enxaqueca classica];SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Paralisia cerebral diplegica espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno expressivo de linguagem;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Distonia orofacial idiopatica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Tique motor ou vocal cronico;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Demencia na doenca de Creutzfeldt-Jakob;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Demencia na doenca de Alzheimer;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Episodio depressivo leve;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos mentais devidos a lesao e disfuncao cerebral e a doenca fisica;SEM DEFINICAO;0,332003726375334
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno de conduta nao especificado;NAO INFORMADO;0,331375316640939
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno do desenvolvimento psicologico nao especificado;NAO INFORMADO;0,331375316640939
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos globais nao especificados do desenvolvimento;NAO INFORMADO;0,331375316640939
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos comportamentais e emocionais especificados com inicio habitualmente na infancia o;SEM INFORMACAO;0,32847232092143
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de canabinoides - sindrome amnesica;SEM DEFINICAO;0,325816178710313
+NO_CID_CAUSAS_ASSOCIADAS;Hipotireoidismo congenito sem bocio;SEM DEFINICAO;0,325207884325641
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia maligna dos ossos e cartilagens articulares de membro nao especificado;NAO INFORMADO;0,323894847399071
+NO_CID_CAUSAS_ASSOCIADAS;Modificacao duradoura da personalidade, nao especificada;NAO INFORMADO;0,323556123528965
+NO_CID_CAUSAS_ASSOCIADAS;Modificacao duradoura da personalidade apos uma experiencia catastrofica;SEM DEFINICAO;0,322975385258436
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos do funcionamento social com inicio especificamente durante a infancia ou a adolescencia;FALTANTE;0,322584613392094
+NO_CID_CAUSAS_ASSOCIADAS;Tiques vocais e motores multiplos combinados [doenca de gilles de la tourette];SEM DEFINICAO;0,317176888950037
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos fobico-ansiosos;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos ansiosos;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Esquizofrenia residual;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Esquizofrenia paranoide;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Hiperatividade;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos fobico-ansiosos;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos da identidade sexual;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos psicoticos agudos e transitorios;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Outros sintomas e sinais gerais;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos ansiosos mistos;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Personalidade esquizoide;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Personalidade ansiosa [esquiva];DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos psicoticos agudos e transitorios;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental grave - comprometimento significativo do comportamento, requerendo vigilancia ou trat;IGNORADO;0,312061804893329
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental profundo - comprometimento significativo do comportamento, requerendo vigilancia ou t;IGNORADO;0,312061804893329
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental leve - comprometimento significativo do comportamento, requerendo vigilancia ou trata;IGNORADO;0,312061804893329
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno afetivo bipolar, atualmente em remissao;FALTANTE;0,311887542541047
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de doencas inflamatorias do sistema nervoso central;NAO INFORMADO;0,310487778243971
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno fobico ansioso da infancia;NAO INFORMADO;0,310487778243971
+NO_CID_CAUSAS_ASSOCIADAS;Fatores psicologicos ou comportamentais associados a doenca ou a transtornos classificados em outra ;SEM DEFINICAO;0,309963101266417
+NO_CID_CAUSAS_ASSOCIADAS;Psicose nao-organica nao especificada;NAO INFORMADO;0,306643389724991
+NO_CID_CAUSAS_ASSOCIADAS;Desnutricao proteico-calorica grave nao especificada;SEM DEFINICAO;0,305510059765532
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso da cocaina - intoxicacao aguda;NAO INFORMADO;0,304258374082834
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos mentais especificados devidos a uma lesao e disfuncao cerebral e a uma doenca fis;SEM DEFINICAO;0,304176480488518
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos especificos do desenvolvimento da fala e da linguagem;DESCONHECIDO;0,30377839135686
+NO_CID_CAUSAS_ASSOCIADAS;Demencia nao especificada na doenca de Alzheimer;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de alzheimer nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Meningite devida a outras causas e a causas nao especificadas;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Estado de grande mal epileptico;REJEITADO;0,303192818620045
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome de dependencia;SEM DEFINICAO;0,30040829640162
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de opiaceos - sindrome de dependencia;SEM DEFINICAO;0,30040829640162
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - sindrome de depende;SEM DEFINICAO;0,30040829640162
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno obsessivo-compulsivo com predominancia de ideias ou de ruminacoes obsessivas;SEM DEFINICAO;0,298247922995387
+NO_CID_CAUSAS_ASSOCIADAS;Esquizofrenia indiferenciada;INDEFINIDO;0,298122053968115
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso da cocaina - sindrome de dependencia;INDEFINIDO;0,296961393334172
+NO_CID_CAUSAS_ASSOCIADAS;Reacoes ao stress grave e transtornos de adaptacao;SEM DEFINICAO;0,296483590162613
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos de personalidade e do comportamento devidos a doenca, a lesao e a disfuncao cerebral;SEM DEFINICAO;0,294687272343369
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de solventes volateis - sindrome de dependencia;SEM DEFINICAO;0,293067041931651
+NO_CID_CAUSAS_ASSOCIADAS;Outras formas de doenca de Alzheimer;NAO INFORMADO;0,29279237220652
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - transtorno psicotico residual ou de;SEM DEFINICAO;0,292289117462681
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - sindrome de abstine;SEM DEFINICAO;0,292289117462681
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno depressivo recorrente, episodio atual grave com sintomas psicoticos;FALTANTE;0,288675134594813
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno depressivo recorrente, episodio atual leve;FALTANTE;0,288675134594813
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos depressivos recorrentes;FALTANTE;0,288675134594813
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno depressivo recorrente;FALTANTE;0,288675134594813
+NO_CID_CAUSAS_ASSOCIADAS;Macrocefalia;FALTANTE;0,288675134594813
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos de humor [afetivos] persistentes;FALTANTE;0,288675134594813
+NO_CID_CAUSAS_ASSOCIADAS;Convulsoes dissociativas;DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos mistos da conduta e das emocoes;DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno dissociativo misto [de conversao];DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos dissociativos [de conversao];DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos dissociativos [de conversao];DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno hipocondriaco;DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de canabinoides - sindrome de dependencia;SEM DEFINICAO;0,288147100076607
+NO_CID_CAUSAS_ASSOCIADAS;Estado catatonico organico;SEM DEFINICAO;0,286432442534355
+NO_CID_CAUSAS_ASSOCIADAS;Estados de transe e de possessao;SEM DEFINICAO;0,286432442534355
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno com hipercinesia associada a retardo mental e a movimentos estereotipados;IGNORADO;0,286354068334178
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos do humor [afetivos] isolados;IGNORADO;0,286354068334178
+NO_CID_CAUSAS_ASSOCIADAS;Tontura e instabilidade;NAO INFORMADO;0,286330728541384
+NO_CID_CAUSAS_ASSOCIADAS;Abscesso e granuloma intracranianos e intra-raquidianos;NAO INFORMADO;0,286330728541384
+NO_CID_CAUSAS_ASSOCIADAS;Reacao aguda ao stress;NAO INFORMADO;0,283656203238369
+NO_CID_CAUSAS_ASSOCIADAS;Acidentes vasculares cerebrais isquemicos transitorios e sindromes correlatas;DESCONSIDERADO;0,283014083430353
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental nao especificado - comprometimento significativo do comportamento, requerendo vigilan;NAO INFORMADO;0,282828809031339
+NO_CID_CAUSAS_ASSOCIADAS;Disturbios da atividade e da atencao;SEM DEFINICAO;0,281638289336996
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de outros estimulantes, inclusive a cafeina;FALTANTE;0,281270549307524
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de outros estimulantes, inclusive a cafeina - s;FALTANTE;0,281270549307524
+NO_CID_CAUSAS_ASSOCIADAS;Neuropatia hereditaria e idiopatica;REJEITADO;0,279050771897331
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - uso nocivo para a saude;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de opiaceos - uso nocivo para a saude;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de fumo - uso nocivo para a saude;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alucinogenos - outros transtornos mentais ou;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - transtorno psicotic;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de fumo;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - uso nocivo para a s;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de opiaceos - transtorno mental ou comportament;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alucinogenos;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - outros transtornos mentais ou compo;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - transtorno mental ou comportamental;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - transtorno psicotico;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de opiaceos;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alucinogenos - transtorno psicotico;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Doenca degenerativa do sistema nervoso, nao especificada;NAO INFORMADO;0,276798074961508
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome [estado] de abstinencia;SEM DEFINICAO;0,276025211458799
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome de guillain-barre;INDEFINIDO;0,275934150347161
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome pos-traumatica;INDEFINIDO;0,275934150347161
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome de Down;INDEFINIDO;0,275934150347161
+NO_CID_CAUSAS_ASSOCIADAS;Disautonomia familiar [Sindrome de Riley-Day];INDEFINIDO;0,275934150347161
+NO_CID_CAUSAS_ASSOCIADAS;Epilepsia e sindromes epilepticas generalizadas idiopaticas;SEM DEFINICAO;0,272261858589396
+NO_CID_CAUSAS_ASSOCIADAS;Disturbio de conduta nao-socializado;NAO INFORMADO;0,272101095831131
+NO_CID_CAUSAS_ASSOCIADAS;Disturbio de ansiedade social da infancia;NAO INFORMADO;0,261285839209008
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de multiplas drogas e ao uso de outras substanc;SEM DEFINICAO;0,260793955623051
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de canabinoides - sindrome [estado] de abstinen;SEM DEFINICAO;0,259611032992729
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de solventes volateis - outros transtornos ment;SEM DEFINICAO;0,257390161594063
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de solventes volateis;SEM DEFINICAO;0,257390161594063
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno especifico da articulacao da fala;SEM INFORMACAO;0,25712975328859
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos globais do desenvolvimento;SEM DEFINICAO;0,254745246009314
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos globais do desenvolvimento;SEM DEFINICAO;0,254745246009314
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos de conduta;SEM DEFINICAO;0,254745246009314
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos do desenvolvimento psicologico;SEM DEFINICAO;0,254745246009314
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno de rivalidade entre irmaos;SEM DEFINICAO;0,254745246009314
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno hipercinetico de conduta;SEM DEFINICAO;0,254745246009314
+NO_CID_CAUSAS_ASSOCIADAS;Disturbios de conduta;SEM DEFINICAO;0,254745246009314
+NO_CID_CAUSAS_ASSOCIADAS;Disturbio de conduta do tipo socializado;DESCONSIDERADO;0,24569045437957
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de canabinoides;SEM DEFINICAO;0,244716338521635
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de canabinoides - transtorno psicotico;SEM DEFINICAO;0,244716338521635
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de canabinoides - uso nocivo para a saude;SEM DEFINICAO;0,244716338521635
+NO_CID_CAUSAS_ASSOCIADAS;Degeneracao do sistema nervoso devida ao alcool;NAO INFORMADO;0,244127350632354
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos ansiosos especificados;DESCONSIDERADO;0,24309931689902
+NO_CID_CAUSAS_ASSOCIADAS;Fobias especificas (isoladas);DESCONHECIDO;0,241587051630206
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos psicoticos nao-organicos;NAO INFORMADO;0,239714164635296
+NO_CID_CAUSAS_ASSOCIADAS;Aversao sexual e ausencia de prazer sexual;NAO INFORMADO;0,239714164635296
+NO_CID_CAUSAS_ASSOCIADAS;Outro transtorno desintegrativo da infancia;NAO INFORMADO;0,237711572374545
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos da ansiedade organicos;SEM DEFINICAO;0,235785686019983
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno misto ansioso e depressivo;SEM DEFINICAO;0,235785686019983
+NO_CID_CAUSAS_ASSOCIADAS;Personalidade dependente;FALTANTE;0,235702260395516
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso da cocaina - sindrome [estado] de abstinencia;INDEFINIDO;0,234428643328805
+NO_CID_CAUSAS_ASSOCIADAS;Outras epilepsias e sindromes epilepticas generalizadas;INDEFINIDO;0,225299290319654
+NO_CID_CAUSAS_ASSOCIADAS;Sindromes epilepticas especiais;INDEFINIDO;0,225299290319654
+NO_CID_CAUSAS_ASSOCIADAS;Lupus eritematoso disseminado [sistemico];SEM DEFINICAO;0,223341768691137
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos especificados do encefalo;FALTANTE;0,220722706939907
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos neuroticos especificados;DESCONHECIDO;0,219578640748761
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso da cocaina - transtorno mental ou comportamenta;NAO INFORMADO;0,205803947682706
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso da cocaina - uso nocivo para a saude;NAO INFORMADO;0,205803947682706
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso da cocaina;NAO INFORMADO;0,205803947682706
+NO_CID_CAUSAS_ASSOCIADAS;Disturbio de conduta restrito ao contexto familiar;DESCONHECIDO;0,201478730713358
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso da cocaina - transtorno psicotico residual ou d;NAO INFORMADO;0,175923650696442
+NO_CID_PRINCIPAL;Neoplasia de comportamento incerto ou desconhecido do ureter;DESCONHECIDO;0,774539101100174
+NO_CID_PRINCIPAL;Neoplasia de comportamento incerto ou desconhecido da pelve renal;DESCONHECIDO;0,774539101100174
+NO_CID_PRINCIPAL;Neoplasia de comportamento incerto ou desconhecido da glandula hipofise (pituitaria);DESCONHECIDO;0,748765850220992
+NO_CID_PRINCIPAL;Causas desconhecidas e nao especificadas de morbidade;DESCONHECIDO;0,71588310741167
+NO_CID_PRINCIPAL;Neoplasia de comportamento incerto ou desconhecido do encefalo, infratentorial;DESCONHECIDO;0,636682565351065
+NO_CID_PRINCIPAL;Epilepsia e sindromes epilepticas sintomaticas definidas por sua localizacao (focal) (parcial) com c;SEM DEFINICAO;0,617700273508778
+NO_CID_PRINCIPAL;Epilepsia e sindromes epilepticas idiopaticas definidas por sua localizacao (focal) (parcial) com cr;SEM DEFINICAO;0,617700273508778
+NO_CID_PRINCIPAL;Enurese de origem nao-organica;SEM DEFINICAO;0,570341956797627
+NO_CID_PRINCIPAL;Peste, forma nao especificada;NAO INFORMADO;0,566413716730108
+NO_CID_PRINCIPAL;Retardo mental moderado;DESCONSIDERADO;0,560195355398637
+NO_CID_PRINCIPAL;Retardo mental moderado - outros comprometimentos do comportamento;DESCONSIDERADO;0,560195355398637
+NO_CID_PRINCIPAL;Outras perdas de audicao;SEM DEFINICAO;0,549271959004213
+NO_CID_PRINCIPAL;Transtorno somatoforme nao especificado;NAO INFORMADO;0,539414089104307
+NO_CID_PRINCIPAL;Transtorno do funcionamento social da infancia nao especificado;NAO INFORMADO;0,539414089104307
+NO_CID_PRINCIPAL;Transtornos especificos do desenvolvimento das habilidades escolares;DESCONHECIDO;0,525358550428912
+NO_CID_PRINCIPAL;Transtorno afetivo bipolar, episodio atual depressivo grave sem sintomas psicoticos;SEM DEFINICAO;0,519451664262583
+NO_CID_PRINCIPAL;Transtorno psicotico agudo polimorfo, sem sintomas esquizofrenicos;SEM DEFINICAO;0,519451664262583
+NO_CID_PRINCIPAL;Episodio depressivo grave sem sintomas psicoticos;SEM DEFINICAO;0,519451664262583
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente sem especificacao;SEM DEFINICAO;0,516646172082605
+NO_CID_PRINCIPAL;Retardo mental leve - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,514603712901809
+NO_CID_PRINCIPAL;Retardo mental profundo - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,514603712901809
+NO_CID_PRINCIPAL;Retardo mental grave - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,514603712901809
+NO_CID_PRINCIPAL;Outro retardo mental - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,514603712901809
+NO_CID_PRINCIPAL;Transtorno de panico [ansiedade paroxistica episodica];SEM DEFINICAO;0,504131002166989
+NO_CID_PRINCIPAL;Transtorno obsessivo-compulsivo, forma mista, com ideias obsessivas e comportamentos compulsivos;SEM INFORMACAO;0,50281261699606
+NO_CID_PRINCIPAL;Outros transtornos psicoticos agudos, essencialmente delirantes;FALTANTE;0,5
+NO_CID_PRINCIPAL;Outros transtornos delirantes persistentes;FALTANTE;0,5
+NO_CID_PRINCIPAL;Transtornos delirantes persistentes;FALTANTE;0,5
+NO_CID_PRINCIPAL;Delirium nao induzido pelo alcool ou por outras substancias psicoativas;NAO INFORMADO;0,496571571850753
+NO_CID_PRINCIPAL;Anemia por deficiencia de ferro;SEM DEFINICAO;0,490506911350497
+NO_CID_PRINCIPAL;Demencia vascular de inicio agudo;SEM DEFINICAO;0,488766101922228
+NO_CID_PRINCIPAL;Doenca de alzheimer de inicio precoce;SEM DEFINICAO;0,48843366809377
+NO_CID_PRINCIPAL;Demencia na doenca de Alzheimer de inicio tardio;SEM DEFINICAO;0,48843366809377
+NO_CID_PRINCIPAL;Demencia na doenca de Alzheimer de inicio precoce;SEM DEFINICAO;0,48843366809377
+NO_CID_PRINCIPAL;Episodio depressivo moderado;DESCONSIDERADO;0,487764606270392
+NO_CID_PRINCIPAL;Transtorno afetivo bipolar, episodio atual depressivo leve ou moderado;DESCONSIDERADO;0,487764606270392
+NO_CID_PRINCIPAL;Cistos foliculares da pele e do tecido subcutaneo;DESCONHECIDO;0,481076533702504
+NO_CID_PRINCIPAL;Disturbio desafiador e de oposicao;SEM DEFINICAO;0,473180610295103
+NO_CID_PRINCIPAL;Alucinose organica;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Personalidade histrionica;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Esquizofrenia catatonica;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Esquizofrenia hebefrenica;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Transtorno psicotico agudo de tipo esquizofrenico (schizophrenia-like);SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Outros traumatismos superficiais da parede anterior do torax;FALTANTE;0,471404520791032
+NO_CID_PRINCIPAL;Transtorno delirante;FALTANTE;0,471404520791032
+NO_CID_PRINCIPAL;Fratura pertrocanterica;FALTANTE;0,471404520791032
+NO_CID_PRINCIPAL;Sintomas fisicos aumentados por fatores psicologicos;REJEITADO;0,470432425577825
+NO_CID_PRINCIPAL;Anormalidades da respiracao;SEM INFORMACAO;0,464392667581764
+NO_CID_PRINCIPAL;Enxaqueca, sem especificacao;SEM DEFINICAO;0,461841371487341
+NO_CID_PRINCIPAL;Transtorno somatoforme indiferenciado;NAO INFORMADO;0,460095106449523
+NO_CID_PRINCIPAL;Transtorno de alimentacao na infancia;SEM INFORMACAO;0,451259217165636
+NO_CID_PRINCIPAL;Disturbio reativo de vinculacao da infancia;SEM INFORMACAO;0,451259217165636
+NO_CID_PRINCIPAL;Outros transtornos mentais e comportamentais associados ao puerperio nao classificados em outra part;NAO INFORMADO;0,449464966615458
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais associados ao puerperio, nao classificados em outra parte;NAO INFORMADO;0,449464966615458
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais leves associados ao puerperio nao classificados em outra parte;NAO INFORMADO;0,449464966615458
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais graves associados ao puerperio nao classificados em outra part;NAO INFORMADO;0,449464966615458
+NO_CID_PRINCIPAL;Ansiedade generalizada;DESCONSIDERADO;0,447484556772418
+NO_CID_PRINCIPAL;Transtorno de labilidade emocional [astenico] organico;SEM DEFINICAO;0,447371884493081
+NO_CID_PRINCIPAL;Autismo infantil;NAO INFORMADO;0,444419151623944
+NO_CID_PRINCIPAL;Transtorno mental e comportamental associado ao puerperio, nao especificado;NAO INFORMADO;0,441985258434902
+NO_CID_PRINCIPAL;Neoplasia benigna da boca e da faringe;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da coluna vertebral;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Agorafobia;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da orofaringe;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia benigna do assoalho da boca;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia benigna do peritonio;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Anorexia nervosa;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Retardo mental moderado - comprometimento significativo do comportamento, requerendo vigilancia ou t;DESCONSIDERADO;0,437694981671005
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente, episodio atual moderado;DESCONSIDERADO;0,437694981671005
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente, episodio atual grave sem sintomas psicoticos;SEM DEFINICAO;0,437135931059793
+NO_CID_PRINCIPAL;Retardo mental grave - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,436672893704965
+NO_CID_PRINCIPAL;Retardo mental profundo - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,436672893704965
+NO_CID_PRINCIPAL;Outro retardo mental - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,436672893704965
+NO_CID_PRINCIPAL;Retardo mental leve - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,436672893704965
+NO_CID_PRINCIPAL;Ceratodermia em doencas classificadas em outra parte;SEM DEFINICAO;0,436474404157332
+NO_CID_PRINCIPAL;Agitacao e inquietacao;SEM INFORMACAO;0,436108249261982
+NO_CID_PRINCIPAL;Modificacoes duradouras da personalidade nao atribuiveis a lesao ou doenca cerebral;NAO INFORMADO;0,434195205378335
+NO_CID_PRINCIPAL;Producao deliberada ou simulacao de sintomas ou de incapacidades, fisicas ou psicologicas [transtorn;SEM DEFINICAO;0,428656382144193
+NO_CID_PRINCIPAL;Retardo mental nao especificado - mencao de ausencia de ou de comprometimento minimo do comportament;SEM DEFINICAO;0,428331976601396
+NO_CID_PRINCIPAL;Neoplasia benigna de tecido mesotelial;DESCONHECIDO;0,427004639535053
+NO_CID_PRINCIPAL;Transtornos da alimentacao;SEM INFORMACAO;0,426473482223048
+NO_CID_PRINCIPAL;Retardo mental nao especificado - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,424806150680132
+NO_CID_PRINCIPAL;Transtorno nao especificado do desenvolvimento das habilidades escolares;DESCONHECIDO;0,422698015904069
+NO_CID_PRINCIPAL;Crise de grande mal, nao especificada (com ou sem pequeno mal);SEM DEFINICAO;0,419291114229033
+NO_CID_PRINCIPAL;Achados anormais, de exames para diagnostico por imagem, da mama;IGNORADO;0,417121947932633
+NO_CID_PRINCIPAL;Orientacao sexual egodistonica;SEM DEFINICAO;0,416750737206727
+NO_CID_PRINCIPAL;Hemopericardio como complicacao atual subsequente ao infarto agudo do miocardio;NAO INFORMADO;0,413994047731963
+NO_CID_PRINCIPAL;Transtorno misto de habilidades escolares;DESCONHECIDO;0,412624248275446
+NO_CID_PRINCIPAL;Demencia em outras doencas classificadas em outra parte;SEM DEFINICAO;0,412220827352091
+NO_CID_PRINCIPAL;Abscesso e granuloma intracranianos e intraspinais em doencas classificadas em outra parte;SEM DEFINICAO;0,411597004994622
+NO_CID_PRINCIPAL;Outras formas de coreia;NAO INFORMADO;0,40942540718208
+NO_CID_PRINCIPAL;Cefaleia;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Outros transtornos do encefalo;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Outros transtornos do humor [afetivos] recorrentes;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Outros transtornos do humor [afetivos] persistentes;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Microcefalia;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Pequeno mal nao especificado, sem crises de grande mal;SEM DEFINICAO;0,407889124113222
+NO_CID_PRINCIPAL;Demencia em outras doencas especificadas classificadas em outra parte;SEM DEFINICAO;0,407740059816488
+NO_CID_PRINCIPAL;Demencia por infartos multiplos;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Outros transtornos do funcionamento social na infancia;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Outros transtornos emocionais da infancia;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Outros transtornos somatoformes;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Transtorno neurovegetativo somatoforme;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Transtornos somatoformes;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Transtorno afetivo bipolar, episodio atual maniaco sem sintomas psicoticos;SEM DEFINICAO;0,398296688463938
+NO_CID_PRINCIPAL;Mania sem sintomas psicoticos;SEM DEFINICAO;0,398296688463938
+NO_CID_PRINCIPAL;Enxaqueca sem aura [enxaqueca comum];SEM DEFINICAO;0,398296688463938
+NO_CID_PRINCIPAL;Abuso de substancias que nao produzem dependencia;SEM DEFINICAO;0,397297896278385
+NO_CID_PRINCIPAL;Sindrome da pele escaldada estafilococica do recem-nascido;DESCONHECIDO;0,394068268282368
+NO_CID_PRINCIPAL;Outras anormalidades e as nao especificadas da respiracao;NAO INFORMADO;0,390421552610709
+NO_CID_PRINCIPAL;Transtorno nao especificado da personalidade;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno nao especificado do sistema nervoso autonomo;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno obsessivo-compulsivo nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Seguimento cirurgico nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Episodio maniaco nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno do humor [afetivo] nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno hipercinetico nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Retardo mental nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno da personalidade e do comportamento do adulto, nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno afetivo bipolar nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Tique nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno neurotico nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Delirium nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno dos habitos e impulsos, nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno esquizoafetivo nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Retardo mental nao especificado - outros comprometimentos do comportamento;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Sindromes vasculares do tronco cerebral;INDEFINIDO;0,390229817742851
+NO_CID_PRINCIPAL;Retardo mental moderado - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,38821983486761
+NO_CID_PRINCIPAL;Retardo mental moderado - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,386829807168763
+NO_CID_PRINCIPAL;Outros disturbios do metabolismo de aminoacidos de cadeia ramificada;SEM DEFINICAO;0,386085242391095
+NO_CID_PRINCIPAL;Insonia nao-organica;SEM DEFINICAO;0,385036412934029
+NO_CID_PRINCIPAL;Depressao pos-esquizofrenica;SEM DEFINICAO;0,385036412934029
+NO_CID_PRINCIPAL;Transtorno delirante persistente nao especificado;FALTANTE;0,379394177070965
+NO_CID_PRINCIPAL;Transtorno delirante organico [tipo esquizofrenico];SEM DEFINICAO;0,378098251625242
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome de abstinencia com deliriu;SEM DEFINICAO;0,375510370502024
+NO_CID_PRINCIPAL;Transtorno organico nao especificado da personalidade e do comportamento devido a doenca cerebral, l;SEM DEFINICAO;0,374520242029917
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina - sindrome de abstinencia com deliri;SEM DEFINICAO;0,374077837677455
+NO_CID_PRINCIPAL;Doenca pelo HIV resultando em doenca infecciosa ou parasitaria nao especificada;NAO INFORMADO;0,364812458567365
+NO_CID_PRINCIPAL;Transtorno do sono devido a fatores nao-organicos nao especificados;NAO INFORMADO;0,364304580091773
+NO_CID_PRINCIPAL;Abscesso extradural e subdural nao especificados;NAO INFORMADO;0,362210826323
+NO_CID_PRINCIPAL;Transtorno mental nao especificado em outra parte;NAO INFORMADO;0,362210826323
+NO_CID_PRINCIPAL;Transtorno misto da conduta e das emocoes nao especificado;NAO INFORMADO;0,362210826323
+NO_CID_PRINCIPAL;Transtorno dissociativo [de conversao] nao especificado;NAO INFORMADO;0,362210826323
+NO_CID_PRINCIPAL;Estado de pequeno mal epileptico;REJEITADO;0,360410730262079
+NO_CID_PRINCIPAL;Estado de stress pos-traumatico;REJEITADO;0,360410730262079
+NO_CID_PRINCIPAL;Estado de mal epileptico parcial complexo;REJEITADO;0,360410730262079
+NO_CID_PRINCIPAL;Estado de mal epileptico;REJEITADO;0,360410730262079
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome amnesica;SEM DEFINICAO;0,360189821903093
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - sindrome amnesica;SEM DEFINICAO;0,360189821903093
+NO_CID_PRINCIPAL;Outros transtornos comportamentais e emocionais com inicio habitualmente durante a infancia ou a ado;FALTANTE;0,358038016267883
+NO_CID_PRINCIPAL;Demencia na doenca de Alzheimer, forma atipica ou mista;NAO INFORMADO;0,356567358561818
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - intoxicacao aguda;SEM DEFINICAO;0,355377338973288
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alucinogenos - intoxicacao aguda;SEM DEFINICAO;0,355377338973288
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - intoxicacao aguda;SEM DEFINICAO;0,355377338973288
+NO_CID_PRINCIPAL;Transtornos especificos misto do desenvolvimento;DESCONHECIDO;0,355374572517373
+NO_CID_PRINCIPAL;Transtorno especifico do desenvolvimento motor;DESCONHECIDO;0,355374572517373
+NO_CID_PRINCIPAL;Outros recem-nascidos de peso baixo;DESCONHECIDO;0,355374572517373
+NO_CID_PRINCIPAL;Transtorno mental nao especificado devido a uma lesao e disfuncao cerebral e a uma doenca fisica;NAO INFORMADO;0,354763200769823
+NO_CID_PRINCIPAL;Hidrocefalia de pressao normal;NAO INFORMADO;0,353153990880645
+NO_CID_PRINCIPAL;Sequelas de traumatismo intracraniano;NAO INFORMADO;0,352619555596149
+NO_CID_PRINCIPAL;Transtorno do humor [afetivo] persistente nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Transtorno ansioso nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Episodio depressivo nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Leucemia aguda de tipo celular nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Transtorno mental organico ou sintomatico nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Transtorno psicotico agudo e transitorio nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Transtorno fobico-ansioso nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Transtorno nao especificado da identidade sexual;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Surdo-mudez nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides - sindrome de abstinencia com d;SEM DEFINICAO;0,351162507153243
+NO_CID_PRINCIPAL;Transtorno delirante induzido;FALTANTE;0,350497059445807
+NO_CID_PRINCIPAL;Dislexia e outras disfuncoes simbolicas, nao classificadas em outra parte;SEM DEFINICAO;0,349198150388408
+NO_CID_PRINCIPAL;Algumas complicacoes precoces dos traumatismos nao classificadas em outra parte;SEM DEFINICAO;0,349198150388408
+NO_CID_PRINCIPAL;Pessoas em contato com os servicos de saude para outros aconselhamentos e conselho medico, nao class;DESCONSIDERADO;0,348456022307846
+NO_CID_PRINCIPAL;Estado de mal epileptico, nao especificado;NAO INFORMADO;0,347569445156689
+NO_CID_PRINCIPAL;Transtornos de adaptacao;SEM DEFINICAO;0,346840763234805
+NO_CID_PRINCIPAL;Transtorno de somatizacao;SEM DEFINICAO;0,346840763234805
+NO_CID_PRINCIPAL;Transtorno do ciclo vigilia-sono devido a fatores nao-organicos;SEM DEFINICAO;0,346081164871581
+NO_CID_PRINCIPAL;Outros transtornos organicos da personalidade e do comportamento devidos a doenca cerebral, lesao e ;SEM DEFINICAO;0,346081164871581
+NO_CID_PRINCIPAL;Transtornos nao-organicos do sono devidos a fatores emocionais;SEM DEFINICAO;0,346081164871581
+NO_CID_PRINCIPAL;Delirium nao superposto a uma demencia, assim descrito;SEM DEFINICAO;0,34460659134417
+NO_CID_PRINCIPAL;Reacao nao especificada a um stress grave;NAO INFORMADO;0,344537676651803
+NO_CID_PRINCIPAL;Transtornos especificos da personalidade;DESCONHECIDO;0,341655684909167
+NO_CID_PRINCIPAL;Outros transtornos especificos da personalidade;DESCONHECIDO;0,341655684909167
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente, atualmente em remissao;FALTANTE;0,341592215766932
+NO_CID_PRINCIPAL;Sindrome amnesica organica nao induzida pelo alcool ou por outras substancias psicoativas;NAO INFORMADO;0,339942476989895
+NO_CID_PRINCIPAL;Esquizofrenia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Epilepsia, nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Outras reacoes ao stress grave;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Demencia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Outros sintomas e sinais relativos ao aparelho digestivo e ao abdome;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Hernia abdominal nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Demencia vascular nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Bronquite aguda nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Transtorno da maturacao sexual;SEM INFORMACAO;0,338893613611139
+NO_CID_PRINCIPAL;Luxacao da vertebra lombar;SEM INFORMACAO;0,338893613611139
+NO_CID_PRINCIPAL;Transtorno de personalidade com instabilidade emocional;SEM INFORMACAO;0,338893613611139
+NO_CID_PRINCIPAL;Transtorno especifico da soletracao;SEM INFORMACAO;0,338893613611139
+NO_CID_PRINCIPAL;Transtornos emocionais com inicio especificamente na infancia;SEM INFORMACAO;0,335840504491122
+NO_CID_PRINCIPAL;Doenca de Parkinson;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia vascular mista, cortical e subcortical;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia na doenca de Parkinson;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doencas reumaticas da valva aortica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia na doenca de Alzheimer;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia vascular subcortical;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Bulimia nervosa atipica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outros episodios depressivos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtorno afetivo bipolar, episodio atual depressivo grave com sintomas psicoticos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Delirium superposto a uma demencia;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de Alzheimer;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de Huntington;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Afeccoes hipertroficas da pele;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outro delirium;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtorno dissociativo organico;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia na doenca de Huntington;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Episodios depressivos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtornos do humor [afetivos] organicos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtorno esquizoafetivo do tipo depressivo;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtorno psicotico agudo polimorfo, com sintomas esquizofrenicos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtorno expressivo de linguagem;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia da doenca de Pick;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Personalidade paranoica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de refluxo gastroesofagico com esofagite;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Episodio depressivo leve;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Miopatia alcoolica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Personalidade anancastica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Episodio depressivo grave com sintomas psicoticos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de Hallervorden-Spatz;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Uso de droga;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outras sindromes de algias cefalicas;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtorno organico da personalidade;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtorno obsessivo-compulsivo com predominancia de comportamentos compulsivos [rituais obsessivos];SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outros transtornos mentais devidos a lesao e disfuncao cerebral e a doenca fisica;SEM DEFINICAO;0,332003726375334
+NO_CID_PRINCIPAL;Transtornos globais nao especificados do desenvolvimento;NAO INFORMADO;0,331375316640939
+NO_CID_PRINCIPAL;Transtorno de conduta nao especificado;NAO INFORMADO;0,331375316640939
+NO_CID_PRINCIPAL;Transtorno do desenvolvimento psicologico nao especificado;NAO INFORMADO;0,331375316640939
+NO_CID_PRINCIPAL;Degeneracao cerebral senil, nao classificadas em outra parte;NAO INFORMADO;0,331244675716182
+NO_CID_PRINCIPAL;Iridociclite aguda e subaguda;INDEFINIDO;0,32959431670863
+NO_CID_PRINCIPAL;Outros transtornos comportamentais e emocionais especificados com inicio habitualmente na infancia o;SEM INFORMACAO;0,32847232092143
+NO_CID_PRINCIPAL;Efeito toxico de metal, nao especificado;NAO INFORMADO;0,323894847399071
+NO_CID_PRINCIPAL;Neoplasia benigna do encefalo, nao especificado;NAO INFORMADO;0,323894847399071
+NO_CID_PRINCIPAL;Modificacao duradoura da personalidade, nao especificada;NAO INFORMADO;0,323556123528965
+NO_CID_PRINCIPAL;Modificacao duradoura da personalidade apos doenca psiquiatrica;SEM DEFINICAO;0,322975385258436
+NO_CID_PRINCIPAL;Modificacao duradoura da personalidade apos uma experiencia catastrofica;SEM DEFINICAO;0,322975385258436
+NO_CID_PRINCIPAL;Transtorno ligado a angustia de separacao;SEM DEFINICAO;0,32270721655822
+NO_CID_PRINCIPAL;Transtornos do funcionamento social com inicio especificamente durante a infancia ou a adolescencia;FALTANTE;0,322584613392094
+NO_CID_PRINCIPAL;Tiques vocais e motores multiplos combinados [doenca de gilles de la tourette];SEM DEFINICAO;0,317176888950037
+NO_CID_PRINCIPAL;Esquizofrenia paranoide;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outros transtornos psicoticos agudos e transitorios;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Transtornos fobico-ansiosos;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Personalidade ansiosa [esquiva];DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outros transtornos ansiosos mistos;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outros transtornos ansiosos;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Transtornos psicoticos agudos e transitorios;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Personalidade esquizoide;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Esquizofrenia residual;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outros sintomas e sinais gerais;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Colera;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outros transtornos fobico-ansiosos;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Hiperatividade;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Transtornos da identidade sexual;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outros exames e investigacoes especiais de pessoas sem queixa ou diagnostico relatado;SEM DEFINICAO;0,315913481386234
+NO_CID_PRINCIPAL;Sintomas e sinais relativos a ingestao de alimentos e liquidos;NAO INFORMADO;0,31377623201944
+NO_CID_PRINCIPAL;Outro retardo mental - comprometimento significativo do comportamento, requerendo vigilancia ou trat;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Retardo mental profundo - comprometimento significativo do comportamento, requerendo vigilancia ou t;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Neoplasia benigna dos orgaos genitais masculinos;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Anorexia nervosa atipica;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Retardo mental leve - comprometimento significativo do comportamento, requerendo vigilancia ou trata;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Retardo mental grave - comprometimento significativo do comportamento, requerendo vigilancia ou trat;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Transtorno afetivo bipolar, atualmente em remissao;FALTANTE;0,311887542541047
+NO_CID_PRINCIPAL;Neoplasia maligna dos ossos curtos dos membros inferiores;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Sequelas de doencas inflamatorias do sistema nervoso central;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Transtorno doloroso somatoforme persistente;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Transtorno fobico ansioso da infancia;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Fatores psicologicos ou comportamentais associados a doenca ou a transtornos classificados em outra ;SEM DEFINICAO;0,309963101266417
+NO_CID_PRINCIPAL;Transtorno nao especificado do desenvolvimento da fala ou da linguagem;NAO INFORMADO;0,307275135896818
+NO_CID_PRINCIPAL;Psicose nao-organica nao especificada;NAO INFORMADO;0,306643389724991
+NO_CID_PRINCIPAL;Contato com bebidas, alimentos, gordura e oleo de cozinha quentes - areas de comercio e de servicos;SEM DEFINICAO;0,305626152665111
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina - intoxicacao aguda;NAO INFORMADO;0,304258374082834
+NO_CID_PRINCIPAL;Outros transtornos mentais especificados devidos a uma lesao e disfuncao cerebral e a uma doenca fis;SEM DEFINICAO;0,304176480488518
+NO_CID_PRINCIPAL;Transtornos especificos do desenvolvimento da fala e da linguagem;DESCONHECIDO;0,30377839135686
+NO_CID_PRINCIPAL;Demencia nao especificada na doenca de Alzheimer;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Doenca de alzheimer nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Pessoa com medo de uma queixa para a qual nao foi feito diagnostico;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Encefalopatia nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Meningite devida a outras causas e a causas nao especificadas;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Estado de grande mal epileptico;REJEITADO;0,303192818620045
+NO_CID_PRINCIPAL;Acidente vascular cerebral, nao especificado como hemorragico ou isquemico;NAO INFORMADO;0,30128271583352
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de opiaceos - sindrome de dependencia;SEM DEFINICAO;0,30040829640162
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de fumo - sindrome de dependencia;SEM DEFINICAO;0,30040829640162
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alucinogenos - sindrome de dependencia;SEM DEFINICAO;0,30040829640162
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome de dependencia;SEM DEFINICAO;0,30040829640162
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - sindrome de depende;SEM DEFINICAO;0,30040829640162
+NO_CID_PRINCIPAL;Transtorno obsessivo-compulsivo com predominancia de ideias ou de ruminacoes obsessivas;SEM DEFINICAO;0,298247922995387
+NO_CID_PRINCIPAL;Distonia induzida por drogas;INDEFINIDO;0,298122053968115
+NO_CID_PRINCIPAL;Esquizofrenia indiferenciada;INDEFINIDO;0,298122053968115
+NO_CID_PRINCIPAL;Sindrome de despersonalizacao-desrealizacao;SEM DEFINICAO;0,297956560434953
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina - sindrome de dependencia;INDEFINIDO;0,296961393334172
+NO_CID_PRINCIPAL;Amputacao traumatica da perna;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Reacoes ao stress grave e transtornos de adaptacao;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides - transtorno psicotico residual;DESCONSIDERADO;0,295762380269835
+NO_CID_PRINCIPAL;Transtornos de personalidade e do comportamento devidos a doenca, a lesao e a disfuncao cerebral;SEM DEFINICAO;0,294687272343369
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de solventes volateis - sindrome de dependencia;SEM DEFINICAO;0,293067041931651
+NO_CID_PRINCIPAL;Outras formas de doenca de Alzheimer;NAO INFORMADO;0,29279237220652
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - sindrome de abstine;SEM DEFINICAO;0,292289117462681
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - transtorno psicotico residual ou de;SEM DEFINICAO;0,292289117462681
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de fumo - transtorno psicotico residual ou de i;SEM DEFINICAO;0,292289117462681
+NO_CID_PRINCIPAL;Transtornos de humor [afetivos] persistentes;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Outros transtornos depressivos recorrentes;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente, episodio atual grave com sintomas psicoticos;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente, episodio atual leve;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Cefaleia tensional;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Transtorno dissociativo misto [de conversao];DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Outros transtornos dissociativos [de conversao];DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Convulsoes dissociativas;DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Transtornos dissociativos [de conversao];DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Outros transtornos mistos da conduta e das emocoes;DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Transtorno hipocondriaco;DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides - sindrome de dependencia;SEM DEFINICAO;0,288147100076607
+NO_CID_PRINCIPAL;Estados de transe e de possessao;SEM DEFINICAO;0,286432442534355
+NO_CID_PRINCIPAL;Estado catatonico organico;SEM DEFINICAO;0,286432442534355
+NO_CID_PRINCIPAL;Transtorno com hipercinesia associada a retardo mental e a movimentos estereotipados;IGNORADO;0,286354068334178
+NO_CID_PRINCIPAL;Outros transtornos do humor [afetivos] isolados;IGNORADO;0,286354068334178
+NO_CID_PRINCIPAL;Tontura e instabilidade;NAO INFORMADO;0,286330728541384
+NO_CID_PRINCIPAL;Reacao aguda ao stress;NAO INFORMADO;0,283656203238369
+NO_CID_PRINCIPAL;Acidentes vasculares cerebrais isquemicos transitorios e sindromes correlatas;DESCONSIDERADO;0,283014083430353
+NO_CID_PRINCIPAL;Retardo mental nao especificado - comprometimento significativo do comportamento, requerendo vigilan;NAO INFORMADO;0,282828809031339
+NO_CID_PRINCIPAL;Disturbios da atividade e da atencao;SEM DEFINICAO;0,281638289336996
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de outros estimulantes, inclusive a cafeina - u;FALTANTE;0,281270549307524
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de outros estimulantes, inclusive a cafeina - s;FALTANTE;0,281270549307524
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de outros estimulantes, inclusive a cafeina;FALTANTE;0,281270549307524
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de fumo - uso nocivo para a saude;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de opiaceos - transtorno mental ou comportament;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - uso nocivo para a s;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de opiaceos - transtorno psicotico;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de fumo;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de opiaceos - uso nocivo para a saude;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Outros transtornos de desenvolvimento da fala ou da linguagem;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de fumo - transtorno mental ou comportamental n;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alucinogenos;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alucinogenos - uso nocivo para a saude;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - outros transtornos mentais ou compo;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de opiaceos;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - transtorno mental ou comportamental;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - uso nocivo para a saude;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - transtorno psicotico;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - transtorno psicotic;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de fumo - outros transtornos mentais ou comport;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - outros transtornos ;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Sindrome de down nao especificada;NAO INFORMADO;0,276798074961508
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome [estado] de abstinencia;SEM DEFINICAO;0,276025211458799
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de opiaceos - sindrome [estado] de abstinencia;SEM DEFINICAO;0,276025211458799
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alucinogenos - sindrome [estado] de abstinen;SEM DEFINICAO;0,276025211458799
+NO_CID_PRINCIPAL;Sindrome pos-traumatica;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Disautonomia familiar [Sindrome de Riley-Day];INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Sindrome de Down;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Sindrome de Rett;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Sindrome de asperger;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Afasia adquirida com epilepsia [sindrome de landau-kleffner];INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Epilepsia e sindromes epilepticas generalizadas idiopaticas;SEM DEFINICAO;0,272261858589396
+NO_CID_PRINCIPAL;Disturbio de conduta nao-socializado;NAO INFORMADO;0,272101095831131
+NO_CID_PRINCIPAL;Contusao do torax;IGNORADO;0,267917214928655
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de solventes volateis - sindrome [estado] de ab;SEM DEFINICAO;0,266081799380172
+NO_CID_PRINCIPAL;Reabilitacao de alcoolatra;SEM DEFINICAO;0,263159517615826
+NO_CID_PRINCIPAL;Disturbio de ansiedade social da infancia;NAO INFORMADO;0,261285839209008
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de multiplas drogas e ao uso de outras substanc;SEM DEFINICAO;0,260793955623051
+NO_CID_PRINCIPAL;Sindromes comportamentais associados a transtornos das funcoes fisiologicas e a fatores fisicos, nao;NAO INFORMADO;0,260453009123606
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides - sindrome [estado] de abstinen;SEM DEFINICAO;0,259611032992729
+NO_CID_PRINCIPAL;Transtornos psicologicos e comportamentais associados ao desenvolvimento sexual e a sua orientacao;SEM DEFINICAO;0,259486246382832
+NO_CID_PRINCIPAL;Achados anormais de material proveniente dos orgaos genitais masculinos;IGNORADO;0,259333547144541
+NO_CID_PRINCIPAL;Hiperfuncao da hipofise;NAO INFORMADO;0,258989614139512
+NO_CID_PRINCIPAL;Contusao da mama;NAO INFORMADO;0,258989614139512
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de solventes volateis;SEM DEFINICAO;0,257390161594063
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de solventes volateis - outros transtornos ment;SEM DEFINICAO;0,257390161594063
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de solventes volateis - transtorno psicotico;SEM DEFINICAO;0,257390161594063
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de solventes volateis - uso nocivo para a saude;SEM DEFINICAO;0,257390161594063
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de opiaceos - transtorno psicotico residual ou ;SEM DEFINICAO;0,257390161594063
+NO_CID_PRINCIPAL;Transtorno especifico da articulacao da fala;SEM INFORMACAO;0,25712975328859
+NO_CID_PRINCIPAL;Transtornos mistos de conduta e das emocoes;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Transtorno hipercinetico de conduta;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Outros transtornos do desenvolvimento psicologico;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Transtornos globais do desenvolvimento;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Outros transtornos de conduta;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Outros transtornos do desenvolvimento psicossexual;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Outros transtornos globais do desenvolvimento;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Aumento de volume dos ganglios linfaticos;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Disturbios de conduta;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Disturbio de conduta do tipo socializado;DESCONSIDERADO;0,24569045437957
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides - transtorno mental ou comporta;SEM DEFINICAO;0,244716338521635
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides - transtorno psicotico;SEM DEFINICAO;0,244716338521635
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides;SEM DEFINICAO;0,244716338521635
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides - uso nocivo para a saude;SEM DEFINICAO;0,244716338521635
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de canabinoides - outros transtornos mentais ou;SEM DEFINICAO;0,244716338521635
+NO_CID_PRINCIPAL;Outros transtornos ansiosos especificados;DESCONSIDERADO;0,24309931689902
+NO_CID_PRINCIPAL;Exame psiquiatrico geral, requerido por autoridade;DESCONSIDERADO;0,241733426283344
+NO_CID_PRINCIPAL;Fobias especificas (isoladas);DESCONHECIDO;0,241587051630206
+NO_CID_PRINCIPAL;Aversao sexual e ausencia de prazer sexual;NAO INFORMADO;0,239714164635296
+NO_CID_PRINCIPAL;Outros transtornos psicoticos nao-organicos;NAO INFORMADO;0,239714164635296
+NO_CID_PRINCIPAL;Outro transtorno desintegrativo da infancia;NAO INFORMADO;0,237711572374545
+NO_CID_PRINCIPAL;Retardo do desenvolvimento fisiologico normal;NAO INFORMADO;0,237711572374545
+NO_CID_PRINCIPAL;Transtorno misto ansioso e depressivo;SEM DEFINICAO;0,235785686019983
+NO_CID_PRINCIPAL;Outras doencas degenerativas dos ganglios da base;SEM DEFINICAO;0,235785686019983
+NO_CID_PRINCIPAL;Transtornos da ansiedade organicos;SEM DEFINICAO;0,235785686019983
+NO_CID_PRINCIPAL;Personalidade dependente;FALTANTE;0,235702260395516
+NO_CID_PRINCIPAL;Sindrome pos-encefalitica;FALTANTE;0,235702260395516
+NO_CID_PRINCIPAL;Falha de resposta genital;FALTANTE;0,235702260395516
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de sedativos e hipnoticos - sindrome [estado] d;INDEFINIDO;0,234428643328805
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina - sindrome [estado] de abstinencia;INDEFINIDO;0,234428643328805
+NO_CID_PRINCIPAL;Transtorno especifico de leitura;REJEITADO;0,227844001159414
+NO_CID_PRINCIPAL;Outras epilepsias e sindromes epilepticas generalizadas;INDEFINIDO;0,225299290319654
+NO_CID_PRINCIPAL;Sindromes epilepticas especiais;INDEFINIDO;0,225299290319654
+NO_CID_PRINCIPAL;Outros transtornos especificados do encefalo;FALTANTE;0,220722706939907
+NO_CID_PRINCIPAL;Outros transtornos neuroticos especificados;DESCONHECIDO;0,219578640748761
+NO_CID_PRINCIPAL;Outros transtornos especificados da personalidade e do comportamento do adulto;DESCONHECIDO;0,219578640748761
+NO_CID_PRINCIPAL;Outros transtornos especificados do humor [afetivos];DESCONHECIDO;0,219578640748761
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina - uso nocivo para a saude;NAO INFORMADO;0,205803947682706
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina - transtorno mental ou comportamenta;NAO INFORMADO;0,205803947682706
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina;NAO INFORMADO;0,205803947682706
+NO_CID_PRINCIPAL;Disturbio de conduta restrito ao contexto familiar;DESCONHECIDO;0,201478730713358
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina - transtorno psicotico residual ou d;NAO INFORMADO;0,175923650696442
+NO_FANTASIA;CAPS DR LUIZ AUGUSTO DA ROCHA TENORIO;IGNORADO;0,441322036778772
+NO_FANTASIA;CAPS II DR ROSTAND SILVESTRE;FALTANTE;0,408248290463863
+NO_FANTASIA;CAPS EXPEDITO ANTONIO DA SILVA;FALTANTE;0,408248290463863
+NO_FANTASIA;CAPS NOVO HORIZONTE;FALTANTE;0,408248290463863
+NO_FANTASIA;CAPS NORACI PEDROSACENTO DE ATENCAO PSICOSSOCIAL;IGNORADO;0,406555240993228
+NO_FANTASIA;CAPS MUNICIPAL DE IGREJA NOVA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL JOYCE DE MILLE;SEM DEFINICAO;0,378526262957414
+NO_FANTASIA;CAPS CENTRO DE ATENCAO PSICOSOCIAL ARISTEU G DE ALBUQUERQUE;SEM DEFINICAO;0,378526262957414
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL DE CAMPO ALEGRE;SEM DEFINICAO;0,378526262957414
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL DE MARANGUAPE CAPS AD;SEM DEFINICAO;0,378526262957414
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL MAXINEY CAVALCANTE LIMA;FALTANTE;0,376087002874525
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CAPS CENTRO DE ATENCAO PSICOSSOCIAL LEOPOLDINENSE;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL CAPS;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL DR DJALMA GUTTEMBERG BREDA;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL CAPS I;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSOCIAL DR MANOEL SABINO COSTA;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CAPS CENTRO DE ATENCAO PSICOSOCIAL MARINA JOSE DA S PEIXOTO;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL VALE DO CAMARAGIBE;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL CAPS 1;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL I CAPS I;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA;CAPS SAO LOURENCO MARTIR;NAO INFORMADO;0,339007022720172
+NO_FANTASIA;CAPS ADULTO II PIRITUBA JARAGUA;NAO INFORMADO;0,339007022720172
+NO_FANTASIA;CAPS SEBASTIAO MALAQUIAS DA SILVA;NAO INFORMADO;0,339007022720172
+NO_FANTASIA;CAPS DR JOAO TOLEDO ESPACO NOVA VIDA;NAO INFORMADO;0,339007022720172
+NO_FANTASIA;CAPS DR JOSE ADJAEDSON GOMES DE FRANCA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CAPS I FILHOS DE DAVI;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CAPS DE ESTRELA DE ALAGOAS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CAPS MARIA CELIA DE ARAUJO SARMENTO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CAPS LUIZ DE ARAUJO LIMA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CAPS I NUBIA MELO DE CARVALHO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CAPS DE LIMOEIRO DE ANADIA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CENTRO DE APOIO PSICOSOCIAL;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CENTRO DE APOIO PSICOSSOCIAL CAPS EMILIA BARBOSA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CENTRO DE APOIO PSICOSSOCIAL JOSE DE AQUINO CAPS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CAPS DOMINGOS APOSTOLO DE LIRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CENTRO NISE DA SILVEIRA CAPS ARAPIRACA;SEM INFORMACAO;0,325810957293508
+NO_FANTASIA;CAPS MANDACARU BELEZA CAPS 1;SEM INFORMACAO;0,325810957293508
+NO_FANTASIA;CAPS ESPERANCA;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA;CAPS DR IB GATTO FALCAO;FALTANTE;0,311887542541047
+NO_FANTASIA;CAPS DEPUTADO LUIZ DANTAS;REJEITADO;0,303192818620045
+NO_FANTASIA;CAPS IRMA LEONTIA;NAO INFORMADO;0,286330728541384
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL SAO VITO;NAO INFORMADO;0,283656203238369
+NO_FANTASIA;CAPS II CANCAO;SEM DEFINICAO;0,281638289336996
+NO_FANTASIA;CAPS DR SADI FEITOSA DE CARVALHO;REJEITADO;0,279050771897331
+NO_FANTASIA;CENTRO DE ATENCAO PSICOSSOCIAL DR MUCIO TENORIO VERAS;SEM DEFINICAO;0,263159517615826
+NO_FANTASIA;CAPSAD INFANTO JUVENIL DR EVERALDO MOREIRA;NAO INFORMADO;0,261285839209008
+NO_FANTASIA;CAPS AD INFANTO JUVENIL DR EVERALDO MOREIRA;NAO INFORMADO;0,261285839209008
+NO_FANTASIA;CAPS SAO FRANCISCO;NAO INFORMADO;0,258989614139512
+NO_FANTASIA;CAPS I HERMES FRANCISCO DE LIMA;SEM DEFINICAO;0,254745246009314
+NO_FANTASIA;CAPS GEMINA DE GUSMAO MONTEIRO;FALTANTE;0,235702260395516
+NO_FANTASIA_ESF;LABORATORIO DE ANALISES CLINICAS SILFAR;SEM DEFINICAO;0,570341956797627
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA NOVA OLINDA;INDEFINIDO;0,551868300694321
+NO_FANTASIA_ESF;CLINICA EDSON HIROSHI KIMURA;SEM DEFINICAO;0,549271959004213
+NO_FANTASIA_ESF;CLINICA ORTOPEDICA GUARULHOS;SEM DEFINICAO;0,518030060273976
+NO_FANTASIA_ESF;USF DE ANTONICA;SEM DEFINICAO;0,500176972474357
+NO_FANTASIA_ESF;CENTRO DE SAUDE MARIA AMELIA DA CONCEICAO;SEM DEFINICAO;0,488766101922228
+NO_FANTASIA_ESF;USF VILA APARECIDA;DESCONHECIDO;0,483174103260413
+NO_FANTASIA_ESF;UBS JOAO PAULO II;NAO INFORMADO;0,479428329270591
+NO_FANTASIA_ESF;CLINICA OTORRINNOLARINGOLOGICA ALEX ANTUNES;SEM DEFINICAO;0,47789323118544
+NO_FANTASIA_ESF;CLINICA SINHITI YAMAMOTO ORTOPEDIA ITAPETININGA;SEM DEFINICAO;0,472288265482507
+NO_FANTASIA_ESF;POSTO DE SAUDE ROSA MISTICA;SEM DEFINICAO;0,471571372039966
+NO_FANTASIA_ESF;UBS MARIA GENURA DE AMORIM DAMASO;SEM DEFINICAO;0,471571372039966
+NO_FANTASIA_ESF;MONICA NAVEGA LIMA;SEM DEFINICAO;0,471571372039966
+NO_FANTASIA_ESF;SECRETARIA MUNICIPAL DE SAUDE COLONIA LEOPOLDINA;SEM DEFINICAO;0,471571372039966
+NO_FANTASIA_ESF;CENTRO DIAGNOSTICO JOSE ABDON MALTA MARQUES;FALTANTE;0,471404520791032
+NO_FANTASIA_ESF;UNIDADE MISTA JOAQUIM PAULO VIEIRA MALTA;FALTANTE;0,471404520791032
+NO_FANTASIA_ESF;USF LENIRA TENORIO CAVALCANTE;FALTANTE;0,471404520791032
+NO_FANTASIA_ESF;CLINICA SANTOS DUMONT;SEM DEFINICAO;0,469524172598404
+NO_FANTASIA_ESF;SECRETARIA MUNICIPAL DE SAUDE DE PENEDO;SEM DEFINICAO;0,447371884493081
+NO_FANTASIA_ESF;SECRETARIA MUNICIPAL DE SAUDE DE MARAGOGI;SEM DEFINICAO;0,447371884493081
+NO_FANTASIA_ESF;CENTRO DE SAUDE MUNICIPAL DE AGUA BRANCA;SEM DEFINICAO;0,447371884493081
+NO_FANTASIA_ESF;SECRETARIA MUNICIPAL DE SAUDE DE TAQUARANA;SEM DEFINICAO;0,447371884493081
+NO_FANTASIA_ESF;USF 10 IMBURI DO INACIO;NAO INFORMADO;0,443746602872219
+NO_FANTASIA_ESF;USF FORNO II;NAO INFORMADO;0,443746602872219
+NO_FANTASIA_ESF;USF NOSSA SENHORA DO BOM PARTO;IGNORADO;0,441322036778772
+NO_FANTASIA_ESF;UBS MAJOR JOSE TENORIO;IGNORADO;0,441322036778772
+NO_FANTASIA_ESF;POSTO DE SAUDE POCAO;SEM DEFINICAO;0,436474404157332
+NO_FANTASIA_ESF;POSTO DE SAUDE MARTINIANO FERREIRA PSF VI;SEM DEFINICAO;0,436474404157332
+NO_FANTASIA_ESF;CASA DE PARTO NORMAL NOSSA SENHORA DA PENHA;IGNORADO;0,419510667005886
+NO_FANTASIA_ESF;CLINICA ESPECIALIZADA C D C CENTRO DIAGNOSTICO COMPLEMENTAR;SEM DEFINICAO;0,416750737206727
+NO_FANTASIA_ESF;USF ARISTIDES BELARMINO;DESCONSIDERADO;0,414180263831401
+NO_FANTASIA_ESF;USF JULIO CANSANCAO I;NAO INFORMADO;0,411607895365413
+NO_FANTASIA_ESF;USF JULIO CANSANCAO II;NAO INFORMADO;0,411607895365413
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE AURELINO RODRIGUES DE PAULA;SEM DEFINICAO;0,408392787884094
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DE TABOCAL;SEM DEFINICAO;0,408392787884094
+NO_FANTASIA_ESF;UBS USINA SANTA MARIA;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;AMBULATORIO DANIEL MONTEIRO DA CRUZ;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JOSE CAVALCANTE ARAUJO;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;USF SANTO ANTONIO;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;UBS ANA MARIA DO ESPIRITO SANTO S LUIZ;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;USF VII ALTO DO GINASIO;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;UN ESF DR DJALMA GONCALVES DOS ANJOS E MONTES;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;C S DR PEDRO JOSE DOS SANTOS;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;UBS SANTO ANTONIO;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;NASF SANTA LUZIA;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;PSF SITIO BREJINHO;REJEITADO;0,394637386207887
+NO_FANTASIA_ESF;UBS BERNADETE LEITE MUTIRAO;REJEITADO;0,394637386207887
+NO_FANTASIA_ESF;UBS NOSSA SENHORA APARECIDA;DESCONHECIDO;0,394510003304947
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA OURICURI;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA GROTAO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA DA BEZERRA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SAPUCAIA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA LAGOA SECA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA CENTRO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;PSF LAJEDO GRANDE;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA DR LIVIA PEDROSA M ALVES;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA BRANCA II;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA BOCA DA MATA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA BRANCA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA JOSE PAULINO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA DR LUIZ MOREIRA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA CRUZEIRO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA BELISCA PAU;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA CANA BRAVA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA PEDRA PRETA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE ALDEIA KARAPOTO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA JENIPAPEIRO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA MARIA VIEIRA ALMEIDA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA OLHOS DAGUA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DO CAIC;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA LAGOA DA ANGELICA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE EXPEDITO LUIZ DA SILVA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;POSTO DE SAUDE ANTARTICA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE EDSON SALES;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;CENTRO DE SAUDE MUNICIPAL DR ITAMAR CIRYNO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE VILA NOVA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE USINA TAQUARA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DIVA TOLEDO PSF;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JOSE ADAMOR;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE SANDOVAL TOLEDO SILVA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE 17;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE ANANIAS VIEIRA SAMPAIO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE MESTRA CLARICE;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;CAPS MUNICIPAL DE IGREJA NOVA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE BELO JARDIM;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE CENTRO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JOSE LUIZ LESSA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DO TOQUE;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JOSE SIMAO DE MELO;SEM DEFINICAO;0,378098251625242
+NO_FANTASIA_ESF;UBS SAGRADA FAMILIA;IGNORADO;0,372747618318628
+NO_FANTASIA_ESF;USF ROSETE ANDRADE;IGNORADO;0,372747618318628
+NO_FANTASIA_ESF;USF DUAS ESTRADAS;IGNORADO;0,372747618318628
+NO_FANTASIA_ESF;USF 07 JUMELICIA M CONCEICAO;SEM DEFINICAO;0,366751939768923
+NO_FANTASIA_ESF;USF PRESIDENTE VARGAS PSF VIII;DESCONSIDERADO;0,365369610622638
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SANTO ANTONIO;FALTANTE;0,365148371670111
+NO_FANTASIA_ESF;ESF 6 JOAO ANTONIO DOS SANTOS;FALTANTE;0,365148371670111
+NO_FANTASIA_ESF;POSTO DE SAUDE SANTO ANTONIO PSF CRAIBAS;FALTANTE;0,365148371670111
+NO_FANTASIA_ESF;POSTO MUNICIPAL DE SAUDE JOAO ROCHA CALADO;SEM DEFINICAO;0,36056624654605
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMIL PAULO S DOS SANTOS BOM DESPACHO;SEM DEFINICAO;0,360189821903093
+NO_FANTASIA_ESF;UNIDADE BASICA DE CACIMBAS DR JUDA FERNANDES LIMA;INDEFINIDO;0,35948800280444
+NO_FANTASIA_ESF;UNIDADE BASICA DE ATENCAO A SAUDE INDIGENA;SEM DEFINICAO;0,356900082185065
+NO_FANTASIA_ESF;UNIDADE BASICA DE ATENCAO A SAUDE INDIGENA KOIUPANKA;SEM DEFINICAO;0,356900082185065
+NO_FANTASIA_ESF;CENTRO DE ATENCAO PSICOSSOCIAL CAPS I;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA_ESF;CAPS CENTRO DE ATENCAO PSICOSSOCIAL LEOPOLDINENSE;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA_ESF;CENTRO DE ATENCAO PSICOSOCIAL DR MANOEL SABINO COSTA;SEM DEFINICAO;0,346840763234805
+NO_FANTASIA_ESF;UBS VARADOURO II;IGNORADO;0,342673754784989
+NO_FANTASIA_ESF;UBS VARADOURO I;IGNORADO;0,342673754784989
+NO_FANTASIA_ESF;POSTO DE SAUDE NOSSA SENHORA APARECIDA;DESCONHECIDO;0,341655684909167
+NO_FANTASIA_ESF;UBS CECILIA FARIAS SILVA;DESCONHECIDO;0,341655684909167
+NO_FANTASIA_ESF;U S FAMILIA CECILIA FARIAS SILVA;DESCONHECIDO;0,341655684909167
+NO_FANTASIA_ESF;PSF II SAO PEDRO;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;CAPS DR JOAO TOLEDO ESPACO NOVA VIDA;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;MEMORIAL SAO LUCAS;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;PSF SAO FRUTUOSO;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;USF USINA SAO SIMEAO;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;USF USINA SAO SIMEAO PSF VII;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;PSF CABOCLO II;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;ESF BARRA DO ITIUBA;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;USF VILA SAO JOSE;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;USF POCAO ARAPIRACA;SEM INFORMACAO;0,338893613611139
+NO_FANTASIA_ESF;UNIDADE DE ATENCAO A SAUDE INDIGENA;INDEFINIDO;0,335027498759482
+NO_FANTASIA_ESF;POSTO DE SAUDE MARIA DO SOCORRO ELIZEU BRANDAO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DA PAPATERRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE LAGOA DE PEDRA PSF IV;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE OLHO DAGUA L CARLOS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE LARANJAL;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE PAPA FARINHA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE POUSO SECO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF 10 CENTRO DE SAUDE PALMEIRA DOS NEGROS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE SAPE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE CAJUEIRO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO MED MARIO FERRO DE MOURA PSF;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF 09 AGUA DE MENINOS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE PRATA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DRDENISSON DE MENEZES;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UBS MARIA DA PENHA AIRES DE OLIVEIRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE TIMBO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE TERRA NOVA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE AREIAS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE SAPE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF DR JOSE DE ASSIS PEREIRA DE MELO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DE OURO BRANCO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE JOSE EMIDIO MAGALHAES;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE LAGOA DA PEDRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE BARRO PRETO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF 01 CENTRO DE SAUDE DALMO ROCHA RAPOSO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;IV CENTRO DE SAUDE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE MANGAZALA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF 5 DE JULHO PSF III IV;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DE CARIE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;US JARDIM DAS PAINEIRAS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE BOQUEIRAO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF FLORIANO DE SOUZA CASTRO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE TABULEIRO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DA SERRA DO CAVALO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE MARIA DA PENHA AIRES DE OLIVEIRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE PERI PERI;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE MARIA LAURA OTTO KUMMER SOUZA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE OLHO D AGUA DO FREIRE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DE CANAPI;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE BARRO VERMELHO LAGOA DA CANOA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE CAPIM LAGOA DA CANOA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF 04 CENTRO DE SAUDE CHINARE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE PAU DARCO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE CANUDOS VELHOS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE TIPI;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE APOIO PSICOSSOCIAL JOSE DE AQUINO CAPS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DR CLAUDIO REGIS A CERQUEIRA NASF;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE MATAO DO ROBERTO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE ANTONIO BUARQUE FILHO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DO PARAISO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE ALECRIM;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DA USINA TAQUARA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF IVONETE MARQUES DE LIMA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DR HUMBERTO GOMES DE MELO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF 02 CENTRO DE SAUDE PERUCABA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE LAGOA DA CANOA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE SANTA LUZIA DO RIACHAO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF CLEOMENES PEREIRA DE AGUIAR;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE ILHA DO FERRO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;III CENTRO DE SAUDE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE GOVLAMENHA FILHO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DE GIRAU DO PONCIANO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE III DE PENEDO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE SITIO CRUZES;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE SERRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;02 03 CENTRO DE SAUDE TEOTONIO VILELA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CAPS DOMINGOS APOSTOLO DE LIRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE CAPIM GROSSO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE MORRO VERMELHO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF CLEOMENES PEREIRA DE AGUIAR PSF X;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE FOLHA MIUDA DE BAIXO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE M CELINA RIBEIRO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DO FUNIL;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JOSE PORFIRIO DOS SANTOS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE CACHOEIRA VELHA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE MASSARANDUBA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE PAU FERRO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DR PAULO FELIX DE SOUZA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DR MARIA ZILDA REGO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE FLEXEIRAS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE QUIXABEIRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DRJULIO C M UCHOA PORTO CALVO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF 05 CENTRO DE SAUDE DOMETILA G RAPOSO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE LIMOEIRINHO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE CHA DO MIRANDA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF 13 DE MAIO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF 07 CENTRO DE SAUDE JENIPAPO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE MALHADA DA ONCA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE SUCUPIRA TORTA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;02 CENTRO DE SAUDE TEOTONIO VILELA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF CANOA DE CIMA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE CORALIA BELO DA SILVA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;APAE DE SOBRAL;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF 03 CENTRO DE SAUDE DE IPIRANGA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;SMS DE AGUA BRANCA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE RANCHO ALEGRE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE SAPUCAIA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE TINGUI;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE VARZEA DO PICO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;EACS CENTRO DE SAUDE PALMEIRA DOS NEGROS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE FUNIL LAGOA DA CANOA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF DE MATA LIMPA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE CARLOS AFONSO VIEIRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE CACIMBAS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE CURRALINHO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;EQUIPE DE SAUDE DA FAMILIA DE MEIRUS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE MARCINEIROS MARIA LUIZA L DURVAL;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF 5 DE JULHO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF DE ALEXANDRE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE RIACHO FUNDO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE JOSE LUIZ LESSA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;AMBULATORIO DE PRONTO ATEND DR SOLON F DE OLIVEIRA ARARAS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE TABULEIRO DE DENTRO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE SITIO BOA VISTA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE PREF CYRIDIAO DURVAL PEIXOTO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;I CENTRO DE SAUDE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;ESF 08 CENTRO DE SAUDE VISTA ALEGRE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;POSTO DE SAUDE DE OLHO D AGUA LAGOA DA CANOA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF IVONETE MARQUES DE LIMA PSF II;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;01 06 CENTRO DE SAUDE MANUEL A DE SANTANA;FALTANTE;0,333333333333333
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SANTO ANTONIO;FALTANTE;0,333333333333333
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA AMAURY VASCONCELOS DE ANDRADE;DESCONSIDERADO;0,332809674906573
+NO_FANTASIA_ESF;USF JOSE HERMINIO AMARAL NETO;INDEFINIDO;0,32959431670863
+NO_FANTASIA_ESF;USF PONTA MOFINA;INDEFINIDO;0,32959431670863
+NO_FANTASIA_ESF;CONSULTORIO DR WALTER;DESCONSIDERADO;0,329124909629968
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA GADO BRAVO;INDEFINIDO;0,327356846427548
+NO_FANTASIA_ESF;USF MUMBACA;SEM INFORMACAO;0,325810957293508
+NO_FANTASIA_ESF;UBS ALECRIM II;SEM INFORMACAO;0,325810957293508
+NO_FANTASIA_ESF;PSF MANOEL MACIANO;SEM INFORMACAO;0,325810957293508
+NO_FANTASIA_ESF;CENTRO NISE DA SILVEIRA CAPS ARAPIRACA;SEM INFORMACAO;0,325810957293508
+NO_FANTASIA_ESF;USF PRIMAVERA;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;CAPS ESPERANCA;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;USF GERALDO VIRGILIO;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;USF BRISA DO LAGO FERANDO LOURENCO;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;USF COOPERATIVA I;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;PAULIDENT;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;USF GERALDO VIRGILIO PSF V;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;USF TAPERA;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;USF PAU DO DESCANSO;DESCONHECIDO;0,312913619548912
+NO_FANTASIA_ESF;CENTRO DE SAUDE NOEMIA VASCONCELOS;DESCONHECIDO;0,312913619548912
+NO_FANTASIA_ESF;UBS NOSSA SENHORA DE FATIMA;IGNORADO;0,312061804893329
+NO_FANTASIA_ESF;LABORATORIO EXAME POSTO DE COLETA FILIAL 13;IGNORADO;0,312061804893329
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA PORANGABA;IGNORADO;0,312061804893329
+NO_FANTASIA_ESF;LABORATORIO SANTA MARIA;IGNORADO;0,312061804893329
+NO_FANTASIA_ESF;CENTRO DE SAUDE NOSSA SENHORA DA PENHA;IGNORADO;0,312061804893329
+NO_FANTASIA_ESF;POSTO DE SAUDE POVOADO GIRAU DO ITIUBA;NAO INFORMADO;0,309605153725064
+NO_FANTASIA_ESF;POSTO DE SAUDE DE FORQUILHA;SEM DEFINICAO;0,3071824391818
+NO_FANTASIA_ESF;CENTRO DE SAUDE DR GASTAO LEAO REGO;NAO INFORMADO;0,303217099060848
+NO_FANTASIA_ESF;HORACIO EUZEBIO SERAFIM USF DO FORNO I;NAO INFORMADO;0,301423370279911
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE PORTO DA RUA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE LAGOA COMPRIDA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DE TIMBO;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE TIBIRI;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE AREIAS;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ROSIVAL DE ARAUJO MEDEIROS;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;POSTO DE SAUDE DRJULIO DE MENDONCAALTO DO CRISTO REDENTOR;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DE SAUDE MARIA ELIZA DA SILVA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE IMPOEIRA PSF 7;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DR ZIRELI DE OLIVEIRA VALENCA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DR ADELSON ISAAC DE MIRANDA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;ESF 09 CENTRO DE SAUDE DE ALAGOINHAS IGREJA NOVA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ARTHUR ORLANDO DE A BEZERRA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE BANANEIRAS;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;CENTRO DE SAUDE DE FEIRA GRANDE;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE CARURU;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE VERA LUCIA DOS SANTOS SILVA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;ESF 06 CENTRO DE SAUDE DE IGREJA NOVA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;USF CAVACO DR JOSE FERNANDES;INDEFINIDO;0,298122053968115
+NO_FANTASIA_ESF;UNIDADESAUDE DA FAMILIA GONGO;INDEFINIDO;0,298122053968115
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE ANTONIO FRANCISCO DOS SANTOS;FALTANTE;0,293989701898881
+NO_FANTASIA_ESF;V CENTRO DE SAUDE DR UBIRATAN PEDROZA;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;PACS CAMADANTA;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;V CENTRO DE SAUDE DR UBIRATAN;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;CENTRO DE SAUDE MANOEL ROCHA DOS SANTOS;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;CASA DE SAUDE SANTA HELENA;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;POSTO DE SAUDE ALTO DOS COELHOS;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;USF ANTONIA BATISTA DE MELO PSF VI;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;USF 05 SINEIDE FREIRE MONTEIRO;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA DOS ALTOS;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;USF ANTONIA BATISTA DE MELO;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;POSTO DE SAUDE ALTO DO GARROTE;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;UBS ANTARTICA;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;CENTRO DE SAUDE LAGOA DA CANOA MANOEL ROCHA DOS SANTOS;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;UBS VERDES CAMPOS;DESCONHECIDO;0,288567830794162
+NO_FANTASIA_ESF;USF CARRASCO;DESCONHECIDO;0,288567830794162
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JOAO PEREIRA MACHADO;SEM DEFINICAO;0,286432442534355
+NO_FANTASIA_ESF;POSTO DE SAUDE DE MACHADO;SEM DEFINICAO;0,286432442534355
+NO_FANTASIA_ESF;PSF POVOADO PILOES;IGNORADO;0,286354068334178
+NO_FANTASIA_ESF;PSF POVOADO CABOCLO;IGNORADO;0,286354068334178
+NO_FANTASIA_ESF;UBS POVOADO CAXANGA;IGNORADO;0,286354068334178
+NO_FANTASIA_ESF;CAPS IRMA LEONTIA;NAO INFORMADO;0,286330728541384
+NO_FANTASIA_ESF;POSTO DE SAUDE VARADOURO I;IGNORADO;0,282775112731336
+NO_FANTASIA_ESF;POSTO DE SAUDE VARADOURO II;IGNORADO;0,282775112731336
+NO_FANTASIA_ESF;CENTRO DE SAUDE VEREADOR JOSE GOMES CALHEIROS;SEM DEFINICAO;0,279726371350367
+NO_FANTASIA_ESF;UBS SENADOR ARNON DE MELO;SEM DEFINICAO;0,279726371350367
+NO_FANTASIA_ESF;DENTAL SAUDE DENTISTAS ASSOCIADOS;SEM DEFINICAO;0,279726371350367
+NO_FANTASIA_ESF;POSTO DE SAUDE BREJO NOVO;REJEITADO;0,279050771897331
+NO_FANTASIA_ESF;PSF PROF YOLITA ARAUJO DE MOURA;REJEITADO;0,279050771897331
+NO_FANTASIA_ESF;HOSPITAL JOAO LIRA FILHO;REJEITADO;0,279050771897331
+NO_FANTASIA_ESF;HOSPITAL MUNICIPAL MANOEL S C TEXEIRA;REJEITADO;0,279050771897331
+NO_FANTASIA_ESF;POSTO DE SAUDE DO ESTREITO;REJEITADO;0,279050771897331
+NO_FANTASIA_ESF;CENTRO DE SAUDE DR HEITOR M ALBUQUERQUE PSF II;REJEITADO;0,279050771897331
+NO_FANTASIA_ESF;CENTRO DE SAUDE SANTA CRUZ DO DESERTO;SEM DEFINICAO;0,279007594633124
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA DR ARTHUR CAMELO VERAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE BASICA JORGE RIBEIRO TOLEDO PSF;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CHA DO MIRANDA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PSF I;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA MIRACEMA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PEDRO DA CUNHA LIMA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PE LEVE;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA OLHO DAGUA DO MEIO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA RENATA MARANHAO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA TIPI;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DOUGLAS BUARQUE II;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CACIMBAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DOUGLAS BUARQUE;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE P DA CACIMBA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ALECRIM;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PE LEVE II;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA BARRIGUDA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA DR JOAO ROCHA FILHO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA MASSAPE;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA TABOCA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA GENIPAPO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE BASICA DO SITINHO PSF VII;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DA FLORESTA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SAO JOSE;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JACIOBA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JOSE MEDEIROS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA URBANO II;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ARLETE MENDONCA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE LIGIA TOLEDO PSF;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;USF EURICO WANDERLEY;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA URBANA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE OLHO DAGUA DOS DANDANHAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA BARAUNA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DO PACS DE TEOTONIO VILELA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA IMPOEIRAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA VALDOMERO A DA COSTA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PSF2;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SAO JOAO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA LAGOA DO EXU;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JOSE CARLOS SOUZA SILVER;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNID BASICA SAUDE DIVA TOLEDO PSF;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA NOVA BRASILIA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PEDRO SALES;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CAMUXINGA DOS TEODOSIOS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PARANA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SEVERINO CARLOS CORREIA MARANHAO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JANUARIO PARAIBANO DA COSTA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA BARBOSA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DRA LIVIA MOREIRA ALVES;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;USF JOSE WANDERLEY NETO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ESFV;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CRAIBAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA RUA DE CIMA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SETE CASAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA AREIA VERMELHA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ALGODAO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CANAFISTULA CIPRIANO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DO CURTUME;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JOSE FERREIRA DE MACEDO;SEM DEFINICAO;0,272261858589396
+NO_FANTASIA_ESF;METODO IMAGEM E DIAGNOSTICO;IGNORADO;0,267917214928655
+NO_FANTASIA_ESF;POSTO DE SAUDE SANTO INACIO SL QUITUNDE;NAO INFORMADO;0,267544077827349
+NO_FANTASIA_ESF;UBS JOAO FRANCISCO VIEIRA;NAO INFORMADO;0,258989614139512
+NO_FANTASIA_ESF;USF DR GETULIO IZIDORO DA ROCHA;NAO INFORMADO;0,258989614139512
+NO_FANTASIA_ESF;CAPS SAO FRANCISCO;NAO INFORMADO;0,258989614139512
+NO_FANTASIA_ESF;USF VILA SAO FRANCISCO;NAO INFORMADO;0,258989614139512
+NO_FANTASIA_ESF;PRECISION CENTRO DE DIAGNOSTICOS LTDA;IGNORADO;0,254797396733538
+NO_FANTASIA_ESF;POSTO DE SAUDE ESTRADA NOVA;SEM DEFINICAO;0,254745246009314
+NO_FANTASIA_ESF;POSTO DE SAUDE IRMAOS SOARES;SEM DEFINICAO;0,254745246009314
+NO_FANTASIA_ESF;CASA MATERNAL DE INHAPI;SEM DEFINICAO;0,254745246009314
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SANTA INES;FALTANTE;0,247838847520075
+NO_FANTASIA_ESF;UNIDADE DE SERVICOS ESPECIALIZADOS DE IGREJA NOVA;SEM DEFINICAO;0,244810947305307
+NO_FANTASIA_ESF;POSTO DE SAUDE SAO CRISTOVAO;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;USF 14 JOAO LOURIVAL DE SOUZA;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;PSF MANOEL MACIANO II;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;USF BAIXA DA ONCA SERAPIAO DURVAL;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;EQUIPE DE SAUDE DA FAMILIA DO JAPAO PSF V;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;POSTO DE SAUDE FREI DAMIAO PSF II;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;POSTO DE SAUDE QUEIMADA;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;POSTO DE SAUDE QUEIMADA REDONDA;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;CENTRO DE SAUDE SAO JOSE CANAA;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;NASF JOAO MIRANDA DE OLIVEIRA;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;USF 16 JOAO LOURIVAL DE SOUZA;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;POLO DE SAUDE INDIGENA TINGUI BOTO;INDEFINIDO;0,236900216256797
+NO_FANTASIA_ESF;POSTO DE SAUDE FERNANDES PAU FERRO;INDEFINIDO;0,236900216256797
+NO_FANTASIA_ESF;POSTO DE SAUDE FERNANDES;INDEFINIDO;0,236900216256797
+NO_FANTASIA_ESF;POSTO DE SAUDE INDIGENA;INDEFINIDO;0,236900216256797
+NO_FANTASIA_ESF;UBS ORITENILA BATISTA DE MOURA PRACA PE CICERO;SEM DEFINICAO;0,235785686019983
+NO_FANTASIA_ESF;POSTO DE SAUDE ALECRIM II;SEM DEFINICAO;0,235785686019983
+NO_FANTASIA_ESF;POSTO DE SAUDE JOSE ACIOLY MACIEL;SEM DEFINICAO;0,235785686019983
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ANTONIO GARROTE DA SILVA;FALTANTE;0,235702260395516
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DR ARYL PONTES LYRA;FALTANTE;0,235702260395516
+NO_FANTASIA_ESF;CAPS GEMINA DE GUSMAO MONTEIRO;FALTANTE;0,235702260395516
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ANTONIO QUEIROZ;FALTANTE;0,235702260395516
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SANTA CRUZ DO RIACHAO;FALTANTE;0,235702260395516
+NO_FANTASIA_ESF;UNIDADE DE VIGILANCIA SANITARIA;REJEITADO;0,227844001159414
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA BREJO;REJEITADO;0,227844001159414
+NO_FANTASIA_ESF;POSTO DE SAUDE BREJINHO II;REJEITADO;0,227844001159414
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA HUMAITA;REJEITADO;0,227844001159414
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JULITA SOARES DA SILVA;REJEITADO;0,227844001159414
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SAO FELIX;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CECI CUNHA;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA URBANO II;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA MUMBACA;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA URBANO III;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE EVERALDO PEREIRA DA SILVA;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ABEL PINHEIRO;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CALDEROES;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA QUEBRADENTE;FALTANTE;0,211855580668214
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DR ALVARO MACHADO;INDEFINIDO;0,210980875395712
+NO_FANTASIA_ESF;CENTRO DE SAUDE DA FAMILIA HILDA FERNANDES FEITOSA;REJEITADO;0,204792364258188
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CAMADANTA;FALTANTE;0,204124145231932
+NO_FANTASIA_ESF;PRISCILLA FERNANDES MACHADO SANTOS;FALTANTE;0,200779193181872
+NO_MUNICIPIO;SANTANA DO IPANEMA;FALTANTE;0,471404520791032
+NO_MUNICIPIO;PARICONHA;DESCONHECIDO;0,447213595499958
+NO_MUNICIPIO;BELO MONTE;FALTANTE;0,408248290463863
+NO_MUNICIPIO;IGREJA NOVA;REJEITADO;0,394637386207887
+NO_MUNICIPIO;OLHO D'AGUA GRANDE;INDEFINIDO;0,390229817742851
+NO_MUNICIPIO;FEIRA GRANDE;INDEFINIDO;0,390229817742851
+NO_MUNICIPIO;PINDOBA;INDEFINIDO;0,390229817742851
+NO_MUNICIPIO;MATA GRANDE;INDEFINIDO;0,390229817742851
+NO_MUNICIPIO;CAMPO GRANDE;INDEFINIDO;0,390229817742851
+NO_MUNICIPIO;UNIAO DOS PALMARES;NAO INFORMADO;0,339007022720172
+NO_MUNICIPIO;SAO MIGUEL DOS MILAGRES;NAO INFORMADO;0,339007022720172
+NO_MUNICIPIO;SAO SEBASTIAO;NAO INFORMADO;0,339007022720172
+NO_MUNICIPIO;SAO MIGUEL DOS CAMPOS;NAO INFORMADO;0,339007022720172
+NO_MUNICIPIO;SAO JOSE DA LAJE;NAO INFORMADO;0,339007022720172
+NO_MUNICIPIO;SAO BRAS;NAO INFORMADO;0,339007022720172
+NO_MUNICIPIO;MATRIZ DE CAMARAGIBE;SEM DEFINICAO;0,333451314982904
+NO_MUNICIPIO;PASSO DE CAMARAGIBE;SEM DEFINICAO;0,333451314982904
+NO_MUNICIPIO;LIMOEIRO DE ANADIA;SEM DEFINICAO;0,333451314982904
+NO_MUNICIPIO;MARECHAL DEODORO;SEM DEFINICAO;0,333451314982904
+NO_MUNICIPIO;PORTO DE PEDRAS;SEM DEFINICAO;0,333451314982904
+NO_MUNICIPIO;ESTRELA DE ALAGOAS;SEM DEFINICAO;0,333451314982904
+NO_MUNICIPIO;MACEIO;SEM INFORMACAO;0,325810957293508
+NO_MUNICIPIO;ARAPIRACA;SEM INFORMACAO;0,325810957293508
+NO_MUNICIPIO;SANTA LUZIA DO NORTE;IGNORADO;0,312061804893329
+NO_MUNICIPIO;PALMEIRA DOS INDIOS;INDEFINIDO;0,298122053968115
+NO_MUNICIPIO;OLHO D'AGUA DO CASADO;IGNORADO;0,286354068334178
+NO_MUNICIPIO;SAO LUIS DO QUITUNDE;INDEFINIDO;0,275934150347161
+NO_MUNICIPIO;FELIZ DESERTO;SEM DEFINICAO;0,254745246009314
+NO_MUNICIPIO;MAJOR ISIDORO;DESCONSIDERADO;0,241733426283344
+NO_MUNICIPIO;PAO DE ACUCAR;NAO INFORMADO;0,239714164635296
+NO_MUNICIPIO;SAO JOSE DA TAPERA;NAO INFORMADO;0,239714164635296
+NO_PROCEDIMENTO;PRATICAS EXPRESSIVAS E COMUNICATIVAS EM CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,623364848465981
+NO_PROCEDIMENTO;PRATICAS CORPORAIS EM CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,490506911350497
+NO_PROCEDIMENTO;ATENDIMENTO EM GRUPO DE PACIENTE EM CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,446335109166686
+NO_PROCEDIMENTO;ACOLHIMENTO EM TERCEIRO TURNO DE PACIENTE EM CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,446335109166686
+NO_PROCEDIMENTO;ATENDIMENTO FAMILIAR EM CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,437135931059793
+NO_PROCEDIMENTO;ACOLHIMENTO DIURNO DE PACIENTE EM CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,419291114229033
+NO_PROCEDIMENTO;ACOLHIMENTO NOTURNO DE PACIENTE EM CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,419291114229033
+NO_PROCEDIMENTO;ACOMPANHAMENTO DA POPULACAO INFANTO-JUVENIL COM SOFRIMENTO OU TRANSTORNOS MENTAIS DECORRENTES DO USO DE CRACK, ALCOOL E OUTRAS DROGAS-UNIDADE DE ACOLHIMENTO INFANTO-JUVENIL (UAI).;NAO INFORMADO;0,378955190725573
+NO_PROCEDIMENTO;ACOMPANHAMENTO DE PACIENTE EM SAUDE MENTAL (RESIDENCIA TERAPEUTICA);DESCONSIDERADO;0,366364868207285
+NO_PROCEDIMENTO;ATENDIMENTO INDIVIDUAL DE PACIENTE EM CENTRO DE ATENCAO PSICOSSOCIAL;SEM DEFINICAO;0,358833846730798
+NO_PROCEDIMENTO;ATENDIMENTO DOMICILIAR PARA PACIENTES DE CENTRO DE ATENCAO PSICOSSOCIAL E/OU FAMILIARES;SEM DEFINICAO;0,349198150388408
+NO_PROCEDIMENTO;ATENCAO AS SITUACOES DE CRISE;SEM DEFINICAO;0,346840763234805
+NO_PROCEDIMENTO;PROMOCAO DE CONTRATUALIDADE NO TERRITORIO;SEM DEFINICAO;0,308634010994007
+NO_PROCEDIMENTO;ACOES DE REABILITACAO PSICOSSOCIAL;SEM DEFINICAO;0,263159517615826
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL;MUNICIPIO DE MURICI;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL;MUNICIPAL DE BATALHA;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL;MUNICIPIO DE MESSIAS;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL;MUNICIPIO DE CRAIBAS;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL;FUNDO MUNICIPAL DE SAUDE;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE DE RIO CLARO;SEM DEFINICAO;0,447371884493081
+NO_RAZAO_SOCIAL;MUNICIPIO DE ESTRELA DE ALAGOAS;SEM DEFINICAO;0,447371884493081
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE DE OLHO DAGUA DAS FLORES;SEM DEFINICAO;0,447371884493081
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE DE AGUA BRANCA;SEM DEFINICAO;0,447371884493081
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE PORTO DE PEDRAS;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE PASSO DE CAMARAGIBE;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE LIMOEIR DE ANADIA;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MATRIZ DE CAMARAGIBE;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE DE ITATIAIA;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MARECHAL DEODORO;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE DELMIRO GOUVEIA;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE IGREJA NOVA;REJEITADO;0,394637386207887
+NO_RAZAO_SOCIAL;PREFEITURA DA CIDADE DO RECIFE;DESCONHECIDO;0,394510003304947
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE DE P DOS INDIOS;SEM DEFINICAO;0,386085242391095
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE CRAIBAS;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE PORTO CALVO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE CANAPI;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE JOAQUIM GOMES;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;MUNICIPIO DE UNIAO DOS PALMARES;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE SATUBA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE BATALHA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE COLONIA LEOPOLDINA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE CAMPO ALEGRE;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE TAQUARANA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE GIRAU DO PONCIANO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MARAGOGI;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MESSIAS;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE CORURIPE;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE QUEBRANGULO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE TRAIPU;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE PIRANHAS;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE IBATEGUARA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE ATALAIA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE PORTO REAL DO COLEGIO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE TEOTONIO VILELA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE ANADIA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MURICI;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE PENEDO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE LAGOA DA CANOA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE CAJUEIRO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE PILAR;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE CAPELA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE JUNQUEIRO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MARANGUAPE;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE VICOSA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITIURA MUNICIPAL DE APODI;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE RIO LARGO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;MUNICIPIO DE SAO LOURENCO DA MATA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE OURO BRANCO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE PAO DE ACUCAR;SEM DEFINICAO;0,378098251625242
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE ITAPORANGA;REJEITADO;0,352974408809469
+NO_RAZAO_SOCIAL;CENTRO DE ATENCAO PSICOSOCIAL;SEM DEFINICAO;0,346840763234805
+NO_RAZAO_SOCIAL;CENTRO DE ATENCAO PSICOSSOCIAL CAPS I;SEM DEFINICAO;0,346840763234805
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE INHAPI;SEM DEFINICAO;0,346081164871581
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MAJOR IZIDORO;SEM DEFINICAO;0,346081164871581
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE P DOS INDIOS;SEM DEFINICAO;0,346081164871581
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE ARAPIRACA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE SAO JOSE DA LAJE;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MATA GRANDE;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE FEIRA GRANDE;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA DO MUNICIPIO DE SAO PAULO;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MACEIO;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE SAO MIGUEL DOS CAMPOS;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE SANTANA DO IPANEMA;FALTANTE;0,333333333333333
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE CANINDE DO SAO FRANCISO;INDEFINIDO;0,318621311963088
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE SAO JOSE DA TAPERA;SEM DEFINICAO;0,298247922995387
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE SAO LUIZ DO QUITUNDE;SEM DEFINICAO;0,298247922995387
+NO_RAZAO_SOCIAL;PREFEITURA SAO SEBASTIAO;REJEITADO;0,279050771897331
+NO_RAZAO_SOCIAL_ESF;LABORATORIO DE ANALISES CLINICAS SILFAR LTDA;SEM DEFINICAO;0,570341956797627
+NO_RAZAO_SOCIAL_ESF;LABORATORIO EXAME DE ANALISES CLINICAS LTDA;SEM DEFINICAO;0,570341956797627
+NO_RAZAO_SOCIAL_ESF;CLINICA ORTOPEDICA GUARULHOS LTDA;SEM DEFINICAO;0,518030060273976
+NO_RAZAO_SOCIAL_ESF;CLINICA OTORRINNOLARINGOLOGICA ALEX ANTUNES S S LTDA;SEM DEFINICAO;0,47789323118544
+NO_RAZAO_SOCIAL_ESF;MUNICIPIO DE ARARAS;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;MONICA NAVEGA LIMA;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;MUNICIPIO DE CRAIBAS;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;CL DE MEDICINA NUCLEAR ENDOCRINOLOGICA E DIABETE LTDA;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;MUNICIPIO DE MURICI;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNICIPAL DE SADE;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNICIPAL DE SAUDE;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;PREFEIRURA MUNICIPAL DE MARAGOGI;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNICIPAL DE SAUDE PORTO REAL DO COLEGIO;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;CLINICA AMBULATORIAL SANTOS DUMONT LTDA;SEM DEFINICAO;0,469524172598404
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNICIPAL DE SAUDE DE PORTO REAL DO COLEGIO;SEM DEFINICAO;0,447371884493081
+NO_RAZAO_SOCIAL_ESF;MUNICIPIO DE LIMOEIRO DE ANADIA;SEM DEFINICAO;0,447371884493081
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNICIPAL DE SAUDE DE RIO CLARO;SEM DEFINICAO;0,447371884493081
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNICIPAL DE ESTRELA DE ALAGOAS;SEM DEFINICAO;0,447371884493081
+NO_RAZAO_SOCIAL_ESF;C D C CENTRO DIAGNOSTICO COMPLEMENTAR LTDA;IGNORADO;0,441322036778772
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAUDE DE PORTO CALVO;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PORTO DE PEDRAS;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPLA DE MATRIZ DE CAMARAGIBE;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PASSO DE CAMARAGIBE;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE LIMOEIRO DE ANADIA;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MATRIZ DE CAMARAGIBE;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PORTP DE PEDRAS;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE ESTRELA DE ALAGOAS;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICPAL DE SAUDE DE MATRIZ DE CAMARAGIBE;SEM DEFINICAO;0,402157417326876
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE IGREJA NOVA;REJEITADO;0,394637386207887
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE OURO BRANCO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE BATALHA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PRFEITURA MUNICIPAL DE TAQUARANA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICPAL DE TAQUARANA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;MUNICIPIO DE ARAPIRACA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE AGUA BRANCA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;MUNICIPIO DE FEIRA GRANDE;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE GIRAU DO P0NCIANO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE JAPARATINGA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIOPAL DE LAGOA DA CANOA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE RIO LARGO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PORTO REAL DO COLEGIO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MARAGOGI;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPLA DE SAUDE;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;NOVA LIMA PREFEITURA MUNICIPAL DE NOVA LIMA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MAR VERMELHO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE APODI;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MARINBONDO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE CRUZEIRO DO SUL;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE OLIVENCA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE COROATA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MARIBONDO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE JOAQUIM GOMES;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE BOCA MATA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE TAQUARANA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE COLONIA LEOPOLDINA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;MUNICIPIO DE SAO SEBASTIAO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE BOCA DA MATA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE CANAPI;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE ATALAIA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE CAJUEIRO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE CAPELA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PILAR;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE LAGOA DA CANOA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PENEDO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MURICI;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE ANADIA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE TEOTONIO VILELA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PORTO CALVO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE QUEBRANGULO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PIRANHAS;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE OLHO DAGUA DAS FLORES;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE TRAIPU;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE BOCA DA MATA AL;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE GIRAU DO PONCIANO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PAULO JACINTO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PAO DE ACUCAR;SEM DEFINICAO;0,378098251625242
+NO_RAZAO_SOCIAL_ESF;SECRETARIA DE ESTADO DA SAUDE;REJEITADO;0,360410730262079
+NO_RAZAO_SOCIAL_ESF;SECRETARIA DE ESTADO DA SAUDE FES;REJEITADO;0,360410730262079
+NO_RAZAO_SOCIAL_ESF;CENTRO DE ATENCAO PSICOSSOCIAL CAPS I;SEM DEFINICAO;0,346840763234805
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE INHAPI;SEM DEFINICAO;0,346081164871581
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MAJOR IZIDORO;SEM DEFINICAO;0,346081164871581
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAO MIGUEL DOS MILAGRES;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SENA MADUREIRA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE FEIRA GRANDE;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE ARAPIRACA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAO MIGUEL DOS CAMPOS;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PINDOBA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAO BRAS;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MATA GRANDE;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAO JOSE DA LAJE;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PFEITURA MUNICIPAL DE FEIRA GRANDE;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MNICIPAL DE ARAPIRACA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAO SEBASTIAO;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SANTANA DO IPANEMA;FALTANTE;0,333333333333333
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE CANINDE DE SAO FRANCISCO;SEM DEFINICAO;0,32097306380678
+NO_RAZAO_SOCIAL_ESF;PAULIDENT ODONTOLOGIA S C LTDA;DESCONSIDERADO;0,316419364570033
+NO_RAZAO_SOCIAL_ESF;WALTER ARAUJO MORAIS;IGNORADO;0,312061804893329
+NO_RAZAO_SOCIAL_ESF;LABORATORIO SANTA MARIA;IGNORADO;0,312061804893329
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MAJOR ISIDORO;SEM DEFINICAO;0,3071824391818
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAO JOSE DA TAPERA;SEM DEFINICAO;0,298247922995387
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNUCIPAL DE PORTO DE PEDRAS;SEM DEFINICAO;0,298247922995387
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAO LUIZ DO QUITUNDE;SEM DEFINICAO;0,298247922995387
+NO_RAZAO_SOCIAL_ESF;ASSOCIACAO DE PAIS E AMIGOS DOS EXCEPCIONAIS;SEM DEFINICAO;0,296483590162613
+NO_RAZAO_SOCIAL_ESF;DENTAL SAUDE DENTISTAS ASSOCIADOS;SEM DEFINICAO;0,279726371350367
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNLIMOEIRO DE ANADIA;REJEITADO;0,279050771897331
+NO_RAZAO_SOCIAL_ESF;MEMORIAL HOSPITAL SAO LUCAS;REJEITADO;0,279050771897331
+NO_RAZAO_SOCIAL_ESF;PREFEITURA SAO SEBASTIAO;REJEITADO;0,279050771897331
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNUCIPAL DE AGUA BRANCA;REJEITADO;0,279050771897331
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNIICIPAL DE BATALHA;REJEITADO;0,279050771897331
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNDE SAUDE DE PORTO REAL DO COLEGIO;INDEFINIDO;0,275934150347161
+NO_RAZAO_SOCIAL_ESF;METODO IMAGEM E DIAGNOSTICO SC LTDA;IGNORADO;0,267917214928655
+NO_RAZAO_SOCIAL_ESF;PRECISION CENTRO DE DIAGNOSTICOS LTDA;IGNORADO;0,254797396733538
+NO_RAZAO_SOCIAL_ESF;ORTOFISIO FISIOTERAPIA ESPECIALIZADA LTDA;DESCONHECIDO;0,241587051630206
+NO_RAZAO_SOCIAL_ESF;CASA DE SAUDE E MATERNIDADE SANTA HELENA LTDA;FALTANTE;0,235702260395516
+NO_RAZAO_SOCIAL_ESF;UNIDADE DE SAUDE DA FAMILIA ALTO DO GINASIO;FALTANTE;0,235702260395516
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNUCIPAL DE SAO SEBASTIAO;REJEITADO;0,227844001159414
+NO_RAZAO_SOCIAL_ESF;DISTRITO SANITARIO ESPECIAL INDIGENA AL SE;REJEITADO;0,204792364258188
+NO_RAZAO_SOCIAL_ESF;PRISCILLA FERNANDES MACHADO SANTOS;FALTANTE;0,200779193181872
+TP_DROGA;Demanda Espontanea;FALTANTE;0,408248290463863
+TP_DROGA;Hospital Dia;REJEITADO;0,394637386207887
+TP_DROGA;Hospital Psiquiatrico;REJEITADO;0,394637386207887
+TP_DROGA;Atencao Basica;SEM DEFINICAO;0,346840763234805
+TP_DROGA;Servico de Urgencia;SEM DEFINICAO;0,333451314982904

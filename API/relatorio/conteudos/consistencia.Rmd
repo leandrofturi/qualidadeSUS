@@ -1,0 +1,17 @@
+## Consistência
+
+Os resultados apresentados são de testes aplicados a um mesmo registro, ou seja, mesma linha do conjunto de dados. Estes testes detectam principalmente problemas na entrada de dados envolvendo condições específicas de inconsistências.
+`r if(exists("cons_descricao")){" Uma descrição mais detalhada de cada teste está presente em [Testes de inconsistência](#testes-de-inconsistência)."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_cons"))
+try(kable(dt_cons, format = "latex", booktabs = T, caption = "resultados de consistência.", align = c('c','l','c')) %>% kable_styling(latex_options = "HOLD_position", font_size = 10) %>% column_spec(column = 1, width = '1cm', italic = T) %>% column_spec(column = 2, width = '9cm') %>% column_spec(column = 3, width = '3cm'), silent = T)
+```
+
+`r if("Consistência" %in% dimensoes_ano){"A distribuição temporal dos resultados dos testes de consistência é apresentada no gráfico a seguir\n\n![distribuição temporal da consistência.](imagens/cons-anual.png){width=80%}"}`
+
+`r if("Consistência" %in% dimensoes_uf){"A distribuição estadual dos resultados dos testes de consistência é apresentada no gráfico a seguir\n\n![distribuição estadual da consistência.](imagens/cons-uf.png){width=80%}"}`
+
+`r if(exists("cons_descricao")){"O resultado de cada teste por ano está descrito em [Testes de inconsistência](#testes-de-inconsistência). "}`
+O cômputo da média ponderada dos resultados obtidos é de **`r try(ponderada$consistencia$val, silent = T)`%**, ou seja, a **consistência é `r try(ponderada$consistencia$cat, silent = T)`**.
+  

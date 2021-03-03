@@ -1,0 +1,10 @@
+teste;desc;desc_completa
+T1;dt_emissao > dt_cmp;A data de competência não pode ser menor que a data de emissão da AIH
+T2;dt_paciente_nascimento > dt_emissao;A data de nascimento do paciente não pode ser maior que a data de emissão da AIH
+T3;dt_emissao > dt_lote_apres;A data de competência de apresentação da AIH não pode ser menor que a data de emissão da AIH
+T4;dt_saida > dt_cmp;A data de competência não pode ser menor que a data de saída do paciente
+T5;dt_internacao > dt_cmp;A data de competência não pode ser menor que a data de internação do paciente
+T6;dt_saida > dt_lote_apres;A data de competência de apresentação da AIH não pode ser menor que a data de saída do paciente
+T7;dt_internacao > dt_lote_apres;A data de competência de apresentação da AIH não pode ser menor que a data de internação
+T8;dt_paciente_nascimento > dt_saida;A data de nascimento do paciente não pode ser maior que a data de saída do paciente
+T9;dt_internacao > dt_saida;A data de internação não pode ser maior que a data de saída do paciente

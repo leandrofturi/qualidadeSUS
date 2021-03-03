@@ -1,0 +1,24 @@
+## Unicidade
+\label{sub:unicidade}
+
+Nesta dimensão é calculado o grau de duplicidade dos dados, buscando diferenças por meio dos identificadores dos pacientes.
+
+São excluídos deste teste os identificadores de pacientes presentes apenas uma vez na base de dados. 
+`r if(exists("dt_unic_freq")){"Nesse sentido, é apresentado a seguir a distribuição de frequência desta variável. A saber, a quantidade associada a categoria *ID = 1* representa o percentual de pacientes com apenas 1 registro no sistema, enquanto a quantidade associada a a categoria *ID = 2* representa o percentual de pacientes com 2 registros. Mesma interpretação pode ser realizada para as demais categorias."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_unic_freq"))
+  try(kable(dt_unic_freq, format = "latex", booktabs = T, caption = "frequência de identificadores. A quantidade associada a categoria \\textit{ID = 1} representa o percentual de pacientes com apenas 1 registro no sistema, enquanto a quantidade associada a a categoria \\textit{ID = 2} representa o percentual de pacientes com 2 registros. Mesma interpretação pode ser realizada para as demais categorias.", align = c('l','c')) %>% kable_styling(latex_options = "HOLD_position", font_size = 10) %>% column_spec(column = 1, italic = T), silent = T)
+```
+
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_unic"))
+  try(kable(dt_unic, format = "latex", booktabs = T, caption = "resultados de unicidade por variável relacionada à identificação do paciente.", align = c('c','l','c')) %>% kable_styling(latex_options = "HOLD_position", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, italic = T), silent = T)
+```
+
+`r if("Unicidade" %in% dimensoes_ano){"A distribuição temporal dos resultados dos testes de unicidade é apresentada no gráfico a seguir.\n\n![distribuição temporal da unicidade.](imagens/unic-anual.png){width=80%}"}`
+
+`r if("Unicidade" %in% dimensoes_uf){"A distribuição estadual dos resultados dos testes de unicidade é apresentada no gráfico a seguir.\n\n![distribuição estadual da unicidade.](imagens/unic-uf.png){width=80%}"}`
+
+O cômputo da média ponderada dos resultados obtidos é de **`r try(ponderada$unicidade$val, silent = T)`%**, ou seja, a **unicidade é `r try(ponderada$unicidade$cat, silent = T)`**.

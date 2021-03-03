@@ -1,0 +1,19 @@
+teste;desc;desc_completa
+T1;dtobito > dtrecorig;A data de óbito não pode ser maior que a data do recebimento original
+T2;dtobito > dtcadastro; A data de óbito não pode ser maior que a data do cadastro
+T3;obitopuerp == 1|2|3 & sexo == 1;Se óbito no puerpério é 1(Sim, até 42 dias após o parto) ou 2(Sim, de 43 dias a 1 ano) ou 3(não), o sexo não ser 1(Masculino)
+T4;dtobito > dtrecoriga;A data de óbito não pode ser maior que a data do recebimento original
+T5;dtobito > dtregcart;A data de óbito não pode ser maior que a data do registro no cartório
+T6;dtobito > dtatestado;A data de óbito não pode ser maior que a data do atestado
+T7;dtobito > dtrecebim;A data de óbito não pode ser maior que a data de recebimento
+T8;dtobito > dtinvestig;A data de óbito não pode ser maior que a data de investigação
+T9;codestab !=null & lococor != 1&2;Se o código do estabelecimento existe, o local de ocorrência do óbito não pode ser diferente de 1 (hospital) ou 2 (outros estabelecimentos de saúde)
+T10;obitoparto == 2 & dtnasc != dtobito;Se o óbito do paciente for 2 (ocorreu durante o parto), a data de nascimento precisa ser igual a data de óbito
+T11;obitoparto == 1 & dtnasc < dtobito;Se o óbito do paciente for 1 (ocorreu antes do parto), a data de nascimento não pode ser menor que a data de óbito
+T12;obitograv == 1 & sexo == 1; Se óbito na gravidez  é 1 (sim), o sexo não ser 1 (Masculino)
+T13;comunsvoim != null & atestante != 3&4;Se código do município do SVO ou IML estiver preenchido, atestante precisa ser 3 (IML) ou 4 (SVO)
+T14;esc > idade;A escolaridade precisa estar em acordo com a idade, por exemplo se a escolaridade for 2 (1 a 3 anos), a idade precisa ser superior a 3 anos
+T15;dtobito < dtnasc;A data de óbito não pode ser menor que a data de nascimento
+T16;escmae > idademae;A escolaridade da mãe precisa estar em acordo com a sua idade, por exemplo se a escolaridade for 2 (1 a 3 anos), a idade precisa ser superior a 3 anos
+T17;tipobito == 1 & dtnasc != dtobito;Se o tipo do óbito é 1 (fetal), a data de nascimento precisa ser a mesma da data de óbito
+T18;tppos == ‘N’ & dtinvestig != null;Se o óbito investigado é N (Não) a data de investigação não pode estar preenchida.

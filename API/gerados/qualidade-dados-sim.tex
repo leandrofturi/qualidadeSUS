@@ -1,0 +1,1297 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12,
+  table]{proadi}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\base{sim}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{longtable,booktabs}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{lscape}
+\usepackage{xcolor}
+\hypersetup{draft}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\hypertarget{qualidade-de-dados}{%
+\section{Qualidade de dados}\label{qualidade-de-dados}}
+
+O processo de análise de qualidade de dados está focado na avaliação de
+conjuntos de dados e na aplicação de ações corretivas, para garantir que
+estes estejam adequados aos propósitos para os quais foram originalmente
+destinados (Merino et al. 2016). Dessa forma, a qualidade de dados está
+diretamente relacionada a confiabilidade dos dados de entrada.
+Considerando que os dados têm níveis inadequados de qualidade, é
+provável que ocorram erros, que podem se propagar acidentalmente e
+inconscientemente por todo o fluxo da informação, prejudicando a
+eficiência do sistema. Formas regulares de avaliar a qualidade de dados
+com modelos clássicos geralmente se destinam a detectar e corrigir erros
+em fontes conhecidas com base em um conjunto limitado de regras. No
+ambiente de \emph{Big Data}, a quantidade de regras pode ser enorme e o
+custo da aplicação para correção de erros pode não ser viável e nem
+apropriado. Isso ocorre principalmente porque o \emph{Big Data} não é
+apenas sobre dados, mas também sobre uma pilha conceitual e tecnológica
+completa, incluindo dados brutos e processados, armazenamento, formas de
+gerenciar dados, processamento e análise (Merino et al. 2016).
+
+Uma dimensão de qualidade de dados é um termo descritor de um recurso de
+dados, o qual pode ser medido ou avaliado de acordo com padrões
+definidos, a fim de determinar a qualidade de um conjunto de dados.
+Geralmente, dados só têm valor quando dão suporte a um processo ou a uma
+tomada de decisão. Em consequência, as regras de qualidade de dados
+definidas devem levar em consideração o valor que os dados podem
+fornecer para o sistema. Nesse contexto, as seguintes dimensões de
+qualidade de dados são analisadas: Completude, Conformidade, Acurácia,
+Consistência, Unicidade, Temporalidade
+
+\textbf{Completude} caracteriza a taxa de preenchimento das variáveis.
+Para cada variável é calculado o percentual de entradas com informação
+não nulas, respeitando, quando houver, sua dependência com outras
+variáveis.
+
+\textbf{Conformidade} detecta concordância nos valores digitados nos
+campos das variáveis, avaliando se os valores de entrada não nulos estão
+em conformidade com os padrões descritos pelo dicionário de dados. Para
+cada variável estudada é calculado o percentual de entradas em
+conformidade com o padrão adotado.
+
+\textbf{Acurácia} visa detectar se informação registrada reflete o
+evento ou objeto descrito, isto é, verificar se o dado cadastrado está
+em concordância com o evento observado. Devido ao processo de
+anonimização dos dados, a análise de acurácia se restringe a verificar a
+possibilidade das informações registradas. Note que acurácia e
+conformidade são dimensões distintas, pois enquanto conformidade avalia
+o padrão do dado, acurácia avalia a razoabilidade dos dados. Para cada
+variável estudada é calculado o percentual de entradas com informações
+acuradas.
+
+\textbf{Consistência} constitui de testes envolvendo duas ou mais
+variáveis visando detectar inconsistências entre dados de um mesmo
+registro. Para cada teste considerado é calculado os percentuais de
+aprovação e falha.
+
+\textbf{Unicidade} objetiva mensurar o grau de duplicidade nos dados,
+realizando a busca por meio de identificadores dos pacientes.
+
+\textbf{Temporalidade} objetiva efetuar medidas estatísticas nos
+intervalos de tempos entre eventos, por exemplo, o nascimento de um
+recém-nascido e inclusão desse registro no sistema. O principal
+interesse é verificar se o dado é disponibilizado prontamente.
+
+\renewcommand{\arraystretch}{1.25}
+
+\renewcommand{\arraystretch}{1}
+
+\hypertarget{muxe9todos}{%
+\section{Métodos}\label{muxe9todos}}
+
+A análise apresentada constitui-se de um esquema cíclico, iniciando no
+mapeamento da documentação e do comportamento dos dados, através da
+observação de trechos das bases. Em seguida, são definidas as variáveis
+de teste. Após, ocorre a obtenção e avaliação dos resultados obtidos,
+recorrendo, e se necessário retificando, conclusões obtidas nos passos
+anteriores. Nesse contexto, são definidos parâmetros a serem passados
+para as funções relativas às metricas citadas e implementação de
+\emph{queries} para os testes de consistência, sintetizados em um único
+\emph{script} relativo à base analisada.
+
+O maneio dos dados ocorreu através dos serviços \textbf{Amazon Athena} e
+\textbf{Amazon S3}, assim como testes e análises se deu utilizando
+\textbf{linguagem R}. Os \emph{scripts} utilizados estão disponíveis em
+um repositório de qualidade de dados no \emph{GitHub}. Enfatiza-se que
+esses dados podem sofrer alterações, caso ocorram atualizações.
+
+O dicionário de dado utilizado, não oficial, é inferido das descrições
+das variáveis contidas nos relatórios de integração e é apresentado
+neste relatório. No que tange os testes de unicidade, procurou-se
+analisar apenas as informações individuais dos pacientes.
+
+Mudanças no domínio e tamanho de caracteres das variáveis são
+detectadas, relatadas e consideradas no cálculo de medidas de qualidade
+dos dados.
+
+O Cômputo dos resultados numéricos ocorre de modo cascata, isto é, os
+registros submetidos ao teste de conformidade devem ser não nulos, os
+registros submetidos ao teste de acurácia devem estar conformes, os
+registros submetidos aos testes de consistência devem estar acurados, e
+quando não for possível, conformes, sendo que o mesmo se aplica aos
+registros submetidos aos testes de unicidade. Em prosseguimento, os
+resultados numéricos são avaliados nas dimensões analisadas
+calculando-se a média ponderada dos testes realizados, utilizando como
+peso o total de registros por variável. Para a consistência, é realizado
+um ajuste em que todas as variáveis testadas devem existir
+simultaneamente.
+
+Objetivando avaliar a base de dados, o conjunto de resultados
+representando cada dimensão foi classificada como excelente
+(\textgreater{} 90\%), ótimo (75\% - 89,9\%), regular (50\% - 74,9\%) ou
+ruim (\textless{} 49,9\%), baseado nos relatórios do livro \emph{Saúde
+Brasil}, organizado pela Secretaria de Vigilância em Saúde (Brasil.
+Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de
+Análise de Situação em Saúde 2019). Em decorrência do método cascata
+utilizado, é realizado o produto dos resultados obtidos, caracterizando
+a qualidade da base de dados como um todo, que também pode ser
+classificada considerando as classes definidas em \emph{Saúde Brasil}
+(Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde.
+Departamento de Análise de Situação em Saúde 2019).
+
+\hypertarget{disponibilidade-dos-dados}{%
+\section{Disponibilidade dos dados}\label{disponibilidade-dos-dados}}
+
+Esta análise têm o objetivo de dissertar acerca da disponibilidade dos
+dados em todo o período representado pela base de dados e em todas as
+Unidades Federativas.
+
+Após realização de testes, averiguou-se que para todo o período
+representado pela base de dados a informação está disponível, ou seja,
+existem registros relativos a todos os anos, meses e Unidades
+Federativas.
+
+\hypertarget{variuxe1veis-existentes-e-mudanuxe7as-ocorridas}{%
+\section{Variáveis existentes e mudanças
+ocorridas}\label{variuxe1veis-existentes-e-mudanuxe7as-ocorridas}}
+
+Esta análise tem o objetivo identificar as variáveis existentes na base
+de dado se relatar as mudanças ocorridas ao longo do tempo.
+
+Após realização de testes não identificou-se qualquer alteração
+significante nas variáveis.
+
+\hypertarget{resultados}{%
+\section{Resultados}\label{resultados}}
+
+Descrições das variáveis são apresentadas no
+\protect\hyperlink{dicionuxe1rio-adotado}{Dicionário adotado}.
+Resultados dos testes de completude, conformidade e acurácia são
+exibidos nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}, onde estão organizados em duas tabelas: resultado geral e
+resultado agregado por ano. Uma descrição mais detalhada dos testes de
+inconsistência realizados, bem como seus respectivos resultados
+numéricos estão descritos em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}.
+
+\hypertarget{completude}{%
+\subsection{Completude}\label{completude}}
+
+Nesta dimensão são detectados valores faltantes através da busca pelas
+constantes representando valores ausentes. Nesse sentido, considerou-se
+como incompletos os registros contendo os valores \texttt{NA} constante
+lógica que indica valor ausente, e \texttt{NULL}, que representa objetos
+nulos.
+
+No geral, os resultados de completude das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{28.59\%}, ou seja, a \textbf{completude é ruim}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/comp.png}
+\caption{distribuição dos resultados de completude.}
+\end{figure}
+
+\hypertarget{conformidade}{%
+\subsection{Conformidade}\label{conformidade}}
+
+Verificou-se se os dados apresentam os padrões descritos no
+\protect\hyperlink{dicionuxe1rio-adotado}{dicionário de dados adotado}
+como referência a respeito da quantidade de caracteres e valores
+válidos.
+
+Ressalta-se que durante a construção do dicionário de dados não foi
+possível obter os microdados ou informação equivalente contendo, quando
+existente, os valores válidos de domínio para algumas variáveis. Nesse
+sentido, a tabela a seguir apresenta ao máximo dez registros mais
+frequentes para essas variáveis, separados por vírgulas.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-12}registros mais frequentes por variável em que não foi possível obter a descrição.}\\
+\toprule
+Variável & Domínio\\
+\midrule
+\em{causamat} & O937\\
+\em{cb\_orig} & A49, B57, C17, C25, C71, E10, E11, E14, F02, I21\\
+\em{codbaiocor} & 0.0, 1.0, 2.0, 27020.0, 27191.0, 3.0, 4.0, 5.0, 6.0, 7.0\\
+\em{codbaires} & 0.0, 1.0, 2.0, 27020.0, 2719.0, 27191.0, 3.0, 4.0, 5.0, 6.0\\
+\em{codcart} & , 12744.0, 1327.0, 1449.0, 2044.0, 2095.0, 2560.0, 2561.0, 2706.0, 2725.0\\
+\addlinespace
+\em{codestcart} & 27.0\\
+\em{codestocor} & 27.0\\
+\em{codestres} & 15.0, 21.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 33.0\\
+\em{codmuncart} & , 270010.0, 270030.0, 270050.0, 270060.0, 270080.0, 270090.0, 270120.0, 270135.0, 270150.0\\
+\em{codmunnatu} & 270030.0, 270640.0, 270710.0, 270730.0, 270930.0, 280030.0,\\
+\addlinespace
+\em{codpaisres} & 1.0, 107.0, 32.0, 3.0\\
+\em{codregocor} & 2.0\\
+\em{codregres} & 1.0, 2.0, 3.0, 4.0, 5.0\\
+\em{comunsvoim} & 270030.0, 270430.0, 261160.0, 270330.0, 270470.0, 270730.0, 270100.0, 270300.0, 270770.0, 270800.0\\
+\em{cond\_mat} & 1.0, 51.0, 60.0, 88.0\\
+\addlinespace
+\em{confcausa} & F\\
+\em{confidade} & I\\
+\em{critica} & N, S\\
+\em{dstempo} & / / / / /,  / / /1 0/,  / /2 1/ /,  /11 1/ /,  /5 0/ / /, 0 4/ / / /, 0 4/ /0 4/, 0 4/0 4/ /, 0 4/0 4/0, 01 2/ / /\\
+\em{dtencomite} & 2010-02-22, 2010-05-18, 2010-06-21, 2010-08-10, 2010-11-09, 2010-11-11, 2010-12-07, 2011-01-18, 2011-02-14\\
+\addlinespace
+\em{dtressele} & 2008-11-04, 2008-11-05, 2008-11-06, 2009-06-24, 2009-06-25, 2009-06-26, 2010-09-23, 2010-09-24, 2010-10-07, 2011-08-16\\
+\em{fontes} & SSSSXX, SSSXSX, SSSXXS, SSSXXX, SSXXXS, SSXXXX, SXSXXS, SXSXXX, SXXXSS, SXXXSX\\
+\em{fontesinf} & SSSSXXS, SSSSXXX, SSXSXXX, SSXXXXX, SXSSXSX, SXSSXXS, SXSSXXX, SXSXXXX, SXXSSXX, SXXSXSX\\
+\em{linhaii} & *,\\
+\em{natural\_} & , 10.0, 125.0, 144.0, 186.0, 19.0, 190.0, 31.0, 74.0, 77.0\\
+\addlinespace
+\em{nressele} & [02] - NÒo processado devido a regra causa externa., [03] - NÒo processado devido a regra de procedimento mÚdico., [04] - NÒo processado devido a regra causa paralisia, [04] - NÒo processado devido a regra causa paralisia[04] - NÒo process, [05] - NÒo executado devido a Regra F, [06] - NÒo executado devido ao codigo I663 nÒo poder ser CB. Tem a nec, [06] - NÒo executado devido ao codigo R69  nÒo poder ser CB. Tem a nec\\
+\em{numerodv} & 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0\\
+\em{origem} & 1.0, 2.0\\
+\em{qtdfilmort} & 0.0, 1.0, 11.0, 2.0, 3.0, 4.0, 5.0, 8.0, 9.0, 99.0\\
+\em{qtdfilvivo} & 0.0, 1.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 18.0, 2.0\\
+\addlinespace
+\em{semagestac} & 1.0, 24.0, 27.0, 32.0, 33.0, 34.0, 38.0, 4.0, 40.0, 41.0\\
+\em{ufinform} & 27.0, 29.0, 26.0\\
+\em{vrsressele} & 2.0\\
+\bottomrule
+\end{longtable}
+\endgroup{}
+
+Acerca das inconformidades identificadas, a tabela a seguir apresenta os
+registros mais frequentes, limitado a cinco registros, que encontram-se
+nesta situação.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-13}registros inconformes por variável.}\\
+\toprule
+Variável & Registros inconformes\\
+\midrule
+\em{ESC} & 0,\textbackslash{}sNA\\
+\em{ESCMAE} & 0,\textbackslash{}sNA\\
+\bottomrule
+\end{longtable}
+\endgroup{}
+
+No geral, os resultados de conformidade das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{96.49\%}, ou seja, a \textbf{conformidade é excelente}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/conf.png}
+\caption{distribuição dos resultados de conformidade.}
+\end{figure}
+
+\hypertarget{acuruxe1cia}{%
+\subsection{Acurácia}\label{acuruxe1cia}}
+
+Inicialmente a métrica de acurácia foi aplicada a dois tipos de
+registros: datas, ao verificar se o dado configura-se uma data válida e
+condizente ao período representado pela base de dados; nomes e códigos
+de municípios, ao verificar se estão contidos na tabela de códigos de
+municípios e estados do IBGE\footnote{\url{https://www.ibge.gov.br/explica/codigos-dos-municipios.php}}.
+Após esta análise de datas e municípios é realizada investigação acerca
+do preenchimento das variáveis com o objetivo de detectar a presença de
+preenchimentos sem informações relevantes. Em seguida, são verificados
+os registros representando informações numéricas, a respeito do sinal
+(\emph{e.g.} número de filhos deve ser positivo) e do conjunto ao qual
+pertence (\emph{e.g.} número de filhos deve ser um número inteiro).
+
+No que tange propriamente o preenchimento dos registros, buscou-se
+identificar valores representando a ausência de informações ou que foram
+ignorados, além de sequências finitas do caractere espaço
+(\emph{whitespace}) ou sequências finitas do numeral zero para variáveis
+não numéricas. Este fato pode representar um problema, visto que estará
+de acordo ao tamanho estabelecido pelo dicionário de dados, porém não
+estará acurado, não representando informação alguma. Para realizar a
+identificação no primeiro caso, utilizou-se o método TF-IDF.
+
+O método TF-IDF\footnote{\url{https://bergvca.github.io/2017/10/14/super-fast-string-matching.html}},
+em conjunto aos métodos \emph{N-Grams} e multiplicação de matriz
+esparsa, é uma medida estatística que tem o intuito de indicar a
+similaridade de uma palavra em relação a outra. TF-IDF é um método para
+gerar recursos do texto multiplicando a frequência de um termo em um
+documento (\emph{Term Frequency}, ou TF) pela importância (\emph{Inverse
+Document Frequency}, ou IDF) do mesmo termo em um corpus inteiro. Este
+método é muito útil na classificação e no agrupamento de textos e é
+usado para transformar documentos em vetores numéricos, que podem ser
+facilmente comparados. Embora os termos no TF-IDF sejam geralmente
+palavras, essa condição não é necessária. Como a maioria dos registros
+possuem de uma a três palavras, utilizou-se \emph{N-Grams}: sequências
+de \emph{N} caracteres contíguos. Para avaliação, calculou-se a
+proximidade dos vetores resultantes do método TF-IDF, através da
+semelhança cosseno, que pode ser vista como um produto escalar
+normalizado.
+
+Após aplicação do método, não identificou-se qualquer registro nessa
+situação.
+
+Em relação as várias quantitativas, a tabela a seguir expõe os valores
+atípicos detectados\footnote{\url{https://www.rdocumentation.org/packages/grDevices/versions/3.6.2/topics/boxplot.stats}},
+isto é, registros numéricos que apresentam grande afastamento em relação
+aos demais, dentro do universo de uma única variável, os quais implicam,
+tipicamente, em prejuízos a interpretação dos resultados dos testes
+estatísticos aplicados.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-15}valores atípicos para variáveis numéricas.}\\
+\toprule
+Variável & Valores atípicos\\
+\midrule
+\endfirsthead
+\caption[]{valores atípicos para variáveis numéricas. \textit{(continued)}}\\
+\toprule
+Variável & Valores atípicos\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{difdata} & 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, ..., 866, 868, 874, 878, 881, 883, 884, 885, 887, 914\\
+\em{idademae} & 45, 46, 48, 49, 52, 54, 60, 99, ..., 45, 46, 48, 49, 52, 54, 60, 99\\
+\em{nudiasobco} & 231, 232, 233, 235, 236, 237, 238, 239, 240, 241, ..., 438, 442, 445, 457, 458, 505, 507, 528, 550, 594\\
+\em{peso} & 5965, 6050, 6557, 6655, ..., 5965, 6050, 6557, 6655\\
+\em{qtdfilmort} & 3, 4, 5, 6, 7, 8, 9, 10, 11, 20, ..., 6, 7, 8, 9, 10, 11, 20, 21, 30, 99\\
+\addlinespace
+\em{qtdfilvivo} & 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ..., 13, 14, 15, 17, 18, 19, 20, 21, 25, 99\\
+\em{semagestac} & 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ..., 2, 3, 4, 5, 6, 7, 8, 9, 10, 99\\*
+\end{longtable}
+\endgroup{}
+
+Acerca das inacuracidades identificadas, a tabela a seguir apresenta os
+registros mais frequentes, limitado a cinco registros, que encontram-se
+nesta situação.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-16}registros inacurados por variável.}\\
+\toprule
+Variável & Registros inacurados\\
+\midrule
+\em{ESC} & 9\\
+\em{ESCMAE} & 9\\
+\bottomrule
+\end{longtable}
+\endgroup{}
+
+No geral, os resultados de acurácia das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{98.18\%}, ou seja, a \textbf{acurácia é excelente}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/ac.png}
+\caption{distribuição dos resultados de acurácia.}
+\end{figure}
+
+\hypertarget{consistuxeancia}{%
+\subsection{Consistência}\label{consistuxeancia}}
+
+Os resultados apresentados são de testes aplicados a um mesmo registro,
+ou seja, mesma linha do conjunto de dados. Estes testes detectam
+principalmente problemas na entrada de dados envolvendo condições
+específicas de inconsistências. Uma descrição mais detalhada de cada
+teste está presente em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-17}resultados de consistência.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{\centering\arraybackslash}p{1cm}>{\raggedright\arraybackslash}p{9cm}>{\centering\arraybackslash}p{3cm}}
+\toprule
+Teste & Descrição & Falhas [partes por mil]\\
+\midrule
+\em{T1} & dtobito > dtrecorig & 0.561\\
+\em{T2} & dtobito > dtcadastro & 0.463\\
+\em{T3} & obitopuerp == 1|2|3 \& sexo == 1 & 0.442\\
+\em{T4} & dtobito > dtrecoriga & 0.337\\
+\em{T5} & dtobito > dtregcart & 0.106\\
+\addlinespace
+\em{T6} & dtobito > dtatestado & 0.089\\
+\em{T7} & dtobito > dtrecebim & 0.055\\
+\em{T8} & dtobito > dtinvestig & 0.047\\
+\em{T9} & codestab !=null \& lococor != 1\&2 & 0.007\\
+\em{T10} & obitoparto == 2 \& dtnasc != dtobito & 0.000\\
+\addlinespace
+\em{T11} & obitoparto == 1 \& dtnasc < dtobito & 0.000\\
+\em{T12} & obitograv == 1 \& sexo == 1 & 0.000\\
+\em{T13} & comunsvoim != null \& atestante != 3\&4 & 0.000\\
+\em{T14} & esc > idade & 0.000\\
+\em{T15} & dtobito < dtnasc & 0.000\\
+\addlinespace
+\em{T16} & escmae > idademae & 0.000\\
+\em{T17} & tipobito == 1 \& dtnasc != dtobito & 0.000\\
+\em{T18} & tppos == ‘n’ \& dtinvestig != null & 0.000\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal dos resultados dos testes de consistência é
+apresentada no gráfico a seguir
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/cons-anual.png}
+\caption{distribuição temporal da consistência.}
+\end{figure}
+
+O resultado de cada teste por ano está descrito em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}. O cômputo da média ponderada dos resultados obtidos é
+de \textbf{99.99\%}, ou seja, a \textbf{consistência é excelente}.
+
+\hypertarget{unicidade}{%
+\subsection{Unicidade}\label{unicidade}}
+
+\label{sub:unicidade}
+
+Nesta dimensão é calculado o grau de duplicidade dos dados, buscando
+diferenças por meio dos identificadores dos pacientes.
+
+São excluídos deste teste os identificadores de pacientes presentes
+apenas uma vez na base de dados. Nesse sentido, é apresentado a seguir a
+distribuição de frequência desta variável. A saber, a quantidade
+associada a categoria \emph{ID = 1} representa o percentual de pacientes
+com apenas 1 registro no sistema, enquanto a quantidade associada a a
+categoria \emph{ID = 2} representa o percentual de pacientes com 2
+registros. Mesma interpretação pode ser realizada para as demais
+categorias.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-18}frequência de identificadores. A quantidade associada a categoria \textit{ID = 1} representa o percentual de pacientes com apenas 1 registro no sistema, enquanto a quantidade associada a a categoria \textit{ID = 2} representa o percentual de pacientes com 2 registros. Mesma interpretação pode ser realizada para as demais categorias.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}lc}
+\toprule
+Categoria & Frequência [\%]\\
+\midrule
+\em{ID = 1} & 99.88\\
+\em{ID = 2} & 0.12\\
+\em{ID = 3} & 0.00\\
+\em{ID = 4} & 0.00\\
+\em{5 <= ID < 10} & 0.00\\
+\addlinespace
+\em{10 <= ID < 50} & 0.00\\
+\em{50 <= ID < 100} & 0.00\\
+\em{ID >= 100} & 0.00\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-19}resultados de unicidade por variável relacionada à identificação do paciente.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}c>{}lc}
+\toprule
+Teste & Variável & Unicidade [\%]\\
+\midrule
+\em{T1} & \em{dtnasc} & 81.94\\
+\em{T2} & \em{numerodo} & 37.44\\
+\em{T3} & \em{horaobito} & 46.70\\
+\em{T4} & \em{sexo} & 98.68\\
+\em{T5} & \em{lococor} & 64.76\\
+\addlinespace
+\em{T6} & \em{idade} & 65.64\\
+\em{T7} & \em{racacor} & 76.21\\
+\em{T8} & \em{codpaisres} & 100.00\\
+\em{T9} & \em{dtobito} & 44.93\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal dos resultados dos testes de unicidade é
+apresentada no gráfico a seguir.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/unic-anual.png}
+\caption{distribuição temporal da unicidade.}
+\end{figure}
+
+O cômputo da média ponderada dos resultados obtidos é de
+\textbf{35.68\%}, ou seja, a \textbf{unicidade é ruim}.
+
+\hypertarget{temporalidade}{%
+\subsection{Temporalidade}\label{temporalidade}}
+
+Para mensurar esta dimensão é calculada a quantidade de dias entre duas
+variáveis representando datas que estejam conformes, acuradas e
+consistentes.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-20}resultados de temporalidade.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}c>{}l>{}lccc}
+\toprule
+Teste & Variável Inicial & Variável final & Mediana & Min. & Max.\\
+\midrule
+\em{T1} & \em{dtobito} & \em{dtcadastro} & 24 & 0 & 900\\
+\em{T2} & \em{dtobito} & \em{dtinvestig} & 41 & 0 & 910\\
+\em{T3} & \em{dtobito} & \em{dtrecebim} & 39 & 0 & 950\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal das medianas obtidas pelos testes de
+temporalidade é apresentada no gráfico a seguir.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/temp-anual.png}
+\caption{distribuição temporal da temporalidade.}
+\end{figure}
+
+\hypertarget{considerauxe7uxf5es-finais}{%
+\section{Considerações finais}\label{considerauxe7uxf5es-finais}}
+
+A avaliação realizada é especialmente oportuna, tendo em vista o cenário
+nacional e o atual empenho em fomentar o debate em torno da qualidade
+das informações acerca de estabelecimentos de saúde do país.
+
+Assim, a média ponderada dos resultados de Completude é 28.59\%, de
+Conformidade é 96.49\%, de Acurácia é 98.18\%, de Consistência é
+99.99\%, de Unicidade é 35.68\%. Realizando o produto destes resultados,
+obtêm-se \textbf{9.66\%}, caracterizando a \textbf{base de dados como
+ruim}.
+
+\newpage
+
+\hypertarget{referuxeancias}{%
+\section{Referências}\label{referuxeancias}}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-brasil2019}{}%
+Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde.
+Departamento de Análise de Situação em Saúde. 2019. \emph{Saúde Brasil
+2019: Uma Análise Da Situação de Saúde Com Enfoque Nas Doenças
+Imunopreveníveis E Na Imunização}. Ministério da Saúde.
+
+\leavevmode\hypertarget{ref-merino}{}%
+Merino, Jorge, Ismael Caballero, Bibiano Rivas, Manuel Serrano, and
+Mario Piattini. 2016. ``A Data Quality in Use Model for Big Data.''
+\emph{Future Generation Computer Systems} 63: 123--30.
+\url{https://doi.org/https://doi.org/10.1016/j.future.2015.11.024}.
+
+\captionsetup[table]{labelformat=empty}
+
+\newpage
+
+\hypertarget{dicionuxe1rio-adotado}{%
+\section*{Dicionário adotado}\label{dicionuxe1rio-adotado}}
+\addcontentsline{toc}{section}{Dicionário adotado}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{>{}l>{\raggedright\arraybackslash}p{9cm}>{\centering\arraybackslash}p{2cm}}
+\toprule
+Variável & Descrição & Tamanho\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\textit{(continued)}}\\
+\toprule
+Variável & Descrição & Tamanho\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{acidtrab} & Indicar se foi acidente de trabalho. 1: sim, 2: não, 9: ignorado & [1, 1]\\
+\em{altcausa} & Houve correção ou  alteração da causa do óbito após investigação. 1: sim, 2: não & [1, 1]\\
+\em{alteradn} & Se investigação alterou ou corrigiu outro campo da DB, além das causas do óbito. 1: sim, 2: não & [1, 1]\\
+\em{alterado} & Se investigação alterou ou corrigiu outro campo da DO, além das causas do óbito. 1: sim, 2: não & [1, 1]\\
+\em{alterblocv} & Alteração do bloco V. 1: sim, 2: não & [1, 1]\\
+\addlinespace
+\em{assistmed} & Assistência médica. 1: sim, 2: não, 9: ignorado & [1, 1]\\
+\em{atestado} & CIDs informado no atestado. & [1, 100]\\
+\em{atestante} & Indica se o médico que atendeu o paciente. 1: sim, 2: substituto, 3: IML, 4: SVO, 5: outros & [1, 1]\\
+\em{baiocor} & Bairro de ocorrência. & [1, 60]\\
+\em{baires} & Bairro de residência. & [1, 60]\\
+\addlinespace
+\em{basica} &  & [1, 8]\\
+\em{causabas} & Causa básica da DO. actragrp.CNV & [3, 3]\\
+\em{causabas\_d} &  & [1, 4]\\
+\em{causabas\_f} &  & [1, 4]\\
+\em{causabas\_o} & Causa básica original. CID10CAP.CNV & [3, 3]\\
+\addlinespace
+\em{causabas\_r} & Causa básica resselecionada. CID10CAC.CNV & [4, 4]\\
+\em{causamat} & Causa externa associada a uma causa materna. & [1, 4]\\
+\em{cb\_f} &  & [1, 4]\\
+\em{cb\_orig} &  & [1, 4]\\
+\em{cb\_pre} & Causa básica informada antes da resseleção. CID10CAC.CNV & [4, 4]\\
+\addlinespace
+\em{cbcb} &  & [1, 4]\\
+\em{cepacid} & CEP do endereço do acidente. & [8, 8]\\
+\em{cepocor} & CEP do endereço de ocorrência. & [8, 8]\\
+\em{cepres} & Código de endereçamento postal. & [8, 8]\\
+\em{circobito} & Indicar qual foi a provável circunstância de morte não natural. 1: acidente, 2: suicídio, 3: homicídio, 4: outros, 9: ignorado & [1, 1]\\
+\addlinespace
+\em{cirurgia} & Cirurgia. 1: sim, 2: não, 9: ignorado & [1, 1]\\
+\em{co\_id\_do} &  & [12, 12]\\
+\em{codbaiocor} & Código do bairro de ocorrência. & [1, 6]\\
+\em{codbaires} & Código do bairro de residência. & [1, 6]\\
+\em{codcart} & Código do cartório. & [1, 8]\\
+\addlinespace
+\em{coddisocor} & Código do distrito de ocorrência. & [1, 8]\\
+\em{coddisres} & Código do distrito de residência. & [1, 8]\\
+\em{codendacid} & Código de endereço do acidente. & [1, 12]\\
+\em{codendocor} & Código do endereço de ocorrência. & [1, 12]\\
+\em{codendres} & Código do endereço de residência. & [1, 12]\\
+\addlinespace
+\em{codestab} & Código de estabelecimento. & [7, 7]\\
+\em{codestcart} & Código da UF do cartório. & [2, 2]\\
+\em{codestocor} & Código de estabelecimento de ocorrência. & [2, 2]\\
+\em{codestres} & Código da UF de residência. & [2, 2]\\
+\em{codificado} & Se estiver codificado. S: sim, N: não & [1, 1]\\
+\addlinespace
+\em{codinst} & Código de configuração da instalação. 1º caractere: nível de instalação (M: municipal, R: regional, E: estadual), 2º e 3º caractere: UF de instalação, 4º ao 9º caractere: código do município de instalação, 10º ao 13º caractere: nº da máquina de instalação & [13, 13]\\
+\em{codmuncart} & Código do município do cartório. & [6, 6]\\
+\em{codmunnatu} & Código do município de naturalidade do falecido. & [6, 6]\\
+\em{codmunocor} & Código do município de ocorrência. & [6, 6]\\
+\em{codmunres} & Código do município de residência. & [6, 6]\\
+\addlinespace
+\em{codpaisres} & Código do país de residência. & [1, 3]\\
+\em{codregocor} & Código da região de ocorrência. & [1, 1]\\
+\em{codregres} & Código da região de residência. & [1, 1]\\
+\em{compara\_cb} & Compara causa básica resselecionada com a informada. IGUAL, DIFER & [5, 5]\\
+\em{complacid} & Complemento do endereço onde ocorreu o acidente. & [1, 40]\\
+\addlinespace
+\em{complocor} & Complemento do endereço de ocorrência. & [1, 40]\\
+\em{complres} & Complemento da residência. & [1, 40]\\
+\em{comunsvoim} & Código do município do SVO ou do IML. & [6, 6]\\
+\em{cond\_cb} &  & [1, 2]\\
+\em{cond\_mat} &  & [1, 4]\\
+\addlinespace
+\em{confcausa} &  & [1, 1]\\
+\em{confcidade} &  & [1, 1]\\
+\em{confidade} &  & [1, 1]\\
+\em{confpeso} &  & [1, 2]\\
+\em{contato} & Meio de contato do atestante (telefone, fax, email etc.). & [1, 60]\\
+\addlinespace
+\em{critica} &  & [1, 1]\\
+\em{crm} & Nº do CRM. & [1, 30]\\
+\em{descacid} & Descrição do acidente. & [1, 100]\\
+\em{difdata} & Diferença entre a data de óbito e data do recebimento original. da DO ([DTOBITO]: [DTRECORIG]). & [1, 3]\\
+\em{dsevento} & Descrição sumária do acidente. & [1, 20]\\
+\addlinespace
+\em{dsexplica} & Descrição da explicação das regras de seleção da causa básica. & [1, 40]\\
+\em{dstempo} & Tempo de duração dos CIDs informados. & [1, 20]\\
+\em{dtatestado} & Data do atestado. & [10, 10]\\
+\em{dtcadastro} & Data do cadastro. & [10, 10]\\
+\em{dtcadinf} &  & [10, 10]\\
+\addlinespace
+\em{dtcadinv} & Data de cadastro da investigação de morte materna. & [10, 10]\\
+\em{dtconcaso} & Data de conclusão do caso. & [10, 10]\\
+\em{dtconinv} & Data da conclusão da investigação. & [10, 10]\\
+\em{dtencomite} & Data do encaminhamento ao comitê. & [10, 10]\\
+\em{dtinvestig} & Data da investigação. & [10, 10]\\
+\addlinespace
+\em{dtnasc} & Data do nascimento. & [10, 10]\\
+\em{dtobito} & Data do óbito. & [10, 10]\\
+\em{dtrecebim} & Data do recebimento. & [10, 10]\\
+\em{dtrecorig} & Data do recebimento original. & [10, 10]\\
+\em{dtrecoriga} &  & [10, 10]\\
+\addlinespace
+\em{dtregcart} & Data do registro do cartório. & [10, 10]\\
+\em{dtressele} & Data da resseleção. & [10, 10]\\
+\em{endacid} & Endereço do acidente. & [1, 100]\\
+\em{endocor} & Endereço de ocorrência. & [1, 100]\\
+\em{endres} & Endereço de residência. & [1, 100]\\
+\addlinespace
+\em{esc} & Escolaridade em anos. 1: nenhuma, 2: de 1 a 3 anos, 3: de 4 a 7 anos, 4: de 8 a 11 anos, 5: 12 anos e mais, 9: ignorado & [1, 1]\\
+\em{esc2010} & Escolaridade 2010. 0: sem escolaridade, 1: fundamental I (1ª a 4ª série), 2: fundamental II (5ª a 8ª série), 3: médio (antigo 2º grau), 4: superior incompleto, 5: superior completo, 9: ignorado & [1, 1]\\
+\em{escfalagr1} & Escolaridade 2010 agregada. 0: sem escolaridade, 1: fundamental I incompleto, 2: fundamental I completo, 3: fundamental II incompleto, 4: fundamental II completo, 5: ensino médio incompleto, 6: ensino médio completo, 7: superior incompleto, 8: superior completo, 9: ignorado, 10: fundamental I incompleto ou inespecífico, 11: fundamental II incompleto ou inespecífico, 12: ensino médio incompleto ou inespecífico & [1, 2]\\
+\em{escfalagr2} & Escolaridade em anos. 1: nenhuma, 2: de 1 a 3 anos, 3: de 4 a 7 anos, 4: de 8 a 11 anos, 5: 12 anos e mais, 9: ignorado & [1, 1]\\
+\em{escmae} & Escolaridade em anos. 1: nenhuma, 2: de 1 a 3 anos, 3: de 4 a 7 anos, 4: de 8 a 11 anos, 5: 12 anos e mais, 9: ignorado & [1, 1]\\
+\addlinespace
+\em{escmae2010} & Escolaridade 2010. 0: sem escolaridade, 1: fundamental I (1ª a 4ª série), 2: fundamental II (5ª a 8ª série), 3: médio (antigo 2º grau), 4: superior incompleto, 5: superior completo, 9: ignorado & [1, 1]\\
+\em{escmaeagr1} & Escolaridade 2010 agregada. 0: sem escolaridade, 1: fundamental I incompleto, 2: fundamental I completo, 3: fundamental II incompleto, 4: fundamental II completo, 5: ensino médio incompleto, 6: ensino médio completo, 7: superior incompleto, 8: superior completo, 9: ignorado, 10: fundamental I incompleto ou inespecífico, 11: fundamental II incompleto ou inespecífico, 12: ensino médio incompleto ou inespecífico & [1, 2]\\
+\em{escmaeagr2} & Escolaridade em anos. 1: nenhuma, 2: de 1 a 3 anos, 3: de 4 a 7 anos, 4: de 8 a 11 anos, 5: 12 anos e mais, 9: ignorado & [1, 1]\\
+\em{estabdescr} &  & [1, 140]\\
+\em{estciv} & Situação conjugal. 1: solteiro, 2: casado, 3: viúvo, 4: separado judicialmente/divorciado, 5: união estável, 9: ignorado & [1, 1]\\
+\addlinespace
+\em{exame} & Exame. 1: sim, 2: não, 9: ignorado & [1, 1]\\
+\em{expdifdata} &  & [1, 3]\\
+\em{explica\_r} & Explicação das regras de resseleção de causa básica. & [1, 250]\\
+\em{fonte} & Indicar a fonte da informação. 1: boletim de ocorrência, 2: hospital, 3: família, 4: outra, 9: ignorado & [1, 1]\\
+\em{fonteinv} & Fonte de investigação. 1: comitê de morte materna e/ou infantil, 2: visita domiciliar / entrevista família, 3: estabelecimento de saúde / prontuário, 4: relacionado com outros bancos de dados,  5: SVO, 6: IML, 7: outra fonte, 8: múltiplas fontes, 9: ignorado & [1, 1]\\
+\addlinespace
+\em{fontes} & Combinado de caracteres conforme o preenchimento dos campos de fontes (FONTENTREV, FONTEAMBUL, FONTEPRONT, FONTESVO, FONTEIML, FONTEPROF). se preenchido caractere S, se o campo estiver vazio caractere X & [6, 6]\\
+\em{fontesinf} &  & [7, 7]\\
+\em{gestacao} & Faixa de semas de gestação. 1: menos 22 semas, 2: 22 a 27 semas, 3: 28 a 31 semas, 4: 32 a 36 semas, 5: 37 a 41 semas, 6: 42 e + semas & [1, 1]\\
+\em{gravidez} & Informar o tipo de gravidez. 1: única, 2: dupla, 3: tripla e mais, 9: ignorada & [1, 1]\\
+\em{horaobito} & Horário do óbito. & [1, 5]\\
+\addlinespace
+\em{id\_paciente} &  & [1, 12]\\
+\em{idade} & Idade. O primeiro, de 1 dígito, indica a idade: composto de dois subcampos. o primeiro, de 1 dígito, indica a unidade da idade, conforme a tabela a seguir. o segundo, de dois dígitos, indica a quantidade de unidades: 0: idade menor de 1 hora, o subcampo varia de 01 e 59, 1: hora, o subcampo varia de 01 a 23, 2: dias, o subcampo varia de 01 a 29, 3: meses, o subcampo varia de 01 a 11, 4: anos, o subcampo varia de 00 a 99, 5: anos (mais de 100 anos), o segundo subcampo varia de 0 a 99 & [1, 3]\\
+\em{idademae} & Idade da mãe. & [2, 2]\\
+\em{linhaa} & CIDs informados linha A da DO. & [1, 40]\\
+\em{linhaa\_o} & CIDs informados, originalmente, linha A da DO. & [1, 40]\\
+\addlinespace
+\em{linhab} & CIDs informados linha B da DO. & [1, 40]\\
+\em{linhab\_o} & CIDs informados, originalmente, linha B da DO. & [11, 40]\\
+\em{linhac} & CIDs informados linha C da DO. & [5, 40]\\
+\em{linhac\_o} & CIDs informados, originalmente, linha C da DO. & [1, 40]\\
+\em{linhad} & CIDs informados linha D da DO. & [1, 40]\\
+\addlinespace
+\em{linhad\_o} & CIDs informados, originalmente, linha D da DO. & [1, 40]\\
+\em{linhaii} & CIDs informados parte II da DO. & [1, 40]\\
+\em{linhaii\_o} & CIDs informados, originalmente, parte II da DO. & [1, 40]\\
+\em{lococor} & Local de ocorrência do óbito. 1: hospital, 2: outros estabelecimentos de saúde, 3: domicílio, 4: via pública, 5: outros, 9: ignorado & [1, 1]\\
+\em{medico} & Nome do médico. & [1, 60]\\
+\addlinespace
+\em{morteparto} & Momento do óbito em relação ao parto. 1: antes, 2: durante, 3: após, 9: ignorado & [1, 1]\\
+\em{muncadinv} & Código do município investigador. & [1, 12]\\
+\em{natural\_} &  & [1, 6]\\
+\em{necropsia} & Confirmação do diagnóstico por necrópsia. 1: sim, 2: não, 9: ignorado & [1, 1]\\
+\em{nome} & Nome do falecido. & [1, 80]\\
+\addlinespace
+\em{nomemae} & Nome da mãe do falecido. & [1, 80]\\
+\em{nomepai} & Nome do pai do falecido. & [1, 80]\\
+\em{nproc} & Códigos da explicação da não resseleção da causa básica. 1: depende de perguntas, 2: causa externa, 3: procedimento médico, 4: causa básica por CID de paralisia, 5: regra F, 6: CID temporário não pode ser causa básica & [1, 1]\\
+\em{nressele} & Descrição da explicação da não resseleção da causa básica. & [1, 140]\\
+\em{nudiasinf} &  & [1, 3]\\
+\addlinespace
+\em{nudiasobco} & Diferença entre a data óbito e a data conclusão da investigação, em dias. & [1, 3]\\
+\em{nudiasobin} & Diferença  a data óbito e a data cadastro da investigação, em dias. & [1, 3]\\
+\em{numendacid} & Número do endereço do acidente. & [1, 12]\\
+\em{numendocor} & Número do endereço de ocorrência. & [1, 12]\\
+\em{numerodn} & Número da declaração de nascido vivo. & [1, 16]\\
+\addlinespace
+\em{numerodo} & Número da DO. & [1, 8]\\
+\em{numerodv} & Número do dígito verificador. & [1, 1]\\
+\em{numerolote} & Número do lote. & [8, 8]\\
+\em{numregcart} & Número do registro do cartório. & [1, 8]\\
+\em{numres} & Número da residência. & [1, 12]\\
+\addlinespace
+\em{numsus} & Número do cartão SUS. & [15, 15]\\
+\em{obitoevita} & Óbito poderia ter sido evitado. 1: sim, 2: não, 3: inconcluso & [1, 1]\\
+\em{obitograv} & Óbito gravidez. 1: sim, 2: não, 9: ignorado & [1, 1]\\
+\em{obitoparto} & Informar como foi a morte em relação ao parto. 1: antes, 2: durante, 3: depois, 9: ignorado & [1, 1]\\
+\em{obitopuerp} & Óbito no puerpério. 1: sim, até 42 dias após o parto, 2: sim, de 43 dias a 1 ano, 3: não, 9: ignorado & [1, 1]\\
+\addlinespace
+\em{ocup} & Ocupação habitual e ramo de atividade. GRUPOCUP.CNV & [3, 3]\\
+\em{ocupmae} & Ocupação da mãe. CBO2002.CNV & [6, 6]\\
+\em{opor\_do} &  & [1, 8]\\
+\em{oportinv\_i} &  & [1, 8]\\
+\em{oportinv\_m} &  & [1, 8]\\
+\addlinespace
+\em{origem} &  & [1, 1]\\
+\em{parto} & Informar o tipo de parto. 1: vagil, 2: cesáreo, 9: ignorado & [1, 1]\\
+\em{peso} & Peso ao nascer em gramas. & [1, 4]\\
+\em{qtdfilmort} & Número de filhos mortos. & [1, 2]\\
+\em{qtdfilvivo} & Número de filhos vivos. & [1, 2]\\
+\addlinespace
+\em{racacor} & Raça. 1: branca, 2: preta, 3: amarela, 4: parda, 5: indígena & [1, 1]\\
+\em{regra} &  & [1, 80]\\
+\em{retroalim} & Retroalimentação. S: sim, N: não & [1, 1]\\
+\em{semagestac} & Semanas de gestação. & [1, 2]\\
+\em{seriescfal} & Série escolar do falecido. 0: sem escolaridade, 1: fundamental I incompleto, 2: fundamental I completo, 3: fundamental II incompleto, 4: fundamental II completo, 5: ensino médio incompleto, 6: ensino médio completo, 7: superior incompleto, 8: superior completo, 9: ignorado, 10: fundamental I incompleto ou inespecífico, 11: fundamental II incompleto ou inespecífico, 12: ensino médio incompleto ou inespecífico & [1, 2]\\
+\addlinespace
+\em{seriescmae} & Série escolar da mãe. 0: sem escolaridade, 1: fundamental I incompleto, 2: fundamental I completo, 3: fundamental II incompleto, 4: fundamental II completo, 5: ensino médio incompleto, 6: ensino médio completo, 7: superior incompleto, 8: superior completo, 9: ignorado, 10: fundamental I incompleto ou inespecífico, 11: fundamental II incompleto ou inespecífico, 12: ensino médio incompleto ou inespecífico & [1, 2]\\
+\em{sexo} & Sexo. 1: masculino, 2: feminino, 0,9 ignorado & [1, 1]\\
+\em{stcampoalt} & Campos alterados declaração de óbito após a investigação. 1: não, 2: sim & [1, 1]\\
+\em{stcodifica} & Status de instalação. S: sim, N: não & [1, 1]\\
+\em{stcomitemm} & Se o caso foi encaminhado para o comitê de morte mater. 1: sim, 2: não & [1, 1]\\
+\addlinespace
+\em{stdoepidem} & Status de do epidemiológica. 1: sim, 0: não & [1, 1]\\
+\em{stdonova} & Status de do nova. 1: sim, 0: não & [1, 1]\\
+\em{stparecer} & Status se o comitê de morte materna deu parecer. 1: sim, 2. não & [1, 1]\\
+\em{stressele} & Status da resseleção. S: sim, N: não & [1, 1]\\
+\em{tipobito} & Tipo do óbito. 1: fetal, 2: não fetal & [1, 1]\\
+\addlinespace
+\em{tp\_analise} &  & [1, 4]\\
+\em{tpassina} &  & [1, 2]\\
+\em{tpcausapar} & Se as causas do óbito corrigidas expressam o parecer do comitê de morte materna. 1: sim, 2: não, 3: não se aplica o comitê não emitiu parecer ainda, 4: não se aplica a vigilância não teve acesso ao parecer emitido pelo comitê & [1, 1]\\
+\em{tpmorteoco} & Informar quando a morte ocorreu. 1: gravidez, 2: no parto, 3: no aborto, 4: até 42 dias após o parto, 5: de 43 dias a 1 ano após o parto, 8: não ocorreu nestes períodos, 9: ignorado & [1, 1]\\
+\em{tpnivelinv} & Tipo de nível investigador. E: estadual, R: regional, M: municipal & [1, 1]\\
+\addlinespace
+\em{tpobitocor} & O óbito ocorreu. 1: durante a gestação, 2: durante abortamento, 3: após abortamento, 4: no parto ou até 1 hora após o parto, 5: no puerpério (até 42 dias do término da gestação), 6: entre o 43º dia e até um ano após o término da gestação, 7: investigação não identificou o momento do óbito, 8: mais de 1 ano após o parto, 9: o óbito não ocorreu em nenhuma das circunstâncias acima mencionadas & [1, 1]\\
+\em{tpobitoinf} &  & [1, 2]\\
+\em{tppos} & Óbito investigado. S: sim, N: não & [1, 1]\\
+\em{tpresginfo} & A investigação permitiu o resgate de alguma causa de óbito não informado, ou a correção de alguma antes informada. 1: não acrescentou nem corrigiu informação, 2: sim, permitiu o resgate de novas informações, 3: sim, permitiu a correção de alguma das causas informadas origilmente & [1, 1]\\
+\em{ufinform} &  & [2, 2]\\
+\addlinespace
+\em{valor} &  & [1, 2]\\
+\em{versaoscb} & Versão do seletor de causa básica. VERSCB.CNV & [1, 4]\\
+\em{versaosist} & Versão do sistema. VERSAO.CNV & [1, 7]\\
+\em{verscbpre} & Versão do SCB da resseleção. VERSCB.CNV & [1, 4]\\
+\em{vrsressele} & Versão de resseleção. & [1, 14]\\*
+\end{longtable}
+\endgroup{}
+
+\newpage
+
+\hypertarget{resultados-numuxe9ricos}{%
+\section*{Resultados numéricos}\label{resultados-numuxe9ricos}}
+\addcontentsline{toc}{section}{Resultados numéricos}
+
+\hypertarget{resultados-gerais}{%
+\subsection*{Resultados gerais}\label{resultados-gerais}}
+\addcontentsline{toc}{subsection}{Resultados gerais}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{lccc}
+\toprule
+Variável & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\textit{(continued)}}\\
+\toprule
+Variável & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+acidtrab & 0.91 & 100.00 & 100.00\\
+altcausa & 1.68 & 100.00 & 100.00\\
+alteradn & 0.00 & 0.00 & 0.00\\
+alterado & 0.00 & 0.00 & 0.00\\
+alterblocv & 0.00 & 0.00 & 0.00\\
+\addlinespace
+assistmed & 62.65 & 100.00 & 100.00\\
+atestado & 99.90 & 100.00 & 100.00\\
+atestante & 85.79 & 100.00 & 100.00\\
+baiocor & 77.01 & 100.00 & 99.99\\
+baires & 56.04 & 100.00 & 99.99\\
+\addlinespace
+basica & 0.00 & 0.00 & 0.00\\
+causabas & 100.00 & 0.00 & 0.00\\
+causabas\_d & 5.93 & 100.00 & 100.00\\
+causabas\_f & 6.49 & 100.00 & 100.00\\
+causabas\_o & 99.96 & 19.19 & 100.00\\
+\addlinespace
+causabas\_r & 33.96 & 60.13 & 100.00\\
+causamat & 0.00 & 100.00 & 100.00\\
+cb\_f & 21.01 & 100.00 & 100.00\\
+cb\_orig & 0.01 & 100.00 & 100.00\\
+cb\_pre & 34.92 & 60.49 & 100.00\\
+\addlinespace
+cbcb & 7.17 & 100.00 & 100.00\\
+cepacid & 0.00 & 0.00 & 0.00\\
+cepocor & 0.00 & 0.00 & 0.00\\
+cepres & 0.00 & 0.00 & 0.00\\
+circobito & 17.16 & 100.00 & 98.47\\
+\addlinespace
+cirurgia & 19.29 & 100.00 & 94.13\\
+co\_id\_do & 100.00 & 100.00 & 100.00\\
+codbaiocor & 13.52 & 100.00 & 58.94\\
+codbaires & 47.73 & 100.00 & 63.17\\
+codcart & 3.97 & 100.00 & 100.00\\
+\addlinespace
+coddisocor & 0.00 & 0.00 & 0.00\\
+coddisres & 0.00 & 0.00 & 0.00\\
+codendacid & 0.00 & 0.00 & 0.00\\
+codendocor & 0.00 & 0.00 & 0.00\\
+codendres & 0.00 & 0.00 & 0.00\\
+\addlinespace
+codestab & 59.97 & 99.70 & 100.00\\
+codestcart & 3.88 & 100.00 & 100.00\\
+codestocor & 20.34 & 100.00 & 100.00\\
+codestres & 20.34 & 100.00 & 100.00\\
+codificado & 100.00 & 100.00 & 100.00\\
+\addlinespace
+codinst & 100.00 & 100.00 & 100.00\\
+codmuncart & 6.26 & 100.00 & 100.00\\
+codmunnatu & 49.14 & 100.00 & 97.50\\
+codmunocor & 100.00 & 100.00 & 100.00\\
+codmunres & 100.00 & 100.00 & 99.99\\
+\addlinespace
+codpaisres & 99.16 & 100.00 & 100.00\\
+codregocor & 69.53 & 100.00 & 100.00\\
+codregres & 85.36 & 100.00 & 100.00\\
+compara\_cb & 33.96 & 100.00 & 100.00\\
+complacid & 0.00 & 0.00 & 0.00\\
+\addlinespace
+complocor & 0.00 & 0.00 & 0.00\\
+complres & 0.00 & 0.00 & 0.00\\
+comunsvoim & 16.50 & 100.00 & 100.00\\
+cond\_cb & 0.00 & 0.00 & 0.00\\
+cond\_mat & 0.01 & 100.00 & 100.00\\
+\addlinespace
+confcausa & 6.96 & 100.00 & 100.00\\
+confcidade & 0.00 & 0.00 & 0.00\\
+confidade & 6.96 & 100.00 & 100.00\\
+confpeso & 0.00 & 0.00 & 0.00\\
+contato & 13.76 & 100.00 & 99.99\\
+\addlinespace
+critica & 13.45 & 100.00 & 100.00\\
+crm & 0.00 & 0.00 & 0.00\\
+descacid & 0.00 & 0.00 & 0.00\\
+difdata & 86.60 & 100.00 & 100.00\\
+dsevento & 1.61 & 100.00 & 100.00\\
+\addlinespace
+dsexplica & 18.84 & 100.00 & 100.00\\
+dstempo & 20.34 & 100.00 & 100.00\\
+dtatestado & 95.89 & 100.00 & 100.00\\
+dtcadastro & 99.31 & 100.00 & 100.00\\
+dtcadinf & 2.65 & 100.00 & 100.00\\
+\addlinespace
+dtcadinv & 3.49 & 100.00 & 100.00\\
+dtconcaso & 0.75 & 100.00 & 100.00\\
+dtconinv & 3.45 & 100.00 & 100.00\\
+dtencomite & 0.00 & 100.00 & 100.00\\
+dtinvestig & 9.13 & 100.00 & 100.00\\
+\addlinespace
+dtnasc & 99.08 & 100.00 & 100.00\\
+dtobito & 100.00 & 100.00 & 100.00\\
+dtrecebim & 93.07 & 100.00 & 100.00\\
+dtrecorig & 59.13 & 100.00 & 100.00\\
+dtrecoriga & 64.37 & 100.00 & 100.00\\
+\addlinespace
+dtregcart & 4.01 & 100.00 & 100.00\\
+dtressele & 34.73 & 100.00 & 100.00\\
+endacid & 0.32 & 100.00 & 99.47\\
+endocor & 0.00 & 0.00 & 0.00\\
+endres & 0.00 & 0.00 & 0.00\\
+\addlinespace
+esc & 61.08 & 90.66 & 81.45\\
+esc2010 & 31.82 & 100.00 & 79.29\\
+escfalagr1 & 27.79 & 100.00 & 78.13\\
+escfalagr2 & 0.00 & 0.00 & 0.00\\
+escmae & 3.97 & 93.61 & 91.73\\
+\addlinespace
+escmae2010 & 2.18 & 100.00 & 91.66\\
+escmaeagr1 & 1.53 & 100.00 & 90.94\\
+escmaeagr2 & 0.00 & 0.00 & 0.00\\
+estabdescr & 0.00 & 0.00 & 0.00\\
+estciv & 77.77 & 100.00 & 91.46\\
+\addlinespace
+exame & 20.12 & 100.00 & 93.28\\
+expdifdata & 7.71 & 100.00 & 99.98\\
+explica\_r & 19.87 & 100.00 & 100.00\\
+fonte & 6.04 & 100.00 & 79.17\\
+fonteinv & 8.66 & 100.00 & 99.66\\
+\addlinespace
+fontes & 2.84 & 100.00 & 100.00\\
+fontesinf & 8.01 & 100.00 & 100.00\\
+gestacao & 3.96 & 96.49 & 100.00\\
+gravidez & 4.40 & 100.00 & 99.33\\
+horaobito & 94.21 & 100.00 & 99.48\\
+\addlinespace
+id\_paciente & 96.21 & 100.00 & 100.00\\
+idade & 99.25 & 100.00 & 100.00\\
+idademae & 3.93 & 100.00 & 100.00\\
+linhaa & 98.81 & 100.00 & 100.00\\
+linhaa\_o & 90.62 & 100.00 & 100.00\\
+\addlinespace
+linhab & 79.68 & 100.00 & 100.00\\
+linhab\_o & 71.88 & 0.09 & 100.00\\
+linhac & 47.07 & 100.00 & 100.00\\
+linhac\_o & 42.13 & 100.00 & 100.00\\
+linhad & 21.73 & 100.00 & 100.00\\
+\addlinespace
+linhad\_o & 19.48 & 100.00 & 100.00\\
+linhaii & 24.76 & 100.00 & 100.00\\
+linhaii\_o & 21.82 & 100.00 & 100.00\\
+lococor & 100.00 & 100.00 & 99.88\\
+medico & 0.00 & 0.00 & 0.00\\
+\addlinespace
+morteparto & 2.76 & 100.00 & 97.55\\
+muncadinv & 0.00 & 0.00 & 0.00\\
+natural\_ & 60.70 & 100.00 & 100.00\\
+necropsia & 67.12 & 100.00 & 97.16\\
+nome & 0.00 & 0.00 & 0.00\\
+\addlinespace
+nomemae & 0.00 & 0.00 & 0.00\\
+nomepai & 0.00 & 0.00 & 0.00\\
+nproc & 0.77 & 100.00 & 100.00\\
+nressele & 0.11 & 100.00 & 100.00\\
+nudiasinf & 0.27 & 100.00 & 100.00\\
+\addlinespace
+nudiasobco & 1.62 & 100.00 & 100.00\\
+nudiasobin & 2.92 & 100.00 & 100.00\\
+numendacid & 0.00 & 0.00 & 0.00\\
+numendocor & 0.00 & 0.00 & 0.00\\
+numerodn & 0.00 & 0.00 & 0.00\\
+\addlinespace
+numerodo & 100.00 & 100.00 & 100.00\\
+numerodv & 78.29 & 100.00 & 81.85\\
+numerolote & 100.00 & 100.00 & 100.00\\
+numregcart & 3.95 & 100.00 & 99.99\\
+numres & 0.00 & 0.00 & 0.00\\
+\addlinespace
+numsus & 13.90 & 95.35 & 100.00\\
+obitoevita & 0.00 & 0.00 & 0.00\\
+obitograv & 4.90 & 100.00 & 95.26\\
+obitoparto & 4.26 & 100.00 & 97.91\\
+obitopuerp & 4.81 & 100.00 & 95.07\\
+\addlinespace
+ocup & 51.50 & 0.00 & 0.00\\
+ocupmae & 3.32 & 99.99 & 100.00\\
+opor\_do & 0.00 & 0.00 & 0.00\\
+oportinv\_i & 0.00 & 0.00 & 0.00\\
+oportinv\_m & 0.00 & 0.00 & 0.00\\
+\addlinespace
+origem & 72.25 & 100.00 & 100.00\\
+parto & 4.35 & 100.00 & 99.02\\
+peso & 4.12 & 100.00 & 100.00\\
+qtdfilmort & 3.02 & 100.00 & 100.00\\
+qtdfilvivo & 3.48 & 100.00 & 100.00\\
+\addlinespace
+racacor & 80.21 & 100.00 & 100.00\\
+regra & 0.00 & 0.00 & 0.00\\
+retroalim & 13.45 & 100.00 & 100.00\\
+semagestac & 2.23 & 100.00 & 100.00\\
+seriescfal & 3.62 & 100.00 & 100.00\\
+\addlinespace
+seriescmae & 0.50 & 100.00 & 100.00\\
+sexo & 100.00 & 100.00 & 99.90\\
+stcampoalt & 0.01 & 100.00 & 100.00\\
+stcodifica & 99.97 & 100.00 & 100.00\\
+stcomitemm & 0.01 & 100.00 & 100.00\\
+\addlinespace
+stdoepidem & 79.64 & 100.00 & 100.00\\
+stdonova & 79.66 & 100.00 & 100.00\\
+stparecer & 0.00 & 100.00 & 100.00\\
+stressele & 34.73 & 100.00 & 100.00\\
+tipobito & 100.00 & 100.00 & 100.00\\
+\addlinespace
+tp\_analise & 0.00 & 0.00 & 0.00\\
+tpassina & 0.00 & 0.00 & 0.00\\
+tpcausapar & 0.00 & 100.00 & 100.00\\
+tpmorteoco & 3.40 & 100.00 & 94.07\\
+tpnivelinv & 2.30 & 100.00 & 100.00\\
+\addlinespace
+tpobitocor & 4.04 & 100.00 & 100.00\\
+tpobitoinf & 0.00 & 0.00 & 0.00\\
+tppos & 24.42 & 100.00 & 100.00\\
+tpresginfo & 0.10 & 100.00 & 100.00\\
+ufinform & 34.97 & 100.00 & 100.00\\
+\addlinespace
+valor & 0.00 & 0.00 & 0.00\\
+versaoscb & 92.75 & 100.00 & 100.00\\
+versaosist & 98.33 & 86.02 & 100.00\\
+verscbpre & 15.45 & 100.00 & 100.00\\
+vrsressele & 34.73 & 100.00 & 100.00\\*
+\end{longtable}
+\endgroup{}
+
+\hypertarget{resultados-por-ano}{%
+\subsection*{Resultados por ano}\label{resultados-por-ano}}
+\addcontentsline{toc}{subsection}{Resultados por ano}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{lccc}
+\toprule
+Ano & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\textit{(continued)}}\\
+\toprule
+Ano & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2006 & 100.00 & 93.47 & 99.34\\
+2007 & 100.00 & 93.68 & 99.44\\
+2008 & 100.00 & 92.97 & 99.18\\
+2009 & 100.00 & 92.85 & 99.07\\
+2010 & 100.00 & 92.80 & 98.65\\
+\addlinespace
+2011 & 100.00 & 93.11 & 98.80\\
+2012 & 100.00 & 93.08 & 98.64\\
+2013 & 100.00 & 93.38 & 98.25\\
+2014 & 100.00 & 93.46 & 98.41\\
+2015 & 100.00 & 95.11 & 97.94\\
+\addlinespace
+2016 & 100.00 & 93.88 & 97.61\\
+2017 & 100.00 & 92.77 & 97.54\\
+2018 & 100.00 & 92.71 & 97.27\\*
+\end{longtable}
+\endgroup{}
+
+\newpage
+
+\hypertarget{testes-de-inconsistuxeancia}{%
+\section*{Testes de inconsistência}\label{testes-de-inconsistuxeancia}}
+\addcontentsline{toc}{section}{Testes de inconsistência}
+
+\hypertarget{testes-realizados}{%
+\subsection*{Testes realizados}\label{testes-realizados}}
+\addcontentsline{toc}{subsection}{Testes realizados}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{T1}: A data de óbito não pode ser maior que a data do
+  recebimento original
+\item
+  \textbf{T2}: A data de óbito não pode ser maior que a data do cadastro
+\item
+  \textbf{T3}: Se óbito no puerpério é 1(Sim, até 42 dias após o parto)
+  ou 2(Sim, de 43 dias a 1 ano) ou 3(não), o sexo não ser 1(Masculino)
+\item
+  \textbf{T4}: A data de óbito não pode ser maior que a data do
+  recebimento original
+\item
+  \textbf{T5}: A data de óbito não pode ser maior que a data do registro
+  no cartório
+\item
+  \textbf{T6}: A data de óbito não pode ser maior que a data do atestado
+\item
+  \textbf{T7}: A data de óbito não pode ser maior que a data de
+  recebimento
+\item
+  \textbf{T8}: A data de óbito não pode ser maior que a data de
+  investigação
+\item
+  \textbf{T9}: Se o código do estabelecimento existe, o local de
+  ocorrência do óbito não pode ser diferente de 1 (hospital) ou 2
+  (outros estabelecimentos de saúde)
+\item
+  \textbf{T10}: Se o óbito do paciente for 2 (ocorreu durante o parto),
+  a data de nascimento precisa ser igual a data de óbito
+\item
+  \textbf{T11}: Se o óbito do paciente for 1 (ocorreu antes do parto), a
+  data de nascimento não pode ser menor que a data de óbito
+\item
+  \textbf{T12}: Se óbito na gravidez é 1 (sim), o sexo não ser 1
+  (Masculino)
+\item
+  \textbf{T13}: Se código do município do SVO ou IML estiver preenchido,
+  atestante precisa ser 3 (IML) ou 4 (SVO)
+\item
+  \textbf{T14}: A escolaridade precisa estar em acordo com a idade, por
+  exemplo se a escolaridade for 2 (1 a 3 anos), a idade precisa ser
+  superior a 3 anos
+\item
+  \textbf{T15}: A data de óbito não pode ser menor que a data de
+  nascimento
+\item
+  \textbf{T16}: A escolaridade da mãe precisa estar em acordo com a sua
+  idade, por exemplo se a escolaridade for 2 (1 a 3 anos), a idade
+  precisa ser superior a 3 anos
+\item
+  \textbf{T17}: Se o tipo do óbito é 1 (fetal), a data de nascimento
+  precisa ser a mesma da data de óbito
+\item
+  \textbf{T18}: Se o óbito investigado é N (Não) a data de investigação
+  não pode estar preenchida.
+\end{itemize}
+
+\hypertarget{resultados-obtidos}{%
+\subsection*{Resultados obtidos}\label{resultados-obtidos}}
+\addcontentsline{toc}{subsection}{Resultados obtidos}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{>{}ccccccccccccccccccc}
+\toprule
+Ano & T1 & T2 & T3 & T4 & T5 & T6 & T7 & T8 & T9 & T10 & T11 & T12 & T13 & T14 & T15 & T16 & T17 & T18\\
+\midrule
+\endfirsthead
+\multicolumn{19}{@{}l}{\textit{(continued)}}\\
+\toprule
+Ano & T1 & T2 & T3 & T4 & T5 & T6 & T7 & T8 & T9 & T10 & T11 & T12 & T13 & T14 & T15 & T16 & T17 & T18\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{2006} & 0 & 8 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2007} & 0 & 7 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2008} & 0 & 9 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2009} & 14 & 10 & 0 & 0 & 0 & 3 & 1 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2010} & 15 & 3 & 1 & 15 & 0 & 5 & 11 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\addlinespace
+\em{2011} & 4 & 2 & 0 & 4 & 0 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2012} & 15 & 19 & 1 & 15 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2013} & 19 & 37 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2014} & 2 & 2 & 3 & 2 & 0 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2015} & 5 & 2 & 0 & 5 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\addlinespace
+\em{2016} & 4 & 4 & 0 & 4 & 0 & 3 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2017} & 0 & 2 & 0 & 0 & 0 & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+\em{2018} & 0 & 3 & 0 & 6 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\*
+\end{longtable}
+\endgroup{}
+
+\end{document}

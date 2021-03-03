@@ -1,0 +1,44 @@
+## Acurácia
+        
+Inicialmente a métrica de acurácia foi aplicada a dois tipos de registros: datas, ao verificar se o dado configura-se uma data válida e condizente ao período representado pela base de dados; nomes e códigos de municípios, ao verificar se estão contidos na tabela de códigos de municípios e estados do IBGE[^ibge]. Após esta análise de datas e municípios é realizada investigação acerca do preenchimento das variáveis com o objetivo de detectar a presença de preenchimentos sem informações relevantes. Em seguida, são verificados os registros representando informações numéricas, a respeito do sinal (*e.g.* número de filhos deve ser positivo) e do conjunto ao qual pertence (*e.g.* número de filhos deve ser um número inteiro).
+        
+[^ibge]: https://www.ibge.gov.br/explica/codigos-dos-municipios.php
+
+No que tange propriamente o preenchimento dos registros, buscou-se identificar valores representando a ausência de informações ou que foram ignorados, além de sequências finitas do caractere espaço (*whitespace*) ou sequências finitas do numeral zero para variáveis não numéricas. Este fato pode representar um problema, visto que estará de acordo ao tamanho estabelecido pelo dicionário de dados, porém não estará acurado, não representando informação alguma. Para realizar a identificação no primeiro caso, utilizou-se o método TF-IDF.
+
+O método TF-IDF[^TFIDF], em conjunto aos métodos *N-Grams* e multiplicação de matriz esparsa, é uma medida estatística que tem o intuito de indicar a similaridade de uma palavra em relação a outra. TF-IDF é um método para gerar recursos do texto multiplicando a frequência de um termo em um documento (*Term Frequency*, ou TF) pela importância (*Inverse Document Frequency*, ou IDF) do mesmo termo em um corpus inteiro. Este método é muito útil na classificação e no agrupamento de textos e é usado para transformar documentos em vetores numéricos, que podem ser facilmente comparados. Embora os termos no TF-IDF sejam geralmente palavras, essa condição não é necessária. Como a maioria dos registros possuem de uma a três palavras, utilizou-se *N-Grams*: sequências de *N* caracteres contíguos. Para avaliação, calculou-se a proximidade dos vetores resultantes do método TF-IDF, através da semelhança cosseno, que pode ser vista como um produto escalar normalizado.
+
+[^TFIDF]: https://bergvca.github.io/2017/10/14/super-fast-string-matching.html
+
+`r if(exists("dt_ignorado")){"Nesse contexto, a tabela a seguir apresenta o porcentual de preenchimento sem informação por variável bem como os caracteres usados para representar ausência de informação."}`
+
+```{r, echo = F, message = F, warning = F, results = "asis"}
+if(exists("dt_ignorado"))
+  try(kable(dt_ignorado, format = "latex", longtable = T, booktabs = T, caption = "registros representando informações ignoradas. São considerados, onde for possível, sequências finitas de (i) zeros e (ii) \\textit{whitespaces} (representadas por \\textbackslash s), além de (iii) valores de domínio e (iv) registro escrito por extenso representando informação ignorada.", align = c('l','l')) %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, width = '10cm'), silent = T)
+```
+
+`r if(!exists("dt_ignorado")){"Após aplicação do método, não identificou-se qualquer registro nessa situação."}`
+
+`r if(exists("dt_outlier")){"Em relação as várias quantitativas, a tabela a seguir expõe os valores atípicos detectados[^boxplot], isto é, registros numéricos que apresentam grande afastamento em relação aos demais, dentro do universo de uma única variável, os quais implicam, tipicamente, em prejuízos a interpretação dos resultados dos testes estatísticos aplicados."}`
+
+[^boxplot]: https://www.rdocumentation.org/packages/grDevices/versions/3.6.2/topics/boxplot.stats
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_outlier"))
+  try(kable(dt_outlier, format = "latex", longtable = T, booktabs = T, caption = "valores atípicos para variáveis numéricas.", align = c('l','l')) %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, width = '10cm'), silent = T)
+```
+
+`r if(exists("dt_inac")){"Acerca das inacuracidades identificadas, a tabela a seguir apresenta os registros mais frequentes, limitado a cinco registros, que encontram-se nesta situação."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_inac"))
+  try(kable(dt_inac, format = "latex", longtable = T, booktabs = T, caption = "registros inacurados por variável.", align = c('l','l')) %>% kable_styling(latex_options = "HOLD_position", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, width = '10cm'), silent = T) 
+```
+
+`r if("Acurácia" %in% dimensoes_ano){"A distribuição temporal dos resultados dos testes de acurácia é apresentada no gráfico a seguir.\n\n![distribuição temporal da acurácia.](imagens/ac-anual.png){width=80%}"}`
+
+`r if("Acurácia" %in% dimensoes_uf){"A distribuição estadual dos resultados dos testes de acurácia é apresentada no gráfico a seguir.\n\n![distribuição estadual da acurácia.](imagens/ac-uf.png){width=80%}"}`
+        
+No geral, os resultados de acurácia das variáveis estão distribuídas pelas categorias definidas em [Métodos](#métodos) segundo o gráfico a seguir. O resultado percentual por variável está descrito nos [Resultados numéricos](#resultados-numéricos). O cômputo da média ponderada dos resultados obtidos é de **`r try(ponderada$acuracia$val, silent = T)`%**, ou seja, a **acurácia é `r try(ponderada$acuracia$cat, silent = T)`**.
+          
+![distribuição dos resultados de acurácia.](imagens/ac.png){width=80%}

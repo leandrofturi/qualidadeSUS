@@ -1,0 +1,7 @@
+teste;desc;desc_completa
+T1;DT_REALIZACAO > DT_FIM;A data de realização não pode ser maior que a data final
+T2;DT_REALIZACAO < DT_INICIO;A data de realização não pode ser menor que a data de inicio
+T3;DT_FIM < DT_INICIO;A data final não pode ser menor que a data inicial
+T4;DT_NASCIMENTO > DT_INICIO;A data de nascimento não pode ser maior que a data de início
+T5;DT_NASCIMENTO > DT_FIM;A data de nascimento não pode ser maior que a data de fim
+T6;DT_NASCIMENTO > DT_REALIZACAO;A data de nascimento não pode ser maior que a data de realização

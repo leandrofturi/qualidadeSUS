@@ -1,0 +1,6 @@
+teste;desc;desc_completa
+T1;dt_receita > dt_atendimento;A data de emissão do paciente não pode ser maior que a data de atendimento do paciente
+T2;dt_nascimento > dt_receita;A data de nascimento do paciente não pode ser maior que a data de emissão do paciente
+T3;dt_nascimento > dt_atendimento;A data de nascimento do paciente não pode ser maior que a data de atendimento do paciente
+T4;ds_tipo_produto == MEDICAMENTO & sg_tipo_produto != M;Se a descrição do tipo de produto for \textit{MEDICAMENTO}, a sigla do tipo de produto precisa ser \textit{M}
+T5;ds_tipo_produto == PRODUTO PARA SAÚDE & sg_tipo_produto != I;Se a descrição do tipo de produto for \textit{PRODUTO PARA SAÚDE}, a sigla do tipo de produto precisa ser \textit{I}

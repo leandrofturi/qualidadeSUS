@@ -1,0 +1,13 @@
+## Temporalidade
+
+Para mensurar esta dimensão é calculada a quantidade de dias entre duas variáveis representando datas que estejam conformes, acuradas e consistentes. 
+`r if(!exists("dt_temp")){"Para esta base não há ocorrência de variáveis que retratam esta dimensão."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_temp"))
+  try(kable(dt_temp, format = "latex", booktabs = T, caption = "resultados de temporalidade.", align = c('c','l','l','c','c','c')) %>% kable_styling(latex_options = "HOLD_position", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, italic = T) %>% column_spec(column = 3, italic = T), silent = T)
+```
+
+`r if("Temporalidade" %in% dimensoes_ano){"A distribuição temporal das medianas obtidas pelos testes de temporalidade é apresentada no gráfico a seguir.\n\n![distribuição temporal da temporalidade.](imagens/temp-anual.png){width=80%}"}`
+
+`r if("Temporalidade" %in% dimensoes_uf){"A distribuição estadual das medianas obtidas pelos testes de temporalidade é apresentada no gráfico a seguir.\n\n![distribuição estadual da temporalidade.](imagens/temp-uf.png){width=80%}"}`

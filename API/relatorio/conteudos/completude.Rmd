@@ -1,0 +1,11 @@
+## Completude
+
+Nesta dimensão são detectados valores faltantes através da busca pelas constantes representando valores ausentes. Nesse sentido, considerou-se como incompletos os registros contendo os valores \texttt{NA} constante lógica que indica valor ausente, e \texttt{NULL}, que representa objetos nulos.
+
+`r if("Completude" %in% dimensoes_ano){"A distribuição temporal dos resultados dos testes de completude é apresentada no gráfico a seguir.\n\n![distribuição temporal da completude.](imagens/comp-anual.png){width=80%}"}`
+
+`r if("Completude" %in% dimensoes_uf){"A distribuição estadual dos resultados dos testes de completude é apresentada no gráfico a seguir.\n\n![distribuição estadual da completude.](imagens/comp-uf.png){width=80%}"}`
+
+No geral, os resultados de completude das variáveis estão distribuídas pelas categorias definidas em [Métodos](#métodos) segundo o gráfico a seguir. O resultado percentual por variável está descrito nos [Resultados numéricos](#resultados-numéricos). O cômputo da média ponderada dos resultados obtidos é de **`r ponderada$completude$val`%**, ou seja, a **completude é `r ponderada$completude$cat`**.
+
+![distribuição dos resultados de completude.](imagens/comp.png){width=80%}

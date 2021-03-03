@@ -1,0 +1,911 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12,
+  table]{proadi}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\base{sia-apac}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{longtable,booktabs}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{lscape}
+\usepackage{xcolor}
+\hypersetup{draft}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\hypertarget{qualidade-de-dados}{%
+\section{Qualidade de dados}\label{qualidade-de-dados}}
+
+O processo de análise de qualidade de dados está focado na avaliação de
+conjuntos de dados e na aplicação de ações corretivas, para garantir que
+estes estejam adequados aos propósitos para os quais foram originalmente
+destinados (Merino et al. 2016). Dessa forma, a qualidade de dados está
+diretamente relacionada a confiabilidade dos dados de entrada.
+Considerando que os dados têm níveis inadequados de qualidade, é
+provável que ocorram erros, que podem se propagar acidentalmente e
+inconscientemente por todo o fluxo da informação, prejudicando a
+eficiência do sistema. Formas regulares de avaliar a qualidade de dados
+com modelos clássicos geralmente se destinam a detectar e corrigir erros
+em fontes conhecidas com base em um conjunto limitado de regras. No
+ambiente de \emph{Big Data}, a quantidade de regras pode ser enorme e o
+custo da aplicação para correção de erros pode não ser viável e nem
+apropriado. Isso ocorre principalmente porque o \emph{Big Data} não é
+apenas sobre dados, mas também sobre uma pilha conceitual e tecnológica
+completa, incluindo dados brutos e processados, armazenamento, formas de
+gerenciar dados, processamento e análise (Merino et al. 2016).
+
+Uma dimensão de qualidade de dados é um termo descritor de um recurso de
+dados, o qual pode ser medido ou avaliado de acordo com padrões
+definidos, a fim de determinar a qualidade de um conjunto de dados.
+Geralmente, dados só têm valor quando dão suporte a um processo ou a uma
+tomada de decisão. Em consequência, as regras de qualidade de dados
+definidas devem levar em consideração o valor que os dados podem
+fornecer para o sistema. Nesse contexto, as seguintes dimensões de
+qualidade de dados são analisadas: Completude, Conformidade, Acurácia,
+Consistência, Unicidade, Temporalidade
+
+\textbf{Completude} caracteriza a taxa de preenchimento das variáveis.
+Para cada variável é calculado o percentual de entradas com informação
+não nulas, respeitando, quando houver, sua dependência com outras
+variáveis.
+
+\textbf{Conformidade} detecta concordância nos valores digitados nos
+campos das variáveis, avaliando se os valores de entrada não nulos estão
+em conformidade com os padrões descritos pelo dicionário de dados. Para
+cada variável estudada é calculado o percentual de entradas em
+conformidade com o padrão adotado.
+
+\textbf{Acurácia} visa detectar se informação registrada reflete o
+evento ou objeto descrito, isto é, verificar se o dado cadastrado está
+em concordância com o evento observado. Devido ao processo de
+anonimização dos dados, a análise de acurácia se restringe a verificar a
+possibilidade das informações registradas. Note que acurácia e
+conformidade são dimensões distintas, pois enquanto conformidade avalia
+o padrão do dado, acurácia avalia a razoabilidade dos dados. Para cada
+variável estudada é calculado o percentual de entradas com informações
+acuradas.
+
+\textbf{Consistência} constitui de testes envolvendo duas ou mais
+variáveis visando detectar inconsistências entre dados de um mesmo
+registro. Para cada teste considerado é calculado os percentuais de
+aprovação e falha.
+
+\textbf{Unicidade} objetiva mensurar o grau de duplicidade nos dados,
+realizando a busca por meio de identificadores dos pacientes.
+
+\textbf{Temporalidade} objetiva efetuar medidas estatísticas nos
+intervalos de tempos entre eventos, por exemplo, o nascimento de um
+recém-nascido e inclusão desse registro no sistema. O principal
+interesse é verificar se o dado é disponibilizado prontamente.
+
+\renewcommand{\arraystretch}{1.25}
+
+\renewcommand{\arraystretch}{1}
+
+\hypertarget{muxe9todos}{%
+\section{Métodos}\label{muxe9todos}}
+
+A análise apresentada constitui-se de um esquema cíclico, iniciando no
+mapeamento da documentação e do comportamento dos dados, através da
+observação de trechos das bases. Em seguida, são definidas as variáveis
+de teste. Após, ocorre a obtenção e avaliação dos resultados obtidos,
+recorrendo, e se necessário retificando, conclusões obtidas nos passos
+anteriores. Nesse contexto, são definidos parâmetros a serem passados
+para as funções relativas às metricas citadas e implementação de
+\emph{queries} para os testes de consistência, sintetizados em um único
+\emph{script} relativo à base analisada.
+
+O maneio dos dados ocorreu através dos serviços \textbf{Amazon Athena} e
+\textbf{Amazon S3}, assim como testes e análises se deu utilizando
+\textbf{linguagem R}. Os \emph{scripts} utilizados estão disponíveis em
+um repositório de qualidade de dados no \emph{GitHub}. Enfatiza-se que
+esses dados podem sofrer alterações, caso ocorram atualizações.
+
+O dicionário de dado utilizado, não oficial, é inferido das descrições
+das variáveis contidas nos relatórios de integração e é apresentado
+neste relatório. No que tange os testes de unicidade, procurou-se
+analisar apenas as informações individuais dos pacientes.
+
+Mudanças no domínio e tamanho de caracteres das variáveis são
+detectadas, relatadas e consideradas no cálculo de medidas de qualidade
+dos dados.
+
+O Cômputo dos resultados numéricos ocorre de modo cascata, isto é, os
+registros submetidos ao teste de conformidade devem ser não nulos, os
+registros submetidos ao teste de acurácia devem estar conformes, os
+registros submetidos aos testes de consistência devem estar acurados, e
+quando não for possível, conformes, sendo que o mesmo se aplica aos
+registros submetidos aos testes de unicidade. Em prosseguimento, os
+resultados numéricos são avaliados nas dimensões analisadas
+calculando-se a média ponderada dos testes realizados, utilizando como
+peso o total de registros por variável. Para a consistência, é realizado
+um ajuste em que todas as variáveis testadas devem existir
+simultaneamente.
+
+Objetivando avaliar a base de dados, o conjunto de resultados
+representando cada dimensão foi classificada como excelente
+(\textgreater{} 90\%), ótimo (75\% - 89,9\%), regular (50\% - 74,9\%) ou
+ruim (\textless{} 49,9\%), baseado nos relatórios do livro \emph{Saúde
+Brasil}, organizado pela Secretaria de Vigilância em Saúde (Brasil.
+Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de
+Análise de Situação em Saúde 2019). Em decorrência do método cascata
+utilizado, é realizado o produto dos resultados obtidos, caracterizando
+a qualidade da base de dados como um todo, que também pode ser
+classificada considerando as classes definidas em \emph{Saúde Brasil}
+(Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde.
+Departamento de Análise de Situação em Saúde 2019).
+
+\hypertarget{disponibilidade-dos-dados}{%
+\section{Disponibilidade dos dados}\label{disponibilidade-dos-dados}}
+
+Esta análise têm o objetivo de dissertar acerca da disponibilidade dos
+dados em todo o período representado pela base de dados e em todas as
+Unidades Federativas.
+
+Após realização de testes, averiguou-se que para os seguintes anos,
+meses ou Unidades Federativas, representados na tabela a seguir, os
+respectivos registros não encontram-se na base de dados.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{rr}
+\caption{\label{tab:unnamed-chunk-9}período e/ou Unidade Federativa contendo registros faltantes.}\\
+\toprule
+Ano & Mês\\
+\midrule
+\endfirsthead
+\caption[]{período e/ou Unidade Federativa contendo registros faltantes. \textit{(continued)}}\\
+\toprule
+Ano & Mês\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2019 & 12\\
+2019 & 9\\
+2019 & 10\\
+2019 & 11\\*
+\end{longtable}
+\endgroup{}
+
+\hypertarget{variuxe1veis-existentes-e-mudanuxe7as-ocorridas}{%
+\section{Variáveis existentes e mudanças
+ocorridas}\label{variuxe1veis-existentes-e-mudanuxe7as-ocorridas}}
+
+Esta análise tem o objetivo identificar as variáveis existentes na base
+de dado se relatar as mudanças ocorridas ao longo do tempo.
+
+Após realização de testes não identificou-se qualquer alteração
+significante nas variáveis.
+
+\hypertarget{resultados}{%
+\section{Resultados}\label{resultados}}
+
+Descrições das variáveis são apresentadas no
+\protect\hyperlink{dicionuxe1rio-adotado}{Dicionário adotado}.
+Resultados dos testes de completude, conformidade e acurácia são
+exibidos nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}, onde estão organizados em duas tabelas: resultado geral e
+resultado agregado por ano. Uma descrição mais detalhada dos testes de
+inconsistência realizados, bem como seus respectivos resultados
+numéricos estão descritos em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}.
+
+\hypertarget{completude}{%
+\subsection{Completude}\label{completude}}
+
+Nesta dimensão são detectados valores faltantes através da busca pelas
+constantes representando valores ausentes. Nesse sentido, considerou-se
+como incompletos os registros contendo os valores \texttt{NA} constante
+lógica que indica valor ausente, e \texttt{NULL}, que representa objetos
+nulos.
+
+No geral, os resultados de completude das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{74.88\%}, ou seja, a \textbf{completude é regular}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/comp.png}
+\caption{distribuição dos resultados de completude.}
+\end{figure}
+
+\hypertarget{conformidade}{%
+\subsection{Conformidade}\label{conformidade}}
+
+Verificou-se se os dados apresentam os padrões descritos no
+\protect\hyperlink{dicionuxe1rio-adotado}{dicionário de dados adotado}
+como referência a respeito da quantidade de caracteres e valores
+válidos.
+
+Ressalta-se que durante a construção do dicionário de dados não foi
+possível obter os microdados ou informação equivalente contendo, quando
+existente, os valores válidos de domínio para algumas variáveis. Nesse
+sentido, a tabela a seguir apresenta ao máximo dez registros mais
+frequentes para essas variáveis, separados por vírgulas.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-12}registros mais frequentes por variável em que não foi possível obter a descrição.}\\
+\toprule
+\em{Variável} & Domínio\\
+
+
+\bottomrule
+\end{longtable}
+\endgroup{}
+
+Acerca das inconformidades identificadas, a tabela a seguir apresenta os
+registros mais frequentes, limitado a cinco registros, que encontram-se
+nesta situação.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-13}registros inconformes por variável.}\\
+\toprule
+Variável & Registros inconformes\\
+\midrule
+\em{CNPJ} & \textbackslash{}s\\
+\em{DATA\_SOLIC} & //\textbackslash{}s\\
+\bottomrule
+\end{longtable}
+\endgroup{}
+
+No geral, os resultados de conformidade das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{98.81\%}, ou seja, a \textbf{conformidade é excelente}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/conf.png}
+\caption{distribuição dos resultados de conformidade.}
+\end{figure}
+
+\hypertarget{acuruxe1cia}{%
+\subsection{Acurácia}\label{acuruxe1cia}}
+
+Inicialmente a métrica de acurácia foi aplicada a dois tipos de
+registros: datas, ao verificar se o dado configura-se uma data válida e
+condizente ao período representado pela base de dados; nomes e códigos
+de municípios, ao verificar se estão contidos na tabela de códigos de
+municípios e estados do IBGE\footnote{\url{https://www.ibge.gov.br/explica/codigos-dos-municipios.php}}.
+Após esta análise de datas e municípios é realizada investigação acerca
+do preenchimento das variáveis com o objetivo de detectar a presença de
+preenchimentos sem informações relevantes. Em seguida, são verificados
+os registros representando informações numéricas, a respeito do sinal
+(\emph{e.g.} número de filhos deve ser positivo) e do conjunto ao qual
+pertence (\emph{e.g.} número de filhos deve ser um número inteiro).
+
+No que tange propriamente o preenchimento dos registros, buscou-se
+identificar valores representando a ausência de informações ou que foram
+ignorados, além de sequências finitas do caractere espaço
+(\emph{whitespace}) ou sequências finitas do numeral zero para variáveis
+não numéricas. Este fato pode representar um problema, visto que estará
+de acordo ao tamanho estabelecido pelo dicionário de dados, porém não
+estará acurado, não representando informação alguma. Para realizar a
+identificação no primeiro caso, utilizou-se o método TF-IDF.
+
+O método TF-IDF\footnote{\url{https://bergvca.github.io/2017/10/14/super-fast-string-matching.html}},
+em conjunto aos métodos \emph{N-Grams} e multiplicação de matriz
+esparsa, é uma medida estatística que tem o intuito de indicar a
+similaridade de uma palavra em relação a outra. TF-IDF é um método para
+gerar recursos do texto multiplicando a frequência de um termo em um
+documento (\emph{Term Frequency}, ou TF) pela importância (\emph{Inverse
+Document Frequency}, ou IDF) do mesmo termo em um corpus inteiro. Este
+método é muito útil na classificação e no agrupamento de textos e é
+usado para transformar documentos em vetores numéricos, que podem ser
+facilmente comparados. Embora os termos no TF-IDF sejam geralmente
+palavras, essa condição não é necessária. Como a maioria dos registros
+possuem de uma a três palavras, utilizou-se \emph{N-Grams}: sequências
+de \emph{N} caracteres contíguos. Para avaliação, calculou-se a
+proximidade dos vetores resultantes do método TF-IDF, através da
+semelhança cosseno, que pode ser vista como um produto escalar
+normalizado.
+
+Após aplicação do método, não identificou-se qualquer registro nessa
+situação.
+
+Em relação as várias quantitativas, a tabela a seguir expõe os valores
+atípicos detectados\footnote{\url{https://www.rdocumentation.org/packages/grDevices/versions/3.6.2/topics/boxplot.stats}},
+isto é, registros numéricos que apresentam grande afastamento em relação
+aos demais, dentro do universo de uma única variável, os quais implicam,
+tipicamente, em prejuízos a interpretação dos resultados dos testes
+estatísticos aplicados.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-15}valores atípicos para variáveis numéricas.}\\
+\toprule
+Variável & Valores atípicos\\
+\midrule
+\endfirsthead
+\caption[]{valores atípicos para variáveis numéricas. \textit{(continued)}}\\
+\toprule
+Variável & Valores atípicos\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{idade} & 0, 1, 2, 103, 104, 105, 106, 107, 108, 109, ..., 112, 113, 114, 115, 116, 117, 118, 119, 120, 998\\
+\em{qt\_procedimento} & 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, ..., 1500, 1550, 1590, 2000, 2493, 2500, 2996, 3000, 3500, 3617\\
+\em{qt\_procedimento\_aprovado} & 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, ..., 1500, 1550, 1590, 2000, 2493, 2500, 2996, 3000, 3500, 3617\\
+\em{valor} & 196.8, 196.86, 197.08, 197.2, 197.48, 198, 198.24, 198.45, 198.72, 198.8, ..., 8150, 8330, 8689.65, 8823.36, 9284.4, 9593.88, 9780, 11644, 11808, 16940\\
+\em{valor\_aprovado} & 196.8, 196.86, 197.08, 197.2, 197.48, 198, 198.24, 198.45, 198.72, 198.8, ..., 8150, 8330, 8689.65, 8823.36, 9284.4, 9593.88, 9780, 11644, 11808, 16940\\*
+\end{longtable}
+\endgroup{}
+
+Acerca das inacuracidades identificadas, a tabela a seguir apresenta os
+registros mais frequentes, limitado a cinco registros, que encontram-se
+nesta situação.
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{>{}l>{\raggedright\arraybackslash}p{10cm}}
+\caption{\label{tab:unnamed-chunk-16}registros inacurados por variável.}\\
+\toprule
+Variável & Registros inacurados\\
+\midrule
+\em{CNPJ} & \textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\textbackslash{}s\\
+\em{DATA\_SOLIC} & 01/03/0216,\textbackslash{}s01/04/0201,\textbackslash{}s01/12/0201,\textbackslash{}s01/01/2208,\textbackslash{}s02/01/0201\\
+\bottomrule
+\end{longtable}
+\endgroup{}
+
+No geral, os resultados de acurácia das variáveis estão distribuídas
+pelas categorias definidas em \protect\hyperlink{muxe9todos}{Métodos}
+segundo o gráfico a seguir. O resultado percentual por variável está
+descrito nos \protect\hyperlink{resultados-numuxe9ricos}{Resultados
+numéricos}. O cômputo da média ponderada dos resultados obtidos é de
+\textbf{97.64\%}, ou seja, a \textbf{acurácia é excelente}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/ac.png}
+\caption{distribuição dos resultados de acurácia.}
+\end{figure}
+
+\hypertarget{consistuxeancia}{%
+\subsection{Consistência}\label{consistuxeancia}}
+
+Os resultados apresentados são de testes aplicados a um mesmo registro,
+ou seja, mesma linha do conjunto de dados. Estes testes detectam
+principalmente problemas na entrada de dados envolvendo condições
+específicas de inconsistências. Uma descrição mais detalhada de cada
+teste está presente em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-17}resultados de consistência.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{\centering\arraybackslash}p{1cm}>{\raggedright\arraybackslash}p{9cm}>{\centering\arraybackslash}p{3cm}}
+\toprule
+Teste & Descrição & Falhas [partes por mil]\\
+\midrule
+\em{T1} & data\_solic > data\_geracao & 1.862\\
+\em{T2} & dt\_nascimento > data\_solic & 0.079\\
+\em{T3} & dt\_nascimento > data\_geracao & 0.002\\
+\em{T4} & dt\_nascimento > data\_inicio & 0.000\\
+\em{T5} & dt\_nascimento > data\_fim & 0.000\\
+\addlinespace
+\em{T6} & dt\_nascimento > data\_ocorr & 0.000\\
+\em{T7} & competencia < movimentacao & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal dos resultados dos testes de consistência é
+apresentada no gráfico a seguir
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/cons-anual.png}
+\caption{distribuição temporal da consistência.}
+\end{figure}
+
+O resultado de cada teste por ano está descrito em
+\protect\hyperlink{testes-de-inconsistuxeancia}{Testes de
+inconsistência}. O cômputo da média ponderada dos resultados obtidos é
+de \textbf{99.96\%}, ou seja, a \textbf{consistência é excelente}.
+
+\hypertarget{unicidade}{%
+\subsection{Unicidade}\label{unicidade}}
+
+\label{sub:unicidade}
+
+Nesta dimensão é calculado o grau de duplicidade dos dados, buscando
+diferenças por meio dos identificadores dos pacientes.
+
+São excluídos deste teste os identificadores de pacientes presentes
+apenas uma vez na base de dados.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-19}resultados de unicidade por variável relacionada à identificação do paciente.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}c>{}lc}
+\toprule
+Teste & Variável & Unicidade [\%]\\
+\midrule
+\em{T1} & \em{dt\_nascimento} & 94.35\\
+\em{T2} & \em{sexo} & 97.61\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal dos resultados dos testes de unicidade é
+apresentada no gráfico a seguir.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/unic-anual.png}
+\caption{distribuição temporal da unicidade.}
+\end{figure}
+
+O cômputo da média ponderada dos resultados obtidos é de
+\textbf{92.31\%}, ou seja, a \textbf{unicidade é excelente}.
+
+\hypertarget{temporalidade}{%
+\subsection{Temporalidade}\label{temporalidade}}
+
+Para mensurar esta dimensão é calculada a quantidade de dias entre duas
+variáveis representando datas que estejam conformes, acuradas e
+consistentes.
+
+\begin{table}[H]
+
+\caption{\label{tab:unnamed-chunk-20}resultados de temporalidade.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}c>{}l>{}lccc}
+\toprule
+Teste & Variável Inicial & Variável final & Mediana & Min. & Max.\\
+\midrule
+\em{T1} & \em{data\_inicio} & \em{data\_fim} & 89 & 0 & 91\\
+\em{T2} & \em{data\_inicio} & \em{competencia} & 54 & 31 & 62\\
+\em{T3} & \em{competencia} & \em{data\_fim} & 90 & 31 & 91\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A distribuição temporal das medianas obtidas pelos testes de
+temporalidade é apresentada no gráfico a seguir.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth,height=\textheight]{imagens/temp-anual.png}
+\caption{distribuição temporal da temporalidade.}
+\end{figure}
+
+\hypertarget{considerauxe7uxf5es-finais}{%
+\section{Considerações finais}\label{considerauxe7uxf5es-finais}}
+
+A avaliação realizada é especialmente oportuna, tendo em vista o cenário
+nacional e o atual empenho em fomentar o debate em torno da qualidade
+das informações acerca de estabelecimentos de saúde do país.
+
+Assim, a média ponderada dos resultados de Completude é 74.88\%, de
+Conformidade é 98.81\%, de Acurácia é 97.64\%, de Consistência é
+99.96\%, de Unicidade é 92.31\%. Realizando o produto destes resultados,
+obtêm-se \textbf{66.67\%}, caracterizando a \textbf{base de dados como
+regular}.
+
+\newpage
+
+\hypertarget{referuxeancias}{%
+\section{Referências}\label{referuxeancias}}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-brasil2019}{}%
+Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde.
+Departamento de Análise de Situação em Saúde. 2019. \emph{Saúde Brasil
+2019: Uma Análise Da Situação de Saúde Com Enfoque Nas Doenças
+Imunopreveníveis E Na Imunização}. Ministério da Saúde.
+
+\leavevmode\hypertarget{ref-merino}{}%
+Merino, Jorge, Ismael Caballero, Bibiano Rivas, Manuel Serrano, and
+Mario Piattini. 2016. ``A Data Quality in Use Model for Big Data.''
+\emph{Future Generation Computer Systems} 63: 123--30.
+\url{https://doi.org/https://doi.org/10.1016/j.future.2015.11.024}.
+
+\captionsetup[table]{labelformat=empty}
+
+\newpage
+
+\hypertarget{dicionuxe1rio-adotado}{%
+\section*{Dicionário adotado}\label{dicionuxe1rio-adotado}}
+\addcontentsline{toc}{section}{Dicionário adotado}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{>{}l>{\raggedright\arraybackslash}p{9cm}>{\centering\arraybackslash}p{2cm}}
+\toprule
+Variável & Descrição & Tamanho\\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\textit{(continued)}}\\
+\toprule
+Variável & Descrição & Tamanho\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{apac} &  & [1, 13]\\
+\em{cbo} &  & [6, 6]\\
+\em{cep} &  & [8, 8]\\
+\em{cnes} &  & [7, 7]\\
+\em{cnpj} &  & [14, 14]\\
+\addlinespace
+\em{cns\_diretor} &  & [15, 15]\\
+\em{cns\_medico} &  & [32, 32]\\
+\em{cns\_pasc} &  & [15, 15]\\
+\em{cns\_solicitante} &  & [15, 15]\\
+\em{co\_apa\_catend} &  & [1, 2]\\
+\addlinespace
+\em{co\_cid\_principal} &  & [1, 4]\\
+\em{co\_cid\_secundario} &  & [1, 4]\\
+\em{co\_classificacao} &  & [1, 3]\\
+\em{co\_inst\_registro} &  & [1, 3]\\
+\em{co\_municipio\_endereco} &  & [6, 6]\\
+\addlinespace
+\em{co\_municipio\_hospital} &  & [6, 6]\\
+\em{co\_prd\_org} &  & [1, 3]\\
+\em{co\_prd\_rub} &  & [1, 6]\\
+\em{co\_procedimento\_principal} &  & [1, 9]\\
+\em{co\_procedimento\_secundario} &  & [1, 10]\\
+\addlinespace
+\em{co\_rubrica} &  & [1, 6]\\
+\em{co\_servico} &  & [1, 3]\\
+\em{competencia} &  & [6, 6]\\
+\em{complemento\_endereco} &  & [1, 10]\\
+\em{complexidade} &  & [1, 40]\\
+\addlinespace
+\em{condicao} &  & [1, 2]\\
+\em{cpf\_diretor} &  & [11, 11]\\
+\em{cpf\_solicitante} &  & [11, 11]\\
+\em{data\_fim} &  & [10, 10]\\
+\em{data\_geracao} &  & [10, 10]\\
+\addlinespace
+\em{data\_inicio} &  & [10, 10]\\
+\em{data\_ocorr} &  & [10, 10]\\
+\em{data\_solic} &  & [10, 10]\\
+\em{desc\_cbo} &  & [1, 200]\\
+\em{dt\_nascimento} &  & [10, 10]\\
+\addlinespace
+\em{endereco} &  & [1, 30]\\
+\em{gestor} &  & [6, 6]\\
+\em{id\_paciente} &  & [1, 30]\\
+\em{mae} &  & [1, 30]\\
+\em{movimentacao} &  & [1, 6]\\
+\addlinespace
+\em{no\_cid\_principal} &  & [1, 100]\\
+\em{no\_cid\_secundario} &  & [1, 100]\\
+\em{no\_fantasia} &  & [1, 35]\\
+\em{no\_municipio\_endereco} &  & [1, 60]\\
+\em{no\_municipio\_hospital} &  & [1, 60]\\
+\addlinespace
+\em{no\_procedimento\_principal} &  & [1, 250]\\
+\em{no\_procedimento\_secundario} &  & [1, 250]\\
+\em{nome\_diretor} &  & [1, 30]\\
+\em{nome\_pasc} &  & [1, 30]\\
+\em{nome\_solicitante} &  & [1, 30]\\
+\addlinespace
+\em{num\_endereco} &  & [1, 5]\\
+\em{num\_fiscal} &  & [1, 6]\\
+\em{orgao\_emissor} &  & [1, 10]\\
+\em{prontuario} &  & [1, 10]\\
+\em{razao\_social} &  & [1, 35]\\
+\addlinespace
+\em{remessa} &  & [1, 21]\\
+\em{responsavel} &  & [1, 30]\\
+\em{sexo} &  & [8, 9]\\
+\em{tipo\_apac} &  & [1, 17]\\
+\em{tp\_financiamento} &  & [1, 4]\\
+\addlinespace
+\em{uf\_endereco} &  & [2, 2]\\
+\em{uf\_hospital} &  & [2, 2]\\
+\em{idade} &  & [1, 3]\\
+\em{qt\_procedimento} &  & [1, 12]\\
+\em{qt\_procedimento\_aprovado} &  & [1, 12]\\
+\addlinespace
+\em{valor} &  & [1, 12]\\
+\em{valor\_aprovado} &  & [1, 12]\\*
+\end{longtable}
+\endgroup{}
+
+\newpage
+
+\hypertarget{resultados-numuxe9ricos}{%
+\section*{Resultados numéricos}\label{resultados-numuxe9ricos}}
+\addcontentsline{toc}{section}{Resultados numéricos}
+
+\hypertarget{resultados-gerais}{%
+\subsection*{Resultados gerais}\label{resultados-gerais}}
+\addcontentsline{toc}{subsection}{Resultados gerais}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{lccc}
+\toprule
+Variável & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\textit{(continued)}}\\
+\toprule
+Variável & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+apac & 100.00 & 100.00 & 100.00\\
+cbo & 100.00 & 100.00 & 100.00\\
+cep & 0.00 & 0.00 & 0.00\\
+cnes & 100.00 & 100.00 & 100.00\\
+cnpj & 100.00 & 65.79 & 0.08\\
+\addlinespace
+cns\_diretor & 0.00 & 0.00 & 0.00\\
+cns\_medico & 0.40 & 100.00 & 100.00\\
+cns\_pasc & 0.00 & 0.00 & 0.00\\
+cns\_solicitante & 0.00 & 0.00 & 0.00\\
+co\_apa\_catend & 100.00 & 100.00 & 100.00\\
+\addlinespace
+co\_cid\_principal & 35.74 & 100.00 & 100.00\\
+co\_cid\_secundario & 35.74 & 100.00 & 100.00\\
+co\_classificacao & 75.96 & 100.00 & 100.00\\
+co\_inst\_registro & 75.96 & 100.00 & 100.00\\
+co\_municipio\_endereco & 100.00 & 100.00 & 100.00\\
+\addlinespace
+co\_municipio\_hospital & 100.00 & 100.00 & 100.00\\
+co\_prd\_org & 100.00 & 100.00 & 100.00\\
+co\_prd\_rub & 100.00 & 100.00 & 100.00\\
+co\_procedimento\_principal & 100.00 & 100.00 & 100.00\\
+co\_procedimento\_secundario & 100.00 & 100.00 & 100.00\\
+\addlinespace
+co\_rubrica & 73.42 & 100.00 & 100.00\\
+co\_servico & 75.96 & 100.00 & 100.00\\
+competencia & 100.00 & 100.00 & 100.00\\
+complemento\_endereco & 0.00 & 0.00 & 0.00\\
+complexidade & 100.00 & 100.00 & 100.00\\
+\addlinespace
+condicao & 100.00 & 100.00 & 100.00\\
+cpf\_diretor & 0.00 & 0.00 & 0.00\\
+cpf\_solicitante & 0.00 & 0.00 & 0.00\\
+data\_fim & 100.00 & 100.00 & 98.59\\
+data\_geracao & 100.00 & 100.00 & 98.80\\
+\addlinespace
+data\_inicio & 100.00 & 100.00 & 100.00\\
+data\_ocorr & 100.00 & 69.49 & 100.00\\
+data\_solic & 100.00 & 99.33 & 99.98\\
+desc\_cbo & 100.00 & 100.00 & 100.00\\
+dt\_nascimento & 100.00 & 100.00 & 100.00\\
+\addlinespace
+endereco & 0.00 & 0.00 & 0.00\\
+gestor & 100.00 & 100.00 & 73.01\\
+id\_paciente & 98.25 & 100.00 & 100.00\\
+idade & 100.00 & 100.00 & 100.00\\
+mae & 0.00 & 0.00 & 0.00\\
+\addlinespace
+movimentacao & 100.00 & 100.00 & 100.00\\
+no\_cid\_principal & 35.74 & 100.00 & 100.00\\
+no\_cid\_secundario & 9.89 & 100.00 & 100.00\\
+no\_fantasia & 100.00 & 100.00 & 100.00\\
+no\_municipio\_endereco & 100.00 & 100.00 & 100.00\\
+\addlinespace
+no\_municipio\_hospital & 100.00 & 100.00 & 100.00\\
+no\_procedimento\_principal & 100.00 & 100.00 & 100.00\\
+no\_procedimento\_secundario & 100.00 & 100.00 & 100.00\\
+nome\_diretor & 100.00 & 100.00 & 100.00\\
+nome\_pasc & 0.00 & 0.00 & 0.00\\
+\addlinespace
+nome\_solicitante & 100.00 & 100.00 & 100.00\\
+num\_endereco & 0.00 & 0.00 & 0.00\\
+num\_fiscal & 100.00 & 100.00 & 100.00\\
+orgao\_emissor & 100.00 & 100.00 & 100.00\\
+prontuario & 100.00 & 100.00 & 100.00\\
+\addlinespace
+qt\_procedimento & 100.00 & 100.00 & 100.00\\
+qt\_procedimento\_aprovado & 100.00 & 100.00 & 100.00\\
+razao\_social & 100.00 & 100.00 & 100.00\\
+remessa & 100.00 & 100.00 & 100.00\\
+responsavel & 0.00 & 0.00 & 0.00\\
+\addlinespace
+sexo & 100.00 & 100.00 & 100.00\\
+tipo\_apac & 100.00 & 100.00 & 100.00\\
+tp\_financiamento & 100.00 & 100.00 & 100.00\\
+uf\_endereco & 100.00 & 100.00 & 100.00\\
+uf\_hospital & 100.00 & 100.00 & 100.00\\
+\addlinespace
+valor & 100.00 & 100.00 & 100.00\\
+valor\_aprovado & 100.00 & 100.00 & 100.00\\*
+\end{longtable}
+\endgroup{}
+
+\hypertarget{resultados-por-ano}{%
+\subsection*{Resultados por ano}\label{resultados-por-ano}}
+\addcontentsline{toc}{subsection}{Resultados por ano}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{lccc}
+\toprule
+Ano & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\textit{(continued)}}\\
+\toprule
+Ano & Completude [\%] & Conformidade [\%] & Acurácia [\%]\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2008 & 100.00 & 100.00 & 97.45\\
+2009 & 100.00 & 100.00 & 97.47\\
+2010 & 100.00 & 100.00 & 97.72\\
+2011 & 100.00 & 100.00 & 97.25\\
+2012 & 100.00 & 100.00 & 97.58\\
+\addlinespace
+2013 & 100.00 & 100.00 & 97.57\\
+2014 & 100.00 & 100.00 & 97.52\\
+2015 & 100.00 & 100.00 & 97.53\\
+2016 & 100.00 & 98.09 & 98.47\\
+2017 & 100.00 & 96.20 & 99.48\\
+\addlinespace
+2018 & 100.00 & 96.24 & 99.39\\
+2019 & 100.00 & 96.18 & 98.30\\*
+\end{longtable}
+\endgroup{}
+
+\newpage
+
+\hypertarget{testes-de-inconsistuxeancia}{%
+\section*{Testes de inconsistência}\label{testes-de-inconsistuxeancia}}
+\addcontentsline{toc}{section}{Testes de inconsistência}
+
+\hypertarget{testes-realizados}{%
+\subsection*{Testes realizados}\label{testes-realizados}}
+\addcontentsline{toc}{subsection}{Testes realizados}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{T1}: A data de solicitação não pode ser maior que a data de
+  geração da remessa
+\item
+  \textbf{T2}: A data de nascimento não pode ser maior que a data de
+  solicitação
+\item
+  \textbf{T3}: A data de nascimento não pode ser maior que a data de
+  geração
+\item
+  \textbf{T4}: A data de nascimento não pode ser maior que a data de
+  início
+\item
+  \textbf{T5}: A data de nascimento não pode ser maior que a data de fim
+\item
+  \textbf{T6}: A data de nascimento não pode ser maior que a data de
+  ocorrência
+\item
+  \textbf{T7}: A data de competência não pode ser menor que a data de
+  movimentação
+\end{itemize}
+
+\hypertarget{resultados-obtidos}{%
+\subsection*{Resultados obtidos}\label{resultados-obtidos}}
+\addcontentsline{toc}{subsection}{Resultados obtidos}
+
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}{>{}cccccccc}
+\toprule
+Ano & T1 & T2 & T3 & T4 & T5 & T6 & T7\\
+\midrule
+\endfirsthead
+\multicolumn{8}{@{}l}{\textit{(continued)}}\\
+\toprule
+Ano & T1 & T2 & T3 & T4 & T5 & T6 & T7\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+\em{2008} & 311 & 32 & 0 & 0 & 0 & 0 & 0\\
+\em{2009} & 211 & 48 & 0 & 0 & 0 & 0 & 0\\
+\em{2010} & 2891 & 105 & 0 & 0 & 0 & 0 & 0\\
+\em{2011} & 404 & 57 & 10 & 0 & 0 & 0 & 0\\
+\em{2012} & 589 & 43 & 3 & 0 & 0 & 0 & 0\\
+\addlinespace
+\em{2013} & 491 & 46 & 0 & 0 & 0 & 0 & 0\\
+\em{2014} & 834 & 29 & 0 & 0 & 0 & 0 & 0\\
+\em{2015} & 1188 & 25 & 0 & 0 & 0 & 0 & 0\\
+\em{2016} & 1385 & 17 & 2 & 0 & 0 & 0 & 0\\
+\em{2017} & 2268 & 36 & 0 & 0 & 0 & 0 & 0\\
+\addlinespace
+\em{2018} & 241 & 28 & 0 & 0 & 0 & 0 & 0\\
+\em{2019} & 370 & 12 & 0 & 0 & 0 & 0 & 0\\*
+\end{longtable}
+\endgroup{}
+
+\end{document}

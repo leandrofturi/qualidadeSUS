@@ -1,0 +1,35 @@
+# Disponibilidade dos dados
+
+Esta análise têm o objetivo de dissertar acerca da disponibilidade dos dados em todo o período representado pela base de dados e em todas as Unidades Federativas.
+
+`r if(exists("dt_disponibilidade")){"Após realização de testes, averiguou-se que para os seguintes anos, meses ou Unidades Federativas, representados na tabela a seguir, os respectivos registros não encontram-se na base de dados."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_disponibilidade"))
+ try(kable(dt_disponibilidade, format = "latex", longtable = T, booktabs = T, caption = "período e/ou Unidade Federativa contendo registros faltantes.") %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10), silent = T)
+```
+
+`r if(!exists("dt_disponibilidade")){"Após realização de testes, averiguou-se que para todo o período representado pela base de dados a informação está disponível, ou seja, existem registros relativos a todos os anos, meses e Unidades Federativas."}`
+
+
+# Variáveis existentes e mudanças ocorridas
+
+Esta análise tem o objetivo identificar as variáveis existentes na base de dado se relatar as mudanças ocorridas ao longo do tempo.
+
+`r if(exists("relatorio")){" Nesse sentido, o gráfico a seguir apresenta um resumo do quantitativo de variáveis no banco de dados ao longo dos anos analisados.\n\n![evolução do quantitativo de variáveis na base de dados.](imagens/quantidade.png){width=80%}\n"}`
+
+`r if(exists("dt_NA")){"Mesmo que presentes na base de dados, identificou-se que algumas variáveis não possuem qualquer registro em um determinado ano, isto é, estão totalmente vazias em um período específico. Esse fato torna-se um problema quando deseja-se realizar análises sob uma perspectiva anual, visto que ocorrerá lacunas. Nesse contexto, a tabela a seguir apresenta as variáveis nesta situação."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_NA")) 
+  try(kable(dt_NA, format = "latex", longtable = T, escape = F, booktabs = T, linesep = "", row.names = F, caption = "variáveis vazias por período. Em branco, é destacado o ano em que a respectiva variável não possui qualquer registro, isto é, está totalmente vazia.") %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) %>% column_spec(column = 1, italic = T) %>% row_spec(0, angle = 90) %>% if(ncol(dt_NA) > 20) landscape(.) else ., silent = T)
+```
+
+`r if(exists("dt_mud_var")){"Na tabela a seguir é apresentado um resumo das variáveis que sofreram mudanças no tamanho máximo de caractere dos registros e/ou no domínio ao longo dos anos, alterações estas que serão detalhadas em [Alterações de domínio e/ou tamanho](#alterações-de-domínio-eou-tamanho)."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_mud_var"))
+ try(kable(dt_mud_var, format = "latex", longtable = T, booktabs = T, caption = "mudanças ocorridas nas variáveis e respectivos períodos. \\textit{Tamanho} refere-se à alterações na quantidade máxima de caracteres e \\textit{Domínio} refere-se à alterações no domínio.") %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, width = '4cm') %>% column_spec(column = 3, width = '4cm'), silent = T)
+```
+
+`r if(!exists("dt_NA") && !exists("dt_mud")){"Após realização de testes não identificou-se qualquer alteração significante nas variáveis."}`

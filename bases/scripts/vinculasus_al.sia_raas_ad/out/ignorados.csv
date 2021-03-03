@@ -1,0 +1,1135 @@
+variavel;dirty;clean;similaridade
+CO_CNS_MEDICO;d51fcca8ef5fd7914def511caa9d69d6;INDEFINIDO;0,32959431670863
+CO_CNS_MEDICO;71799ba448f32ddfbacac57717f4d770;SEM INFORMACAO;0,325810957293508
+CO_CNS_MEDICO;ad4a1ae969fe4bc120aca3015d680187;SEM INFORMACAO;0,325810957293508
+DS_DESTINO;Alta Administrativa;FALTANTE;0,495677695040149
+DS_DESTINO;Alta Clinica;SEM DEFINICAO;0,416750737206727
+DS_DESTINO;Internacao em Urgencia;SEM INFORMACAO;0,375792838811412
+DS_DESTINO;Permanencia;NAO INFORMADO;0,286330728541384
+DS_DESTINO;Internacao Hospitalar;SEM INFORMACAO;0,25712975328859
+DS_ORIGEM;Atencao Basica;SEM DEFINICAO;0,346840763234805
+DS_ORIGEM;Servico de Urgencia;SEM DEFINICAO;0,333451314982904
+DS_ORIGEM;Internacao Hospitalar;SEM INFORMACAO;0,25712975328859
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia de comportamento incerto ou desconhecido da prostata;DESCONHECIDO;0,774539101100174
+NO_CID_CAUSAS_ASSOCIADAS;Varizes dos membros inferiores sem ulcera ou inflamacao;SEM INFORMACAO;0,691848384121092
+NO_CID_CAUSAS_ASSOCIADAS;Outras afeccoes localizadas do tecido conjuntivo;DESCONHECIDO;0,632455532033676
+NO_CID_CAUSAS_ASSOCIADAS;Fratura do membro inferior, nivel nao especificado;NAO INFORMADO;0,628023413290178
+NO_CID_CAUSAS_ASSOCIADAS;Epilepsia e sindromes epilepticas sintomaticas definidas por sua localizacao (focal) (parcial) com c;SEM DEFINICAO;0,617700273508778
+NO_CID_CAUSAS_ASSOCIADAS;Varizes dos membros inferiores com ulcera e inflamacao;SEM INFORMACAO;0,590939815519726
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de Chagas (cronica) com comprometimento do aparelho digestivo;SEM DEFINICAO;0,577554619401044
+NO_CID_CAUSAS_ASSOCIADAS;Fasciite necrosante;FALTANTE;0,577350269189626
+NO_CID_CAUSAS_ASSOCIADAS;Abscesso cutaneo, furunculo e antraz;FALTANTE;0,577350269189626
+NO_CID_CAUSAS_ASSOCIADAS;Traumatismo superficial do cotovelo e do antebraco;FALTANTE;0,577350269189626
+NO_CID_CAUSAS_ASSOCIADAS;Ferimentos multiplos do antebraco;FALTANTE;0,577350269189626
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia de comportamento incerto ou desconhecido do intestino delgado;DESCONHECIDO;0,575775724648597
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental moderado;DESCONSIDERADO;0,560195355398637
+NO_CID_CAUSAS_ASSOCIADAS;Ulceracao e inflamacao vulvovaginais em doencas classificadas em outra parte;SEM INFORMACAO;0,54226576731298
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia maligna de outras localizacoes e de localizacoes mal definidas do aparelho respiratorio e ;SEM DEFINICAO;0,524407083199615
+NO_CID_CAUSAS_ASSOCIADAS;Osteoporose sem fratura patologica;SEM DEFINICAO;0,519451664262583
+NO_CID_CAUSAS_ASSOCIADAS;Deficiencia de zinco da dieta;SEM DEFINICAO;0,519451664262583
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica de membro inferior, nivel nao especificado;NAO INFORMADO;0,502548397190995
+NO_CID_CAUSAS_ASSOCIADAS;Asma predominantemente alergica;FALTANTE;0,5
+NO_CID_CAUSAS_ASSOCIADAS;Algumas complicacoes atuais subsequentes ao infarto agudo do miocardio;NAO INFORMADO;0,498679357882048
+NO_CID_CAUSAS_ASSOCIADAS;Contato com objeto cortante ou penetrante, intencao nao determinada - residencia;FALTANTE;0,49854669262625
+NO_CID_CAUSAS_ASSOCIADAS;Anemia por deficiencia de ferro;SEM DEFINICAO;0,490506911350497
+NO_CID_CAUSAS_ASSOCIADAS;Demencia na doenca de Alzheimer de inicio tardio;SEM DEFINICAO;0,48843366809377
+NO_CID_CAUSAS_ASSOCIADAS;Demencia na doenca de Alzheimer de inicio precoce;SEM DEFINICAO;0,48843366809377
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de alzheimer de inicio tardio;SEM DEFINICAO;0,48843366809377
+NO_CID_CAUSAS_ASSOCIADAS;Doenca pulmonar obstrutiva cronica com infeccao respiratoria aguda do trato respiratorio inferior;NAO INFORMADO;0,486882027240204
+NO_CID_CAUSAS_ASSOCIADAS;Tuberculose das vias respiratorias, sem confirmacao bacteriologica ou histologica;SEM INFORMACAO;0,486460636358499
+NO_CID_CAUSAS_ASSOCIADAS;Doenca diverticular do intestino grosso sem perfuracao ou abscesso;SEM INFORMACAO;0,479584548080217
+NO_CID_CAUSAS_ASSOCIADAS;Outras doencas pulmonares obstrutivas cronicas;SEM DEFINICAO;0,471571372039966
+NO_CID_CAUSAS_ASSOCIADAS;Insuficiencia respiratoria cronica;SEM DEFINICAO;0,471571372039966
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno delirante;FALTANTE;0,471404520791032
+NO_CID_CAUSAS_ASSOCIADAS;Presenca de implantes articulares ortopedicos;FALTANTE;0,471404520791032
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno nao especificado de disco intervertebral;NAO INFORMADO;0,471197788435272
+NO_CID_CAUSAS_ASSOCIADAS;Reacao anormal em paciente ou complicacao tardia, causadas por cateterismo urinario, sem mencao de a;SEM INFORMACAO;0,471069734952808
+NO_CID_CAUSAS_ASSOCIADAS;Deformidade adquirida do sistema osteomuscular nao especificada;NAO INFORMADO;0,468816259327935
+NO_CID_CAUSAS_ASSOCIADAS;Ulcera dos membros inferiores nao classificada em outra parte;NAO INFORMADO;0,468816259327935
+NO_CID_CAUSAS_ASSOCIADAS;Anormalidades da respiracao;SEM INFORMACAO;0,464392667581764
+NO_CID_CAUSAS_ASSOCIADAS;Diarreia e gastroenterite de origem infecciosa presumivel;SEM INFORMACAO;0,451259217165636
+NO_CID_CAUSAS_ASSOCIADAS;Insuficiencia hepatica, sem outras especificacoes;SEM DEFINICAO;0,450732992552723
+NO_CID_CAUSAS_ASSOCIADAS;Tuberculose pulmonar, com confirmacao histologica;SEM INFORMACAO;0,450567286249043
+NO_CID_CAUSAS_ASSOCIADAS;Insuficiencia venosa (cronica) (periferica);SEM DEFINICAO;0,447371884493081
+NO_CID_CAUSAS_ASSOCIADAS;Doenca isquemica cronica do coracao;SEM DEFINICAO;0,445840086410273
+NO_CID_CAUSAS_ASSOCIADAS;Deiscencia de ferida cirurgica nao classificada em outra parte;SEM DEFINICAO;0,445840086410273
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica de um outro dedo apenas (completa) (parcial);SEM DEFINICAO;0,445840086410273
+NO_CID_CAUSAS_ASSOCIADAS;Entorse e distensao envolvendo ligamento cruzado (anterior) (posterior) do joelho;FALTANTE;0,441445413879815
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia maligna da prostata;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Outras neoplasias malignas da pele;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia maligna do reto;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Anorexia;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia maligna da mama;IGNORADO;0,441322036778772
+NO_CID_CAUSAS_ASSOCIADAS;Reacao anormal em paciente ou complicacao tardia, causadas por amputacao de membro(s), sem mencao de;SEM INFORMACAO;0,44114089265301
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental moderado - comprometimento significativo do comportamento, requerendo vigilancia ou t;DESCONSIDERADO;0,437694981671005
+NO_CID_CAUSAS_ASSOCIADAS;Pessoa traumatizada em outros acidentes de transporte especificados (com colisao) (sem colisao) envo;SEM DEFINICAO;0,436826798406679
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental grave - mencao de ausencia de ou de comprometimento minimo do comportamento;SEM DEFINICAO;0,436672893704965
+NO_CID_CAUSAS_ASSOCIADAS;Infeccao pos-traumatica de ferimento nao classificada em outra parte;SEM DEFINICAO;0,423648820185298
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno nao especificado do desenvolvimento das habilidades escolares;DESCONHECIDO;0,422698015904069
+NO_CID_CAUSAS_ASSOCIADAS;Hemorragia gastrointestinal, sem outra especificacao;SEM DEFINICAO;0,422562632918856
+NO_CID_CAUSAS_ASSOCIADAS;Infeccao nao especificada devida ao virus do herpes;NAO INFORMADO;0,420684490686547
+NO_CID_CAUSAS_ASSOCIADAS;Ulcera cronica da pele, nao classificada em outra parte;SEM DEFINICAO;0,419476985084896
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica de dois ou mais artelhos;SEM DEFINICAO;0,416750737206727
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica de outras partes do pe;SEM DEFINICAO;0,416750737206727
+NO_CID_CAUSAS_ASSOCIADAS;Tuberculose pulmonar, com confirmacao por meio nao especificado;NAO INFORMADO;0,412211101210202
+NO_CID_CAUSAS_ASSOCIADAS;Outras afeccoes infiltrativas da pele e do tecido subcutaneo;DESCONHECIDO;0,408894873432525
+NO_CID_CAUSAS_ASSOCIADAS;Parestesias cutaneas;FALTANTE;0,408248290463863
+NO_CID_CAUSAS_ASSOCIADAS;Hidrocefalia;FALTANTE;0,408248290463863
+NO_CID_CAUSAS_ASSOCIADAS;Convalescenca apos cirurgia;DESCONHECIDO;0,408096539973688
+NO_CID_CAUSAS_ASSOCIADAS;Outras escolioses secundarias;DESCONHECIDO;0,408096539973688
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno neurovegetativo somatoforme;NAO INFORMADO;0,404932799627394
+NO_CID_CAUSAS_ASSOCIADAS;Outras espondilopatias inflamatorias;NAO INFORMADO;0,404932799627394
+NO_CID_CAUSAS_ASSOCIADAS;Ferimentos envolvendo multiplas regioes do(s) membro(s) inferior(es);NAO INFORMADO;0,404932799627394
+NO_CID_CAUSAS_ASSOCIADAS;Varizes dos membros inferiores;NAO INFORMADO;0,404932799627394
+NO_CID_CAUSAS_ASSOCIADAS;Disfuncoes neuromusculares da bexiga nao classificados em outra parte;NAO INFORMADO;0,403645525963807
+NO_CID_CAUSAS_ASSOCIADAS;Infeccao de coto da amputacao;SEM INFORMACAO;0,39923950684416
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasias malignas de localizacoes multiplas independentes (primarias);INDEFINIDO;0,396596134459307
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos nao-infecciosos dos vasos linfaticos e dos ganglios linfaticos;NAO INFORMADO;0,390789480200117
+NO_CID_CAUSAS_ASSOCIADAS;Traumatismo superficial nao especificado da perna;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Prolapso uterovaginal nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes mellitus nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_CAUSAS_ASSOCIADAS;Atrofia muscular espinal e sindromes correlatas;INDEFINIDO;0,390229817742851
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome da cauda equina;INDEFINIDO;0,390229817742851
+NO_CID_CAUSAS_ASSOCIADAS;Queda em ou de escadas de mao;SEM DEFINICAO;0,388393926927498
+NO_CID_CAUSAS_ASSOCIADAS;Outras doencas desmielinizantes do sistema nervoso central;FALTANTE;0,388071517766425
+NO_CID_CAUSAS_ASSOCIADAS;Ceratose adquirida [ceratodermia] palmar e plantar;DESCONSIDERADO;0,387532993966134
+NO_CID_CAUSAS_ASSOCIADAS;Leucemia mieloide cronica;SEM DEFINICAO;0,385036412934029
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome de imobilidade (paraplegica);SEM DEFINICAO;0,385036412934029
+NO_CID_CAUSAS_ASSOCIADAS;Outros defeitos da coagulacao;SEM DEFINICAO;0,384605285542743
+NO_CID_CAUSAS_ASSOCIADAS;Hipertensao secundaria, nao especificada;NAO INFORMADO;0,384397832066571
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao especificado - sem complicacoes;SEM DEFINICAO;0,384147782974317
+NO_CID_CAUSAS_ASSOCIADAS;Infeccao do trato urinario de localizacao nao especificada;NAO INFORMADO;0,381235614766129
+NO_CID_CAUSAS_ASSOCIADAS;Desnutricao proteico-calorica de graus moderado e leve;SEM DEFINICAO;0,381018395189219
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome de abstinencia com deliriu;SEM DEFINICAO;0,375510370502024
+NO_CID_CAUSAS_ASSOCIADAS;Fratura da extremidade distal do radio;IGNORADO;0,372747618318628
+NO_CID_CAUSAS_ASSOCIADAS;Tuberculose respiratoria, com confirmacao bacteriologica e histologica;SEM INFORMACAO;0,369293983003761
+NO_CID_CAUSAS_ASSOCIADAS;Valor elevado da pressao arterial sem o diagnostico de hipertensao;SEM DEFINICAO;0,367525152346131
+NO_CID_CAUSAS_ASSOCIADAS;Disfuncao neuromuscular nao especificada da bexiga;NAO INFORMADO;0,366191025948531
+NO_CID_CAUSAS_ASSOCIADAS;Doenca pelo HIV resultando em doenca infecciosa ou parasitaria nao especificada;NAO INFORMADO;0,364812458567365
+NO_CID_CAUSAS_ASSOCIADAS;Enfisema nao especificado;NAO INFORMADO;0,362210826323
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica da perna ao nivel nao especificado;NAO INFORMADO;0,362073027562313
+NO_CID_CAUSAS_ASSOCIADAS;Desnutricao proteico-calorica moderada;DESCONSIDERADO;0,358648979801869
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus insulino-dependente - sem complicacoes;SEM DEFINICAO;0,356919993110979
+NO_CID_CAUSAS_ASSOCIADAS;Desnutricao proteico-calorica leve;SEM DEFINICAO;0,356900082185065
+NO_CID_CAUSAS_ASSOCIADAS;Outras formas de hidrocefalia;NAO INFORMADO;0,356567358561818
+NO_CID_CAUSAS_ASSOCIADAS;Demencia na doenca de Alzheimer, forma atipica ou mista;NAO INFORMADO;0,356567358561818
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos especificos misto do desenvolvimento;DESCONHECIDO;0,355374572517373
+NO_CID_CAUSAS_ASSOCIADAS;Bexiga neuropatica nao-inibida nao classificada em outra parte;SEM DEFINICAO;0,353867435410484
+NO_CID_CAUSAS_ASSOCIADAS;Fratura de outras partes da coluna lombossacra e da pelve e de partes nao especificadas;SEM DEFINICAO;0,353678529029975
+NO_CID_CAUSAS_ASSOCIADAS;Ferimentos de outras partes e das nao especificadas da cintura pelvica;SEM DEFINICAO;0,353678529029975
+NO_CID_CAUSAS_ASSOCIADAS;Insuficiencia renal cronica nao especificada;SEM DEFINICAO;0,353678529029975
+NO_CID_CAUSAS_ASSOCIADAS;Doenca pulmonar obstrutiva cronica nao especificada;SEM DEFINICAO;0,353678529029975
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de traumatismo intracraniano;NAO INFORMADO;0,352619555596149
+NO_CID_CAUSAS_ASSOCIADAS;Outras gastroenterites e colites nao-infecciosas;NAO INFORMADO;0,352619555596149
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno mental organico ou sintomatico nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia maligna do figado, nao especificada;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Episodio depressivo nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos das raizes lombossacras nao classificadas em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_CAUSAS_ASSOCIADAS;Perda e atrofia muscular nao classificadas em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_CAUSAS_ASSOCIADAS;Dificuldade para andar nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_CAUSAS_ASSOCIADAS;Doenca pelo virus da imunodeficiencia humana [HIV] nao especificada;SEM DEFINICAO;0,347366440098247
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao-insulino-dependente - sem complicacoes;SEM DEFINICAO;0,347366440098247
+NO_CID_CAUSAS_ASSOCIADAS;Deplecao de volume;SEM DEFINICAO;0,346840763234805
+NO_CID_CAUSAS_ASSOCIADAS;Outras deformidades (adquiridas) do(s) dedo(s) dos pes;SEM DEFINICAO;0,345609825083323
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de tuberculose das vias respiratorias e de orgaos nao especificados;SEM DEFINICAO;0,34472400021009
+NO_CID_CAUSAS_ASSOCIADAS;Contato com outros artropodes venenosos - local nao especificado;DESCONHECIDO;0,342861805362495
+NO_CID_CAUSAS_ASSOCIADAS;Hemiplegia flacida;DESCONHECIDO;0,341655684909167
+NO_CID_CAUSAS_ASSOCIADAS;Tetraplegia flacida;DESCONHECIDO;0,341655684909167
+NO_CID_CAUSAS_ASSOCIADAS;Paraplegia flacida;DESCONHECIDO;0,341655684909167
+NO_CID_CAUSAS_ASSOCIADAS;Outras afeccoes da pele e do tecido subcutaneo nao classificadas em outra parte;DESCONHECIDO;0,340172479250759
+NO_CID_CAUSAS_ASSOCIADAS;Paralisia cerebral nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Pneumonia bacteriana nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Septicemia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Tetraplegia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Distensao muscular;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Pneumonia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Demencia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Esquizofrenia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Ataxia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Insuficiencia respiratoria nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Broncopneumonia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Fratura do femur, parte nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Anemia nutricional nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Anemia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Asma nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Hemiplegia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Demencia vascular nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Hipertensao secundaria a afeccoes endocrinas;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Cistite, nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Ictericia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Paraplegia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Insuficiencia renal nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Artrose nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Insuficiencia respiratoria nao classificada de outra parte;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Hipertensao essencial (primaria);NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Osteoporose nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Fratura do ilio;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Espinha bifida nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Pneumonia por microorganismo nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_CAUSAS_ASSOCIADAS;Luxacao da articulacao do quadril;SEM INFORMACAO;0,338893613611139
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de traumatismo de medula espinhal;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Outras doencas vasculares perifericas;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de fratura de coluna vertebral;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Polineuropatia diabetica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Paralisia cerebral diplegica espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Miocardiopatia isquemica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Osteoporose com fratura patologica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Osteoporose pos-menopausica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Varizes de outras localizacoes;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de traumatismo da cabeca;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Ferimento de outras partes do pe;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Hernia umbilical;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Apneia de sono;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Episodios depressivos;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de doencas cerebrovasculares;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de fratura do femur;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de Parkinson;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Megaesofago na doenca de Chagas;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Paraplegia espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de hanseniase [lepra];SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Outras sindromes de algias cefalicas;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Pericardite aguda;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de Alzheimer;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Demencia na doenca de Alzheimer;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Paralisia cerebral quadriplagica espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Dor abdominal e pelvica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Fraturas de outras partes do femur;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Cervicalgia;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Episodio depressivo leve;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Hemiplegia espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Celulite de outras partes do(s) membro(s);SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Tetraplegia espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Fratura de outras partes da perna;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de Huntington;SEM DEFINICAO;0,333451314982904
+NO_CID_CAUSAS_ASSOCIADAS;Insuficiencia cardiaca;SEM INFORMACAO;0,325810957293508
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica da articulacao do ombro;SEM INFORMACAO;0,324283607057747
+NO_CID_CAUSAS_ASSOCIADAS;Tumefacao, massa ou tumoracao localizadas da cabeca;SEM INFORMACAO;0,324283607057747
+NO_CID_CAUSAS_ASSOCIADAS;Traumatismo de nervo do torax nao especificado;NAO INFORMADO;0,323894847399071
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao especificado - com complicacoes nao especificadas;NAO INFORMADO;0,32382508107649
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica de localizacao entre o ombro e o cotovelo;SEM DEFINICAO;0,318716355538536
+NO_CID_CAUSAS_ASSOCIADAS;Agressao por meio de disparo de arma de fogo de mao;SEM DEFINICAO;0,316914240337609
+NO_CID_CAUSAS_ASSOCIADAS;Obesidade;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Piodermite;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Outros sintomas e sinais gerais;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos ansiosos;DESCONSIDERADO;0,316419364570033
+NO_CID_CAUSAS_ASSOCIADAS;Outras incontinencias urinarias especificadas;DESCONHECIDO;0,316227766016838
+NO_CID_CAUSAS_ASSOCIADAS;Incontinencia urinaria nao especificada;NAO INFORMADO;0,312300475241135
+NO_CID_CAUSAS_ASSOCIADAS;Osteocondrose juvenil nao especificada do quadril e da pelve;NAO INFORMADO;0,312300475241135
+NO_CID_CAUSAS_ASSOCIADAS;Outras convulsoes e as nao especificadas;NAO INFORMADO;0,312300475241135
+NO_CID_CAUSAS_ASSOCIADAS;Outro retardo mental - comprometimento significativo do comportamento, requerendo vigilancia ou trat;IGNORADO;0,312061804893329
+NO_CID_CAUSAS_ASSOCIADAS;Retardo mental profundo - comprometimento significativo do comportamento, requerendo vigilancia ou t;IGNORADO;0,312061804893329
+NO_CID_CAUSAS_ASSOCIADAS;Dermatite atopica, nao especificada;NAO INFORMADO;0,311620093740998
+NO_CID_CAUSAS_ASSOCIADAS;Varizes dos membros inferiores com ulcera;NAO INFORMADO;0,310487778243971
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de infarto cerebral;NAO INFORMADO;0,310487778243971
+NO_CID_CAUSAS_ASSOCIADAS;Osteoporose de desuso;SEM DEFINICAO;0,3071824391818
+NO_CID_CAUSAS_ASSOCIADAS;Desnutricao proteico-calorica nao especificada;SEM DEFINICAO;0,305510059765532
+NO_CID_CAUSAS_ASSOCIADAS;Desnutricao proteico-calorica grave nao especificada;SEM DEFINICAO;0,305510059765532
+NO_CID_CAUSAS_ASSOCIADAS;Doenca renal em estadio final;SEM DEFINICAO;0,30539944898732
+NO_CID_CAUSAS_ASSOCIADAS;Obesidade nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Doenca de alzheimer nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Artrite reumatoide nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Encefalopatia nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Demencia nao especificada na doenca de Alzheimer;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Meningite devida a outras causas e a causas nao especificadas;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Traumatismo superficial de parte nao especificada do abdome, do dorso e da pelve;NAO INFORMADO;0,303217099060848
+NO_CID_CAUSAS_ASSOCIADAS;Artrogripose congenita multipla;REJEITADO;0,301489283493019
+NO_CID_CAUSAS_ASSOCIADAS;Outros traumatismos e os nao especificados da medula cervical;NAO INFORMADO;0,30128271583352
+NO_CID_CAUSAS_ASSOCIADAS;Acidente vascular cerebral, nao especificado como hemorragico ou isquemico;NAO INFORMADO;0,30128271583352
+NO_CID_CAUSAS_ASSOCIADAS;Ulcera de decubito;SEM DEFINICAO;0,298247922995387
+NO_CID_CAUSAS_ASSOCIADAS;Fratura da perna, incluindo tornozelo;INDEFINIDO;0,298122053968115
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de hiperalimentacao;SEM DEFINICAO;0,296483590162613
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica da perna;SEM DEFINICAO;0,296483590162613
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica entre o joelho e o tornozelo;SEM DEFINICAO;0,296483590162613
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus insulino-dependente - com complicacoes nao especificadas;NAO INFORMADO;0,295143743479312
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos de personalidade e do comportamento devidos a doenca, a lesao e a disfuncao cerebral;SEM DEFINICAO;0,294687272343369
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao-insulino-dependente - com complicacoes nao especificadas;NAO INFORMADO;0,293588693736997
+NO_CID_CAUSAS_ASSOCIADAS;Outras deformidades adquiridas dos membros;SEM DEFINICAO;0,29104303334777
+NO_CID_CAUSAS_ASSOCIADAS;Outras deformidades adquiridas do tornozelo e do pe;SEM DEFINICAO;0,29104303334777
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno depressivo recorrente;FALTANTE;0,288675134594813
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos dissociativos [de conversao];DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Contratura articular;DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Aterosclerose das arterias das extremidades;DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Incontinencia fecal;DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Escabiose [sarna];DESCONHECIDO;0,288567830794162
+NO_CID_CAUSAS_ASSOCIADAS;Traumatismo do figado ou da vesicula biliar;IGNORADO;0,286354068334178
+NO_CID_CAUSAS_ASSOCIADAS;Nasofaringite aguda [resfriado comum];IGNORADO;0,286354068334178
+NO_CID_CAUSAS_ASSOCIADAS;Cuidados a traqueostomia;IGNORADO;0,286354068334178
+NO_CID_CAUSAS_ASSOCIADAS;Cuidado paliativo;IGNORADO;0,286354068334178
+NO_CID_CAUSAS_ASSOCIADAS;Cuidados a colostomia;IGNORADO;0,286354068334178
+NO_CID_CAUSAS_ASSOCIADAS;Cuidados a cistostomia;IGNORADO;0,286354068334178
+NO_CID_CAUSAS_ASSOCIADAS;Linfangite;NAO INFORMADO;0,286330728541384
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao especificado - com complicacoes circulatorias perifericas;SEM DEFINICAO;0,283841034689687
+NO_CID_CAUSAS_ASSOCIADAS;Sequelas de acidente vascular cerebral nao especificado como hemorragico ou isquemico;NAO INFORMADO;0,282828809031339
+NO_CID_CAUSAS_ASSOCIADAS;Outros traumatismos da medula espinhal toracica e os nao especificados;NAO INFORMADO;0,282828809031339
+NO_CID_CAUSAS_ASSOCIADAS;Enfisema;SEM DEFINICAO;0,281638289336996
+NO_CID_CAUSAS_ASSOCIADAS;Cuidados a curativos e suturas cirurgicas;SEM DEFINICAO;0,279726371350367
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de fumo - outros transtornos mentais ou comport;SEM DEFINICAO;0,279007594633124
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome de down nao especificada;NAO INFORMADO;0,276798074961508
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome de guillain-barre;INDEFINIDO;0,275934150347161
+NO_CID_CAUSAS_ASSOCIADAS;Outras sindromes paraliticas;INDEFINIDO;0,275934150347161
+NO_CID_CAUSAS_ASSOCIADAS;Outros deslocamentos discais intervertebrais especificados;SEM DEFINICAO;0,275782986922277
+NO_CID_CAUSAS_ASSOCIADAS;Anormalidades da marcha e da mobilidade;NAO INFORMADO;0,27295027145472
+NO_CID_CAUSAS_ASSOCIADAS;Outras sindromes paraliticas especificadas;SEM DEFINICAO;0,272261858589396
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos da eliminacao transepidermica;DESCONSIDERADO;0,264756508183369
+NO_CID_CAUSAS_ASSOCIADAS;Amputacao traumatica ao nivel do punho e da mao;NAO INFORMADO;0,261678597260715
+NO_CID_CAUSAS_ASSOCIADAS;Transtornos mentais e comportamentais devidos ao uso de multiplas drogas e ao uso de outras substanc;SEM DEFINICAO;0,260793955623051
+NO_CID_CAUSAS_ASSOCIADAS;Outra disfuncao neuromuscular da bexiga;NAO INFORMADO;0,258989614139512
+NO_CID_CAUSAS_ASSOCIADAS;Pseudo-artrose apos fusao ou artrodese;NAO INFORMADO;0,258989614139512
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus insulino-dependente - com complicacoes circulatorias perifericas;SEM DEFINICAO;0,257390161594063
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus insulino-dependente - com complicacoes oftalmicas;SEM DEFINICAO;0,257390161594063
+NO_CID_CAUSAS_ASSOCIADAS;Fibrose cistica nao especificada;NAO INFORMADO;0,256265221377714
+NO_CID_CAUSAS_ASSOCIADAS;Septicemia estreptococica nao especificada;NAO INFORMADO;0,256265221377714
+NO_CID_CAUSAS_ASSOCIADAS;Neoplasia maligna da regiao pos-cricoidea;IGNORADO;0,254797396733538
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao especificado - com outras complicacoes especificadas;SEM DEFINICAO;0,254740054714828
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao-insulino-dependente - com complicacoes circulatorias perifericas;SEM DEFINICAO;0,252065501083495
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus insulino-dependente;FALTANTE;0,247838847520075
+NO_CID_CAUSAS_ASSOCIADAS;Outras artroses especificadas;DESCONHECIDO;0,241587051630206
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus insulino-dependente - com outras complicacoes especificadas;SEM DEFINICAO;0,240126547935395
+NO_CID_CAUSAS_ASSOCIADAS;Queimadura de terceiro grau do tronco;NAO INFORMADO;0,239714164635296
+NO_CID_CAUSAS_ASSOCIADAS;Sindrome nefritica nao especificada - outras;NAO INFORMADO;0,239714164635296
+NO_CID_CAUSAS_ASSOCIADAS;Retardo do desenvolvimento fisiologico normal;NAO INFORMADO;0,237711572374545
+NO_CID_CAUSAS_ASSOCIADAS;Transtorno misto ansioso e depressivo;SEM DEFINICAO;0,235785686019983
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao-insulino-dependente;FALTANTE;0,235702260395516
+NO_CID_CAUSAS_ASSOCIADAS;Doenca cardiaca hipertensiva;SEM INFORMACAO;0,23038313728712
+NO_CID_CAUSAS_ASSOCIADAS;Outras epilepsias e sindromes epilepticas generalizadas;INDEFINIDO;0,225299290319654
+NO_CID_CAUSAS_ASSOCIADAS;Outras doencas extrapiramidais e transtornos dos movimentos, especificados;DESCONHECIDO;0,219578640748761
+NO_CID_CAUSAS_ASSOCIADAS;Outros transtornos especificados da bexiga;DESCONHECIDO;0,219578640748761
+NO_CID_CAUSAS_ASSOCIADAS;Diabetes Mellitus nao-insulino-dependente - com complicacoes multiplas;FALTANTE;0,204124145231932
+NO_CID_PRINCIPAL;Neoplasia de comportamento incerto ou desconhecido da prostata;DESCONHECIDO;0,774539101100174
+NO_CID_PRINCIPAL;Neoplasia de comportamento incerto ou desconhecido da mama;DESCONHECIDO;0,774539101100174
+NO_CID_PRINCIPAL;Neoplasia de comportamento incerto ou desconhecido do encefalo e do sistema nervoso central;DESCONHECIDO;0,748765850220992
+NO_CID_PRINCIPAL;Varizes dos membros inferiores sem ulcera ou inflamacao;SEM INFORMACAO;0,691848384121092
+NO_CID_PRINCIPAL;Neoplasia de comportamento incerto ou desconhecido de outras partes do sistema nervoso central;DESCONHECIDO;0,66658409485782
+NO_CID_PRINCIPAL;Malformacao arteriovenosa dos vasos cerebrais;SEM INFORMACAO;0,653601633883633
+NO_CID_PRINCIPAL;Panencefalite esclerosante subaguda;FALTANTE;0,635566742004642
+NO_CID_PRINCIPAL;Outras afeccoes localizadas do tecido conjuntivo;DESCONHECIDO;0,632455532033676
+NO_CID_PRINCIPAL;Fratura do membro inferior, nivel nao especificado;NAO INFORMADO;0,628023413290178
+NO_CID_PRINCIPAL;Complicacoes de cardiopatias e doencas cardiacas mal definidas;SEM DEFINICAO;0,621803291094262
+NO_CID_PRINCIPAL;Epilepsia e sindromes epilepticas sintomaticas definidas por sua localizacao (focal) (parcial) com c;SEM DEFINICAO;0,617700273508778
+NO_CID_PRINCIPAL;Agressao por meio de objeto cortante ou penetrante;FALTANTE;0,615457454896664
+NO_CID_PRINCIPAL;Acidente de transito de tipo especificado, mas sendo desconhecido o modo de transporte da vitima;DESCONHECIDO;0,610346616681865
+NO_CID_PRINCIPAL;Varizes dos membros inferiores com ulcera e inflamacao;SEM INFORMACAO;0,590939815519726
+NO_CID_PRINCIPAL;Ferimento de membro inferior, nivel nao especificado;NAO INFORMADO;0,586647554217281
+NO_CID_PRINCIPAL;Doenca de Chagas (cronica) com comprometimento cardiaco;SEM DEFINICAO;0,577554619401044
+NO_CID_PRINCIPAL;Abscesso cutaneo, furunculo e antraz da nadega;FALTANTE;0,577350269189626
+NO_CID_PRINCIPAL;Fasciite necrosante;FALTANTE;0,577350269189626
+NO_CID_PRINCIPAL;Espondilite ancilosante;FALTANTE;0,577350269189626
+NO_CID_PRINCIPAL;Traumatismo superficial do cotovelo e do antebraco;FALTANTE;0,577350269189626
+NO_CID_PRINCIPAL;Abscesso cutaneo, furunculo e antraz do(s) membro(s);FALTANTE;0,577350269189626
+NO_CID_PRINCIPAL;Sindromes miastenicas em doencas endocrinas;SEM DEFINICAO;0,570341956797627
+NO_CID_PRINCIPAL;Neoplasia maligna do tecido conjuntivo e de outros tecidos moles;DESCONHECIDO;0,569542439893354
+NO_CID_PRINCIPAL;Hepatite cronica, sem outra especificacao;SEM DEFINICAO;0,566931044634632
+NO_CID_PRINCIPAL;Traumatismo intracraniano, nao especificado;NAO INFORMADO;0,56589307277725
+NO_CID_PRINCIPAL;Doenca cardiaca hipertensiva sem insuficiencia cardiaca (congestiva);SEM INFORMACAO;0,562836215530751
+NO_CID_PRINCIPAL;Retardo mental moderado;DESCONSIDERADO;0,560195355398637
+NO_CID_PRINCIPAL;Lesao intracraniana ocupando espaco;NAO INFORMADO;0,558423503278856
+NO_CID_PRINCIPAL;Infeccao intestinal bacteriana nao especificada;NAO INFORMADO;0,551192862115127
+NO_CID_PRINCIPAL;Traumatismo nao especificado do membro inferior, nivel nao especificado;NAO INFORMADO;0,549484425174261
+NO_CID_PRINCIPAL;Outras perdas de audicao;SEM DEFINICAO;0,549271959004213
+NO_CID_PRINCIPAL;Streptococcus Pneumoniae, como causa de doencas classificadas em outros capitulos;SEM DEFINICAO;0,549271959004213
+NO_CID_PRINCIPAL;Tuberculose pulmonar, com confirmacao por exame microscopico da expectoracao, com ou sem cultura;SEM INFORMACAO;0,527999027778514
+NO_CID_PRINCIPAL;Neoplasia benigna do figado;IGNORADO;0,526083446420907
+NO_CID_PRINCIPAL;Neoplasia maligna de outras localizacoes e de localizacoes mal definidas;SEM DEFINICAO;0,524407083199615
+NO_CID_PRINCIPAL;Osteoporose sem fratura patologica;SEM DEFINICAO;0,519451664262583
+NO_CID_PRINCIPAL;Deficiencia seletiva de imunoglobulina A [IGA];SEM DEFINICAO;0,519451664262583
+NO_CID_PRINCIPAL;Transtornos da bexiga em doencas classificadas em outra parte;SEM DEFINICAO;0,518665567247852
+NO_CID_PRINCIPAL;Parkinsonismo em doencas classificadas em outra parte;SEM DEFINICAO;0,518665567247852
+NO_CID_PRINCIPAL;Outros transtornos do aparelho circulatorio em doencas classificadas em outra parte;SEM DEFINICAO;0,518665567247852
+NO_CID_PRINCIPAL;Outros transtornos do sistema nervoso em doencas classificadas em outra parte;SEM DEFINICAO;0,518665567247852
+NO_CID_PRINCIPAL;Osteoporose em doencas classificadas em outra parte;SEM DEFINICAO;0,518665567247852
+NO_CID_PRINCIPAL;Mielopatia em doencas classificadas em outra parte;SEM DEFINICAO;0,518665567247852
+NO_CID_PRINCIPAL;Hernia diafragmatica sem obstrucao ou gangrena;SEM DEFINICAO;0,514603712901809
+NO_CID_PRINCIPAL;Neoplasia maligna de outras localizacoes e de localizacoes mal definida, do labio, cavidade oral e f;SEM DEFINICAO;0,50644688910733
+NO_CID_PRINCIPAL;Malformacao nao especificada do coracao;SEM INFORMACAO;0,504388716032593
+NO_CID_PRINCIPAL;Transtorno de panico [ansiedade paroxistica episodica];SEM DEFINICAO;0,504131002166989
+NO_CID_PRINCIPAL;Neoplasia maligna secundaria e nao especificada dos ganglios linfaticos inguinais e dos membros infe;NAO INFORMADO;0,502840250002863
+NO_CID_PRINCIPAL;Amputacao traumatica de membro inferior, nivel nao especificado;NAO INFORMADO;0,502548397190995
+NO_CID_PRINCIPAL;Asma predominantemente alergica;FALTANTE;0,5
+NO_CID_PRINCIPAL;Descolamento prematuro da placenta [abruptio placentae];DESCONHECIDO;0,499814144365427
+NO_CID_PRINCIPAL;Queimadura do tronco, grau nao especificado;NAO INFORMADO;0,498107629132986
+NO_CID_PRINCIPAL;Queimadura do tornozelo e do pe, grau nao especificado;NAO INFORMADO;0,498107629132986
+NO_CID_PRINCIPAL;Traumatismo intracraniano com coma prolongado;NAO INFORMADO;0,495273949551171
+NO_CID_PRINCIPAL;Neoplasia maligna do intestino delgado com lesao invasiva;NAO INFORMADO;0,489442057200698
+NO_CID_PRINCIPAL;Demencia vascular de inicio agudo;SEM DEFINICAO;0,488766101922228
+NO_CID_PRINCIPAL;Demencia na doenca de Alzheimer de inicio tardio;SEM DEFINICAO;0,48843366809377
+NO_CID_PRINCIPAL;Doenca de alzheimer de inicio precoce;SEM DEFINICAO;0,48843366809377
+NO_CID_PRINCIPAL;Doenca de alzheimer de inicio tardio;SEM DEFINICAO;0,48843366809377
+NO_CID_PRINCIPAL;Episodio depressivo moderado;DESCONSIDERADO;0,487764606270392
+NO_CID_PRINCIPAL;Doenca pulmonar obstrutiva cronica com infeccao respiratoria aguda do trato respiratorio inferior;NAO INFORMADO;0,486882027240204
+NO_CID_PRINCIPAL;Tuberculose das vias respiratorias, sem confirmacao bacteriologica ou histologica;SEM INFORMACAO;0,486460636358499
+NO_CID_PRINCIPAL;Neoplasia maligna do intestino delgado, nao especificado;NAO INFORMADO;0,478930443697483
+NO_CID_PRINCIPAL;Neoplasia maligna da mama com lesao invasiva;NAO INFORMADO;0,477347020976353
+NO_CID_PRINCIPAL;Neoplasia maligna da lingua com lesao invasiva;NAO INFORMADO;0,477347020976353
+NO_CID_PRINCIPAL;Neoplasia maligna do colon com lesao invasiva;NAO INFORMADO;0,477347020976353
+NO_CID_PRINCIPAL;Neoplasia maligna dos bronquios e dos pulmoes com lesao invasiva;NAO INFORMADO;0,477347020976353
+NO_CID_PRINCIPAL;Neoplasia maligna da laringe com lesao invasiva;NAO INFORMADO;0,477347020976353
+NO_CID_PRINCIPAL;Neoplasia maligna do quadrante superior interno da mama;FALTANTE;0,472688614790952
+NO_CID_PRINCIPAL;Outros transtornos do encefalo em doencas classificadas em outra parte;SEM DEFINICAO;0,472288265482507
+NO_CID_PRINCIPAL;Carcinoma de celulas hepaticas;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Outras doencas pulmonares obstrutivas cronicas;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Bronquite cronica simples e a mucopurulenta;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Outra osteomielite cronica;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Insuficiencia respiratoria cronica;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Insuficiencia renal cronica;SEM DEFINICAO;0,471571372039966
+NO_CID_PRINCIPAL;Fratura subtrocanterica;FALTANTE;0,471404520791032
+NO_CID_PRINCIPAL;Presenca de implantes articulares ortopedicos;FALTANTE;0,471404520791032
+NO_CID_PRINCIPAL;Neoplasia maligna do quadrante superior externo da mama;FALTANTE;0,471404520791032
+NO_CID_PRINCIPAL;Oclusao e estenose de arterias pre-cerebrais que nao resultam em infarto cerebral;NAO INFORMADO;0,471272583857447
+NO_CID_PRINCIPAL;Transtorno nao especificado de disco intervertebral;NAO INFORMADO;0,471197788435272
+NO_CID_PRINCIPAL;Infarto cerebral nao especificado;NAO INFORMADO;0,468939923438238
+NO_CID_PRINCIPAL;Ulcera dos membros inferiores nao classificada em outra parte;NAO INFORMADO;0,468816259327935
+NO_CID_PRINCIPAL;Outras esfingolipidoses;INDEFINIDO;0,466116752770437
+NO_CID_PRINCIPAL;Outras malformacoes congenitas do sistema nervoso;SEM INFORMACAO;0,464392667581764
+NO_CID_PRINCIPAL;Outras malformacoes congenitas do pulmao;SEM INFORMACAO;0,464392667581764
+NO_CID_PRINCIPAL;Fratura de osso subsequente a implante ortopedico, protese articular ou placa ossea;FALTANTE;0,462910049886276
+NO_CID_PRINCIPAL;Mielite transversa aguda em doencas desmielinizantes do sistema nervoso central;SEM DEFINICAO;0,461133214598047
+NO_CID_PRINCIPAL;Outros transtornos encefalicos especificados em doencas classificadas em outra parte;SEM DEFINICAO;0,460507730841877
+NO_CID_PRINCIPAL;Neoplasia maligna do coracao;IGNORADO;0,458037613616029
+NO_CID_PRINCIPAL;Neoplasia benigna do coracao;IGNORADO;0,458037613616029
+NO_CID_PRINCIPAL;Diarreia e gastroenterite de origem infecciosa presumivel;SEM INFORMACAO;0,451259217165636
+NO_CID_PRINCIPAL;Doenca pelo HIV resultando em infeccoes micobacterianas;SEM INFORMACAO;0,451259217165636
+NO_CID_PRINCIPAL;Agressao por meio de enforcamento, estrangulamento e sufocacao;SEM INFORMACAO;0,451259217165636
+NO_CID_PRINCIPAL;Tuberculose pulmonar, com confirmacao histologica;SEM INFORMACAO;0,450567286249043
+NO_CID_PRINCIPAL;Insuficiencia hepatica cronica;SEM DEFINICAO;0,447371884493081
+NO_CID_PRINCIPAL;Insuficiencia venosa (cronica) (periferica);SEM DEFINICAO;0,447371884493081
+NO_CID_PRINCIPAL;Complicacoes de procedimentos nao classificadas em outra parte;SEM DEFINICAO;0,445840086410273
+NO_CID_PRINCIPAL;Deiscencia de ferida cirurgica nao classificada em outra parte;SEM DEFINICAO;0,445840086410273
+NO_CID_PRINCIPAL;Doenca isquemica cronica do coracao;SEM DEFINICAO;0,445840086410273
+NO_CID_PRINCIPAL;Atraso do desenvolvimento devido a desnutricao proteico-calorica;SEM DEFINICAO;0,445588633708229
+NO_CID_PRINCIPAL;Sequelas de ferimento do membro inferior;NAO INFORMADO;0,444419151623944
+NO_CID_PRINCIPAL;Autismo infantil;NAO INFORMADO;0,444419151623944
+NO_CID_PRINCIPAL;Cegueira e visao subnormal;NAO INFORMADO;0,444419151623944
+NO_CID_PRINCIPAL;Sequelas de outras fraturas do membro inferior;NAO INFORMADO;0,444419151623944
+NO_CID_PRINCIPAL;Neoplasia maligna do membro inferior;NAO INFORMADO;0,444419151623944
+NO_CID_PRINCIPAL;Doenca cardiaca hipertensiva com insuficiencia cardiaca (congestiva);SEM INFORMACAO;0,443951118268935
+NO_CID_PRINCIPAL;Traumatismo intracraniano;NAO INFORMADO;0,443746602872219
+NO_CID_PRINCIPAL;Neoplasia maligna do ovario;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da vulva;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do pancreas;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia benigna do colon, reto, canal anal e anus;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da prostata;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da medula da supra-renal;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna dos anexos uterinos;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do cerebro, exceto lobos e ventriculos;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do esofago;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da pele do labio;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia benigna da medula espinhal;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da parede posterior da orofaringe;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Anorexia;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Outras neoplasias malignas da pele;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do rim, exceto pelve renal;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Fistula anorretal;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do colo do utero;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna dos bronquios e dos pulmoes;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da mama;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do reto;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da vagina;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia benigna dos bronquios e pulmao;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do olho e anexos;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da laringe;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna dos ossos e cartilagens articulares dos membros;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da base da lingua;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do corpo do utero;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do penis;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da vesicula biliar;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna da medula espinhal;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia benigna da boca e da faringe;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do colon;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do estomago;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Neoplasia maligna do tronco cerebral;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Pneumotorax traumatico;IGNORADO;0,441322036778772
+NO_CID_PRINCIPAL;Outras formas especificadas de doenca pulmonar obstrutiva cronica;SEM DEFINICAO;0,441180474151264
+NO_CID_PRINCIPAL;Reacao anormal em paciente ou complicacao tardia, causadas por amputacao de membro(s), sem mencao de;SEM INFORMACAO;0,44114089265301
+NO_CID_PRINCIPAL;Abscesso cutaneo, furunculo e antraz do pescoco;FALTANTE;0,441075592596764
+NO_CID_PRINCIPAL;Outras formas de cirrose hepatica e as nao especificadas;NAO INFORMADO;0,440758562560967
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente, episodio atual moderado;DESCONSIDERADO;0,437694981671005
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente, episodio atual grave sem sintomas psicoticos;SEM DEFINICAO;0,437135931059793
+NO_CID_PRINCIPAL;Pessoa traumatizada em outros acidentes de transporte especificados com veiculo a motor, sem colisao;SEM DEFINICAO;0,436826798406679
+NO_CID_PRINCIPAL;Deformidade adquirida nao especificada de membro;NAO INFORMADO;0,434748787855149
+NO_CID_PRINCIPAL;Sequelas de esmagamento e amputacao traumatica do membro inferior;NAO INFORMADO;0,434748787855149
+NO_CID_PRINCIPAL;Outras complicacoes de cuidados medicos e cirurgicos nao classificadas em outra parte;SEM DEFINICAO;0,434149092202166
+NO_CID_PRINCIPAL;Hemangioma e linfangioma de qualquer localizacao;SEM INFORMACAO;0,427119851583977
+NO_CID_PRINCIPAL;Retardo mental nao especificado - sem mencao de comprometimento do comportamento;SEM DEFINICAO;0,424806150680132
+NO_CID_PRINCIPAL;Hemorragia intracerebral nao especificada;NAO INFORMADO;0,423694315447916
+NO_CID_PRINCIPAL;Sequelas de outras hemorragias intracranianas nao traumaticas;NAO INFORMADO;0,423694315447916
+NO_CID_PRINCIPAL;Hemorragia gastrointestinal, sem outra especificacao;SEM DEFINICAO;0,422562632918856
+NO_CID_PRINCIPAL;Amputacao traumatica de dois ou mais dedos somente (completa) (parcial);SEM DEFINICAO;0,419476985084896
+NO_CID_PRINCIPAL;Ulcera cronica da pele, nao classificada em outra parte;SEM DEFINICAO;0,419476985084896
+NO_CID_PRINCIPAL;Amputacao traumatica de outras partes do pe;SEM DEFINICAO;0,416750737206727
+NO_CID_PRINCIPAL;Amputacao traumatica de ambas as pernas [qualquer nivel];SEM DEFINICAO;0,416750737206727
+NO_CID_PRINCIPAL;Amputacao traumatica de dois ou mais artelhos;SEM DEFINICAO;0,416750737206727
+NO_CID_PRINCIPAL;Amputacao traumatica de apenas um artelho;SEM DEFINICAO;0,416750737206727
+NO_CID_PRINCIPAL;Queimadura de segundo grau, parte do corpo nao especificada;NAO INFORMADO;0,415197112442263
+NO_CID_PRINCIPAL;Queimadura de terceiro grau, parte do corpo nao especificada;NAO INFORMADO;0,415197112442263
+NO_CID_PRINCIPAL;Outras artrites reumatoides;DESCONSIDERADO;0,414180263831401
+NO_CID_PRINCIPAL;Outras artrites reumatoides soro-positivas;DESCONSIDERADO;0,414180263831401
+NO_CID_PRINCIPAL;Sequelas de intoxicacao por drogas, medicamentos e substancias biologicas;SEM DEFINICAO;0,41379023799201
+NO_CID_PRINCIPAL;Miopatia em outras doencas classificadas em outra parte;SEM DEFINICAO;0,412220827352091
+NO_CID_PRINCIPAL;Tuberculose dos ganglios intratoracicos, com confirmacao bacteriologica e histologica;SEM INFORMACAO;0,409443971795593
+NO_CID_PRINCIPAL;Outras formas de paralisia cerebral;NAO INFORMADO;0,40942540718208
+NO_CID_PRINCIPAL;Outras formas de hanseniase [lepra];NAO INFORMADO;0,40942540718208
+NO_CID_PRINCIPAL;Outras formas de coreia;NAO INFORMADO;0,40942540718208
+NO_CID_PRINCIPAL;Outras afeccoes infiltrativas da pele e do tecido subcutaneo;DESCONHECIDO;0,408894873432525
+NO_CID_PRINCIPAL;Outras infeccoes localizadas da pele e do tecido subcutaneo;DESCONHECIDO;0,408894873432525
+NO_CID_PRINCIPAL;Microcefalia;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Lupus eritematoso cutaneo subagudo;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Hidrocefalia;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Espinha bifida lombar com hidrocefalia;FALTANTE;0,408248290463863
+NO_CID_PRINCIPAL;Convalescenca apos cirurgia;DESCONHECIDO;0,408096539973688
+NO_CID_PRINCIPAL;Polineuropatia inflamatoria;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Varizes dos membros inferiores;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Doenca inflamatoria aguda do utero;NAO INFORMADO;0,404932799627394
+NO_CID_PRINCIPAL;Linfoma nao-Hodgkin difuso, grandes celulas (difuso);NAO INFORMADO;0,404321855503936
+NO_CID_PRINCIPAL;Outros transtornos do sistema nervoso nao classificados em outra parte;NAO INFORMADO;0,403645525963807
+NO_CID_PRINCIPAL;Infeccao de coto da amputacao;SEM INFORMACAO;0,39923950684416
+NO_CID_PRINCIPAL;Cisto folicular, nao especificado da pele e do tecido subcutaneo;DESCONHECIDO;0,398527961698906
+NO_CID_PRINCIPAL;Afeccoes da pele e do tecido subcutaneo, nao especificados;DESCONHECIDO;0,398527961698906
+NO_CID_PRINCIPAL;Outras complicacoes e as nao especificadas do coto de amputacao;SEM DEFINICAO;0,397297896278385
+NO_CID_PRINCIPAL;Hidrocefalia em doencas infecciosas e parasitarias classificadas em outra parte;SEM DEFINICAO;0,397093915336477
+NO_CID_PRINCIPAL;Ma-absorcao devida a intolerancia nao classificada em outra parte;NAO INFORMADO;0,395326479863845
+NO_CID_PRINCIPAL;Outras atrofias musculares espinais hereditarias;REJEITADO;0,394637386207887
+NO_CID_PRINCIPAL;Ataxia hereditaria;REJEITADO;0,394637386207887
+NO_CID_PRINCIPAL;Outras malformacoes congenitas da coluna vertebral nao-associadas com escoliose;NAO INFORMADO;0,394532453667829
+NO_CID_PRINCIPAL;Reumatismo nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Traumatismo nao especificado da cabeca;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Diabetes mellitus nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno neurotico nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Disturbio do sono, nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Disturbio visual nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Traumatismo nao especificado do quadril e da coxa;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno nao especificado do nervo trigemeo;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno nao especificado da bexiga;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Retardo mental nao especificado;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Transtorno respiratorio nao especificados;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Outros transtornos do aparelho circulatorio e os nao especificados;NAO INFORMADO;0,390341672030377
+NO_CID_PRINCIPAL;Sindrome vascular cerebelar;INDEFINIDO;0,390229817742851
+NO_CID_PRINCIPAL;Cisto pilonidal com abscesso;INDEFINIDO;0,390229817742851
+NO_CID_PRINCIPAL;Queda em ou de escadas ou degraus;SEM DEFINICAO;0,388393926927498
+NO_CID_PRINCIPAL;Depressao pos-esquizofrenica;SEM DEFINICAO;0,385036412934029
+NO_CID_PRINCIPAL;Fratura de costela(s), esterno e coluna toracica;SEM DEFINICAO;0,385036412934029
+NO_CID_PRINCIPAL;Traumatismo de nervos e da medula espinhal ao nivel cervical;SEM DEFINICAO;0,385036412934029
+NO_CID_PRINCIPAL;Insonia nao-organica;SEM DEFINICAO;0,385036412934029
+NO_CID_PRINCIPAL;Sindrome de imobilidade (paraplegica);SEM DEFINICAO;0,385036412934029
+NO_CID_PRINCIPAL;Dermatite nao especificada;NAO INFORMADO;0,384832974592303
+NO_CID_PRINCIPAL;Doenca pulmonar intersticial nao especificadas;NAO INFORMADO;0,384832974592303
+NO_CID_PRINCIPAL;Hipertensao secundaria, nao especificada;NAO INFORMADO;0,384397832066571
+NO_CID_PRINCIPAL;Diabetes Mellitus nao especificado - sem complicacoes;SEM DEFINICAO;0,384147782974317
+NO_CID_PRINCIPAL;Encefalite, mielite e encefalomielite em doencas bacterianas classificadas em outra parte;SEM DEFINICAO;0,384023254359448
+NO_CID_PRINCIPAL;Infeccao do trato urinario de localizacao nao especificada;NAO INFORMADO;0,381235614766129
+NO_CID_PRINCIPAL;Desnutricao proteico-calorica de graus moderado e leve;SEM DEFINICAO;0,381018395189219
+NO_CID_PRINCIPAL;Doenca pelo virus da imunodeficiencia humana [HIV], resultando em doencas infecciosas e parasitarias;SEM DEFINICAO;0,380646093362104
+NO_CID_PRINCIPAL;Transtorno delirante persistente nao especificado;FALTANTE;0,379394177070965
+NO_CID_PRINCIPAL;Figado transplantado;REJEITADO;0,378731215690678
+NO_CID_PRINCIPAL;Outras doencas degenerativas do sistema nervoso nao classificadas em outra parte;SEM DEFINICAO;0,378526262957414
+NO_CID_PRINCIPAL;Disturbio nao especificado do metabolismo dos aminoacidos;DESCONHECIDO;0,374294100384376
+NO_CID_PRINCIPAL;Tuberculose respiratoria, com confirmacao bacteriologica e histologica;SEM INFORMACAO;0,369293983003761
+NO_CID_PRINCIPAL;Valor elevado da pressao arterial sem o diagnostico de hipertensao;SEM DEFINICAO;0,367525152346131
+NO_CID_PRINCIPAL;Queimadura e corrosao da cabeca e pescoco;NAO INFORMADO;0,366266624829872
+NO_CID_PRINCIPAL;Afeccao nao especificada da prostata;NAO INFORMADO;0,366191025948531
+NO_CID_PRINCIPAL;Disfuncao neuromuscular nao especificada da bexiga;NAO INFORMADO;0,366191025948531
+NO_CID_PRINCIPAL;Tromboangeite obliterante [doenca de buerger];FALTANTE;0,365148371670111
+NO_CID_PRINCIPAL;Outras malformacoes congenitas especificadas de membro(s);SEM INFORMACAO;0,365074348511056
+NO_CID_PRINCIPAL;Doenca pelo HIV resultando em doenca infecciosa ou parasitaria nao especificada;NAO INFORMADO;0,364812458567365
+NO_CID_PRINCIPAL;Doenca isquemica cronica do coracao nao especificada;SEM DEFINICAO;0,363319286734285
+NO_CID_PRINCIPAL;Transtorno mental nao especificado em outra parte;NAO INFORMADO;0,362210826323
+NO_CID_PRINCIPAL;Transtornos do aparelho circulatorio, subsequentes a procedimentos nao classificados em outra parte;NAO INFORMADO;0,362210826323
+NO_CID_PRINCIPAL;Amputacao traumatica do pe ao nivel nao especificado;NAO INFORMADO;0,362073027562313
+NO_CID_PRINCIPAL;Amputacao traumatica da perna ao nivel nao especificado;NAO INFORMADO;0,362073027562313
+NO_CID_PRINCIPAL;Sequelas de outros traumatismos especificados da cabeca;SEM DEFINICAO;0,36056624654605
+NO_CID_PRINCIPAL;Doenca inflamatoria cronica do utero;SEM DEFINICAO;0,360264181856442
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - sindrome amnesica;SEM DEFINICAO;0,360189821903093
+NO_CID_PRINCIPAL;Doenca pelo virus da imunodeficiencia humana [HIV], resultando em neoplasias malignas;FALTANTE;0,360136713285928
+NO_CID_PRINCIPAL;Desnutricao proteico-calorica moderada;DESCONSIDERADO;0,358648979801869
+NO_CID_PRINCIPAL;Deficiencia hereditaria do fator VIII;INDEFINIDO;0,357401413526287
+NO_CID_PRINCIPAL;Diabetes Mellitus insulino-dependente - sem complicacoes;SEM DEFINICAO;0,356919993110979
+NO_CID_PRINCIPAL;Outras formas de hidrocefalia;NAO INFORMADO;0,356567358561818
+NO_CID_PRINCIPAL;Demencia na doenca de Alzheimer, forma atipica ou mista;NAO INFORMADO;0,356567358561818
+NO_CID_PRINCIPAL;Disturbios do metabolismo de aminoacidos aromaticos;DESCONHECIDO;0,355374572517373
+NO_CID_PRINCIPAL;Transtorno mental nao especificado devido a uma lesao e disfuncao cerebral e a uma doenca fisica;NAO INFORMADO;0,354763200769823
+NO_CID_PRINCIPAL;Neoplasia maligna do figado e das vias biliares intra-hepaticas;IGNORADO;0,354223369352004
+NO_CID_PRINCIPAL;Pedestre traumatizado em colisao com um veiculo a pedal - acidente nao-de-transito;DESCONSIDERADO;0,354032356764203
+NO_CID_PRINCIPAL;Bronquite cronica nao especificada;SEM DEFINICAO;0,353678529029975
+NO_CID_PRINCIPAL;Bronquite nao especificada como aguda ou cronica;SEM DEFINICAO;0,353678529029975
+NO_CID_PRINCIPAL;Insuficiencia renal cronica nao especificada;SEM DEFINICAO;0,353678529029975
+NO_CID_PRINCIPAL;Doenca pulmonar obstrutiva cronica nao especificada;SEM DEFINICAO;0,353678529029975
+NO_CID_PRINCIPAL;Hidrocefalia de pressao normal;NAO INFORMADO;0,353153990880645
+NO_CID_PRINCIPAL;Sequelas de traumatismo intracraniano;NAO INFORMADO;0,352619555596149
+NO_CID_PRINCIPAL;Transtorno mental organico ou sintomatico nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Traumatismo de medula espinhal, nivel nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Neoplasia maligna do colo do utero, nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Neoplasia maligna do penis, nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Neoplasia maligna do figado, nao especificada;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Neoplasia maligna do seio da face, nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Episodio depressivo nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Neoplasia benigna do aparelho respiratorio, nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Sequelas de traumatismo nao especificado da cabeca;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Traumatismo de nervo craniano nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Outros traumatismos de coluna e tronco, nivel nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Neoplasia maligna do esofago, nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Neoplasia maligna do estomago, nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Neoplasia maligna dos bronquios ou pulmoes, nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Pneumotorax nao especificado;NAO INFORMADO;0,352505250028533
+NO_CID_PRINCIPAL;Disparo de outra arma de fogo e de arma de fogo nao especificada, intencao nao determinada - residen;NAO INFORMADO;0,352026040531891
+NO_CID_PRINCIPAL;Gangrena nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Perda e atrofia muscular nao classificadas em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Pneumonia viral nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Surdo-mudez nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Hepatomegalia e esplenomegalia nao classificadas em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Pessoa traumatizada em uma colisao entre um automovel [carro] e um onibus, nao-de-transito;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Dificuldade para andar nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Dor nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Pneumonia bacteriana nao classificada em outra parte;NAO INFORMADO;0,351847301392885
+NO_CID_PRINCIPAL;Insuficiencia hepatica nao classificada em outra parte;SEM DEFINICAO;0,349198150388408
+NO_CID_PRINCIPAL;Neoplasia maligna secundaria de outra localizacao especificada;SEM DEFINICAO;0,349198150388408
+NO_CID_PRINCIPAL;Doenca pelo virus da imunodeficiencia humana [HIV] nao especificada;SEM DEFINICAO;0,347366440098247
+NO_CID_PRINCIPAL;Doenca pulmonar obstrutiva cronica com exacerbacao aguda nao especificada;SEM DEFINICAO;0,347272921108156
+NO_CID_PRINCIPAL;Pessoa traumatizada em uma colisao entre um automovel [carro] e um veiculo a motor de duas ou tres r;SEM DEFINICAO;0,346840763234805
+NO_CID_PRINCIPAL;Carcinoma in situ de outras localizacoes especificadas;SEM DEFINICAO;0,346081164871581
+NO_CID_PRINCIPAL;Sequelas de tuberculose das vias respiratorias e de orgaos nao especificados;SEM DEFINICAO;0,34472400021009
+NO_CID_PRINCIPAL;Neoplasia maligna do utero, porcao nao especificada;NAO INFORMADO;0,344537676651803
+NO_CID_PRINCIPAL;Hemiplegia flacida;DESCONHECIDO;0,341655684909167
+NO_CID_PRINCIPAL;Paraplegia flacida;DESCONHECIDO;0,341655684909167
+NO_CID_PRINCIPAL;Tetraplegia flacida;DESCONHECIDO;0,341655684909167
+NO_CID_PRINCIPAL;Outras afeccoes da pele e do tecido subcutaneo nao classificadas em outra parte;DESCONHECIDO;0,340172479250759
+NO_CID_PRINCIPAL;Subluxacao da sinfise (pubica) na gravidez, parto e puerperio;SEM INFORMACAO;0,339407245659985
+NO_CID_PRINCIPAL;Demencia vascular nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Lesao do nervo ciatico;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Osteoporose nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Polineuropatia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Poliartrite nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Cardiopatia pulmonar nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Aneurisma cerebral nao-roto;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Gastrite nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Septicemia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Epilepsia, nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Fratura do femur, parte nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Atrofia muscular espinal nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Ferimento da perna, parte nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Fratura ao nivel do punho e da mao;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Entorse e distensao da coluna lombar;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Pneumonia por microorganismo nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Miopatia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Hernia abdominal nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Doenca nao especificada da medula espinal;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Ausencia adquirida da perna ao nivel ou abaixo do joelho;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Monoplegia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Demencia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Hipertensao pulmonar primaria;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Tetraplegia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Poliartrose nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Paraplegia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Dor nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Paralisia cerebral nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Esquizofrenia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Perda nao especificada da visao;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Pneumonia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Hipertensao essencial (primaria);NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Anemia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Fissura anal, nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Hemiplegia nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Lesoes ao nascer do sistema nervoso periferico;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Insuficiencia respiratoria nao classificada de outra parte;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Artrose nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Gonartrose nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Anemia refrataria, nao especificada;NAO INFORMADO;0,339007022720172
+NO_CID_PRINCIPAL;Melanoma in situ de outras partes, e de partes nao especificadas da face;SEM DEFINICAO;0,338891331568461
+NO_CID_PRINCIPAL;Infeccao localizada da pele e do tecido subcutaneo, nao especificada;DESCONHECIDO;0,337388993761679
+NO_CID_PRINCIPAL;Neoplasia maligna da pele da orelha e do conduto auditivo externo;IGNORADO;0,337154738269074
+NO_CID_PRINCIPAL;Ferimento na cabeca, de outras localizacoes;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Ferimento de outras partes do pe;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de Hodgkin;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Neuropatia autonomica periferica idiopatica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de traumatismo de medula espinhal;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Queda de arvore;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Fraturas de outras partes do femur;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de refluxo gastroesofagico com esofagite;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de poliomielite;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Delirium superposto a uma demencia;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Ruptura de arteria;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de traumatismo de nervos cranianos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Queima de fogos de artificio;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de fratura do braco;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outras osteoartropatias hipertroficas;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Episodios depressivos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Neoplasia maligna de outras partes e de partes nao especificadas da lingua;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Hepatite alcoolica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Marcha paralitica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Tetraplegia espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de Parkinson;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Neoplasia maligna da pele de outras partes e de partes nao especificadas da face;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Historia familiar de neoplasia de mama;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Traumatismo da raiz nervosa da coluna cervical;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Osteoporose com fratura patologica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de hanseniase [lepra];SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Fratura de outro artelho;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia na doenca de Alzheimer;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outras cardiomiopatias hipertroficas;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Paralisia cerebral quadriplagica espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Fraturas multiplas da coluna cervical;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de fratura do femur;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de doencas cerebrovasculares;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de Alzheimer;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Fraturas envolvendo outras combinacoes de regioes do corpo;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtorno esquizoafetivo do tipo depressivo;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Hanseniase [Doenca De Hansen] [lepra];SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Fibrose e cirrose hepaticas;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Amiotrofia nevralgica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Traumatismo de raiz nervosa da medula lombar e sacra;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Osteoporose idiopatica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Transtornos de ligamentos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Apneia de sono;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de traumatismo da cabeca;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de traumatismos do membro superior;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Hemiplegia espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Dor abdominal e pelvica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia vascular mista, cortical e subcortical;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outras doencas reumaticas da valva aortica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Paralisia periodica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Fibrose cistica com manifestacoes pulmonares;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Toxoplasmose com comprometimento de outros orgaos;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Artrose primaria de outras articulacoes;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Historia pessoal de auto agressao;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Fratura de outras partes da perna;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Urticaria alergica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Megaesofago na doenca de Chagas;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Sequelas de fratura de coluna vertebral;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doenca de Huntington;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Doencas reumaticas da valva aortica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outras coxartroses pos-traumaticas;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Episodio depressivo leve;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Traumatismo de cauda equina;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Paralisia cerebral diplegica espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Outras doencas vasculares perifericas;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Paraplegia espastica;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;Demencia na doenca de Parkinson;SEM DEFINICAO;0,333451314982904
+NO_CID_PRINCIPAL;(Super)Infeccao delta aguda de portador de hepatite B;SEM DEFINICAO;0,332744988318864
+NO_CID_PRINCIPAL;Transtorno do desenvolvimento sexual, nao especificado;NAO INFORMADO;0,331375316640939
+NO_CID_PRINCIPAL;Motociclista traumatizado em colisao com um automovel [carro], pick up ou caminhonete - passageiro t;NAO INFORMADO;0,329738721660957
+NO_CID_PRINCIPAL;Motociclista traumatizado em colisao com um automovel [carro], pick up ou caminhonete - motociclista;NAO INFORMADO;0,329738721660957
+NO_CID_PRINCIPAL;Influenza devida a outro virus da influenza [gripe] identificado;NAO INFORMADO;0,328449856641199
+NO_CID_PRINCIPAL;Agressao por meio de disparo de outra arma de fogo ou de arma nao especificada;SEM DEFINICAO;0,327900992096013
+NO_CID_PRINCIPAL;Aneurisma de localizacao nao especificada;NAO INFORMADO;0,326320868580431
+NO_CID_PRINCIPAL;Insuficiencia cardiaca;SEM INFORMACAO;0,325810957293508
+NO_CID_PRINCIPAL;Amputacao traumatica na articulacao do quadril;SEM INFORMACAO;0,324283607057747
+NO_CID_PRINCIPAL;Tumefacao, massa ou tumoracao localizadas da cabeca;SEM INFORMACAO;0,324283607057747
+NO_CID_PRINCIPAL;Neoplasia maligna do encefalo, nao especificado;NAO INFORMADO;0,323894847399071
+NO_CID_PRINCIPAL;Traumatismo de nervo do torax nao especificado;NAO INFORMADO;0,323894847399071
+NO_CID_PRINCIPAL;Convulsoes, nao classificadas em outra parte;NAO INFORMADO;0,322252347195411
+NO_CID_PRINCIPAL;Lesao autoprovocada intencionalmente por disparo de outra arma de fogo e de arma de fogo nao especif;NAO INFORMADO;0,320464473648942
+NO_CID_PRINCIPAL;Neoplasia maligna do intestino delgado;NAO INFORMADO;0,319328653689065
+NO_CID_PRINCIPAL;Ocupante de um onibus traumatizado em colisao com um outro veiculo a motor de duas ou tres rodas;SEM DEFINICAO;0,31723416465586
+NO_CID_PRINCIPAL;Agressao por meio de disparo de arma de fogo de mao;SEM DEFINICAO;0,316914240337609
+NO_CID_PRINCIPAL;Piodermite;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Doenca renal hipertensiva;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Leucemia mieloide subaguda;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Personalidade esquizoide;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Obesidade;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outra obesidade;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Esquizofrenia paranoide;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Hemorragia subaracnoide;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Ulcera do esofago;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Ulcera gastrojejunal - aguda com hemorragia;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;(Osteo)artrose primaria generalizada;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outros transtornos fobico-ansiosos;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Vasculite reumatoide;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Outros sintomas e sinais gerais;DESCONSIDERADO;0,316419364570033
+NO_CID_PRINCIPAL;Exame especial de rastreamento de neoplasia de orgaos respiratorios;SEM DEFINICAO;0,316339693237262
+NO_CID_PRINCIPAL;Outras incontinencias urinarias especificadas;DESCONHECIDO;0,316227766016838
+NO_CID_PRINCIPAL;Infeccao meningogocica;NAO INFORMADO;0,31377623201944
+NO_CID_PRINCIPAL;Outros transtornos do desenvolvimento e do crescimento osseo;DESCONHECIDO;0,312913619548912
+NO_CID_PRINCIPAL;Neoplasia maligna da cabeca, face e pescoco;DESCONHECIDO;0,312913619548912
+NO_CID_PRINCIPAL;Incontinencia urinaria nao especificada;NAO INFORMADO;0,312300475241135
+NO_CID_PRINCIPAL;Pneumoconiose nao especificada;NAO INFORMADO;0,312300475241135
+NO_CID_PRINCIPAL;Neoplasia maligna do anel de waldeyer;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Neoplasia maligna do encefalo;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Neoplasia maligna de outras partes do pancreas;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Neoplasia maligna da glandula tireoide;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Mieloma multiplo e neoplasias malignas de plasmocitos;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Dor na coluna toracica;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Neoplasia maligna da medula espinhal, dos nervos cranianos e de outras partes do sistema nervoso cen;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Retardo mental grave - comprometimento significativo do comportamento, requerendo vigilancia ou trat;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Fraturas multiplas da coluna toracica;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Retardo mental profundo - comprometimento significativo do comportamento, requerendo vigilancia ou t;IGNORADO;0,312061804893329
+NO_CID_PRINCIPAL;Outras doencas pulmonares intersticiais com fibrose;FALTANTE;0,311887542541047
+NO_CID_PRINCIPAL;Tumefacao, massa ou tumoracao localizadas de membro superior;SEM INFORMACAO;0,311413619431767
+NO_CID_PRINCIPAL;Ferimentos envolvendo o torax com o abdome, parte inferior do dorso e da pelve;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Embolia e trombose de arterias dos membros inferiores;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Neoplasia maligna do apendice (vermiforme);NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Varizes dos membros inferiores com ulcera;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Neoplasia maligna dos ossos longos dos membros inferiores;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Sequelas de infarto cerebral;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Sequelas de doencas inflamatorias do sistema nervoso central;NAO INFORMADO;0,310487778243971
+NO_CID_PRINCIPAL;Fatores psicologicos ou comportamentais associados a doenca ou a transtornos classificados em outra ;SEM DEFINICAO;0,309963101266417
+NO_CID_PRINCIPAL;Diabetes Mellitus nao-insulino-dependente - com cetoacidose;INDEFINIDO;0,307969067693692
+NO_CID_PRINCIPAL;Explosao ou ruptura de pneumatico, tubulacao ou mangueira, pressurizados;NAO INFORMADO;0,307275135896818
+NO_CID_PRINCIPAL;Psicose nao-organica nao especificada;NAO INFORMADO;0,306643389724991
+NO_CID_PRINCIPAL;Desnutricao proteico-calorica nao especificada;SEM DEFINICAO;0,305510059765532
+NO_CID_PRINCIPAL;Desnutricao proteico-calorica grave nao especificada;SEM DEFINICAO;0,305510059765532
+NO_CID_PRINCIPAL;Ferimento do(s) artelho(s) sem lesao da unha;SEM DEFINICAO;0,30539944898732
+NO_CID_PRINCIPAL;Doenca renal em estadio final;SEM DEFINICAO;0,30539944898732
+NO_CID_PRINCIPAL;Demencia nao especificada na doenca de Alzheimer;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Neoplasia benigna da pele, nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Neoplasia maligna da laringe, nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Hidrocefalia nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Sequelas de outras doencas cerebrovasculares e das nao especificadas;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Neoplasia maligna da mama, nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Neoplasia maligna da boca, nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Artrite reumatoide nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Doenca de alzheimer nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Isquemia cerebral transitoria nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Insuficiencia cardiaca nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Embolia e trombose de arteria nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Encefalopatia nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Embolia e trombose venosas de veia nao especificada;NAO INFORMADO;0,303217099060848
+NO_CID_PRINCIPAL;Neoplasia maligna secundaria do intestino grosso e do reto;NAO INFORMADO;0,301423370279911
+NO_CID_PRINCIPAL;Esquistossomose devida ao Schistosoma Mansoni [esquistossomose intestinal];NAO INFORMADO;0,301423370279911
+NO_CID_PRINCIPAL;Acidente vascular cerebral, nao especificado como hemorragico ou isquemico;NAO INFORMADO;0,30128271583352
+NO_CID_PRINCIPAL;Ulcera de decubito;SEM DEFINICAO;0,298247922995387
+NO_CID_PRINCIPAL;Historia pessoal de neoplasia maligna de mama;SEM DEFINICAO;0,298247922995387
+NO_CID_PRINCIPAL;Polineuropatia induzida por drogas;INDEFINIDO;0,298122053968115
+NO_CID_PRINCIPAL;Fratura da perna, incluindo tornozelo;INDEFINIDO;0,298122053968115
+NO_CID_PRINCIPAL;Esquizofrenia indiferenciada;INDEFINIDO;0,298122053968115
+NO_CID_PRINCIPAL;Amputacao traumatica do tornozelo e do pe;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Doenca aterosclerotica do coracao;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Amputacao traumatica entre o joelho e o tornozelo;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Colocacao e ajustamento de outros aparelhos;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Amputacao traumatica do quadril e da coxa;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Amputacao traumatica da perna;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Amputacao traumatica localizada entre o joelho e o quadril;SEM DEFINICAO;0,296483590162613
+NO_CID_PRINCIPAL;Diabetes Mellitus insulino-dependente - com complicacoes nao especificadas;NAO INFORMADO;0,295143743479312
+NO_CID_PRINCIPAL;Transtornos de personalidade e do comportamento devidos a doenca, a lesao e a disfuncao cerebral;SEM DEFINICAO;0,294687272343369
+NO_CID_PRINCIPAL;Diabetes Mellitus nao-insulino-dependente - com complicacoes nao especificadas;NAO INFORMADO;0,293588693736997
+NO_CID_PRINCIPAL;Outras formas de doenca de Alzheimer;NAO INFORMADO;0,29279237220652
+NO_CID_PRINCIPAL;Deformidades adquiridas dos dedos das maos e dos pes;SEM DEFINICAO;0,29104303334777
+NO_CID_PRINCIPAL;Traumatismo superficial de outras partes especificadas do torax e das nao especificadas;SEM DEFINICAO;0,288777309700522
+NO_CID_PRINCIPAL;Colica nefretica nao especificada;SEM DEFINICAO;0,288777309700522
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Transtorno depressivo recorrente, episodio atual leve;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Gastroenterite e colite alergicas ou ligadas a dieta;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Transtornos de humor [afetivos] persistentes;FALTANTE;0,288675134594813
+NO_CID_PRINCIPAL;Esclerose multipla;DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Artrodese;DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Osteocondrose da coluna vertebral;DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Convulsoes dissociativas;DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Transtornos dissociativos [de conversao];DESCONHECIDO;0,288567830794162
+NO_CID_PRINCIPAL;Traumatismo do figado ou da vesicula biliar;IGNORADO;0,286354068334178
+NO_CID_PRINCIPAL;Cuidados a colostomia;IGNORADO;0,286354068334178
+NO_CID_PRINCIPAL;Hemorragia intracerebral;NAO INFORMADO;0,286330728541384
+NO_CID_PRINCIPAL;Carcinoma in situ da prostata;NAO INFORMADO;0,286330728541384
+NO_CID_PRINCIPAL;Tontura e instabilidade;NAO INFORMADO;0,286330728541384
+NO_CID_PRINCIPAL;Infarto cerebral;NAO INFORMADO;0,286330728541384
+NO_CID_PRINCIPAL;Hernia inguinal;NAO INFORMADO;0,286330728541384
+NO_CID_PRINCIPAL;Outros traumatismos intracranianos;NAO INFORMADO;0,286330728541384
+NO_CID_PRINCIPAL;Sequelas de outras doencas infecciosas e parasitarias especificadas;SEM DEFINICAO;0,2862809425045
+NO_CID_PRINCIPAL;Motociclista [qualquer] traumatizado em um acidente de transito nao especificado;NAO INFORMADO;0,28538642283516
+NO_CID_PRINCIPAL;Diabetes Mellitus nao especificado - com complicacoes circulatorias perifericas;SEM DEFINICAO;0,283841034689687
+NO_CID_PRINCIPAL;Luxacao, entorse e distensao das articulacoes e dos ligamentos do joelho;NAO INFORMADO;0,283656203238369
+NO_CID_PRINCIPAL;Pneumonite devida a solidos e liquidos;INDEFINIDO;0,283622743975151
+NO_CID_PRINCIPAL;Acidentes vasculares cerebrais isquemicos transitorios e sindromes correlatas;DESCONSIDERADO;0,283014083430353
+NO_CID_PRINCIPAL;Tumefacao, massa ou tumoracao localizadas da pele e do tecido subcutaneo;SEM INFORMACAO;0,282974682809193
+NO_CID_PRINCIPAL;Outros traumatismos da medula espinhal toracica e os nao especificados;NAO INFORMADO;0,282828809031339
+NO_CID_PRINCIPAL;Sequelas de acidente vascular cerebral nao especificado como hemorragico ou isquemico;NAO INFORMADO;0,282828809031339
+NO_CID_PRINCIPAL;Enfisema;SEM DEFINICAO;0,281638289336996
+NO_CID_PRINCIPAL;Cuidados a curativos e suturas cirurgicas;SEM DEFINICAO;0,279726371350367
+NO_CID_PRINCIPAL;Doenca alcoolica do figado;SEM DEFINICAO;0,279726371350367
+NO_CID_PRINCIPAL;Paraplegia espastica hereditaria;REJEITADO;0,279050771897331
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - uso nocivo para a saude;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Queda de ou para fora de edificios ou outras estruturas;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso de alcool - transtorno mental ou comportamental;SEM DEFINICAO;0,279007594633124
+NO_CID_PRINCIPAL;Sindrome de edwards nao especificada;NAO INFORMADO;0,276798074961508
+NO_CID_PRINCIPAL;Doenca degenerativa do sistema nervoso, nao especificada;NAO INFORMADO;0,276798074961508
+NO_CID_PRINCIPAL;Sindrome de down nao especificada;NAO INFORMADO;0,276798074961508
+NO_CID_PRINCIPAL;Hemorragia do inicio da gravidez;NAO INFORMADO;0,276069727372412
+NO_CID_PRINCIPAL;Sindrome de Rett;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Sindrome de guillain-barre;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Outras sindromes paraliticas;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Sindrome de Down;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Sindrome carcinoide;INDEFINIDO;0,275934150347161
+NO_CID_PRINCIPAL;Transtornos inflamatorios de outros orgaos genitais masculinos especificados;SEM DEFINICAO;0,275782986922277
+NO_CID_PRINCIPAL;Epilepsia e sindromes epilepticas generalizadas idiopaticas;SEM DEFINICAO;0,272261858589396
+NO_CID_PRINCIPAL;Outras sindromes paraliticas especificadas;SEM DEFINICAO;0,272261858589396
+NO_CID_PRINCIPAL;Neoplasia maligna da porcao central da mama;IGNORADO;0,267917214928655
+NO_CID_PRINCIPAL;Outros sintomas e sinais relativos a ingestao de alimentos e de liquidos;SEM DEFINICAO;0,263067171817408
+NO_CID_PRINCIPAL;Amputacao traumatica do pe ao nivel do tornozelo;NAO INFORMADO;0,261678597260715
+NO_CID_PRINCIPAL;Hidrocefalia congenita nao especificada;NAO INFORMADO;0,261678597260715
+NO_CID_PRINCIPAL;Amputacao traumatica ao nivel do joelho;NAO INFORMADO;0,261678597260715
+NO_CID_PRINCIPAL;Doenca nao especificada do coracao;NAO INFORMADO;0,261678597260715
+NO_CID_PRINCIPAL;Obstrucao do esofago;NAO INFORMADO;0,258989614139512
+NO_CID_PRINCIPAL;Retencao urinaria;NAO INFORMADO;0,258989614139512
+NO_CID_PRINCIPAL;Outra disfuncao neuromuscular da bexiga;NAO INFORMADO;0,258989614139512
+NO_CID_PRINCIPAL;Pedestre traumatizado em colisao com um automovel [carro], pick up ou caminhonete - acidente de tran;DESCONSIDERADO;0,258084669924053
+NO_CID_PRINCIPAL;Diabetes Mellitus insulino-dependente - com complicacoes circulatorias perifericas;SEM DEFINICAO;0,257390161594063
+NO_CID_PRINCIPAL;Osteoporose nao especificada com fratura patologica;NAO INFORMADO;0,256265221377714
+NO_CID_PRINCIPAL;Doencas vasculares perifericas nao especificada;NAO INFORMADO;0,256265221377714
+NO_CID_PRINCIPAL;Amputacoes traumaticas multiplas nao especificadas;NAO INFORMADO;0,256265221377714
+NO_CID_PRINCIPAL;Afeccoes atroficas da pele, nao especificadas;NAO INFORMADO;0,256265221377714
+NO_CID_PRINCIPAL;Insuficiencia pulmonar aguda subsequente a cirurgia toracica;IGNORADO;0,254797396733538
+NO_CID_PRINCIPAL;Traumatismos de nervos e da medula espinhal ao nivel do torax;IGNORADO;0,254797396733538
+NO_CID_PRINCIPAL;Carcinoma in situ de outras partes do aparelho respiratorio;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Transtorno do disco cervical com mielopatia;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Sequelas de hemorragia intracerebral;SEM DEFINICAO;0,254745246009314
+NO_CID_PRINCIPAL;Lesao autoprovocada intencionalmente por disparo de arma de fogo de mao;SEM DEFINICAO;0,254692665582052
+NO_CID_PRINCIPAL;Diabetes Mellitus nao-insulino-dependente - com complicacoes circulatorias perifericas;SEM DEFINICAO;0,252065501083495
+NO_CID_PRINCIPAL;Insuficiencia cardiaca congestiva;SEM INFORMACAO;0,248908277577253
+NO_CID_PRINCIPAL;Contato com faca, espada e punhal;SEM INFORMACAO;0,248908277577253
+NO_CID_PRINCIPAL;Queda no mesmo nivel por escorregao, tropecao ou passos em falsos [traspes] - habitacao coletiva;SEM INFORMACAO;0,248181811378664
+NO_CID_PRINCIPAL;Diabetes Mellitus insulino-dependente;FALTANTE;0,247838847520075
+NO_CID_PRINCIPAL;Contato com bebidas, alimentos, gordura e oleo de cozinha quentes;FALTANTE;0,247838847520075
+NO_CID_PRINCIPAL;Carcinoma in situ da pele dos membros superiores, incluindo ombro;NAO INFORMADO;0,246393529246146
+NO_CID_PRINCIPAL;Fibrose e esclerose alcoolicas do figado;DESCONSIDERADO;0,24569045437957
+NO_CID_PRINCIPAL;Pessoa traumatizada em uma colisao entre um automovel [carro] e uma caminhonete (acidente de transit;DESCONSIDERADO;0,244243245471523
+NO_CID_PRINCIPAL;Esclerose sistemica nao especificada;NAO INFORMADO;0,244127350632354
+NO_CID_PRINCIPAL;Xeroderma pigmentoso;DESCONSIDERADO;0,241733426283344
+NO_CID_PRINCIPAL;Outras doencas especificadas do aparelho digestivo;DESCONHECIDO;0,241587051630206
+NO_CID_PRINCIPAL;Exame especial de rastreamento de neoplasia do trato intestinal;SEM DEFINICAO;0,240126547935395
+NO_CID_PRINCIPAL;Queimadura de terceiro grau do punho e da mao;NAO INFORMADO;0,239714164635296
+NO_CID_PRINCIPAL;Traumatismo de vasos multiplos ao nivel do abdome, do dorso e da pelve;NAO INFORMADO;0,239714164635296
+NO_CID_PRINCIPAL;Queimadura de terceiro grau do tronco;NAO INFORMADO;0,239714164635296
+NO_CID_PRINCIPAL;Queimadura solar de segundo grau;NAO INFORMADO;0,239714164635296
+NO_CID_PRINCIPAL;Sindrome paralitica nao especificada;NAO INFORMADO;0,239714164635296
+NO_CID_PRINCIPAL;Assistencia prestada a mae por incompetencia cervical;REJEITADO;0,239575957256225
+NO_CID_PRINCIPAL;Estenose subaortica congenita;REJEITADO;0,239575957256225
+NO_CID_PRINCIPAL;Retardo do desenvolvimento fisiologico normal;NAO INFORMADO;0,237711572374545
+NO_CID_PRINCIPAL;Artrite reumatoide com comprometimento de outros orgaos e sistemas;SEM DEFINICAO;0,235785686019983
+NO_CID_PRINCIPAL;Diabetes Mellitus nao-insulino-dependente;FALTANTE;0,235702260395516
+NO_CID_PRINCIPAL;Traumatismo do nervo sensitivo cutaneo ao nivel do ombro e do braco;FALTANTE;0,235702260395516
+NO_CID_PRINCIPAL;Transtorno do menisco devido a ruptura ou lesao antiga;DESCONHECIDO;0,231683215738022
+NO_CID_PRINCIPAL;Doenca cardiaca hipertensiva;SEM INFORMACAO;0,23038313728712
+NO_CID_PRINCIPAL;Efeito toxico de rodenticidas;REJEITADO;0,227844001159414
+NO_CID_PRINCIPAL;Outros transtornos especificados da sinovia e do tendao;DESCONHECIDO;0,219578640748761
+NO_CID_PRINCIPAL;Outros transtornos respiratorios especificados;DESCONHECIDO;0,219578640748761
+NO_CID_PRINCIPAL;Diabetes Mellitus insulino-dependente - com complicacoes multiplas;FALTANTE;0,211855580668214
+NO_CID_PRINCIPAL;Diabetes Mellitus insulino-dependente - com complicacoes renais;FALTANTE;0,211855580668214
+NO_CID_PRINCIPAL;Mucopolissacaridose do tipo II;NAO INFORMADO;0,205803947682706
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina - transtorno psicotico;NAO INFORMADO;0,205803947682706
+NO_CID_PRINCIPAL;Transtornos mentais e comportamentais devidos ao uso da cocaina;NAO INFORMADO;0,205803947682706
+NO_FANTASIA;HOSPITAL GERAL DO ESTADO DR OSVALDO BRANDAO VILELA;REJEITADO;0,454395947146018
+NO_FANTASIA;UNIDADE BASICA DE SAUDE DA FAMILIA DE JUNQUEIRO;SEM DEFINICAO;0,408392787884094
+NO_FANTASIA;CEPI CENT DE ESP DE P DOS INDIOS JOSE DELFIM DA M BRANCO;SEM DEFINICAO;0,389718823283575
+NO_FANTASIA;SECRETARIA MUNICIPAL DE SAUDE DE PALMEIRA DOS INDIOS;SEM DEFINICAO;0,386085242391095
+NO_FANTASIA;UNIDADE BASICA DE SAUDE DEP ANTONIO HOLANDA;SEM DEFINICAO;0,378098251625242
+NO_FANTASIA;UNIDADE BASICA DE SAUDE TABELIAO JOSE LUIZ DE ANDRADE JATOBA;SEM DEFINICAO;0,360189821903093
+NO_FANTASIA;CENTRO DE SAUDE PROFESSOR ESTACIO LIMA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;CENTRO DE SAUDE DR MARIA ZILDA REGO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA;SAD MACEIO;SEM INFORMACAO;0,325810957293508
+NO_FANTASIA;USF BRISA DO LAGO FERANDO LOURENCO;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA;HOSPITAL JOAO LIRA FILHO;REJEITADO;0,279050771897331
+NO_FANTASIA;CENTRO DE SAUDE DA PITAGUINHA;REJEITADO;0,279050771897331
+NO_FANTASIA;HOSPITAL JOSE ENOQUE DE BARROS;REJEITADO;0,279050771897331
+NO_FANTASIA;CENTRO DE SAUDE ESPECIALIZADO OSWALDO BRANDAO VILELA;NAO INFORMADO;0,260453009123606
+NO_FANTASIA;UNIDADE MISTA NOSSA SENHORA DAS GRACAS;IGNORADO;0,254797396733538
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA NOVA OLINDA;INDEFINIDO;0,551868300694321
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE ABOLICAO;SEM DEFINICAO;0,47789323118544
+NO_FANTASIA_ESF;CENTRO DE SAUDE MUNICIPAL CASA DA MULHER;SEM DEFINICAO;0,471571372039966
+NO_FANTASIA_ESF;USF SAO CRISTOVAO I;NAO INFORMADO;0,454825648591272
+NO_FANTASIA_ESF;USF SAO CRISTOVAO II;NAO INFORMADO;0,454825648591272
+NO_FANTASIA_ESF;HOSPITAL GERAL DO ESTADO DR OSVALDO BRANDAO VILELA;REJEITADO;0,454395947146018
+NO_FANTASIA_ESF;CAIC VIRGEM DOS POBRES;SEM DEFINICAO;0,436474404157332
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DA FAMILIA DE JUNQUEIRO;SEM DEFINICAO;0,408392787884094
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE ADAILTON BARBOSA DE CARVALHO;SEM DEFINICAO;0,408392787884094
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE RENATA DE ALMEIDA SA;SEM DEFINICAO;0,408392787884094
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JOSE LOUREIRO DE ALBUQUERQUE;SEM DEFINICAO;0,408392787884094
+NO_FANTASIA_ESF;USF SANTO ANTONIO;FALTANTE;0,408248290463863
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SAPUCAIA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA BRANCA II;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA CENTRO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA BOCA DA MATA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA JOSE PAULINO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA JENIPAPEIRO;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA OURICURI;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA OLHOS DAGUA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA BRANCA;INDEFINIDO;0,390229817742851
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE BAIRRO DE LOURDES;SEM DEFINICAO;0,386085242391095
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE HELIO JATOBA I;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE ZE ENFERMERO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DONA MARIA DA ROCHA LIMA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DR JAYME CARNEIRO LOPES;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DA FAMILIA MUTIRAO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE PSF 08;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JOSE EGIDIO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE ANEL;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE ELISEU MARQUES;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE PSF 03;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DA FAMILIA RETIRO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE BELA VISTA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE PSF 07;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JORGE CORREIA;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE OCTAVIO BRANDAO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE LUIZ VIEIRA TEMOTEO;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE CIDADE DE DEUS;SEM DEFINICAO;0,385036412934029
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DEP ANTONIO ALBUQUERQUE;SEM DEFINICAO;0,378098251625242
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DEP ANTONIO HOLANDA;SEM DEFINICAO;0,378098251625242
+NO_FANTASIA_ESF;USF 07 JUMELICIA M CONCEICAO;SEM DEFINICAO;0,366751939768923
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SANTO ANTONIO;FALTANTE;0,365148371670111
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE AGNALDO CAVALCANTE;FALTANTE;0,365148371670111
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE TABELIAO JOSE LUIZ DE ANDRADE JATOBA;SEM DEFINICAO;0,360189821903093
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE JOAO ZACARIAS VILA NOVA DE OLIVEIRA;SEM DEFINICAO;0,353678529029975
+NO_FANTASIA_ESF;USF VILA JOAO XXIII;NAO INFORMADO;0,339007022720172
+NO_FANTASIA_ESF;UNIDADE DE ATENCAO A SAUDE INDIGENA I;INDEFINIDO;0,335027498759482
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DR JOAO SOARES PALMEIRA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;02 03 CENTRO DE SAUDE TEOTONIO VILELA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF DE PADRE DONALD;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DR JOSE DE ARAUJO LIMA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DR MARIA ZILDA REGO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF DENILMA BULHOES;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;III CENTRO DE SAUDE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;IV CENTRO DE SAUDE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;USF 09 AGUA DE MENINOS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE DE GIRAU DO PONCIANO;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;I CENTRO DE SAUDE;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE LUANA KELLY DOS SANTOS;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;CENTRO DE SAUDE OLIMPIA LINS LAMENHA;SEM DEFINICAO;0,333451314982904
+NO_FANTASIA_ESF;01 06 CENTRO DE SAUDE MANUEL A DE SANTANA;FALTANTE;0,333333333333333
+NO_FANTASIA_ESF;USF PRIMAVERA;DESCONSIDERADO;0,316419364570033
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA PORANGABA;IGNORADO;0,312061804893329
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE MALHADAS;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JOSE CORREIA DE LIMA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DE AREIAS;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE BASICA DE SAUDE DONA FLORACI SOARES DOS SANTOS;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DR ADELSON ISAAC DE MIRANDA;SEM DEFINICAO;0,298247922995387
+NO_FANTASIA_ESF;USF CAVACO DR JOSE FERNANDES;INDEFINIDO;0,298122053968115
+NO_FANTASIA_ESF;V CENTRO DE SAUDE DR UBIRATAN;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;USF 05 SINEIDE FREIRE MONTEIRO;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA DOS ALTOS;FALTANTE;0,288675134594813
+NO_FANTASIA_ESF;CENTRO DE SAUDE VEREADOR JOSE GOMES CALHEIROS;SEM DEFINICAO;0,279726371350367
+NO_FANTASIA_ESF;HOSPITAL JOSE ENOQUE DE BARROS;REJEITADO;0,279050771897331
+NO_FANTASIA_ESF;UNIDADE DE SAUDE EDVALDO SILVA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SETE CASAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE ALIOMAR ALMEIDA LINS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ALECRIM;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA RUA DA ESTIVA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA BARRA NOVA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CANAFISTULA CIPRIANO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ESF 05;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PEDRAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA POEIRA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA PARANA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA ALGODAO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA RUA DE CIMA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA BARRO VERMELHO;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DA FLORESTA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA TUQUANDUBA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DA VAQUEJADA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA BARRIGUDA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA FRANCES;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CAMUXINGA DOS TEODOSIOS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA TEREZA ROMANA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SAO JOSE;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA NEWTON PEREIRA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DO JOSE DIAS;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DO PACS DE TEOTONIO VILELA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA MASSAGUEIRA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA RUA NOVA MASSAGUEIRA II;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA BARAUNA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JANUARIO PARAIBANO DA COSTA;INDEFINIDO;0,275934150347161
+NO_FANTASIA_ESF;CENTRO DE SAUDE ESPECIALIZADO OSWALDO BRANDAO VILELA;NAO INFORMADO;0,260453009123606
+NO_FANTASIA_ESF;USF SAO FRANCISCO;NAO INFORMADO;0,258989614139512
+NO_FANTASIA_ESF;UNIDADE SAUDE DA FAMILIA SANTA INES;FALTANTE;0,247838847520075
+NO_FANTASIA_ESF;USF 16 JOAO LOURIVAL DE SOUZA;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;USF 14 JOAO LOURIVAL DE SOUZA;NAO INFORMADO;0,239714164635296
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA JOSE BERNARDES NETO ABC;INDEFINIDO;0,236900216256797
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DO ALTO DO CRUZEIRO;FALTANTE;0,235702260395516
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA DA VILA ALTINA;FALTANTE;0,235702260395516
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA TERRA DA ESPERANCA;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA NOVA ESPERANCA;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA TAPERAGUA;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA GERALDO SAMPAIO;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA CALDEROES;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SAO FELIX;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA URBANO III;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA URBANO II;INDEFINIDO;0,225299290319654
+NO_FANTASIA_ESF;EQUIPE DE SAUDE DA FAMILIA AGNALDO MACHADO;SEM DEFINICAO;0,2143057754748
+NO_FANTASIA_ESF;CENTRO DE SAUDE IRMAOS FRANCISCO E NELSON OLIVEIRA;SEM DEFINICAO;0,214052215275263
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA QUEBRADENTE;FALTANTE;0,211855580668214
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SANTA RITA MARIA DO C A SOARES;FALTANTE;0,204124145231932
+NO_FANTASIA_ESF;UNIDADE DE SAUDE DA FAMILIA SANTA M MADALENA;FALTANTE;0,204124145231932
+NO_MUNICIPIO;SANTANA DO IPANEMA;FALTANTE;0,471404520791032
+NO_MUNICIPIO;UNIAO DOS PALMARES;NAO INFORMADO;0,339007022720172
+NO_MUNICIPIO;SAO MIGUEL DOS CAMPOS;NAO INFORMADO;0,339007022720172
+NO_MUNICIPIO;MARECHAL DEODORO;SEM DEFINICAO;0,333451314982904
+NO_MUNICIPIO;MACEIO;SEM INFORMACAO;0,325810957293508
+NO_MUNICIPIO;ARAPIRACA;SEM INFORMACAO;0,325810957293508
+NO_MUNICIPIO;PALMEIRA DOS INDIOS;INDEFINIDO;0,298122053968115
+NO_PROCEDIMENTO;RASPAGEM ALISAMENTO SUBGENGIVAIS (POR SEXTANTE);FALTANTE;0,635566742004642
+NO_PROCEDIMENTO;RASPAGEM ALISAMENTO E POLIMENTO SUPRAGENGIVAIS (POR SEXTANTE);FALTANTE;0,635566742004642
+NO_PROCEDIMENTO;DRENAGEM DE ABSCESSO;SEM DEFINICAO;0,549271959004213
+NO_PROCEDIMENTO;ATENDIMENTO FISIOTERAPEUTICO EM PACIENTES COM DISTURBIOS NEURO-CINETICO-FUNCIONAIS SEM COMPLICACOES SISTEMICAS;SEM DEFINICAO;0,527269910892335
+NO_PROCEDIMENTO;ATENDIMENTO / ACOMPANHAMENTO EM REABILITACAO NAS MULTIPLAS DEFICIENCIAS;SEM DEFINICAO;0,490830939300693
+NO_PROCEDIMENTO;CATETERISMO VESICAL DE ALIVIO;SEM DEFINICAO;0,471571372039966
+NO_PROCEDIMENTO;ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO RESPIRATORIO SEM COMPLICACOES SISTEMICAS;SEM DEFINICAO;0,446335109166686
+NO_PROCEDIMENTO;ATENDIMENTO FISIOTERAPEUTICO EM PACIENTES COM DISTURBIOS NEURO-CINETICO-FUNCIONAIS COM COMPLICACOES SISTEMICAS;SEM DEFINICAO;0,445840086410273
+NO_PROCEDIMENTO;ACOMPANHAMENTO DE PACIENTE EM REABILITACAO EM COMUNICACAO ALTERNATIVA;SEM DEFINICAO;0,439681323696866
+NO_PROCEDIMENTO;ATENDIMENTO MEDICO COM FINALIDADE DE ATESTAR OBITO;SEM DEFINICAO;0,436474404157332
+NO_PROCEDIMENTO;SONDAGEM GASTRICA;SEM DEFINICAO;0,436474404157332
+NO_PROCEDIMENTO;CATETERISMO VESICAL DE DEMORA;SEM DEFINICAO;0,408392787884094
+NO_PROCEDIMENTO;ADMINISTRACAO DE MEDICAMENTOS NA ATENCAO ESPECIALIZADA.;SEM DEFINICAO;0,405917803195525
+NO_PROCEDIMENTO;VISITA DOMICILIAR POS OBITO;REJEITADO;0,394637386207887
+NO_PROCEDIMENTO;RESTAURACAO DE DENTE PERMANENTE ANTERIOR;FALTANTE;0,391179546989466
+NO_PROCEDIMENTO;RETIRADA DE PONTOS DE CIRURGIAS BASICAS (POR PACIENTE);SEM DEFINICAO;0,386085242391095
+NO_PROCEDIMENTO;ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO CLINICO CARDIOVASCULAR;SEM DEFINICAO;0,384605285542743
+NO_PROCEDIMENTO;TRATAMENTO EM REABILITACAO ;SEM INFORMACAO;0,375792838811412
+NO_PROCEDIMENTO;CURATIVO GRAU II C/ OU S/ DEBRIDAMENTO;SEM DEFINICAO;0,333451314982904
+NO_PROCEDIMENTO;ASSISTENCIA DOMICILIAR POR PROFISSIONAL DE NIVEL MEDIO;SEM DEFINICAO;0,333451314982904
+NO_PROCEDIMENTO;COLETA DE MATERIAL P/ EXAME CITOPATOLOGICO DE COLO UTERINO;SEM DEFINICAO;0,333451314982904
+NO_PROCEDIMENTO;CURATIVO GRAU I C/ OU S/ DEBRIDAMENTO;SEM DEFINICAO;0,333451314982904
+NO_PROCEDIMENTO;ANTIBIOTICOTERAPIA PARENTERAL;FALTANTE;0,333333333333333
+NO_PROCEDIMENTO;CONSULTA/ATENDIMENTO DOMICILIAR;DESCONSIDERADO;0,329124909629968
+NO_PROCEDIMENTO;ATENDIMENTO DE PACIENTE EM CUIDADOS PALIATIVOS;SEM DEFINICAO;0,32270721655822
+NO_PROCEDIMENTO;COLETA DE MATERIAL P/ EXAME LABORATORIAL;IGNORADO;0,312061804893329
+NO_PROCEDIMENTO;DEBRIDAMENTO DE ULCERA / DE TECIDOS DESVITALIZADOS;DESCONHECIDO;0,30383709559495
+NO_PROCEDIMENTO;ACOMPANHAMENTO DE PACIENTE EM TERAPIA NUTRICIONAL;SEM DEFINICAO;0,296483590162613
+NO_PROCEDIMENTO;CUIDADOS C/ TRAQUEOSTOMIA;IGNORADO;0,286354068334178
+NO_PROCEDIMENTO;CUIDADOS COM ESTOMAS;IGNORADO;0,286354068334178
+NO_PROCEDIMENTO;VISITA DOMICILIAR POR PROFISSIONAL DE NIVEL SUPERIOR;REJEITADO;0,279050771897331
+NO_PROCEDIMENTO;VISITA DOMICILIAR POR PROFISSIONAL DE NIVEL MEDIO;REJEITADO;0,279050771897331
+NO_PROCEDIMENTO;VISITA DOMICILIAR/INSTITUCIONAL POR PROFISSIONAL DE NIVEL SUPERIOR;REJEITADO;0,279050771897331
+NO_PROCEDIMENTO;RESTAURACAO DE DENTE PERMANENTE POSTERIOR;SEM DEFINICAO;0,26765848739439
+NO_PROCEDIMENTO;ATENDIMENTO FISIOTERAPEUTICO NAS ALTERACOES MOTORAS;DESCONSIDERADO;0,258355329310756
+NO_PROCEDIMENTO;CONSULTA/ATENDIMENTO DOMICILIAR NA ATENCAO ESPECIALIZADA;DESCONHECIDO;0,251287770088305
+NO_PROCEDIMENTO;ATENDIMENTO FISIOTERAPEUTICO DE PACIENTE COM CUIDADOS PALIATIVOS;DESCONSIDERADO;0,24309931689902
+NO_PROCEDIMENTO;DEBRIDAMENTO DE ULCERA / NECROSE;SEM DEFINICAO;0,235785686019983
+NO_PROCEDIMENTO;TERAPIA DE REIDRATACAO PARENTERAL;DESCONSIDERADO;0,214387678150622
+NO_PROCEDIMENTO;ASSISTENCIA DOMICILIAR POR EQUIPE MULTIPROFISSIONAL NA ATENCAO ESPECIALIZADA;DESCONHECIDO;0,207411894120509
+NO_PROCEDIMENTO;TERAPIA FONOAUDIOLOGICA INDIVIDUAL;INDEFINIDO;0,202505109177624
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL;FUNDO MUNICIPAL DE SAUDE;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE JUNQUEIRO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE GIRAU DO PONCIANO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE ATALAIA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE VICOSA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE CAMPO ALEGRE;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL;SECRETARIA DE ESTADO DA SAUDE FES;REJEITADO;0,360410730262079
+NO_RAZAO_SOCIAL;SECRETARIA MUNICIPAL DE SAUDE PALMEIRA DOS INDIOS;SEM DEFINICAO;0,346081164871581
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE ARAPIRACA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE MACEIO;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE SAO MIGUEL DOS CAMPOS;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MNICIPAL DE ARAPIRACA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL;PREFEITURA MUNICIPAL DE SANTANA DO IPANEMA;FALTANTE;0,333333333333333
+NO_RAZAO_SOCIAL;PREFEITURA DE MARECHAL DEODORO;SEM DEFINICAO;0,298247922995387
+NO_RAZAO_SOCIAL;UNIDADE DE EMERGENCIA;INDEFINIDO;0,275934150347161
+NO_RAZAO_SOCIAL;UNIDADE MISTA NOSSA SENHORA DAS GRACAS;IGNORADO;0,254797396733538
+NO_RAZAO_SOCIAL_ESF;FUNDO MUNICIPAL DE SAUDE;SEM DEFINICAO;0,471571372039966
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MARECHAL DEODORO;SEM DEFINICAO;0,408392787884094
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNICIPAL DE SAUDE DE PALMEIRA DOS INDIOS;SEM DEFINICAO;0,386085242391095
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE CAMPO ALEGRE;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE TEOTONIO VILELA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITUTA MUNICIPAL DE JUNQUEIRO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE JUNQUEIRO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE ATALAIA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE GIRAU DO P0NCIANO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE GIRAU DO PONCIANO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE VICOSA;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MARECHAL REODORO;SEM DEFINICAO;0,385036412934029
+NO_RAZAO_SOCIAL_ESF;SECRETARIA MUNICIPAL DE SAUDE PALMEIRA DOS INDIOS;SEM DEFINICAO;0,346081164871581
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE MACEIO;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE PINDOBA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SAO MIGUEL DOS CAMPOS;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE ARAPIRACA;SEM DEFINICAO;0,333451314982904
+NO_RAZAO_SOCIAL_ESF;PREFEITURA MUNICIPAL DE SANTANA DO IPANEMA;FALTANTE;0,333333333333333
+NO_RAZAO_SOCIAL_ESF;UNIDADE DE SAUDE DA FAMILIA BARRO VERMELHO;INDEFINIDO;0,275934150347161
+NO_RAZAO_SOCIAL_ESF;UNIDADE DE SAUDE DA FAMILIA JOSE DIAS;INDEFINIDO;0,275934150347161
+NO_RAZAO_SOCIAL_ESF;UNIDADE DE SAUDE DA FAMILIA TUQUANDUBA;INDEFINIDO;0,275934150347161
+NO_RAZAO_SOCIAL_ESF;UNIDADE DE SAUDE DA FAMILIA POEIRA;INDEFINIDO;0,275934150347161
+NO_RAZAO_SOCIAL_ESF;UNIDADE DE EMERGENCIA;INDEFINIDO;0,275934150347161
+NO_RAZAO_SOCIAL_ESF;UNIDADE DE SAUDE DA FAMILIA TERRA DA ESPERANCA;INDEFINIDO;0,225299290319654

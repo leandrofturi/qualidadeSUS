@@ -1,0 +1,8 @@
+teste;desc;desc_completa
+T1;DATA_SOLIC > DATA_GERACAO;A data de solicitação não pode ser maior que a data de geração da remessa
+T2;DT_NASCIMENTO > DATA_SOLIC;A data de nascimento não pode ser maior que a data de solicitação
+T3;DT_NASCIMENTO > DATA_GERACAO;A data de nascimento não pode ser maior que a data de geração
+T4;DT_NASCIMENTO > DATA_INICIO;A data de nascimento não pode ser maior que a data de início
+T5;DT_NASCIMENTO > DATA_FIM;A data de nascimento não pode ser maior que a data de fim
+T6;DT_NASCIMENTO > DATA_OCORR;A data de nascimento não pode ser maior que a data de ocorrência
+T7;COMPETENCIA < MOVIMENTACAO;A data de competência não pode ser menor que a data de movimentação

@@ -1,0 +1,186 @@
+VARIAVEL;CLASSE;MIN;MAX;VALORES.VALIDOS;DESCRICAO;VARIANTES;FORMATO;REFERENCIA.INF;REFERENCIA.SUP;DIGITOS;TIPO;POSITIVO;INTEIRO;RM.ZEROS;RM.WHITESPACE;IGNORADOS
+ACIDTRAB;character varying;1;1;1: sim, 2: não, 9: ignorado;Indicar se foi acidente de trabalho;1, 2, 9;;;;;;;;FALSE;TRUE;
+ALTCAUSA;character varying;1;1;1: sim, 2: não;Houve correção ou  alteração da causa do óbito após investigação;1, 2;;;;;;;;FALSE;TRUE;
+ALTERADN;character varying;1;1;1: sim, 2: não;Se investigação alterou ou corrigiu outro campo da DB, além das causas do óbito;1, 2;;;;;;;;FALSE;TRUE;
+ALTERADO;character varying;1;1;1: sim, 2: não;Se investigação alterou ou corrigiu outro campo da DO, além das causas do óbito;1, 2;;;;;;;;FALSE;TRUE;
+ALTERBLOCV;character varying;1;1;1: sim, 2: não;Alteração do bloco V;1, 2;;;;;;;;FALSE;TRUE;
+ASSISTMED;character varying;1;1;1: sim, 2: não, 9: ignorado;Assistência médica;1, 2, 9;;;;;;;;FALSE;TRUE;
+ATESTADO;character varying;1;100;;CIDs informado no atestado;;;;;;;;;TRUE;TRUE;
+ATESTANTE;character varying;1;1;1: sim, 2: substituto, 3: IML, 4: SVO, 5: outros;Indica se o médico que atendeu o paciente;1, 2, 3, 4, 5;;;;;;;;FALSE;TRUE;
+BAIOCOR;character varying;1;60;;Bairro de ocorrência;;;;;;;;;TRUE;TRUE;IGNORADO
+BAIRES;character varying;1;60;;Bairro de residência;;;;;;;;;TRUE;TRUE;IGNORADO
+BASICA;character varying;1;8;;;;;;;;;;;TRUE;TRUE;
+CAUSABAS;character varying;3;3;actragrp.CNV;Causa básica da DO;actragrp.CNV;;;;;;;;FALSE;FALSE;
+CAUSABAS_D;character varying;1;4;;;;;;;;;;;TRUE;TRUE;
+CAUSABAS_F;character varying;1;4;;;;;;;;;;;TRUE;TRUE;
+CAUSABAS_O;character varying;3;3;CID10CAP.CNV;Causa básica original;CID10CAP.CNV;;;;;;;;FALSE;FALSE;
+CAUSABAS_R;character varying;4;4;CID10CAC.CNV;Causa básica resselecionada;CID10CAC.CNV;;;;;;;;FALSE;FALSE;
+CAUSAMAT;character varying;1;4;;Causa externa associada a uma causa materna;;;;;;;;;FALSE;FALSE;
+CB_F;character varying;1;4;;;;;;;;;;;TRUE;TRUE;
+CB_ORIG;character varying;1;4;;;;;;;;;;;TRUE;TRUE;
+CB_PRE;character varying;4;4;CID10CAC.CNV;Causa básica informada antes da resseleção;CID10CAC.CNV;;;;;;;;FALSE;FALSE;
+CBCB;character varying;1;4;;;;;;;;;;;TRUE;TRUE;
+CEPACID;character varying;8;8;;CEP do endereço do acidente;;;;;;;;;TRUE;TRUE;
+CEPOCOR;character varying;8;8;;CEP do endereço de ocorrência;;;;;;;;;TRUE;TRUE;
+CEPRES;character varying;8;8;;Código de endereçamento postal;;;;;;;;;TRUE;TRUE;
+CIRCOBITO;character varying;1;1;1: acidente, 2: suicídio, 3: homicídio, 4: outros, 9: ignorado;Indicar qual foi a provável circunstância de morte não natural;1, 2, 3, 4, 9;;;;;;;;FALSE;TRUE;9
+CIRURGIA;character varying;1;1;1: sim, 2: não, 9: ignorado;Cirurgia;1, 2, 9;;;;;;;;FALSE;TRUE;9
+CO_ID_DO;character varying;12;12;;;;;;;;;;;TRUE;TRUE;
+CODBAIOCOR;character varying;1;6;;Código do bairro de ocorrência;;;;;;;;;TRUE;TRUE;
+CODBAIRES;character varying;1;6;;Código do bairro de residência;;;;;;;;;TRUE;TRUE;
+CODCART;character varying;1;8;;Código do cartório;;;;;;;;;TRUE;TRUE;
+CODDISOCOR;character varying;1;8;;Código do distrito de ocorrência;;;;;;;;;TRUE;TRUE;
+CODDISRES;character varying;1;8;;Código do distrito de residência;;;;;;;;;TRUE;TRUE;
+CODENDACID;character varying;1;12;;Código de endereço do acidente;;;;;;;;;TRUE;TRUE;
+CODENDOCOR;character varying;1;12;;Código do endereço de ocorrência;;;;;;;;;TRUE;TRUE;
+CODENDRES;character varying;1;12;;Código do endereço de residência;;;;;;;;;TRUE;TRUE;
+CODESTAB;character varying;7;7;;Código de estabelecimento;;;;;;;;;FALSE;FALSE;
+CODESTCART;character varying;2;2;;Código da UF do cartório;;;;;;C;;;TRUE;TRUE;
+CODESTOCOR;character varying;2;2;;Código de estabelecimento de ocorrência;;;;;;;;;TRUE;TRUE;
+CODESTRES;character varying;2;2;;Código da UF de residência;;;;;;C;;;TRUE;TRUE;
+CODIFICADO;character varying;1;1;S: sim, N: não;Se estiver codificado;S, N;;;;;;;;FALSE;FALSE;
+CODINST;character varying;13;13;1º caractere: nível de instalação (M: municipal, R: regional, E: estadual), 2º e 3º caractere: UF de instalação, 4º ao 9º caractere: código do município de instalação, 10º ao 13º caractere: nº da máquina de instalação;Código de configuração da instalação;;;;;;;;;FALSE;TRUE;
+CODMUNCART;character varying;6;6;;Código do município do cartório;;;;;6;;;;TRUE;TRUE;
+CODMUNNATU;character varying;6;6;;Código do município de naturalidade do falecido;;;;;6;;;;TRUE;TRUE;
+CODMUNOCOR;character varying;6;6;;Código do município de ocorrência;;;;;6;;;;TRUE;TRUE;
+CODMUNRES;character varying;6;6;;Código do município de residência;;;;;6;;;;TRUE;TRUE;
+CODPAISRES;character varying;1;3;;Código do país de residência;;;;;;;TRUE;TRUE;TRUE;TRUE;
+CODREGOCOR;character varying;1;1;;Código da região de ocorrência;;;;;;;;;TRUE;TRUE;
+CODREGRES;character varying;1;1;;Código da região de residência;;;;;;;;;TRUE;TRUE;
+COMPARA_CB;character varying;5;5;IGUAL, DIFER;Compara causa básica resselecionada com a informada;IGUAL, DIFER;;;;;;;;FALSE;FALSE;
+COMPLACID;character varying;1;40;;Complemento do endereço onde ocorreu o acidente;;;;;;;;;TRUE;TRUE;
+COMPLOCOR;character varying;1;40;;Complemento do endereço de ocorrência;;;;;;;;;TRUE;TRUE;
+COMPLRES;character varying;1;40;;Complemento da residência;;;;;;;;;TRUE;TRUE;
+COMUNSVOIM;character varying;6;6;;Código do município do SVO ou do IML;;;;;6;;;;TRUE;TRUE;
+COND_CB;character varying;1;2;;;;;;;;;;;TRUE;TRUE;
+COND_MAT;character varying;1;4;;;;;;;;;;;TRUE;TRUE;
+CONFCAUSA;character varying;1;1;;;;;;;;;;;TRUE;TRUE;
+CONFCIDADE;character varying;1;1;;;;;;;;;;;TRUE;TRUE;
+CONFIDADE;character varying;1;1;;;;;;;;;;;TRUE;TRUE;
+CONFPESO;character varying;1;2;;;;;;;;;;;TRUE;TRUE;
+CONTATO;character varying;1;60;;Meio de contato do atestante (telefone, fax, email etc.);;;;;;;;;TRUE;TRUE;
+CRITICA;character varying;1;1;;;;;;;;;;;TRUE;TRUE;
+CRM;character varying;1;30;;Nº do CRM;;;;;;;;;TRUE;TRUE;
+DESCACID;character varying;1;100;;Descrição do acidente;;;;;;;;;TRUE;TRUE;
+DIFDATA;numeric;1;3;;Diferença entre a data de óbito e data do recebimento original. da DO ([DTOBITO]: [DTRECORIG]);;;;;;;TRUE;TRUE;FALSE;FALSE;
+DSEVENTO;character varying;1;20;;Descrição sumária do acidente;;;;;;;;;TRUE;TRUE;
+DSEXPLICA;character varying;1;40;;Descrição da explicação das regras de seleção da causa básica;;;;;;;;;TRUE;TRUE;
+DSTEMPO;character varying;1;20;;Tempo de duração dos CIDs informados;;;;;;;;;TRUE;TRUE;
+DTATESTADO;date;10;10;;Data do atestado;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTCADASTRO;date;10;10;;Data do cadastro;;%Y-%m-%d;1850-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTCADINF;date;10;10;;;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTCADINV;date;10;10;;Data de cadastro da investigação de morte materna;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTCONCASO;date;10;10;;Data de conclusão do caso;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTCONINV;date;10;10;;Data da conclusão da investigação;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTENCOMITE;date;10;10;;Data do encaminhamento ao comitê;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTINVESTIG;date;10;10;;Data da investigação;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTNASC;date;10;10;;Data do nascimento;;%Y-%m-%d;1850-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTOBITO;date;10;10;;Data do óbito;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTRECEBIM;date;10;10;;Data do recebimento;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTRECORIG;date;10;10;;Data do recebimento original;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTRECORIGA;;10;10;;;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTREGCART;date;10;10;;Data do registro do cartório;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+DTRESSELE;date;10;10;;Data da resseleção;;%Y-%m-%d;2006-01-01;2018-12-31;;;;;TRUE;TRUE;
+ENDACID;character varying;1;100;;Endereço do acidente;;;;;;;;;TRUE;TRUE;IGNORADO R, IGNORADO, IGNORADO C
+ENDOCOR;character varying;1;100;;Endereço de ocorrência;;;;;;;;;TRUE;TRUE;
+ENDRES;character varying;1;100;;Endereço de residência;;;;;;;;;TRUE;TRUE;
+ESC;character varying;1;1;1: nenhuma, 2: de 1 a 3 anos, 3: de 4 a 7 anos, 4: de 8 a 11 anos, 5: 12 anos e mais, 9: ignorado;Escolaridade em anos;1, 2, 3, 4, 5, 9;;;;;;;;FALSE;TRUE;9
+ESC2010;character varying;1;1;0: sem escolaridade, 1: fundamental I (1ª a 4ª série), 2: fundamental II (5ª a 8ª série), 3: médio (antigo 2º grau), 4: superior incompleto, 5: superior completo, 9: ignorado;Escolaridade 2010;0, 1, 2, 3, 4, 5, 9;;;;;;;;FALSE;FALSE;9
+ESCFALAGR1;character varying;1;2;0: sem escolaridade, 1: fundamental I incompleto, 2: fundamental I completo, 3: fundamental II incompleto, 4: fundamental II completo, 5: ensino médio incompleto, 6: ensino médio completo, 7: superior incompleto, 8: superior completo, 9: ignorado, 10: fundamental I incompleto ou inespecífico, 11: fundamental II incompleto ou inespecífico, 12: ensino médio incompleto ou inespecífico;Escolaridade 2010 agregada;0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;;;;;;;;FALSE;TRUE;9
+ESCFALAGR2;character varying;1;1;1: nenhuma, 2: de 1 a 3 anos, 3: de 4 a 7 anos, 4: de 8 a 11 anos, 5: 12 anos e mais, 9: ignorado;Escolaridade em anos;1, 2, 3, 4, 5, 9;;;;;;;;FALSE;TRUE;9
+ESCMAE;character varying;1;1;1: nenhuma, 2: de 1 a 3 anos, 3: de 4 a 7 anos, 4: de 8 a 11 anos, 5: 12 anos e mais, 9: ignorado;Escolaridade em anos;1, 2, 3, 4, 5, 9;;;;;;;;FALSE;TRUE;9
+ESCMAE2010;character varying;1;1;0: sem escolaridade, 1: fundamental I (1ª a 4ª série), 2: fundamental II (5ª a 8ª série), 3: médio (antigo 2º grau), 4: superior incompleto, 5: superior completo, 9: ignorado;Escolaridade 2010;0, 1, 2, 3, 4, 5, 9;;;;;;;;FALSE;TRUE;9
+ESCMAEAGR1;character varying;1;2;0: sem escolaridade, 1: fundamental I incompleto, 2: fundamental I completo, 3: fundamental II incompleto, 4: fundamental II completo, 5: ensino médio incompleto, 6: ensino médio completo, 7: superior incompleto, 8: superior completo, 9: ignorado, 10: fundamental I incompleto ou inespecífico, 11: fundamental II incompleto ou inespecífico, 12: ensino médio incompleto ou inespecífico;Escolaridade 2010 agregada;0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;;;;;;;;FALSE;TRUE;9
+ESCMAEAGR2;character varying;1;1;1: nenhuma, 2: de 1 a 3 anos, 3: de 4 a 7 anos, 4: de 8 a 11 anos, 5: 12 anos e mais, 9: ignorado;Escolaridade em anos;1, 2, 3, 4, 5, 9;;;;;;;;FALSE;TRUE;9
+ESTABDESCR;character varying;1;140;;;;;;;;;;;TRUE;TRUE;
+ESTCIV;character varying;1;1;1: solteiro, 2: casado, 3: viúvo, 4: separado judicialmente/divorciado, 5: união estável, 9: ignorado;Situação conjugal;1, 2, 3, 4, 5, 9;;;;;;;;FALSE;TRUE;9
+EXAME;character varying;1;1;1: sim, 2: não, 9: ignorado;Exame;1, 2, 9;;;;;;;;FALSE;TRUE;9
+EXPDIFDATA;character varying;1;3;;;;;;;;;;;TRUE;TRUE;
+EXPLICA_R;character varying;1;250;;Explicação das regras de resseleção de causa básica;;;;;;;;;TRUE;TRUE;
+FONTE;character varying;1;1;1: boletim de ocorrência, 2: hospital, 3: família, 4: outra, 9: ignorado;Indicar a fonte da informação;1, 2, 3, 4, 9;;;;;;;;FALSE;TRUE;9
+FONTEINV;character varying;1;1;1: comitê de morte materna e/ou infantil, 2: visita domiciliar / entrevista família, 3: estabelecimento de saúde / prontuário, 4: relacionado com outros bancos de dados,  5: SVO, 6: IML, 7: outra fonte, 8: múltiplas fontes, 9: ignorado;Fonte de investigação;1, 2, 3, 4, 5, 6, 7, 8, 9;;;;;;;;FALSE;TRUE;9
+FONTES;character varying;6;6;se preenchido caractere S, se o campo estiver vazio caractere X;Combinado de caracteres conforme o preenchimento dos campos de fontes (FONTENTREV, FONTEAMBUL, FONTEPRONT, FONTESVO, FONTEIML, FONTEPROF);;;;;;;;;FALSE;FALSE;
+FONTESINF;character varying;7;7;;;;;;;;;;;TRUE;TRUE;
+GESTACAO;character varying;1;1;1: menos 22 semas, 2: 22 a 27 semas, 3: 28 a 31 semas, 4: 32 a 36 semas, 5: 37 a 41 semas, 6: 42 e + semas;Faixa de semas de gestação;1, 2, 3, 4, 5, 6;;;;;;;;FALSE;TRUE;
+GRAVIDEZ;character varying;1;1;1: única, 2: dupla, 3: tripla e mais, 9: ignorada;Informar o tipo de gravidez;1, 2, 3, 9;;;;;;;;FALSE;TRUE;9
+HORAOBITO;character varying;1;5;;Horário do óbito;;;;;;;;;FALSE;TRUE;
+ID_PACIENTE;character varying;1;12;;;;;;;;;;;TRUE;TRUE;
+IDADE;character varying;1;3;O primeiro, de 1 dígito, indica a idade: composto de dois subcampos. o primeiro, de 1 dígito, indica a unidade da idade, conforme a tabela a seguir. o segundo, de dois dígitos, indica a quantidade de unidades: 0: idade menor de 1 hora, o subcampo varia de 01 e 59, 1: hora, o subcampo varia de 01 a 23, 2: dias, o subcampo varia de 01 a 29, 3: meses, o subcampo varia de 01 a 11, 4: anos, o subcampo varia de 00 a 99, 5: anos (mais de 100 anos), o segundo subcampo varia de 0 a 99;Idade;;;;;;;TRUE;TRUE;FALSE;TRUE;
+IDADEMAE;numeric;2;2;;Idade da mãe;;;;;;;TRUE;TRUE;FALSE;FALSE;
+LINHAA;character varying;1;40;;CIDs informados linha A da DO;;;;;;;;;TRUE;TRUE;
+LINHAA_O;character varying;1;40;;CIDs informados, originalmente, linha A da DO;;;;;;;;;TRUE;TRUE;
+LINHAB;character varying;1;40;;CIDs informados linha B da DO;;;;;;;;;TRUE;TRUE;
+LINHAB_O;character varying;11;40;;CIDs informados, originalmente, linha B da DO;;;;;;;;;TRUE;TRUE;
+LINHAC;character varying;5;40;;CIDs informados linha C da DO;;;;;;;;;TRUE;TRUE;
+LINHAC_O;character varying;1;40;;CIDs informados, originalmente, linha C da DO;;;;;;;;;TRUE;TRUE;
+LINHAD;character varying;1;40;;CIDs informados linha D da DO;;;;;;;;;TRUE;TRUE;
+LINHAD_O;character varying;1;40;;CIDs informados, originalmente, linha D da DO;;;;;;;;;TRUE;TRUE;
+LINHAII;character varying;1;40;;CIDs informados parte II da DO;;;;;;;;;TRUE;TRUE;
+LINHAII_O;character varying;1;40;;CIDs informados, originalmente, parte II da DO;;;;;;;;;TRUE;TRUE;
+LOCOCOR;character varying;1;1;1: hospital, 2: outros estabelecimentos de saúde, 3: domicílio, 4: via pública, 5: outros, 9: ignorado;Local de ocorrência do óbito;1, 2, 3, 4, 5, 9;;;;;;;;FALSE;TRUE;9
+MEDICO;character varying;1;60;;Nome do médico;;;;;;;;;TRUE;TRUE;
+MORTEPARTO;character varying;1;1;1: antes, 2: durante, 3: após, 9: ignorado;Momento do óbito em relação ao parto;1, 2, 3, 9;;;;;;;;FALSE;TRUE;9
+MUNCADINV;character varying;1;12;;Código do município investigador;;;;;6;;;;TRUE;TRUE;
+NATURAL_;character varying;1;6;;;;;;;;;;;TRUE;TRUE;
+NECROPSIA;character varying;1;1;1: sim, 2: não, 9: ignorado;Confirmação do diagnóstico por necrópsia;1, 2, 9;;;;;;;;FALSE;TRUE;9
+NOME;character varying;1;80;;Nome do falecido;;;;;;;;;TRUE;TRUE;
+NOMEMAE;character varying;1;80;;Nome da mãe do falecido;;;;;;;;;TRUE;TRUE;
+NOMEPAI;character varying;1;80;;Nome do pai do falecido;;;;;;;;;TRUE;TRUE;
+NPROC;character varying;1;1;1: depende de perguntas, 2: causa externa, 3: procedimento médico, 4: causa básica por CID de paralisia, 5: regra F, 6: CID temporário não pode ser causa básica;Códigos da explicação da não resseleção da causa básica;1, 2, 3, 4, 5, 6;;;;;;;;FALSE;TRUE;
+NRESSELE;character varying;1;140;;Descrição da explicação da não resseleção da causa básica;;;;;;;;;TRUE;TRUE;
+NUDIASINF;character varying;1;3;;;;;;;;;;;TRUE;TRUE;
+NUDIASOBCO;numeric;1;3;;Diferença entre a data óbito e a data conclusão da investigação, em dias;;;;;;;TRUE;TRUE;FALSE;FALSE;
+NUDIASOBIN;character varying;1;3;;Diferença  a data óbito e a data cadastro da investigação, em dias;;;;;;;;;TRUE;TRUE;
+NUMENDACID;character varying;1;12;;Número do endereço do acidente;;;;;;;;;TRUE;TRUE;
+NUMENDOCOR;character varying;1;12;;Número do endereço de ocorrência;;;;;;;;;TRUE;TRUE;
+NUMERODN;character varying;1;16;;Número da declaração de nascido vivo;;;;;;;;;TRUE;TRUE;
+NUMERODO;character varying;1;8;;Número da DO;;;;;;;;TRUE;TRUE;TRUE;
+NUMERODV;character varying;1;1;;Número do dígito verificador;;;;;;;;;TRUE;TRUE;
+NUMEROLOTE;character varying;8;8;;Número do lote;;;;;;;;;TRUE;TRUE;
+NUMREGCART;character varying;1;8;;Número do registro do cartório;;;;;;;;;TRUE;TRUE;
+NUMRES;character varying;1;12;;Número da residência;;;;;;;;;TRUE;TRUE;
+NUMSUS;character varying;15;15;;Número do cartão SUS;;;;;;;;;TRUE;TRUE;
+OBITOEVITA;character varying;1;1;1: sim, 2: não, 3: inconcluso;Óbito poderia ter sido evitado;1, 2, 3;;;;;;;;FALSE;TRUE;
+OBITOGRAV;character varying;1;1;1: sim, 2: não, 9: ignorado;Óbito gravidez;1, 2, 9;;;;;;;;FALSE;TRUE;9
+OBITOPARTO;character varying;1;1;1: antes, 2: durante, 3: depois, 9: ignorado;Informar como foi a morte em relação ao parto;1, 2, 3, 9;;;;;;;;FALSE;TRUE;9
+OBITOPUERP;character varying;1;1;1: sim, até 42 dias após o parto, 2: sim, de 43 dias a 1 ano, 3: não, 9: ignorado;Óbito no puerpério;1, 2, 3, 9;;;;;;;;FALSE;TRUE;9
+OCUP;character varying;3;3;GRUPOCUP.CNV;Ocupação habitual e ramo de atividade;GRUPOCUP.CNV;;;;;;;;FALSE;FALSE;
+OCUPMAE;character varying;6;6;CBO2002.CNV;Ocupação da mãe;CBO2002.CNV;;;;;;;;FALSE;FALSE;
+OPOR_DO;character varying;1;8;;;;;;;;;;;TRUE;TRUE;
+OPORTINV_I;character varying;1;8;;;;;;;;;;;TRUE;TRUE;
+OPORTINV_M;character varying;1;8;;;;;;;;;;;TRUE;TRUE;
+ORIGEM;character varying;1;1;;;;;;;;;;;TRUE;TRUE;
+PARTO;character varying;1;1;1: vagil, 2: cesáreo, 9: ignorado;Informar o tipo de parto;1, 2, 9;;;;;;;;FALSE;FALSE;9
+PESO;numeric;1;4;;Peso ao nascer em gramas;;;;;;;TRUE;FALSE;FALSE;FALSE;
+QTDFILMORT;numeric;1;2;;Número de filhos mortos;;;;;;;TRUE;TRUE;FALSE;FALSE;
+QTDFILVIVO;numeric;1;2;;Número de filhos vivos;;;;;;;TRUE;TRUE;FALSE;FALSE;
+RACACOR;character varying;1;1;1: branca, 2: preta, 3: amarela, 4: parda, 5: indígena;Raça;1, 2, 3, 4, 5;;;;;;TRUE;TRUE;FALSE;TRUE;
+REGRA;character varying;1;80;;;;;;;;;;;TRUE;TRUE;
+RETROALIM;character varying;1;1;S: sim, N: não;Retroalimentação;S, N;;;;;;;;FALSE;FALSE;
+SEMAGESTAC;numeric;1;2;;Semanas de gestação;;;;;;;TRUE;TRUE;FALSE;FALSE;
+SERIESCFAL;character varying;1;2;0: sem escolaridade, 1: fundamental I incompleto, 2: fundamental I completo, 3: fundamental II incompleto, 4: fundamental II completo, 5: ensino médio incompleto, 6: ensino médio completo, 7: superior incompleto, 8: superior completo, 9: ignorado, 10: fundamental I incompleto ou inespecífico, 11: fundamental II incompleto ou inespecífico, 12: ensino médio incompleto ou inespecífico;Série escolar do falecido;0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;;;;;;;;FALSE;TRUE;9
+SERIESCMAE;character varying;1;2;0: sem escolaridade, 1: fundamental I incompleto, 2: fundamental I completo, 3: fundamental II incompleto, 4: fundamental II completo, 5: ensino médio incompleto, 6: ensino médio completo, 7: superior incompleto, 8: superior completo, 9: ignorado, 10: fundamental I incompleto ou inespecífico, 11: fundamental II incompleto ou inespecífico, 12: ensino médio incompleto ou inespecífico;Série escolar da mãe;0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;;;;;;;;FALSE;TRUE;9
+SEXO;character varying;1;1;1: masculino, 2: feminino, 0,9 ignorado;Sexo;1, 2, 0, 9;;;;;;;TRUE;FALSE;TRUE;0, 9
+STCAMPOALT;character varying;1;1;1: não, 2: sim;Campos alterados declaração de óbito após a investigação;1, 2;;;;;;;;FALSE;TRUE;
+STCODIFICA;character varying;1;1;S: sim, N: não;Status de instalação;S, N;;;;;;;;FALSE;FALSE;
+STCOMITEMM;character varying;1;1;1: sim, 2: não;Se o caso foi encaminhado para o comitê de morte mater;1, 2;;;;;;;;FALSE;TRUE;
+STDOEPIDEM;character varying;1;1;1: sim, 0: não;Status de do epidemiológica;1, 0;;;;;;;;FALSE;TRUE;
+STDONOVA;character varying;1;1;1: sim, 0: não;Status de do nova;1, 0;;;;;;;;FALSE;TRUE;
+STPARECER;character varying;1;1;1: sim, 2. não;Status se o comitê de morte materna deu parecer;1, 2;;;;;;;;FALSE;TRUE;
+STRESSELE;character varying;1;1;S: sim, N: não;Status da resseleção;S, N;;;;;;;;FALSE;FALSE;
+TIPOBITO;character varying;1;1;1: fetal, 2: não fetal;Tipo do óbito;1, 2;;;;;;;;FALSE;TRUE;
+TP_ANALISE;character varying;1;4;;;;;;;;;;;TRUE;TRUE;
+TPASSINA;character varying;1;2;;;;;;;;;;;TRUE;TRUE;
+TPCAUSAPAR;character varying;1;1;1: sim, 2: não, 3: não se aplica o comitê não emitiu parecer ainda, 4: não se aplica a vigilância não teve acesso ao parecer emitido pelo comitê;Se as causas do óbito corrigidas expressam o parecer do comitê de morte materna;1, 2, 3, 4;;;;;;;;FALSE;TRUE;
+TPMORTEOCO;character varying;1;1;1: gravidez, 2: no parto, 3: no aborto, 4: até 42 dias após o parto, 5: de 43 dias a 1 ano após o parto, 8: não ocorreu nestes períodos, 9: ignorado;Informar quando a morte ocorreu;1, 2, 3, 4, 5, 8, 9;;;;;;;;FALSE;TRUE;9
+TPNIVELINV;character varying;1;1;E: estadual, R: regional, M: municipal;Tipo de nível investigador;E, R, M;;;;;;;;FALSE;FALSE;
+TPOBITOCOR;character varying;1;1;1: durante a gestação, 2: durante abortamento, 3: após abortamento, 4: no parto ou até 1 hora após o parto, 5: no puerpério (até 42 dias do término da gestação), 6: entre o 43º dia e até um ano após o término da gestação, 7: investigação não identificou o momento do óbito, 8: mais de 1 ano após o parto, 9: o óbito não ocorreu em nenhuma das circunstâncias acima mencionadas;O óbito ocorreu?;1, 2, 3, 4, 5, 6, 7, 8, 9;;;;;;;;FALSE;TRUE;
+TPOBITOINF;character varying;1;2;;;;;;;;;;;TRUE;TRUE;
+TPPOS;character varying;1;1;S: sim, N: não;Óbito investigado;S, N;;;;;;;;FALSE;FALSE;
+TPRESGINFO;character varying;1;1;1: não acrescentou nem corrigiu informação, 2: sim, permitiu o resgate de novas informações, 3: sim, permitiu a correção de alguma das causas informadas origilmente;A investigação permitiu o resgate de alguma causa de óbito não informado, ou a correção de alguma antes informada?;1, 2, 3;;;;;;;;FALSE;TRUE;
+UFINFORM;character varying;2;2;;;;;;;;;;;TRUE;TRUE;
+VALOR;character varying;1;2;;;;;;;;;;;TRUE;TRUE;
+VERSAOSCB;character varying;1;4;VERSCB.CNV;Versão do seletor de causa básica;VERSCB.CNV;;;;;;;;FALSE;FALSE;
+VERSAOSIST;character varying;1;7;VERSAO.CNV;Versão do sistema;VERSAO.CNV;;;;;;;;FALSE;FALSE;
+VERSCBPRE;character varying;1;4;VERSCB.CNV;Versão do SCB da resseleção;VERSCB.CNV;;;;;;;;FALSE;FALSE;
+VRSRESSELE;character varying;1;14;;Versão de resseleção;;;;;;;;;FALSE;FALSE;

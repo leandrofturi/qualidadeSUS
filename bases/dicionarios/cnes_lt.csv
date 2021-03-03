@@ -1,0 +1,29 @@
+VARIAVEL;CLASSE;DESCRIÇÃO;VALORES.VALIDOS;MIN;MAX
+ATIVIDAD;CHAR;Código da atividade de ensino;01: unidade universitária, 02: unidade escola superior isolada, 03: unidade auxiliar de ensino, 04: unidade sem atividade de ensino, 05: hospital de ensino, 99: atividade ensino não informada;2;2
+CLIENTEL;CHAR;Código de fluxo da clientela;01: atendimento de demanda espontânea, 02: atendimento de demanda referenciada, 03: atendimento de demanda espontânea e referenciada, 00: fluxo de clientela não exigido, 99: fluxo de clientela não informado;2;2
+CNES;CHAR;Número nacional do estabelecimento de saúde;;7;7
+CNPJ_MAN;CHAR;CNPJ da mantenedora do Estabelecimento;;14;14
+CODLEITO;CHAR;Especialidade do LEITO;Esp_leit.CNV;2;2
+CODUFMUN;CHAR;Código do município do estabelecimento UF+ MUNIC (sem dígito);;6;6
+COMPETEN;CHAR;Ano e Mês de competência da informação (AAAAMM);;6;6
+CPF_CNPJ;CHAR;CPF do Estabelecimento, caso pessoa física OU CNPJ, caso pessoa jurídica;;14;14
+DISTRADM;CHAR;Código do distrito administrativo;;1;5
+DISTRSAN;CHAR;Código do distrito sanitário;;1;5
+ESFERA_A;CHAR;Código da esfera administrativa;01: federal, 02: estadual, 03: municipal, 04: privada, 99: esfera não informada;2;2
+MICR_REG;CHAR;Código da micro-região de saúde;;1;9
+NAT_JUR;CHAR;Natureza Jurídica;NATJUR.CNV, NATJURC.CNV, ESFERAJUR.CNV, ESFERAJURC.CNV;4;4
+NATUREZA;CHAR;Código da natureza da organização;;2;2
+NIV_DEP;CHAR;Grau de dependência;1: individual, 3: mantida;1;1
+NIV_HIER;CHAR;Código do nível de hierarquia;01: NH PAB-PABA, 02: NH média M1, 03: NH média M2 e M3, 04: NH alta complexidade  ambulatiorial, 05: NH baixa M1 e M2, 06: NH média M2 e M3, 07: NH média M3, 08: NH alta complexidade hos/amb., 00-99: NH não informado;2;2
+PF_PJ;CHAR;Indicador de pessoa;1: física, 3: jurídica;1;1
+QT_CONTR;NUMERIC;Quantidade de leitos contratados;;1;4
+QT_EXIST;NUMERIC;Quantidade de leitos existentes;;1;4
+QT_NSUS;NUMERIC;Quantidade Leitos não SUS;;1;4
+QT_SUS;NUMERIC;Quantidade de leitos para o SUS;;1;4
+REGSAUDE;CHAR;Código da região de saúde;;1;7
+RETENCAO;CHAR;Código de retenção de tributos;00-99: retenção estab. Não informada, 10: estabelecimento publico, 11: estabelecimento filantropico, 12: estabelecimento sem fins lucrativos, 13: estabelecimento privado lucrativa simples, 14: estabelecimento privado lucrativa, 15: estabelecimento sindical, 16: estabelecimento pessoa fisica;2;2
+TERCEIRO;CHAR;O estabelecimento é terceiro;1: sim, 2: não;1;1
+TP_LEITO;CHAR;Tipo do LEITO;1: cirúrgico, 2: clínico, 3: complementar, 4: obstétrico, 5: pediátrico, 6: outras especialidades, 7: hospital/dia;1;1
+TP_UNID;CHAR;Tipo de unidade (Estabelecimento);TP_ESTAB.CNV;2;2
+TPGESTAO;CHAR;Gestão de saúde;Z: não informado, D: dupla, E: estadual, M: municipal, S: sem gestão;1;1
+TURNO_AT;CHAR;Código de turno de atendimento;01: atendimento turnos intermitentes, 02: atendimento contínuo 24 horas/dia (pl sab dom fer), 03: atendimento turnos manhã/tarde/noite, 04: atendimento somente pela manhã, 05: atendimento somente à tarde, 06: atendimento turnos manhã/tarde, 07: atendimento somente à noite, 99: turno não informado;2;2

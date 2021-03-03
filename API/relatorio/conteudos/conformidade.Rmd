@@ -1,0 +1,26 @@
+## Conformidade
+
+`r if(exists("dt_dict")){"Verificou-se se os dados apresentam os padrões descritos no [dicionário de dados adotado](#dicionário-adotado) como referência a respeito da quantidade de caracteres e valores válidos."}`
+
+`r if(exists("dt_dom") && exists("dt_dict")) {"Ressalta-se que durante a construção do dicionário de dados não foi possível obter os microdados ou informação equivalente contendo, quando existente, os valores válidos de domínio para algumas variáveis. Nesse sentido, a tabela a seguir apresenta ao máximo dez registros mais frequentes para essas variáveis, separados por vírgulas."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_dom") && exists("dt_dict"))
+  try(kable(dt_dom, format = "latex", longtable = T, booktabs = T, caption = "registros mais frequentes por variável em que não foi possível obter a descrição.", align = c('l','l')) %>% kable_styling(latex_options = "HOLD_position", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, width = '10cm'), silent = T) 
+```
+
+
+`r if(exists("dt_inconf")){"Acerca das inconformidades identificadas, a tabela a seguir apresenta os registros mais frequentes, limitado a cinco registros, que encontram-se nesta situação."}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_inconf"))
+  try(kable(dt_inconf, format = "latex", longtable = T, booktabs = T, caption = "registros inconformes por variável.", align = c('l','l')) %>% kable_styling(latex_options = "HOLD_position", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, width = '10cm'), silent = T) 
+```
+
+`r if("Conformidade" %in% dimensoes_ano){"A distribuição temporal dos resultados dos testes de conformidade é apresentada no gráfico a seguir.\n\n![distribuição temporal da conformidade.](imagens/conf-anual.png){width=80%}"}`
+
+`r if("Conformidade" %in% dimensoes_uf){"A distribuição estadual dos resultados dos testes de Conformidade é apresentada no gráfico a seguir.\n\n![distribuição estadual da conformidade.](imagens/conf-uf.png){width=80%}"}`
+
+No geral, os resultados de conformidade das variáveis estão distribuídas pelas categorias definidas em [Métodos](#métodos) segundo o gráfico a seguir. O resultado percentual por variável está descrito nos [Resultados numéricos](#resultados-numéricos). O cômputo da média ponderada dos resultados obtidos é de **`r ponderada$conformidade$val`%**, ou seja, a **conformidade é `r ponderada$conformidade$cat`**.
+
+![distribuição dos resultados de conformidade.](imagens/conf.png){width=80%}

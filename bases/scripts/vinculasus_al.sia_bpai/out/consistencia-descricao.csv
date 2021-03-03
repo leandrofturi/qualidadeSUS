@@ -1,0 +1,6 @@
+teste;desc;desc_completa
+T1;DT_NASCIMENTO > DT_ATENDIMENTO;A data de nascimento não pode ser maior que a data de atendimento
+T2;DT_NASCIMENTO > CO_BPI_MVM;A data de nascimento não pode ser maior que a data de movimentação
+T3;co_bpi_tpfin like 1 and ds_tp_financiamento != PAB;Se o código do tipo de financiamento for 1 (Procedimento PAB) então a Descrição do tipo de financiamento não pode ser diferente de PAB
+T4;co_bpi_tpfin like 2 and ds_tp_financiamento != MAC;Se o código do tipo de financiamento for 2 (Procedimento MAC) então a Descrição do tipo de financiamento não pode ser diferente de MAC
+T5;co_bpi_tpfin like 3 and ds_tp_financiamento != FAEC;Se o código do tipo de financiamento for 3 (Procedimento FAEC) então a Descrição do tipo de financiamento não pode ser diferente de FAEC

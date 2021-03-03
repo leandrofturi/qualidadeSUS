@@ -1,0 +1,189 @@
+---
+documentclass: proadi
+header-includes:
+   - \usepackage[utf8]{inputenc}
+   - \usepackage[brazil]{babel}
+   - \usepackage{longtable,booktabs}
+   - \usepackage{pdflscape}
+   - \usepackage{caption}
+   - \usepackage{lscape}
+   - \usepackage{xcolor}
+   - \hypersetup{draft}
+fontsize: 12
+classoption: table
+output:
+  pdf_document:
+    includes:
+      in_header: base.tex
+    number_sections: true
+bibliography: bibliografia.bibtex
+biblio-style: apalike
+---
+
+```{r setup, echo=FALSE}
+show_comp <- "Completude" %in% dimensoes
+show_conf <- "Conformidade" %in% dimensoes
+show_ac <- "Acurácia" %in% dimensoes
+show_cons <- "Consistência" %in% dimensoes
+show_unic <- "Unicidade" %in% dimensoes
+show_temp <- "Temporalidade" %in% dimensoes
+```
+
+
+# Qualidade de dados
+
+O processo de análise de qualidade de dados está focado na avaliação de conjuntos de dados e na aplicação de ações corretivas, para garantir que estes estejam adequados aos propósitos para os quais foram originalmente destinados [@merino]. Dessa forma, a qualidade de dados está diretamente relacionada a confiabilidade dos dados de entrada. Considerando que os dados têm níveis inadequados de qualidade, é provável que ocorram erros, que podem se propagar acidentalmente e inconscientemente por todo o fluxo da informação, prejudicando a eficiência do sistema. Formas regulares de avaliar a qualidade de dados com modelos clássicos geralmente se destinam a detectar e corrigir erros em fontes conhecidas com base em um conjunto limitado de regras. No ambiente de *Big Data*, a quantidade de regras pode ser enorme e o custo da aplicação para correção de erros pode não ser viável e nem apropriado. Isso ocorre principalmente porque o *Big Data* não é apenas sobre dados, mas também sobre uma pilha conceitual e tecnológica completa, incluindo dados brutos e processados, armazenamento, formas de gerenciar dados, processamento e análise [@merino].
+
+Uma dimensão de qualidade de dados é um termo descritor de um recurso de dados, o qual pode ser medido ou avaliado de acordo com padrões definidos, a fim de determinar a qualidade de um conjunto de dados. Geralmente, dados só têm valor quando dão suporte a um processo ou a uma tomada de decisão. Em consequência, as regras de qualidade de dados definidas devem levar em consideração o valor que os dados podem fornecer para o sistema. Nesse contexto, as seguintes dimensões de qualidade de dados são analisadas: `r paste0(dimensoes, collapse = ", ")`
+
+`r if(show_comp){"**Completude** caracteriza a taxa de preenchimento das variáveis. Para cada variável é calculado o percentual de entradas com informação não nulas, respeitando, quando houver, sua dependência com outras variáveis."}`
+
+`r if(show_conf){"**Conformidade** detecta concordância nos valores digitados nos campos das variáveis, avaliando se os valores de entrada não nulos estão em conformidade com os padrões descritos pelo dicionário de dados. Para cada variável estudada é calculado o percentual de entradas em conformidade com o padrão adotado."}`
+
+`r if(show_ac){"**Acurácia** visa detectar se informação registrada reflete o evento ou objeto descrito, isto é, verificar se o dado cadastrado está em concordância com o evento observado. Devido ao processo de anonimização dos dados, a análise de acurácia se restringe a verificar a possibilidade das informações registradas. Note que acurácia e conformidade são dimensões distintas, pois enquanto conformidade avalia o padrão do dado, acurácia avalia a razoabilidade dos dados. Para cada variável estudada é calculado o percentual de entradas com informações acuradas."}`
+
+`r if(show_cons){"**Consistência** constitui de testes envolvendo duas ou mais variáveis visando detectar inconsistências entre dados de um mesmo registro. Para cada teste considerado é calculado os percentuais de aprovação e falha."}`
+
+`r if(show_unic){"**Unicidade** objetiva mensurar o grau de duplicidade nos dados, realizando a busca por meio de identificadores dos pacientes."}`
+
+`r if(show_temp){"**Temporalidade** objetiva efetuar medidas estatísticas nos intervalos de tempos entre eventos, por exemplo, o nascimento de um recém-nascido e inclusão desse registro no sistema. O principal interesse é verificar se o dado é disponibilizado prontamente."}`
+
+
+`r if(exists("sobre_base") || exists("dt_base")){"# Base de dados\n"}`
+
+`r if(exists("sobre_base")){sobre_base}`
+
+\renewcommand{\arraystretch}{1.25}
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_base"))
+ try(kable(dt_base, format = "latex", booktabs = T, align = c('l','l'), row.names=F) %>% 
+       kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 12) %>% column_spec(column = 1, width = '6cm') %>% column_spec(column = 2, width = '8cm'), silent = T) 
+```
+
+\renewcommand{\arraystretch}{1}
+
+# Métodos
+
+A análise apresentada constitui-se de um esquema cíclico, iniciando no mapeamento da documentação e do comportamento dos dados, através da observação de trechos das bases. Em seguida, são definidas as variáveis de teste. Após, ocorre a obtenção e avaliação dos resultados obtidos, recorrendo, e se necessário retificando, conclusões obtidas nos passos anteriores. Nesse contexto, são definidos parâmetros a serem passados para as funções relativas às metricas citadas e implementação de *queries* para os testes de consistência, sintetizados em um único *script* relativo à base analisada.
+
+O maneio dos dados ocorreu através dos serviços **Amazon Athena** e **Amazon S3**, assim como testes e análises se deu utilizando **linguagem R**. Os *scripts* utilizados estão disponíveis em um repositório de qualidade de dados no *GitHub*. Enfatiza-se que esses dados podem sofrer alterações, caso ocorram atualizações.
+
+`r if(exists("dt_dict")){"O dicionário de dado utilizado, não oficial, é inferido das descrições das variáveis contidas nos relatórios de integração e é apresentado neste relatório."}`
+`r if(show_unic){" No que tange os testes de unicidade, procurou-se analisar apenas as informações individuais dos pacientes."}`
+
+`r if(exists("relatorio")){"Os resultados apresentados neste relatório consideram a inclusão/retirada de variáveis ao longo do tempo. "}`
+Mudanças no domínio e tamanho de caracteres das variáveis são detectadas, relatadas e consideradas no cálculo de medidas de qualidade dos dados.
+
+O Cômputo dos resultados numéricos ocorre de modo cascata, isto é, os registros submetidos ao teste de conformidade devem ser não nulos, os registros submetidos ao teste de acurácia devem estar conformes, os registros submetidos aos testes de consistência devem estar acurados, e quando não for possível, conformes, sendo que o mesmo se aplica aos registros submetidos aos testes de unicidade. Em prosseguimento, os resultados numéricos são avaliados nas dimensões analisadas calculando-se a média ponderada dos testes realizados, utilizando como peso o total de registros por variável. Para a consistência, é realizado um ajuste em que todas as variáveis testadas devem existir simultaneamente.
+
+Objetivando avaliar a base de dados, o conjunto de resultados representando cada dimensão foi classificada como excelente (> 90%), ótimo (75% - 89,9%), regular (50% - 74,9%) ou ruim (< 49,9%), baseado nos relatórios do livro *Saúde Brasil*, organizado pela Secretaria de Vigilância em Saúde [@brasil2019]. Em decorrência do método cascata utilizado, é realizado o produto dos resultados obtidos, caracterizando a qualidade da base de dados como um todo, que também pode ser classificada considerando as classes definidas em *Saúde Brasil* [@brasil2019].
+
+
+```{r child = 'conteudos/disponibilidade.Rmd'}
+```
+
+
+# Resultados
+
+`r if(exists("dt_dict")){"Descrições das variáveis são apresentadas no [Dicionário adotado](#dicionário-adotado). "}`
+`r if(exists("dt_geral") && exists("dt_anual") && exists("dt_estadual")){"Resultados dos testes de completude, conformidade e acurácia são exibidos nos [Resultados numéricos](#resultados-numéricos), onde estão organizados em três tabelas: resultado geral, resultado agregado por ano e resultado agregado por estado. "}   else if(exists("dt_geral") && exists("dt_anual")){"Resultados dos testes de completude, conformidade e acurácia são exibidos nos [Resultados numéricos](#resultados-numéricos), onde estão organizados em duas tabelas: resultado geral e resultado agregado por ano. "}   else if(exists("dt_geral") && exists("dt_estadual")){"Resultados dos testes de completude, conformidade e acurácia são exibidos nos [Resultados numéricos](#resultados-numéricos), onde estão organizados em duas tabelas: resultado geral e resultado agregado por Unidade Federativa. "}    else if(exists("dt_geral")){"Resultados dos testes de completude, conformidade e acurácia são exibidos nos [Resultados numéricos](#resultados-numéricos). "}`
+`r if(exists("dt_outlier")) {"Uma descrição mais detalhada dos testes de inconsistência realizados, bem como seus respectivos resultados numéricos estão descritos em [Testes de inconsistência](#testes-de-inconsistência)."}`
+
+
+```{r conditional_block, child='conteudos/completude.Rmd', eval=show_comp}
+```
+
+```{r conditional_block, child='conteudos/conformidade.Rmd', eval=show_conf}
+```
+
+```{r conditional_block, child='conteudos/acuracia.Rmd', eval=show_ac}
+```
+
+```{r conditional_block, child='conteudos/consistencia.Rmd', eval=show_cons}
+```
+
+```{r conditional_block, child='conteudos/unicidade.Rmd', eval=show_unic}
+```
+
+```{r conditional_block, child='conteudos/temporalidade.Rmd', eval=show_temp}
+```
+
+
+# Considerações finais
+
+A avaliação realizada é especialmente oportuna, tendo em vista o cenário nacional e o atual empenho em fomentar o debate em torno da qualidade das informações acerca de estabelecimentos de saúde do país.
+
+Assim, a média ponderada dos resultados de `r paste0(dimensoes[dimensoes != "Temporalidade"], " é ", formatC(as.numeric(dt_ponderada$val), digits = 2, format = "f"), "%", collapse = ", de ")`. Realizando o produto destes resultados, obtêm-se **`r qualidade$val`%**, caracterizando a **base de dados como `r qualidade$cat`**.
+
+
+\newpage
+# Referências
+
+<div id = "refs"></div>
+
+\captionsetup[table]{labelformat=empty}
+
+`r if(exists("dt_dict")){"\\newpage \n# Dicionário adotado {-}"}`
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_dict"))
+ try(kable(dt_dict, format = "latex", longtable = T, booktabs = T, align = c('l','l','c')) %>% 
+       kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) %>% column_spec(column = 1, italic = T) %>% column_spec(column = 2, width = '9cm') %>% column_spec(column = 3, width = '2cm'), silent = T) 
+```
+
+`r if(exists("dt_mud")){"\\newpage \n# Alterações de domínio e/ou tamanho{-}"}`
+`r if(exists("dt_mud")){"No primeiro ano é apresentado o estado inicial de cada variável, e para cada ano subsequente são apresentadas apenas as variáveis que sofreram alterações no tamanho e/ou no domínio, podendo estas serem de aumento ou diminuição no tamanho máximo de caracteres, bem como de acréscimo e/ou remoção de valores de dominio.\n"}`
+
+```{r, echo = F, message = F, warning = F, results = "asis"}
+if(exists("dt_mud"))
+for(i in seq(anos)) {
+  if(!is.null(dt_mud[[i]]) && nrow(dt_mud[[i]]) > 0) {
+    cat("\n")
+    aux <- kable(dt_mud[[i]], format = "latex", booktabs = T, longtable = T, caption = anos[i]) %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) %>% column_spec(column = 1, italic = T)
+    if("Tamanho" %in% colnames(dt_mud[[i]]) && "Domínio" %in% colnames(dt_mud[[i]]))
+      aux <- aux %>% column_spec(column = 2, width = '2cm') %>% column_spec(column = 3, width = '5cm')
+    else if("Tamanho" %in% colnames(dt_mud[[i]])) 
+      aux <- aux %>% column_spec(column = 2, width = '2cm')
+    else if("Domínio" %in% colnames(dt_mud[[i]])) 
+      aux <- aux %>% column_spec(column = 2, width = '5cm')
+    print(aux)
+    cat("\n")
+  }
+}
+```
+
+`r if(exists("dt_geral") || exists("dt_anual") || exists("dt_estadual")){"\\newpage \n# Resultados numéricos {-}"}`
+
+`r if(exists("dt_geral")){"## Resultados gerais {-}"}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_geral"))
+  try(kable(dt_geral, format = "latex", longtable = T, booktabs = T, align = c('l','c','c','c')) %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10), silent = T)
+```
+
+`r if(exists("dt_anual")){"## Resultados por ano {-}"}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_anual"))
+  try(kable(dt_anual, format = "latex", longtable = T, booktabs = T, align = c('l','c','c','c','c','c')) %>%
+        kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) , silent = T)
+```
+
+`r if(exists("dt_estadual")){"## Resultados por estado {-}"}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_estadual"))
+  try(kable(dt_estadual, format = "latex", longtable = T, booktabs = T, align = c('l','c','c','c','c','c')) %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) , silent = T)
+```
+
+
+`r if(exists("dt_cons")){"\\newpage \n# Testes de inconsistência {-}"}`
+`r if(exists("cons_descricao")){"\n## Testes realizados {-}\n\n"}`
+`r if(exists("cons_descricao")){cons_descricao}`
+
+`r if(exists("dt_cons_anual")){"## Resultados obtidos {-}"}`
+
+```{r, echo = F, message = F, warning = F}
+if(exists("dt_cons_anual"))
+  try(kable(dt_cons_anual, format = "latex", longtable = T, booktabs = T, align = 'c') %>% kable_styling(latex_options = c("HOLD_position", "repeat_header"), position = "center", font_size = 10) %>% column_spec(column = 1, italic = T), silent = T)
+```
